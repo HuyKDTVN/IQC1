@@ -5,15 +5,22 @@
     <title>ABC App</title>
 </head>
 <body>
-    <input id="input" placeholder="Nhập ABC">
+    <input id="input" placeholder="scan barcode chỉ thị">
+    <button onclick="run()">OK</button>
+
+    <input id="input2" placeholder="scan barcode tờ DS">
     <button onclick="run()">OK</button>
 
     <p id="output"></p>
 
     <script>
         function run() {
-            document.getElementById("output").innerText =
-                document.getElementById("input").value + "DEF";
+            if (document.getElementById("input").value == document.getElementById("input2").value) {
+                document.getElementById("output").innerText = "OK"
+            } else{
+                document.getElementById("output").innerText = "NG"
+            }
+            
         }
     </script>
 </body>
