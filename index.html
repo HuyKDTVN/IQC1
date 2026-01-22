@@ -1,27 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>ABC App</title>
+    <title>Scan Barcode</title>
+    <script src="https://unpkg.com/html5-qrcode"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+        }
+        #reader {
+            width: 100%;
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
 </head>
 <body>
-    <input id="input" placeholder="scan barcode chỉ thị">
-    <button onclick="run()">OK</button>
 
-    <input id="input2" placeholder="scan barcode tờ DS">
-    <button onclick="run()">OK</button>
+<h3>Nhập / Quét Barcode</h3>
 
-    <p id="output"></p>
+<input
+    id="barcodeInput"
+    placeholder="Chạm để quét barcode"
+    readonly
+/>
 
-    <script>
-        function run() {
-            if (document.getElementById("input").value == document.getElementById("input2").value) {
-                document.getElementById("output").innerText = "OK"
-            } else{
-                document.getElementById("output").innerText = "NG"
+<div id="reader"></div>
+
+<script>
+    const input = document.getElementById("barcodeInput");
+    const readerDiv = document.getElementById("reader");
+    let html5QrCode;
+
+    input.addEventListener("click", () => {
+        readerDiv.style.display = "block";
+
+        html5QrCode = new Html5Qrcode("reader");
+
+        html5QrCode.start(
+            { facingMode: "environment" }, // camera sau
+            {
+                fps: 10,
+                qrbox: 250
+            },
+            (decodedText) => {
+                input.value = decodedText;
+                stopScanner();
+            },
+            (errorMessage) => {
+                // ignore scan errors
             }
-            
+        );
+    });
+
+    function stopScanner() {
+        if (html5QrCode) {
+            html5QrCode.stop().then(() => {
+                readerDiv.style.display = "none";
+            });
         }
-    </script>
+    }
+</script>
+
 </body>
 </html>
