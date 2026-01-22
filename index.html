@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ABC App</title>
+</head>
+<body>
+    <input id="input" placeholder="Nhập ABC">
+    <button onclick="run()">OK</button>
+
+    <p id="output"></p>
+
+    <script>
+        function run() {
+            document.getElementById("output").innerText =
+                document.getElementById("input").value + "DEF";
+        }
+    </script>
+</body>
+</html>
