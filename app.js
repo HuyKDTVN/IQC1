@@ -59,7 +59,7 @@ inputCaseMark.addEventListener("click", () => {
             qrbox: 200
         },
         (decodedText) => {
-            inputChiThi.value = decodedText;
+            inputCaseMark.value = decodedText;
             stopScanner();
         },
         (errorMessage) => {
@@ -95,8 +95,14 @@ btnScan.addEventListener("click", () => {
             var arrDS = ds.split(arrBarCodeChiThi[0] + " ")
             if (arrDS.length > 1) {
                 var rev = arrDS[1].substring(0, 2);
-                result.textContent = "OK";
-                result.style.backgroundColor = "rgb(0, 184, 148)";
+                if (inputCaseMark.value != "") {
+                    result.textContent = "OK";
+                    result.style.backgroundColor = "rgb(0, 184, 148)";
+                }else{
+                    result.textContent = "DS khớp chỉ thị";
+                    result.style.backgroundColor = "rgb(243, 156, 18)";
+                }
+                
             }else{
                 result.textContent = "NG";
                 result.style.backgroundColor = "red";
