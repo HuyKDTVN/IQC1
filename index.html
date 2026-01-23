@@ -22,13 +22,12 @@
     </div>
 </div>
 <div class="justify-content-center">
-    <p>(v1.3 - So khớp mã linh kiện, REV...trên chỉ thị và tờ DS)</p>
+    <p>(v0.4 - So khớp mã linh kiện, REV...trên chỉ thị và tờ DS)</p>
 </div>
 
-<p>&nbsp;</p>
 <div class="input-group mb-3">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="basic-addon1">Tờ DS</span>
+    <span class="input-group-text" id="basic-addon1">DS</span>
   </div>
   <input id="barcodeDS" type="text" readonly  class="form-control" placeholder="Chạm để quét barcode tờ DS" aria-label="DS" aria-describedby="basic-addon1">
 </div>
@@ -39,6 +38,13 @@
   </div>
   <input id="barcodeChiThi" readonly  type="text" class="form-control" placeholder="Chạm để quét barcode tờ chỉ thị" aria-label="DS" aria-describedby="basic-addon1">
 </div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon3">Casemark</span>
+  </div>
+  <input id="barcodeCasemark" readonly  type="text" class="form-control" placeholder="Chạm để quét barcode tờ Casemark" aria-label="DS" aria-describedby="basic-addon1">
+</div>
 <!-- readonly -->
 <!--
 Vi du to chi thi: 302YJ45032-01-250002438-400-20-130544763230C0
@@ -46,6 +52,7 @@ vi du to DS: 142124225400010+001 000000220000302YJ45032 01 000000022000KCR10514 
  -->
 <div id="reader"></div>
 <div id="reader2"></div>
+<div id="reader3"></div>
 <div class="d-flex justify-content-center mt-3">
     <button class="btn btn-lg btn-outline-dark" id="buttonConfirm">
         Xác nhận

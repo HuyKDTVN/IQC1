@@ -22,7 +22,7 @@ p{
 	font-size: 13px;
 }
 #barcodeDS, #barcodeChiThi{
-	height: 90px;
+	height: 70px;
 }
 button {
 	height: 50px;
@@ -43,7 +43,7 @@ button {
 
 }
 .input-group-text{
-	height: 90px;
+	height: 70px;
     border-radius: 7px 0 0 7px;
     font-weight: bold;
 }

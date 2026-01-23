@@ -25,7 +25,7 @@ inputDS.addEventListener("click", () => {
     );
 });
 
- const inputChiThi = document.getElementById("barcodeChiThi");
+const inputChiThi = document.getElementById("barcodeChiThi");
 const readerDiv2 = document.getElementById("reader2");
 
 inputChiThi.addEventListener("click", () => {
@@ -36,6 +36,27 @@ inputChiThi.addEventListener("click", () => {
         {
             fps: 10,
             qrbox: 250
+        },
+        (decodedText) => {
+            inputChiThi.value = decodedText;
+            stopScanner();
+        },
+        (errorMessage) => {
+            // ignore scan errors
+        }
+    );
+});
+
+const inputCaseMark = document.getElementById("barcodeCasemark");
+const readerDiv3 = document.getElementById("reader3");
+inputCaseMark.addEventListener("click", () => {
+    readerDiv3.style.display = "block";
+    html5QrCode = new Html5Qrcode("reader");
+    html5QrCode.start(
+        { facingMode: "environment" }, // camera sau
+        {
+            fps: 10,
+            qrbox: 200
         },
         (decodedText) => {
             inputChiThi.value = decodedText;
