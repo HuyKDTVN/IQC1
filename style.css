@@ -19,13 +19,14 @@ h3{
 p{
 	font-style: italic;
 	text-align: center;
+	font-size: 13px;
 }
 #barcodeDS, #barcodeChiThi{
 	height: 90px;
 }
 button {
-	height: 70px;
-	width: 200px;
+	height: 50px;
+	width: 150px;
 }
 #ket-qua{
 	height: 150px;

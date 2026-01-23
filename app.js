@@ -30,9 +30,7 @@ const readerDiv2 = document.getElementById("reader2");
 
 inputChiThi.addEventListener("click", () => {
     readerDiv2.style.display = "block";
-
     html5QrCode = new Html5Qrcode("reader");
-
     html5QrCode.start(
         { facingMode: "environment" }, // camera sau
         {
@@ -56,10 +54,10 @@ function stopScanner() {
     }
 }
 const btnScan = document.getElementById("buttonConfirm");
-
 const result = document.getElementById("ket-qua");
 btnScan.addEventListener("click", () => {
-    var isErr = false
+    xacNhan();
+    var isErr = false;
     var arrBarCodeChiThi = inputChiThi.value.split("-");
     var arrBarCodeDS = inputDS.value.split("220000");
     if (arrBarCodeDS.length > 1) {
@@ -68,18 +66,21 @@ btnScan.addEventListener("click", () => {
         if (arrDsRutGon.length > 1) {
 
         }else {
-            isErr = true
-            alert("Hãy scan barcode tờ DS")
+            isErr = true;
+            alert("Hãy scan barcode tờ DS");
+            inputDS.focus();
         }
     }else {
-        isErr = true
-        alert("Hãy scan barcode tờ DS")
+        isErr = true;
+        alert("Hãy scan barcode tờ DS");
+        inputDS.focus();
     }
     if (arrBarCodeChiThi.length > 1) {
 
     }else {
-        isErr = true
-        alert("Hãy scan barcode tờ Chỉ thị")
+        isErr = true;
+        alert("Hãy scan barcode tờ Chỉ thị");
+        inputChiThi.focus();
     }
     if (!isErr) {
         if (arrBarCodeChiThi[0] == arrDsRutGon[0] && arrBarCodeChiThi[1] == arrDsRutGon[1]) {
@@ -89,10 +90,12 @@ btnScan.addEventListener("click", () => {
             result.textContent = "NG";
             result.style.backgroundColor = "red";
         }
-
-        inputDS.value = ""
-        inputChiThi.value = ""
+        inputDS.value = "";
+        inputChiThi.value = "";
+        inputDS.focus();
     }
-    
-    
 });
+
+function xacNhan() {
+  alert(inputDS.value) 
+}
