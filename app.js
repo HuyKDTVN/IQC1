@@ -16,7 +16,7 @@ inputDS.addEventListener("click", () => {
         (decodedText) => {
             inputDS.value = decodedText;
             stopScanner();
-            alert("1212")
+            
         },
         (errorMessage) => {
             // ignore scan errors
@@ -56,25 +56,10 @@ function stopScanner() {
 const btnScan = document.getElementById("buttonConfirm");
 const result = document.getElementById("ket-qua");
 btnScan.addEventListener("click", () => {
-    xacNhan();
+    //xacNhan();
     var isErr = false;
     var arrBarCodeChiThi = inputChiThi.value.split("-");
-    var arrBarCodeDS = inputDS.value.split("220000");
-    if (arrBarCodeDS.length > 1) {
-        var dsRutGon = arrBarCodeDS[1]
-        var arrDsRutGon = dsRutGon.split(" ")
-        if (arrDsRutGon.length > 1) {
-
-        }else {
-            isErr = true;
-            alert("Hãy scan barcode tờ DS");
-            inputDS.focus();
-        }
-    }else {
-        isErr = true;
-        alert("Hãy scan barcode tờ DS");
-        inputDS.focus();
-    }
+   
     if (arrBarCodeChiThi.length > 1) {
 
     }else {
@@ -82,10 +67,23 @@ btnScan.addEventListener("click", () => {
         alert("Hãy scan barcode tờ Chỉ thị");
         inputChiThi.focus();
     }
+
     if (!isErr) {
-        if (arrBarCodeChiThi[0] == arrDsRutGon[0] && arrBarCodeChiThi[1] == arrDsRutGon[1]) {
-            result.textContent = "OK";
-            result.style.backgroundColor = "rgb(0, 184, 148)";
+        if (inputDS.includes(arrBarCodeChiThi[0]) == true && arrBarCodeChiThi[0].length >= 10) {
+            var arrDS = inputDS.split(arrBarCodeChiThi[0] + " ")
+            if (arrDS.length > 1) {
+                var rev = arrDS[1].substring(0, 2);
+                result.textContent = "OK";
+                result.style.backgroundColor = "rgb(0, 184, 148)";
+                alert(rev);
+            }else{
+                result.textContent = "NG";
+                result.style.backgroundColor = "red";
+            }
+
+
+
+            
         }else{
             result.textContent = "NG";
             result.style.backgroundColor = "red";
@@ -97,5 +95,5 @@ btnScan.addEventListener("click", () => {
 });
 
 function xacNhan() {
-  alert(inputDS.value) 
+  
 }
