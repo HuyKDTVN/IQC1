@@ -70,6 +70,7 @@ btnScan.addEventListener("click", () => {
 
     if (!isErr) {
         if (inputDS.includes(arrBarCodeChiThi[0]) == true && arrBarCodeChiThi[0].length >= 10) {
+            alert(inputDS);
             var arrDS = inputDS.split(arrBarCodeChiThi[0] + " ")
             if (arrDS.length > 1) {
                 var rev = arrDS[1].substring(0, 2);
