@@ -69,7 +69,7 @@ btnScan.addEventListener("click", () => {
     }
 
     if (!isErr) {
-        if (inputDS.includes(arrBarCodeChiThi[0]) == true && arrBarCodeChiThi[0].length >= 10) {
+        if (inputDS.includes(arrBarCodeChiThi[0]) == true ) { //&& arrBarCodeChiThi[0].length >= 10
             alert(inputDS);
             var arrDS = inputDS.split(arrBarCodeChiThi[0] + " ")
             if (arrDS.length > 1) {
@@ -81,10 +81,6 @@ btnScan.addEventListener("click", () => {
                 result.textContent = "NG";
                 result.style.backgroundColor = "red";
             }
-
-
-
-            
         }else{
             result.textContent = "NG";
             result.style.backgroundColor = "red";
