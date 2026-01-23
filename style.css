@@ -1,3 +1,17 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+}
+#reader {
+    width: 100%;
+    margin-top: 20px;
+    display: none;
+}
 h3{
 	text-align: center;
 }
@@ -5,4 +19,30 @@ h3{
 p{
 	font-style: italic;
 	text-align: center;
+}
+#barcodeDS, #barcodeChiThi{
+	height: 90px;
+}
+button {
+	height: 70px;
+	width: 200px;
+}
+#ket-qua{
+	height: 150px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
+.header{
+
+}
+.input-group-text{
+	height: 90px;
+    border-radius: 7px 0 0 7px;
+    font-weight: bold;
 }

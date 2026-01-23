@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Scan Barcode</title>
+    <title>So khớp linh kiện IQC1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <link
@@ -14,108 +14,50 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="https://unpkg.com/html5-qrcode"></script>
-
-    <style>
-        body {
-            font-family: Arial;
-            padding: 20px;
-        }
-        input {
-            width: 100%;
-            padding: 12px;
-            font-size: 18px;
-        }
-        #reader {
-            width: 100%;
-            margin-top: 20px;
-            display: none;
-        }
-    </style>
 </head>
 <body>
+<div class="header">
+    <div class="justify-content-center">
+        <h3 class="display-5">So khớp linh kiện IQC1</h3>
+    </div>
+</div>
 <div class="justify-content-center">
-    <h3 class="display-5">So khớp linh kiện IQC1</h3>
-    <p>(Dành cho người đi lấy hàng)</p>
+    <p>(So khớp mã linh kiện, REV...trên chỉ thị và tờ DS)</p>
 </div>
 
 <p>&nbsp;</p>
-<p><input
-    id="barcodeDS" class="form-control"
-    placeholder="Chạm để quét barcode tờ DS"
-    readonly
-/></p>
-<p><input class="form-control"
-    id="barcodeChiThi"
-    placeholder="Chạm để quét barcode tờ chỉ thị"
-    readonly
-/></p>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">Tờ DS</span>
+  </div>
+  <input id="barcodeDS" type="text"  readonly class="form-control" placeholder="Chạm để quét barcode tờ DS" aria-label="DS" aria-describedby="basic-addon1">
+</div>
 
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon2">Chỉ thị</span>
+  </div>
+  <input id="barcodeChiThi" readonly type="text" class="form-control" placeholder="Chạm để quét barcode tờ chỉ thị" aria-label="DS" aria-describedby="basic-addon1">
+</div>
+<!-- readonly -->
+<!--
+Vi du to chi thi: 302YJ45032-01-250002438-400-20-130544763230C0
+vi du to DS: 142124225400010+001 000000220000302YJ45032 01 000000022000KCR10514 005/010
+ -->
 <div id="reader"></div>
 <div id="reader2"></div>
 <div class="d-flex justify-content-center mt-3">
-    <button class="btn btn-primary btn-lg" id="buttonConfirm">
+    <button class="btn btn-lg btn-outline-primary" id="buttonConfirm">
         Xác nhận
     </button>
 </div>
+
+<div id="ket-qua">
+    ...
+</div>
 <script>
-    const inputDS = document.getElementById("barcodeDS");
-    const readerDiv = document.getElementById("reader");
-    let html5QrCode;
-
-    inputDS.addEventListener("click", () => {
-        readerDiv.style.display = "block";
-
-        html5QrCode = new Html5Qrcode("reader");
-
-        html5QrCode.start(
-            { facingMode: "environment" }, // camera sau
-            {
-                fps: 10,
-                qrbox: 250
-            },
-            (decodedText) => {
-                inputDS.value = decodedText;
-                stopScanner();
-            },
-            (errorMessage) => {
-                // ignore scan errors
-            }
-        );
-    });
-
-    const inputChiThi = document.getElementById("barcodeChiThi");
-    const readerDiv2 = document.getElementById("reader2");
-    //let html5QrCode;
-
-    inputChiThi.addEventListener("click", () => {
-        readerDiv2.style.display = "block";
-
-        html5QrCode = new Html5Qrcode("reader");
-
-        html5QrCode.start(
-            { facingMode: "environment" }, // camera sau
-            {
-                fps: 10,
-                qrbox: 250
-            },
-            (decodedText) => {
-                inputChiThi.value = decodedText;
-                stopScanner();
-            },
-            (errorMessage) => {
-                // ignore scan errors
-            }
-        );
-    });
-
-    function stopScanner() {
-        if (html5QrCode) {
-            html5QrCode.stop().then(() => {
-                readerDiv2.style.display = "none";
-            });
-        }
-    }
+    
 </script>
-
+<script src="app.js"></script>
 </body>
 </html>
