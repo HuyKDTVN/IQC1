@@ -68,6 +68,7 @@ inputCaseMark.addEventListener("focus", () => {
         (decodedText) => {
             inputCaseMark.value = decodedText;
             stopScanner();
+            xacNhan();
         },
         (errorMessage) => {
             // ignore scan errors
