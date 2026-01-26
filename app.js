@@ -4,6 +4,10 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
+
+    result.textContent = "";
+    result.style.backgroundColor = "white";
+
     readerDiv.style.display = "block";
 
     html5QrCode = new Html5Qrcode("reader");
@@ -15,10 +19,10 @@ inputDS.addEventListener("click", () => {
             qrbox: 250
         },
         (decodedText) => {
-            result.textContent = "";
-            result.style.backgroundColor = "white";
+            
             inputDS.value = decodedText;
             stopScanner();
+            inputChiThi.focus();
             
         },
         (errorMessage) => {
@@ -42,6 +46,7 @@ inputChiThi.addEventListener("focus", () => {
         (decodedText) => {
             inputChiThi.value = decodedText;
             stopScanner();
+            inputCaseMark.focus();
         },
         (errorMessage) => {
             // ignore scan errors
@@ -79,8 +84,12 @@ function stopScanner() {
 const btnScan = document.getElementById("buttonConfirm");
 const result = document.getElementById("ket-qua");
 btnScan.addEventListener("click", () => {
-    //xacNhan();
-    var isErr = false;
+    xacNhan();
+    
+});
+
+function xacNhan() {
+  var isErr = false;
     var arrBarCodeChiThi = inputChiThi.value.split("-");
    
     if (arrBarCodeChiThi.length > 1) {
@@ -131,8 +140,4 @@ btnScan.addEventListener("click", () => {
         inputDS.focus();
 
     }
-});
-
-function xacNhan() {
-  
 }
