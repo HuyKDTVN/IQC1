@@ -15,6 +15,8 @@ inputDS.addEventListener("click", () => {
             qrbox: 250
         },
         (decodedText) => {
+            result.textContent = "";
+            result.style.backgroundColor = "white";
             inputDS.value = decodedText;
             stopScanner();
             
@@ -96,10 +98,22 @@ btnScan.addEventListener("click", () => {
             if (arrDS.length > 1) {
                 var rev = arrDS[1].substring(0, 2);
                 if (inputCaseMark.value != "") {
-                    result.textContent = "OK";
-                    result.style.backgroundColor = "rgb(0, 184, 148)";
+                    var arrCasemark = inputCaseMark.value.split("&&");
+                    if (arrCasemark.length > 1) {
+                        if(arrBarCodeChiThi[0] == arrCasemark[0] && rev == arrCasemark[1]){
+                            result.textContent = "OK";
+                            result.style.backgroundColor = "rgb(0, 184, 148)";
+                        }else{
+                            result.textContent = "NG";
+                            result.style.backgroundColor = "red";
+                        }
+                    }else{
+                        result.textContent = "NG";
+                        result.style.backgroundColor = "red";
+                    }
+                    
                 }else{
-                    result.textContent = "DS khớp chỉ thị";
+                    result.textContent = "DS đã khớp chỉ thị";
                     result.style.backgroundColor = "rgb(243, 156, 18)";
                 }
                 
@@ -113,7 +127,9 @@ btnScan.addEventListener("click", () => {
         }
         inputDS.value = "";
         inputChiThi.value = "";
+        inputCaseMark.value = "";
         inputDS.focus();
+
     }
 });
 
