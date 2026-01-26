@@ -69,7 +69,7 @@ inputCaseMark.addEventListener("focus", () => {
         (decodedText) => {
             inputCaseMark.value = decodedText;
             stopScanner();
-            xacNhan();
+            xacNhanAndClear();
         },
         (errorMessage) => {
             // ignore scan errors
@@ -86,10 +86,16 @@ function stopScanner() {
 const btnScan = document.getElementById("buttonConfirm");
 const result = document.getElementById("ket-qua");
 btnScan.addEventListener("click", () => {
-    xacNhan();
+    xacNhanAndClear();
     
 });
-
+function xacNhanAndClear() {
+    xacNhan();
+    inputDS.value = "";
+    inputChiThi.value = "";
+    inputCaseMark.value = "";
+    inputDS.focus();
+}
 function xacNhan() {
   var isErr = false;
     var arrBarCodeChiThi = inputChiThi.value.split("-");
@@ -115,11 +121,11 @@ function xacNhan() {
                             result.textContent = "OK";
                             result.style.backgroundColor = "rgb(0, 184, 148)";
                         }else{
-                            result.textContent = "NG";
+                            result.textContent = "NG4";
                             result.style.backgroundColor = "red";
                         }
                     }else{
-                        result.textContent = "NG";
+                        result.textContent = "NG3";
                         result.style.backgroundColor = "red";
                     }
                     
@@ -129,17 +135,14 @@ function xacNhan() {
                 }
                 
             }else{
-                result.textContent = "NG";
+                result.textContent = "NG2";
                 result.style.backgroundColor = "red";
             }
         }else{
-            result.textContent = "NG";
+            result.textContent = "NG1";
             result.style.backgroundColor = "red";
         }
-        inputDS.value = "";
-        inputChiThi.value = "";
-        inputCaseMark.value = "";
-        inputDS.focus();
+        
 
     }
 }
