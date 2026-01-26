@@ -46,6 +46,7 @@ inputChiThi.addEventListener("focus", () => {
         (decodedText) => {
             inputChiThi.value = decodedText;
             stopScanner();
+            xacNhan();
             inputCaseMark.focus();
         },
         (errorMessage) => {
