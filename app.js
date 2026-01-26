@@ -30,7 +30,7 @@ inputDS.addEventListener("click", () => {
 const inputChiThi = document.getElementById("barcodeChiThi");
 const readerDiv2 = document.getElementById("reader2");
 
-inputChiThi.addEventListener("click", () => {
+inputChiThi.addEventListener("focus", () => {
     readerDiv2.style.display = "block";
     html5QrCode = new Html5Qrcode("reader");
     html5QrCode.start(
@@ -51,7 +51,7 @@ inputChiThi.addEventListener("click", () => {
 
 const inputCaseMark = document.getElementById("barcodeCasemark");
 const readerDiv3 = document.getElementById("reader3");
-inputCaseMark.addEventListener("click", () => {
+inputCaseMark.addEventListener("focus", () => {
     readerDiv3.style.display = "block";
     html5QrCode = new Html5Qrcode("reader");
     html5QrCode.start(
