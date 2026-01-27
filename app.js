@@ -121,11 +121,11 @@ function xacNhan() {
                             result.textContent = "OK";
                             result.style.backgroundColor = "rgb(0, 184, 148)";
                         }else{
-                            result.textContent = "NG4";
+                            result.textContent = "NG";
                             result.style.backgroundColor = "red";
                         }
                     }else{
-                        result.textContent = "NG3";
+                        result.textContent = "NG";
                         result.style.backgroundColor = "red";
                     }
                     
@@ -135,11 +135,11 @@ function xacNhan() {
                 }
                 
             }else{
-                result.textContent = "NG2";
+                result.textContent = "NG";
                 result.style.backgroundColor = "red";
             }
         }else{
-            result.textContent = "NG1";
+            result.textContent = "NG";
             result.style.backgroundColor = "red";
         }
         

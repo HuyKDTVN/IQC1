@@ -1,6 +1,7 @@
 body {
     font-family: Arial;
     padding: 20px;
+    padding-top: 10px;
 }
 input {
     width: 100%;
@@ -14,16 +15,18 @@ input {
 }
 h3{
 	text-align: center;
-	font-size: 23px;
+	font-size: 21px !important;
+    font-weight: bold !important;
 }
 
 p{
 	font-style: italic;
 	text-align: center;
 	font-size: 11px;
+    margin-bottom: 10px !important;
 }
 #barcodeDS, #barcodeChiThi{
-	height: 60px;
+	height: 55px;
 }
 button {
 	height: 50px;
@@ -45,7 +48,7 @@ button {
 
 }
 .input-group-text{
-	height: 60px;
+	height: 55px;
     border-radius: 7px 0 0 7px;
     font-weight: bold;
 }
