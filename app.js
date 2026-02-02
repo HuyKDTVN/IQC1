@@ -89,6 +89,65 @@ btnScan.addEventListener("click", () => {
     xacNhanAndClear();
     
 });
+function getPartcodeRevPartner(vendorCode) {
+    var result = ["", ""];
+    
+    if (vendorCode == "250001348" || vendorCode == "250000051" || vendorCode == "500002006") { 
+        result = getPartcodeRevSunway(vendorCode);
+    }
+
+    if (vendorCode == "250002768" || vendorCode == "250000069") {
+        result = getPartcodeRevSeiyo(vendorCode);
+    }
+
+    if (vendorCode == "250001449") { 
+        result = getPartcodeRevZhongzu(vendorCode);
+    }
+    if (vendorCode == "250003738") { 
+        result = getPartcodeRevVanlong(vendorCode);
+    }
+
+    if (vendorCode == "250000072") { 
+        result = getPartcodeRevTaisei(vendorCode);
+    }
+
+    if (vendorCode == "Iritani") { 
+        result = getPartcodeRevIritani(vendorCode);
+    }
+
+   return result;
+}
+function getPartcodeRevSunway(barcodeChiThi) {
+    //Sunway: 302S260010 01 
+    //Advanex: 302RV25540 02/-/-/20250518/46020-20251229-101450/6000/1/002-002/-&10010921&1
+    //Kdthk for KDTVN: 30C1445010 05/ADH-120AN AA/32/2535
+
+    var arrCasemark = inputCaseMark.value.split(" ");
+    return [arrCasemark[0], arrCasemark[1]];
+}
+function getPartcodeRevSeiyo(barcodeChiThi) { //Seyo hp & seiyo VN: 302RV08021&&01&&2025-4259&&14&&129
+    var arrCasemark = inputCaseMark.value.split("&&");
+    return [arrCasemark[0], arrCasemark[1]];
+}
+function getPartcodeRevZhongzu(barcodeChiThi) { //Zhongzu: 302RV14050/ZhongYu/VietNam/20251203/6/192/Rev/02
+    var arrCasemark = inputCaseMark.value.split("/");
+    return [arrCasemark[0], arrCasemark[6]];
+}
+function getPartcodeRevVanlong(barcodeChiThi) { //Vanlong: 302S004060-03_VL.IJ26.2301.08_140_No.17_24-Jan-26
+    var arrCasemark = inputCaseMark.value.split("-");
+    return [arrCasemark[0], arrCasemark[1]];
+}
+function getPartcodeRevTaisei(barcodeChiThi) { //Taisei: *&302S046050-04&1500&TAISEI HANOI&-&1161&250609&302S046050-04&*
+    barcodeChiThi = barcodeChiThi.replace("*&", "")
+    var arrCasemark = inputCaseMark.value.split("-");
+    return [arrCasemark[0], arrCasemark[1]];
+}
+function getPartcodeRevIritani(barcodeChiThi) { //Iritani: 302RV02070/V1/V016/260112/171/50/A/Rev-03/
+    var arrCasemark = inputCaseMark.value.split("/");
+
+    var tmp = arrCasemark[1].split("REV-");
+    return [arrCasemark[0], tmp[1]];
+}
 function xacNhanAndClear() {
     xacNhan();
     inputDS.value = "";
@@ -97,6 +156,7 @@ function xacNhanAndClear() {
     inputDS.focus();
 }
 function xacNhan() {
+    
   var isErr = false;
     var arrBarCodeChiThi = inputChiThi.value.split("-");
    
@@ -109,13 +169,18 @@ function xacNhan() {
     }
 
     if (!isErr) {
-            const ds = inputDS.value;
+        
+
+
+
+        const ds = inputDS.value;
         if (ds.includes(arrBarCodeChiThi[0]) == true && arrBarCodeChiThi[0].length >= 10) {
             var arrDS = ds.split(arrBarCodeChiThi[0] + " ")
             if (arrDS.length > 1) {
                 var rev = arrDS[1].substring(0, 2);
                 if (inputCaseMark.value != "") {
-                    var arrCasemark = inputCaseMark.value.split("&&");
+                    var arrCasemark = getPartcodeRevPartner(arrBarCodeChiThi[2]);
+                    
                     if (arrCasemark.length > 1) {
                         if(arrBarCodeChiThi[0] == arrCasemark[0] && rev == arrCasemark[1]){
                             result.textContent = "OK";
