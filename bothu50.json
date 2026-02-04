@@ -1,0 +1,323 @@
+{
+  "vocabulary": [
+      {
+          "chinese": "人",
+          "pinyin": "rén",
+          "vietnamese": "NHÂN (Chỉ con người, liên quan đến người). Số nét: 2. Cách viết khác: (亻)",
+          "example": "你 (nǐ) – bạn",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "刀",
+          "pinyin": "dāo",
+          "vietnamese": "ĐAO (Con dao, vũ khí sắc bén). Số nét: 2. Cách viết khác: (刂)",
+          "example": "切 (qiē) – cắt",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "力",
+          "pinyin": "lì",
+          "vietnamese": "LỰC (Sức mạnh, khả năng, nỗ lực). Số nét: 2",
+          "example": "力气 (lìqi) – sức lực",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "口",
+          "pinyin": "kǒu",
+          "vietnamese": "KHẨU (Miệng, lời nói, liên quan đến âm thanh, ăn uống). Số nét: 3",
+          "example": "吃 (chī) – ăn",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "囗",
+          "pinyin": "wéi",
+          "vietnamese": "VI (Bao vây, vùng lãnh thổ, phạm vi). Số nét: 3",
+          "example": "国 (guó) – quốc gia",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "土",
+          "pinyin": "tǔ",
+          "vietnamese": "THỔ (Đất, liên quan đến đất đai, địa lý). Số nét: 3",
+          "example": "地 (dì) – đất, mặt đất",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "大",
+          "pinyin": "dà",
+          "vietnamese": "ĐẠI (To lớn, vĩ đại). Số nét: 3",
+          "example": "大学 (dàxué) – đại học",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "女",
+          "pinyin": "nǚ",
+          "vietnamese": "NỮ (Nữ giới, phụ nữ). Số nét: 3",
+          "example": "好 (hǎo) – tốt",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "宀",
+          "pinyin": "mián",
+          "vietnamese": "MIÊN (Mái nhà, nơi trú ngụ). Số nét: 3",
+          "example": "家 (jiā) – nhà",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "山",
+          "pinyin": "shān",
+          "vietnamese": "SƠN (Núi non, liên quan tới đá, núi). Số nét: 3",
+          "example": "山峰 (shānfēng) – đỉnh núi",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "巾",
+          "pinyin": "jīn",
+          "vietnamese": "CÂN (Cái khăn, liên quan tới dệt may). Số nét: 3",
+          "example": "帽 (mào) – mũ",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "广",
+          "pinyin": "guǎng",
+          "vietnamese": "NGHIỄM (Mái nhà, liên quan tới công trình kiến trúc, nhà cửa). Số nét: 3",
+          "example": "店 (diàn) – cửa hàng",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "彳",
+          "pinyin": "chì",
+          "vietnamese": "XÍCH (Bước chân trái, liên quan đến chuyển động). Số nét: 3",
+          "example": "行 (xíng) – đi",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "心",
+          "pinyin": "xīn",
+          "vietnamese": "TÂM (Quả tim, tâm trí, thể hiện tình cảm, thái độ). Số nét: 4. Cách viết khác: (忄)",
+          "example": "思 (sī) – suy nghĩ",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "手",
+          "pinyin": "shǒu",
+          "vietnamese": "THỦ (Tay, hành động liên quan đến tay). Số nét: 4. Cách viết khác: (扌)",
+          "example": "打 (dǎ) – đánh",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "攴",
+          "pinyin": "pù",
+          "vietnamese": "PHỘC (Đánh khẽ, hành động dùng tay). Số nét: 4. Cách viết khác: (攵)",
+          "example": "做 (zuò) – làm",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "日",
+          "pinyin": "rì",
+          "vietnamese": "NHẬT (Mặt trời, ngày, thời gian). Số nét: 4",
+          "example": "明 (míng) – sáng, rõ ràng",
+          "cauChuyen": ""
+        },
+        {
+            "chinese": "木",
+            "pinyin": "mù",
+            "vietnamese": "MỘC (Cây, gỗ). Số nét: 4",
+            "example": "林 (lín) – rừng",
+        "cauChuyen": ""},
+          {
+            "chinese": "水",
+            "pinyin": "shuǐ",
+            "vietnamese": "THỦY (Nước, chất lỏng). Số nét: 4. Cách viết khác: (氵)",
+            "example": "河 (hé) – sông",
+          "cauChuyen": ""},
+          {
+            "chinese": "火",
+            "pinyin": "huǒ",
+            "vietnamese": "HỎA (Lửa, nhiệt độ cao). Số nét: 4. Cách viết khác: (灬)",
+            "example": "烧 (shāo) – đốt cháy",
+          "cauChuyen": ""},
+          {
+            "chinese": "牛",
+            "pinyin": "niú",
+            "vietnamese": "NGƯU (Trâu, liên quan tới động vật tương tự trâu, bò). Số nét: 4",
+            "example": "牧 (mù) – chăn nuôi",
+          "cauChuyen": ""},
+          {
+            "chinese": "犬",
+            "pinyin": "quǎn",
+            "vietnamese": "KHUYỂN (Con chó, nói đến loài chó). Số nét: 4. Cách viết khác: (犭)",
+            "example": "狗 (gǒu) – chó",
+          "cauChuyen": ""},
+          {
+            "chinese": "玉",
+            "pinyin": "yù",
+            "vietnamese": "NGỌC (Đá quý, ngọc). Số nét: 4",
+            "example": "珠 (zhū) – ngọc trai",
+          "cauChuyen": ""},
+          {
+            "chinese": "田",
+            "pinyin": "tián",
+            "vietnamese": "ĐIỀN (Ruộng, đất nông nghiệp). Số nét: 5",
+            "example": "男 (nán) – nam giới",
+          "cauChuyen": ""},
+          {
+            "chinese": "疒",
+            "pinyin": "nǐ",
+            "vietnamese": "NẠCH (Bệnh tật, ốm đau). Số nét: 5",
+            "example": "病 (bìng) – bệnh",
+          "cauChuyen": ""},
+          {
+            "chinese": "目",
+            "pinyin": "mù",
+            "vietnamese": "MỤC (Mắt, thị giác). Số nét: 5",
+            "example": "眼 (yǎn) – mắt",
+          "cauChuyen": ""},
+          {
+            "chinese": "石",
+            "pinyin": "shí",
+            "vietnamese": "THẠCH (Đá, khoáng sản). Số nét: 5",
+            "example": "矿 (kuàng) – mỏ khoáng",
+          "cauChuyen": ""},
+          {
+            "chinese": "禾",
+            "pinyin": "hé",
+            "vietnamese": "HÒA (Lúa, cây trồng). Số nét: 5",
+            "example": "香 (xiāng) – thơm",
+          "cauChuyen": ""},
+          {
+            "chinese": "竹",
+            "pinyin": "zhú",
+            "vietnamese": "TRÚC (Tre, trúc). Số nét: 6",
+            "example": "筷 (kuài) – đũa",
+          "cauChuyen": ""},
+          {
+            "chinese": "米",
+            "pinyin": "mǐ",
+            "vietnamese": "MỄ (Gạo, hạt, ngũ cốc). Số nét: 6",
+            "example": "粉 (fěn) – bột",
+          "cauChuyen": ""},
+          {
+            "chinese": "糸",
+            "pinyin": "mì",
+            "vietnamese": "MỊCH (Sợi tơ, dây). Số nét: 6",
+            "example": "线 (xiàn) – dây, tuyến",
+          "cauChuyen": ""},
+          {
+            "chinese": "肉",
+            "pinyin": "ròu",
+            "vietnamese": "NHỤC (Thịt, cơ thể). Số nét: 6. Cách viết khác: (月)",
+            "example": "肚 (dù) – bụng",
+          "cauChuyen": ""},
+          {
+            "chinese": "艸",
+            "pinyin": "cǎo",
+            "vietnamese": "THẢO (Cây cỏ, thực vật). Số nét: 6. Cách viết khác: (艹)",
+            "example": "花 (huā) – hoa",
+          "cauChuyen": ""},
+          {
+            "chinese": "虫",
+            "pinyin": "chóng",
+            "vietnamese": "TRÙNG (Côn trùng, loài bò sát). Số nét: 6",
+            "example": "蛇 (shé) – rắn",
+          "cauChuyen": ""},
+          {
+            "chinese": "衣",
+            "pinyin": "yī",
+            "vietnamese": "Y (Quần áo, trang phục). Số nét: 6. Cách viết khác: (衤)",
+            "example": "裤 (kù) – quần",
+          "cauChuyen": ""},
+          {
+            "chinese": "言",
+            "pinyin": "yán",
+            "vietnamese": "NGÔN (Lời nói, ngôn ngữ). Số nét: 7",
+            "example": "语 (yǔ) – ngôn ngữ",
+          "cauChuyen": ""},
+          {
+            "chinese": "貝",
+            "pinyin": "bèi",
+            "vietnamese": "BỐI (Vật báu, tiền tài). Số nét: 7",
+            "example": "财 (cái) – tài sản",
+          "cauChuyen": ""},
+          {
+            "chinese": "足",
+            "pinyin": "zú",
+            "vietnamese": "TÚC (Chân, đầy đủ). Số nét: 7",
+            "example": "跑 (pǎo) – chạy",
+          "cauChuyen": ""},
+          {
+            "chinese": "車",
+            "pinyin": "chē",
+            "vietnamese": "XA (Xe cộ, phương tiện giao thông). Số nét: 7",
+            "example": "车 (chē) – xe",
+          "cauChuyen": ""},
+          {
+            "chinese": "辶",
+            "pinyin": "chuò",
+            "vietnamese": "SƯỚC (Chuyển động, đi lại). Số nét: 3",
+            "example": "过 (guò) – qua",
+          "cauChuyen": ""},
+          {
+            "chinese": "邑",
+            "pinyin": "yì",
+            "vietnamese": "ẤP (Khu vực, làng xóm, vùng đất). Số nét: 7. Cách viết khác: (阝)",
+            "example": "都 (dōu) – đều, thủ đô",
+          "cauChuyen": ""},
+          {
+            "chinese": "金",
+            "pinyin": "jīn",
+            "vietnamese": "KIM (Kim loại, vàng). Số nét: 8",
+            "example": "钱 (qián) – tiền",
+          "cauChuyen": ""},
+          {
+            "chinese": "門",
+            "pinyin": "mén",
+            "vietnamese": "MÔN (Cửa, cổng). Số nét: 8",
+            "example": "门 (mén) – cửa",
+          "cauChuyen": ""},
+          {
+            "chinese": "阜",
+            "pinyin": "fù",
+            "vietnamese": "PHỤ (Gò đất, đồi núi). Số nét: 8. Cách viết khác: (阝)",
+            "example": "阴 (yīn) – âm, bóng râm",
+          "cauChuyen": ""},
+          {
+            "chinese": "雨",
+            "pinyin": "yǔ",
+            "vietnamese": "VŨ (Mưa, thời tiết). Số nét: 8",
+            "example": "雪 (xuě) – tuyết",
+          "cauChuyen": ""},
+          {
+            "chinese": "頁",
+            "pinyin": "yè",
+            "vietnamese": "HIỆT (Đầu, trang giấy). Số nét: 9",
+            "example": "头 (tóu) – đầu",
+          "cauChuyen": ""},
+          {
+            "chinese": "食",
+            "pinyin": "shí",
+            "vietnamese": "THỰC (Ăn uống, thực phẩm). Số nét: 9",
+            "example": "饿 (è) – đói",
+          "cauChuyen": ""},
+          {
+            "chinese": "馬",
+            "pinyin": "mǎ",
+            "vietnamese": "MÃ (Con ngựa, tốc độ). Số nét: 10",
+            "example": "奔驰 (bēnchí) – phi nhanh",
+          "cauChuyen": ""},
+          {
+            "chinese": "魚",
+            "pinyin": "yú",
+            "vietnamese": "NGƯ (Cá, thủy sản). Số nét: 11",
+            "example": "鱼 (yú) – cá",
+          "cauChuyen": ""},
+          {
+            "chinese": "鳥",
+            "pinyin": "niǎo",
+            "vietnamese": "ĐIỂU (Chim, loài có cánh). Số nét: 11",
+            "example": "鸟 (niǎo) – chim",
+            "cauChuyen": ""
+          }
+          
+  ]
+}

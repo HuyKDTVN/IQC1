@@ -1,0 +1,1503 @@
+{
+  "vocabulary": [
+      {
+          "chinese": "一",
+          "pinyin": "yī",
+          "vietnamese": "NHẤT (Số một). Số nét: 1.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "〡",
+          "pinyin": "gǔn",
+          "vietnamese": "CỔN (Nét sổ thẳng). Số nét: 1.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "丶",
+          "pinyin": "zhǔ",
+          "vietnamese": "CHỦ (Nét chấm, điểm). Số nét: 1.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "丿",
+          "pinyin": "piě",
+          "vietnamese": "PHIỆT (Nét sổ xiên trái). Số nét: 1.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "乙",
+          "pinyin": "yǐ",
+          "vietnamese": "ẤT (Thiên can thứ hai). Số nét: 1.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "亅",
+          "pinyin": "jué",
+          "vietnamese": "QUYẾT (Nét sổ có móc). Số nét: 1.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "二",
+          "pinyin": "èr",
+          "vietnamese": "NHỊ (Số hai). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "亠",
+          "pinyin": "tóu",
+          "vietnamese": "ĐẦU (Nét đầu, không có ý nghĩa độc lập).",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "人",
+          "pinyin": "rén",
+          "vietnamese": "NHÂN (Chỉ con người, liên quan đến người). Số nét: 2. Cách viết khác: 亻",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "儿",
+          "pinyin": "ér",
+          "vietnamese": "NHI (Trẻ con). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "入",
+          "pinyin": "rù",
+          "vietnamese": "NHẬP (Vào). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "八",
+          "pinyin": "bā",
+          "vietnamese": "BÁT (Số tám). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "冂",
+          "pinyin": "jiǒng",
+          "vietnamese": "QUYNH (Vùng biên giới xa; hoang địa). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "冖",
+          "pinyin": "mì",
+          "vietnamese": "MỊCH (Trùm khăn lên). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "冫",
+          "pinyin": "bīng",
+          "vietnamese": "BĂNG (Nước đá). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "几",
+          "pinyin": "jī",
+          "vietnamese": "KỶ (Ghế dựa). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "凵",
+          "pinyin": "kǎn",
+          "vietnamese": "KHẢM (Há miệng). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "刀",
+          "pinyin": "dāo",
+          "vietnamese": "ĐAO (Con dao, cây đao – vũ khí). Số nét: 2. Cách viết khác: 刂",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "力",
+          "pinyin": "lì",
+          "vietnamese": "LỰC (Sức mạnh). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "勹",
+          "pinyin": "bāo",
+          "vietnamese": "BAO (Bao bọc). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "匕",
+          "pinyin": "bǐ",
+          "vietnamese": "CHỦY (Cái thìa, cái muỗng). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "匚",
+          "pinyin": "fāng",
+          "vietnamese": "PHƯƠNG (Tủ đựng). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "匸",
+          "pinyin": "xǐ",
+          "vietnamese": "HỆ (Che đậy, giấu giếm). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "十",
+          "pinyin": "shí",
+          "vietnamese": "THẬP (Số mười). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "卜",
+          "pinyin": "bǔ",
+          "vietnamese": "BỐC (Xem bói). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "卩",
+          "pinyin": "jié",
+          "vietnamese": "TIẾT (Đốt tre). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "厂",
+          "pinyin": "hàn",
+          "vietnamese": "HÁN (Sườn núi, vách đá). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "厶",
+          "pinyin": "sī",
+          "vietnamese": "KHƯ / TƯ (Riêng tư). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "又",
+          "pinyin": "yòu",
+          "vietnamese": "HỰU (Lại nữa, một lần nữa). Số nét: 2.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "口",
+          "pinyin": "kǒu",
+          "vietnamese": "KHẨU (Cái miệng). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "囗",
+          "pinyin": "wéi",
+          "vietnamese": "VI (Vây quanh). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "土",
+          "pinyin": "tǔ",
+          "vietnamese": "THỔ (Đất). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "士",
+          "pinyin": "shì",
+          "vietnamese": "SĨ (Kẻ sĩ). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "夂",
+          "pinyin": "sūi",
+          "vietnamese": "TUY (Đi chậm). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "夊",
+          "pinyin": "zhǐ",
+          "vietnamese": "TRUY (Đến sau). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "夕",
+          "pinyin": "xì",
+          "vietnamese": "TỊCH (Đêm tối). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "大",
+          "pinyin": "dà",
+          "vietnamese": "ĐẠI (To lớn). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "女",
+          "pinyin": "nǚ",
+          "vietnamese": "NỮ (Nữ giới, con gái, đàn bà). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "子",
+          "pinyin": "zǐ",
+          "vietnamese": "TỬ (Con; tiếng tôn xưng: Thầy, Ngài). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "宀",
+          "pinyin": "mián",
+          "vietnamese": "MIÊN (Mái nhà, mái che). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "寸",
+          "pinyin": "cùn",
+          "vietnamese": "THỐN (Đơn vị «tấc» – đo chiều dài). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "小",
+          "pinyin": "xiǎo",
+          "vietnamese": "TIỂU (Nhỏ bé). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "尢",
+          "pinyin": "wāng",
+          "vietnamese": "UÔNG (Yếu đuối). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "尸",
+          "pinyin": "shī",
+          "vietnamese": "THI (Xác chết, thây ma). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "屮",
+          "pinyin": "chè",
+          "vietnamese": "TRIỆT (Mầm non). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "山",
+          "pinyin": "shān",
+          "vietnamese": "SƠN (Núi non). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "川、巛",
+          "pinyin": "chuān",
+          "vietnamese": "XUYÊN (Sông ngòi). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "工",
+          "pinyin": "gōng",
+          "vietnamese": "CÔNG (Người thợ, công việc). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "己",
+          "pinyin": "jǐ",
+          "vietnamese": "KỶ (Bản thân mình). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "巾",
+          "pinyin": "jīn",
+          "vietnamese": "CÂN (Cái khăn). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "干",
+          "pinyin": "gān",
+          "vietnamese": "CAN (Thiên can, can dự). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "幺",
+          "pinyin": "yāo",
+          "vietnamese": "YÊU (Nhỏ nhắn). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "广",
+          "pinyin": "ān",
+          "vietnamese": "NGHIỄM (Mái nhà). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "廴",
+          "pinyin": "yǐn",
+          "vietnamese": "DẪN (Bước dài). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "廾",
+          "pinyin": "gǒng",
+          "vietnamese": "CỦNG (Chắp tay). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "弋",
+          "pinyin": "yì",
+          "vietnamese": "DẶC (Bắn, chiếm lấy). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "弓",
+          "pinyin": "gōng",
+          "vietnamese": "CUNG (Cái cung – để bắn tên). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "彐",
+          "pinyin": "jì",
+          "vietnamese": "KỆ (Đầu con nhím). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "彡",
+          "pinyin": "shān",
+          "vietnamese": "SAM (Lông tóc dài). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "彳",
+          "pinyin": "chì",
+          "vietnamese": "XÍCH (Bước chân trái). Số nét: 3.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "心",
+          "pinyin": "xīn",
+          "vietnamese": "TÂM (Quả tim, tâm trí, tấm lòng). Số nét: 4. Cách viết khác: 忄",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "戈",
+          "pinyin": "gē",
+          "vietnamese": "QUA (Cây qua – một loại binh khí dài). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "户",
+          "pinyin": "hù",
+          "vietnamese": "HỘ (Cửa một cánh). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "手",
+          "pinyin": "shǒu",
+          "vietnamese": "THỦ (Tay). Số nét: 4. Cách viết khác: 扌",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "支",
+          "pinyin": "zhī",
+          "vietnamese": "CHI (Cành nhánh). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "攴",
+          "pinyin": "pù",
+          "vietnamese": "PHỘC (Đánh khẽ). Số nét: 4. Cách viết khác: 攵",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "文",
+          "pinyin": "wén",
+          "vietnamese": "VĂN (Nét vằn). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "斗",
+          "pinyin": "dōu",
+          "vietnamese": "ĐẨU (Cái đấu để đong). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "斤",
+          "pinyin": "jīn",
+          "vietnamese": "CÂN (Cái búa, rìu). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "方",
+          "pinyin": "fāng",
+          "vietnamese": "PHƯƠNG (Vuông). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "无（旡）",
+          "pinyin": "wú",
+          "vietnamese": "VÔ (Không). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "日",
+          "pinyin": "rì",
+          "vietnamese": "NHẬT (Ngày, mặt trời). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "曰",
+          "pinyin": "yuē",
+          "vietnamese": "VIẾT (Nói rằng). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "月",
+          "pinyin": "yuè",
+          "vietnamese": "NGUYỆT (Tháng, mặt trăng). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "木",
+          "pinyin": "mù",
+          "vietnamese": "MỘC (Gỗ, cây cối). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "欠",
+          "pinyin": "qiàn",
+          "vietnamese": "KHIẾM (Khiếm khuyết, thiếu vắng). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "止",
+          "pinyin": "zhǐ",
+          "vietnamese": "CHỈ (Dừng lại). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "歹",
+          "pinyin": "dǎi",
+          "vietnamese": "ĐÃI (Xấu xa, tệ hại). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "殳",
+          "pinyin": "shū",
+          "vietnamese": "THÙ (Binh khí dài). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "毋",
+          "pinyin": "wú",
+          "vietnamese": "VÔ (Chớ, đừng). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "比",
+          "pinyin": "bǐ",
+          "vietnamese": "TỶ (So sánh). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "毛",
+          "pinyin": "máo",
+          "vietnamese": "MAO (Lông). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "氏",
+          "pinyin": "shì",
+          "vietnamese": "THỊ (Họ). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "气",
+          "pinyin": "qì",
+          "vietnamese": "KHÍ (Hơi nước). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "水",
+          "pinyin": "shuǐ",
+          "vietnamese": "THỦY (Nước). Số nét: 4. Cách viết khác: 氵, 氺",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "火",
+          "pinyin": "huǒ",
+          "vietnamese": "HỎA (Lửa). Số nét: 4. Cách viết khác: 灬",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "爪",
+          "pinyin": "zhǎo",
+          "vietnamese": "TRẢO (Móng vuốt cầm thú). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "父",
+          "pinyin": "fù",
+          "vietnamese": "PHỤ (Cha). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "爻",
+          "pinyin": "yáo",
+          "vietnamese": "HÀO (Hào âm, hào dương – Kinh Dịch). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "爿",
+          "pinyin": "qiáng",
+          "vietnamese": "TƯỜNG (Mảnh gỗ, cái giường). Số nét: 4. Cách viết khác: 丬",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "片",
+          "pinyin": "piàn",
+          "vietnamese": "PHIẾN (Mảnh, tấm, miếng). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "牙",
+          "pinyin": "yá",
+          "vietnamese": "NHA (Răng). Số nét: 4.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "牛",
+          "pinyin": "niú",
+          "vietnamese": "NGƯU (Trâu). Số nét: 4. Cách viết khác: 牜",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "犬",
+          "pinyin": "quǎn",
+          "vietnamese": "KHUYỂN (Con chó). Số nét: 4. Cách viết khác: 犭",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "玄",
+          "pinyin": "xuán",
+          "vietnamese": "HUYỀN (Màu đen huyền, huyền bí). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "玉",
+          "pinyin": "yù",
+          "vietnamese": "NGỌC (Đá quý, ngọc). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "瓜",
+          "pinyin": "guā",
+          "vietnamese": "QUA (Quả dưa). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "瓦",
+          "pinyin": "wǎ",
+          "vietnamese": "NGÕA (Ngói). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "甘",
+          "pinyin": "gān",
+          "vietnamese": "CAM (Ngọt). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "生",
+          "pinyin": "shēng",
+          "vietnamese": "SINH (Sinh sôi, nảy nở). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "用",
+          "pinyin": "yòng",
+          "vietnamese": "DỤNG (Dùng). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "田",
+          "pinyin": "tián",
+          "vietnamese": "ĐIỀN (Ruộng). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "疋",
+          "pinyin": "pǐ",
+          "vietnamese": "THẤT (Đơn vị đo chiều dài; tấm vải). Số nét: 5. Cách viết khác: 匹",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "疒",
+          "pinyin": "nè",
+          "vietnamese": "NẠCH (Bệnh tật). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "癶",
+          "pinyin": "bǒ",
+          "vietnamese": "BÁT (Gạt ngược lại, trở lại). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "白",
+          "pinyin": "bái",
+          "vietnamese": "BẠCH (Màu trắng). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "皮",
+          "pinyin": "pí",
+          "vietnamese": "BÌ (Da). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "皿",
+          "pinyin": "mǐn",
+          "vietnamese": "MÃNH (Bát, dĩa). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "目",
+          "pinyin": "mù",
+          "vietnamese": "MỤC (Mắt). Số nét: 5. Cách viết khác: 罒",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "矛",
+          "pinyin": "máo",
+          "vietnamese": "MÂU (Cây giáo để đâm). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "矢",
+          "pinyin": "shǐ",
+          "vietnamese": "THỈ (Cây tên, mũi tên). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "石",
+          "pinyin": "shí",
+          "vietnamese": "THẠCH (Đá). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "示",
+          "pinyin": "shì",
+          "vietnamese": "THỊ / KỲ (Chỉ thị; thần đất). Số nét: 5. Cách viết khác: 礻",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "禸",
+          "pinyin": "róu",
+          "vietnamese": "NHỰU (Vết chân, lốt chân). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "禾",
+          "pinyin": "hé",
+          "vietnamese": "HÒA (Lúa). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "穴",
+          "pinyin": "xué",
+          "vietnamese": "HUYỆT (Hang, lỗ). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "立",
+          "pinyin": "lì",
+          "vietnamese": "LẬP (Đứng, thành lập). Số nét: 5.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "竹",
+          "pinyin": "zhú",
+          "vietnamese": "TRÚC (Tre trúc). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "米",
+          "pinyin": "mǐ",
+          "vietnamese": "MỄ (Gạo). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "糸",
+          "pinyin": "mì",
+          "vietnamese": "MỊCH (Sợi tơ nhỏ). Số nét: 6. Cách viết khác: 糹, 纟",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "缶",
+          "pinyin": "fǒu",
+          "vietnamese": "PHẪU (Đồ sành). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "网",
+          "pinyin": "wǎng",
+          "vietnamese": "VÕNG (Cái lưới). Số nét: 6. Cách viết khác: 罓",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "羊",
+          "pinyin": "yáng",
+          "vietnamese": "DƯƠNG (Con dê). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "羽",
+          "pinyin": "yǔ",
+          "vietnamese": "VŨ (Lông vũ). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "老",
+          "pinyin": "lǎo",
+          "vietnamese": "LÃO (Già). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "而",
+          "pinyin": "ér",
+          "vietnamese": "NHI (Mà, và). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "耒",
+          "pinyin": "lěi",
+          "vietnamese": "LỖI (Cái cày). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "耳",
+          "pinyin": "ěr",
+          "vietnamese": "NHĨ (Lỗ tai). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "聿",
+          "pinyin": "yù",
+          "vietnamese": "DUẬT (Cây bút). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "肉",
+          "pinyin": "ròu",
+          "vietnamese": "NHỤC (Thịt). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "臣",
+          "pinyin": "chén",
+          "vietnamese": "THẦN (Bầy tôi). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "自",
+          "pinyin": "zì",
+          "vietnamese": "TỰ (Tự bản thân, kể từ). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "至",
+          "pinyin": "zhì",
+          "vietnamese": "CHÍ (Đến). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "臼",
+          "pinyin": "jiù",
+          "vietnamese": "CỮU (Cái cối giã gạo). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "舌",
+          "pinyin": "shé",
+          "vietnamese": "THIỆT (Cái lưỡi). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "舛",
+          "pinyin": "chuǎn",
+          "vietnamese": "SUYỄN (Sai lầm). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "舟",
+          "pinyin": "zhōu",
+          "vietnamese": "CHU (Cái thuyền). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "艮",
+          "pinyin": "gèn",
+          "vietnamese": "CẤN (Quẻ Cấn – Kinh Dịch; dừng, bền cứng). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "色",
+          "pinyin": "sè",
+          "vietnamese": "SẮC (Màu sắc, dáng vẻ, nữ sắc). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "艸",
+          "pinyin": "cǎo",
+          "vietnamese": "THẢO (Cỏ). Số nét: 6. Cách viết khác: 艹",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "虍",
+          "pinyin": "hū",
+          "vietnamese": "HỔ (Vằn vện của con hổ). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "虫",
+          "pinyin": "chóng",
+          "vietnamese": "TRÙNG (Sâu bọ). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "血",
+          "pinyin": "xuè",
+          "vietnamese": "HUYẾT (Máu). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "行",
+          "pinyin": "xíng",
+          "vietnamese": "HÀNH (Đi, thi hành, làm được). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "衣",
+          "pinyin": "yī",
+          "vietnamese": "Y (Áo). Số nét: 6. Cách viết khác: 衤",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "襾",
+          "pinyin": "yà",
+          "vietnamese": "Á (Che đậy, úp lên). Số nét: 6.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "見",
+          "pinyin": "jiàn",
+          "vietnamese": "KIẾN (Trông thấy). Số nét: 7. Cách viết khác: 见",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "角",
+          "pinyin": "jué",
+          "vietnamese": "GIÁC (Góc, sừng thú). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "言",
+          "pinyin": "yán",
+          "vietnamese": "NGÔN (Nói). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "谷",
+          "pinyin": "gǔ",
+          "vietnamese": "CỐC (Khe nước chảy giữa hai núi, thung lũng). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "豆",
+          "pinyin": "dòu",
+          "vietnamese": "ĐẬU (Hạt đậu, cây đậu). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "豕",
+          "pinyin": "shǐ",
+          "vietnamese": "THỈ (Con heo, con lợn). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "豸",
+          "pinyin": "zhì",
+          "vietnamese": "TRÃI (Loài sâu không chân). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "貝",
+          "pinyin": "bèi",
+          "vietnamese": "BỐI (Vật báu). Số nét: 7. Cách viết khác: 贝",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "赤",
+          "pinyin": "chì",
+          "vietnamese": "XÍCH (Màu đỏ). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "走",
+          "pinyin": "zǒu",
+          "vietnamese": "TẨU (Đi, chạy). Số nét: 7. Cách viết khác: 赱",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "足",
+          "pinyin": "zú",
+          "vietnamese": "TÚC (Chân, đầy đủ). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "身",
+          "pinyin": "shēn",
+          "vietnamese": "THÂN (Thân thể, thân mình). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "車",
+          "pinyin": "chē",
+          "vietnamese": "XA (Chiếc xe). Số nét: 7. Cách viết khác: 车",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "辛",
+          "pinyin": "xīn",
+          "vietnamese": "TÂN (Cay). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "辰",
+          "pinyin": "chén",
+          "vietnamese": "THẦN (Nhật, nguyệt, tinh; Thìn trong 12 địa chi). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "辵",
+          "pinyin": "chuò",
+          "vietnamese": "SƯỚC (Chợt bước đi, chợt dừng lại). Số nét: 7. Cách viết khác: 辶",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "邑",
+          "pinyin": "yì",
+          "vietnamese": "ẤP (Vùng đất, đất phong cho quan). Số nét: 7. Cách viết khác: 阝",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "酉",
+          "pinyin": "yǒu",
+          "vietnamese": "DẬU (Một trong 12 địa chi). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "釆",
+          "pinyin": "biàn",
+          "vietnamese": "BIỆN (Phân biệt). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "里",
+          "pinyin": "lǐ",
+          "vietnamese": "LÝ (Dặm; làng xóm). Số nét: 7.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "金",
+          "pinyin": "jīn",
+          "vietnamese": "KIM (Kim loại nói chung, vàng). Số nét: 8.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "長",
+          "pinyin": "cháng",
+          "vietnamese": "TRƯỜNG (Dài; lớn, trưởng). Số nét: 8. Cách viết khác: 镸, 长",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "門",
+          "pinyin": "mén",
+          "vietnamese": "MÔN (Cửa hai cánh). Số nét: 8. Cách viết khác: 门",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "阜",
+          "pinyin": "fù",
+          "vietnamese": "PHỤ (Đống đất, gò đất). Số nét: 8. Cách viết khác: 阝",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "隶",
+          "pinyin": "lì",
+          "vietnamese": "ĐÃI (Kịp, kịp đến). Số nét: 8.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "隹",
+          "pinyin": "zhuī",
+          "vietnamese": "TRUY / CHUY (Chim non). Số nét: 8.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "雨",
+          "pinyin": "yǔ",
+          "vietnamese": "VŨ (Mưa). Số nét: 8.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "青",
+          "pinyin": "qīng",
+          "vietnamese": "THANH (Màu xanh). Số nét: 8. Cách viết khác: 靑",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "非",
+          "pinyin": "fēi",
+          "vietnamese": "PHI (Không). Số nét: 8.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "面",
+          "pinyin": "miàn",
+          "vietnamese": "DIỆN (Mặt, bề mặt). Số nét: 9. Cách viết khác: 靣",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "革",
+          "pinyin": "gé",
+          "vietnamese": "CÁCH (Da thú; thay đổi). Số nét: 9.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "韋",
+          "pinyin": "wéi",
+          "vietnamese": "VI (Da đã thuộc rồi). Số nét: 9. Cách viết khác: 韦",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "韭",
+          "pinyin": "jiǔ",
+          "vietnamese": "PHỈ / CỬU (Rau hẹ). Số nét: 9.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "音",
+          "pinyin": "yīn",
+          "vietnamese": "ÂM (Âm thanh, tiếng). Số nét: 9.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "頁",
+          "pinyin": "yè",
+          "vietnamese": "HIỆT (Đầu; trang giấy). Số nét: 9. Cách viết khác: 页",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "風",
+          "pinyin": "fēng",
+          "vietnamese": "PHONG (Gió). Số nét: 9. Cách viết khác: 凬, 风",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "飛",
+          "pinyin": "fēi",
+          "vietnamese": "PHI (Bay). Số nét: 9. Cách viết khác: 飞",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "食",
+          "pinyin": "shí",
+          "vietnamese": "THỰC (Ăn). Số nét: 9. Cách viết khác: 飠, 饣",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "首",
+          "pinyin": "shǒu",
+          "vietnamese": "THỦ (Đầu). Số nét: 9.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "香",
+          "pinyin": "xiāng",
+          "vietnamese": "HƯƠNG (Mùi thơm). Số nét: 9.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "馬",
+          "pinyin": "mǎ",
+          "vietnamese": "MÃ (Con ngựa). Số nét: 10. Cách viết khác: 马",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "骨",
+          "pinyin": "gǔ",
+          "vietnamese": "CỐT (Xương). Số nét: 10.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "高",
+          "pinyin": "gāo",
+          "vietnamese": "CAO (Cao). Số nét: 10.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "髟",
+          "pinyin": "biāo",
+          "vietnamese": "BƯU / TIÊU (Tóc dài). Số nét: 10.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "鬥",
+          "pinyin": "dòu",
+          "vietnamese": "ĐẤU (Đánh nhau). Số nét: 10. Cách viết khác: 斗",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "鬯",
+          "pinyin": "chàng",
+          "vietnamese": "SƯỞNG (Ủ rượu nếp). Số nét: 10.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "鬲",
+          "pinyin": "gé",
+          "vietnamese": "CÁCH (Nồi, chõ). Số nét: 10.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "鬼",
+          "pinyin": "guǐ",
+          "vietnamese": "QUỶ (Con quỷ). Số nét: 10.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "魚",
+          "pinyin": "yú",
+          "vietnamese": "NGƯ (Con cá). Số nét: 11. Cách viết khác: 鱼",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "鳥",
+          "pinyin": "niǎo",
+          "vietnamese": "ĐIỂU (Con chim). Số nét: 11. Cách viết khác: 鸟",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "鹵",
+          "pinyin": "lǔ",
+          "vietnamese": "LỖ (Đất mặn). Số nét: 11.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "鹿",
+          "pinyin": "lù",
+          "vietnamese": "LỘC (Con hươu). Số nét: 11.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "麥",
+          "pinyin": "mài",
+          "vietnamese": "MẠCH (Lúa mạch). Số nét: 11. Cách viết khác: 麦",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "麻",
+          "pinyin": "má",
+          "vietnamese": "MA (Cây gai). Số nét: 11.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "黃",
+          "pinyin": "huáng",
+          "vietnamese": "HOÀNG (Màu vàng). Số nét: 12.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "黍",
+          "pinyin": "shǔ",
+          "vietnamese": "THỬ (Lúa nếp). Số nét: 12.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "黑",
+          "pinyin": "hēi",
+          "vietnamese": "HẮC (Màu đen). Số nét: 12.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "黹",
+          "pinyin": "zhǐ",
+          "vietnamese": "CHỈ (May áo, khâu vá). Số nét: 12.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "黽",
+          "pinyin": "mǐn",
+          "vietnamese": "MÃNH (Loài bò sát). Số nét: 13.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "鼎",
+          "pinyin": "dǐng",
+          "vietnamese": "ĐỈNH (Cái đỉnh). Số nét: 13.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "鼓",
+          "pinyin": "gǔ",
+          "vietnamese": "CỔ (Cái trống). Số nét: 13.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "鼠",
+          "pinyin": "shǔ",
+          "vietnamese": "THỬ (Con chuột). Số nét: 13.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "鼻",
+          "pinyin": "bí",
+          "vietnamese": "TỴ (Cái mũi). Số nét: 14.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "齊",
+          "pinyin": "qí",
+          "vietnamese": "TỀ (Bằng nhau). Số nét: 14.",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "齒",
+          "pinyin": "chǐ",
+          "vietnamese": "XỈ (Răng). Số nét: 15. Cách viết khác: 齿, 歯",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "龍",
+          "pinyin": "lóng",
+          "vietnamese": "LONG (Con rồng). Số nét: 16. Cách viết khác: 龙",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "龜",
+          "pinyin": "guī",
+          "vietnamese": "QUY (Con rùa). Số nét: 16. Cách viết khác: 亀, 龟",
+          "example": "",
+          "cauChuyen": ""
+        },
+        {
+          "chinese": "龠",
+          "pinyin": "yuè",
+          "vietnamese": "DƯỢC (Sáo ba lỗ). Số nét: 17.",
+          "example": "",
+          "cauChuyen": ""
+        }
+
+  ]
+}
