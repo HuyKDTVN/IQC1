@@ -1,1717 +1,458 @@
 {
   "vocabulary": [
       {
-          "chinese": "周末",
-          "pinyin": "zhōu mò",
-          "vietnamese": "cuối tuần"
-        , "example": "", "cauChuyen": "" },
+    "chinese": "周末",
+    "pinyin": "zhōu mò",
+    "vietnamese": "cuối tuần",
+    "example": "周末你想做什么？(Cuối tuần bạn muốn làm gì?)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "打算",
+    "pinyin": "dǎ suàn",
+    "vietnamese": "kế hoạch, dự định",
+    "example": "你有什么打算？(Bạn có dự định gì?)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "跟",
+    "pinyin": "gēn",
+    "vietnamese": "cùng, với",
+    "example": "我跟你去。(Tôi đi cùng bạn.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "和",
+    "pinyin": "hé",
+    "vietnamese": "và",
+    "example": "我和你。(Tôi và bạn.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "一直",
+    "pinyin": "yī zhí",
+    "vietnamese": "luôn luôn, suốt",
+    "example": "我一直在这儿。(Tôi luôn ở đây.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "游戏",
+    "pinyin": "yóu xì",
+    "vietnamese": "trò chơi",
+    "example": "我不玩游戏。(Tôi không chơi trò chơi.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "作业",
+    "pinyin": "zuò yè",
+    "vietnamese": "bài tập",
+    "example": "写作业吧。(Viết bài tập đi.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "着急",
+    "pinyin": "zháo jí",
+    "vietnamese": "lo lắng, sốt ruột",
+    "example": "别着急。(Đừng lo lắng.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "复习",
+    "pinyin": "fù xí",
+    "vietnamese": "ôn tập",
+    "example": "我要复习课文。(Tôi cần ôn tập bài khóa.)",
+    "cauChuyen": ""
+  },
+        { "chinese": "练习", "pinyin": "liàn xí", "vietnamese": "luyện tập", "example": "我要练习听力。(Tôi cần luyện tập kỹ năng nghe.)", "cauChuyen": "" },
+  { "chinese": "南方", "pinyin": "nán fāng", "vietnamese": "phương nam", "example": "南方很暖和。(Phương nam rất ấm áp.)", "cauChuyen": "" },
+  { "chinese": "北方", "pinyin": "běi fāng", "vietnamese": "phương bắc", "example": "北方下雪了。(Phương bắc tuyết rơi rồi.)", "cauChuyen": "" },
+  { "chinese": "东方", "pinyin": "dōng fāng", "vietnamese": "phương đông", "example": "太阳从东方升起。(Mặt trời mọc ở phương đông.)", "cauChuyen": "" },
+  { "chinese": "西方", "pinyin": "xī fāng", "vietnamese": "phương tây", "example": "他去西方国家。(Anh ấy đi các nước phương Tây.)", "cauChuyen": "" },
+  { "chinese": "面包", "pinyin": "miàn bāo", "vietnamese": "bánh mì", "example": "我吃面包。(Tôi ăn bánh mì.)", "cauChuyen": "" },
+  { "chinese": "带", "pinyin": "dài", "vietnamese": "mang, đem, đội", "example": "别忘了带钱。(Đừng quên mang theo tiền.)", "cauChuyen": "" },
+  { "chinese": "地图", "pinyin": "dì tú", "vietnamese": "bản đồ", "example": "我看地图。(Tôi xem bản đồ.)", "cauChuyen": "" },
+  { "chinese": "搬", "pinyin": "bān", "vietnamese": "chuyển, dời", "example": "我要搬家。(Tôi muốn chuyển nhà.)", "cauChuyen": "" },
+  { "chinese": "厉害", "pinyin": "lì hǎi", "vietnamese": "lợi hại, giỏi", "example": "你真厉害！(Bạn thật lợi hại!)", "cauChuyen": "" },
+  { "chinese": "英雄", "pinyin": "yīng xióng", "vietnamese": "anh hùng", "example": "他是大英雄。(Anh ấy là anh hùng lớn.)", "cauChuyen": "" },
+  { "chinese": "比喻", "pinyin": "bǐ yù", "vietnamese": " ẩn dụ, ví von", "example": "这个比喻很好。(Phép ví von này rất hay.)", "cauChuyen": "" },
+  { "chinese": "积累", "pinyin": "jī lèi", "vietnamese": "tích lũy", "example": "积累经验。(Tích lũy kinh nghiệm.)", "cauChuyen": "" },
+  { "chinese": "精神", "pinyin": "jīng shén", "vietnamese": "tinh thần", "example": "他很有精神。(Anh ấy rất có tinh thần.)", "cauChuyen": "" },
+  { "chinese": "遇到", "pinyin": "yù dào", "vietnamese": "gặp phải", "example": "遇到好朋友。(Gặp được bạn tốt.)", "cauChuyen": "" },
+  { "chinese": "困难", "pinyin": "kùn nán", "vietnamese": "khó khăn", "example": "我不怕困难。(Tôi không sợ khó khăn.)", "cauChuyen": "" },
+  { "chinese": "办法", "pinyin": "bàn fǎ", "vietnamese": "cách, phương pháp", "example": "你有办法吗？(Bạn có cách nào không?)", "cauChuyen": "" },
+  { "chinese": "克服", "pinyin": "kè fú", "vietnamese": "khắc phục", "example": "克服困难。(Khắc phục khó khăn.)", "cauChuyen": "" },
         {
-          "chinese": "打算",
-          "pinyin": "dǎ suān",
-          "vietnamese": "kế hoạch, dự định"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "跟",
-          "pinyin": "gēn",
-          "vietnamese": "cùng, với"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "和",
-          "pinyin": "hé",
-          "vietnamese": "và"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "一直",
-          "pinyin": "yī zhí",
-          "vietnamese": "luôn luôn, suốt"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "游戏",
-          "pinyin": "yóu xì",
-          "vietnamese": "trò chơi"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "作业",
-          "pinyin": "zuò yè",
-          "vietnamese": "bài tập"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "着急",
-          "pinyin": "zháo jí",
-          "vietnamese": "lo lắng, sốt ruột"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "复习",
-          "pinyin": "fù xí",
-          "vietnamese": "ôn tập"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "练习",
-          "pinyin": "liàn xí",
-          "vietnamese": "luyện tập"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "南方",
-          "pinyin": "nán fāng",
-          "vietnamese": "phương nam"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "北方",
-          "pinyin": "běi fāng",
-          "vietnamese": "phương bắc"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "东方",
-          "pinyin": "dōng fāng",
-          "vietnamese": "phương đông"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "西方",
-          "pinyin": "xī fāng",
-          "vietnamese": "phương tây"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "面包",
-          "pinyin": "miàn bāo",
-          "vietnamese": "bánh mì"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "带",
-          "pinyin": "dài",
-          "vietnamese": "mang, đem, đội"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "地图",
-          "pinyin": "dì tú",
-          "vietnamese": "bản đồ"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "搬",
-          "pinyin": "bān",
-          "vietnamese": "chuyển, dời"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "厉害",
-          "pinyin": "lì hǎi",
-          "vietnamese": "lợi hại, giỏi"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "英雄",
-          "pinyin": "yīng xióng",
-          "vietnamese": "anh hùng"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "比喻",
-          "pinyin": "bǐ yù",
-          "vietnamese": "ẩn dụ, ví von"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "积累",
-          "pinyin": "jī lèi",
-          "vietnamese": "tích lũy"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "精神",
-          "pinyin": "jīng shén",
-          "vietnamese": "tinh thần"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "遇到",
-          "pinyin": "yù dào",
-          "vietnamese": "gặp phải"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "困难",
-          "pinyin": "kùn nán",
-          "vietnamese": "khó khăn"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "办法",
-          "pinyin": "bàn fǎ",
-          "vietnamese": "cách, phương pháp"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "克服",
-          "pinyin": "kè fú",
-          "vietnamese": "khắc phục"
-        , "example": "", "cauChuyen": "" },
-        {
-          "chinese": "解决",
-          "pinyin": "jiě jué",
-          "vietnamese": "giải quyết"
-        , "example": "", "cauChuyen": "" },
-        {
-            "chinese": "腿",
-            "pinyin": "tuǐ",
-            "vietnamese": "chân",
-            "example": ""
-          , "example": "", "cauChuyen": "" },
-          {
-            "chinese": "疼",
-            "pinyin": "téng",
-            "vietnamese": "đau",
-            "example": ""
-          , "example": "", "cauChuyen": "" },
-          {
-            "chinese": "脚",
-            "pinyin": "jiǎo",
-            "vietnamese": "bàn chân, ngón chân",
-            "example": ""
-          , "example": "", "cauChuyen": "" },
-          {
-            "chinese": "树",
-            "pinyin": "shù",
-            "vietnamese": "cái cây",
-            "example": ""
-          , "example": "", "cauChuyen": "" },
-          {
-            "chinese": "容易",
-            "pinyin": "róng yì",
-            "vietnamese": "dễ dàng",
-            "example": ""
-          , "example": "", "cauChuyen": "" },
-          {
-            "chinese": "难",
-            "pinyin": "nán",
-            "vietnamese": "khó",
-            "example": ""
-          , "example": "", "cauChuyen": "" },
-          {
-              "chinese": "太太",
-              "pinyin": "tài tai",
-              "vietnamese": "madam, bà"
-            , "example": "", "cauChuyen": "" },
-            {
-              "chinese": "秘书",
-              "pinyin": "mì shū",
-              "vietnamese": "thư ký"
-            , "example": "", "cauChuyen": "" },
-            {
-              "chinese": "经理",
-              "pinyin": "jīng lǐ",
-              "vietnamese": "quản lý"
-            , "example": "", "cauChuyen": "" },
-            {
-              "chinese": "办公室",
-              "pinyin": "bàn gōng sī",
-              "vietnamese": "văn phòng"
-            , "example": "", "cauChuyen": "" },
-            {
-              "chinese": "辆",
-              "pinyin": "liàng",
-              "vietnamese": "lượng từ của xe"
-            , "example": "", "cauChuyen": "" },
-            {
-              "chinese": "楼",
-              "pinyin": "lóu",
-              "vietnamese": "lầu"
-            , "example": "", "cauChuyen": "" },
-            {
-              "chinese": "拿",
-              "pinyin": "ná",
-              "vietnamese": "cầm, nắm"
-            , "example": "", "cauChuyen": "" },
-            {
-              "chinese": "把",
-              "pinyin": "bǎ",
-              "vietnamese": "đem (có cấu trúc ngữ pháp riêng)"
-            , "example": "", "cauChuyen": "" },
-            {
-              "chinese": "伞",
-              "pinyin": "sǎn",
-              "vietnamese": "cái dù"
-            , "example": "", "cauChuyen": "" },
-            {
-              "chinese": "胖",
-              "pinyin": "pàng",
-              "vietnamese": "mập"
-            , "example": "", "cauChuyen": "" },
-            {
-              "chinese": "瘦",
-              "pinyin": "shōu",
-              "vietnamese": "ốm, gầy"
-            , "example": "", "cauChuyen": "" },
-            {
-              "chinese": "其实",
-              "pinyin": "qí shí",
-              "vietnamese": "thực tế, thật ra"
-            , "example": "", "cauChuyen": "" },
-            {
-              "chinese": "其实上",
-              "pinyin": "qí shí shàng",
-              "vietnamese": "trên thực tế"
-            , "example": "", "cauChuyen": "" },
-            {
-              "chinese": "健康",
-              "pinyin": "jiàn kāng",
-              "vietnamese": "khỏe mạnh"
-            , "example": "", "cauChuyen": "" },
-            {
-                "chinese": "还是",
-                "pinyin": "hái shì",
-                "vietnamese": "hay là (chỉ dùng trong câu hỏi)"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "爬山",
-                "pinyin": "pá shān",
-                "vietnamese": "leo núi"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "小心",
-                "pinyin": "xiǎo xīn",
-                "vietnamese": "cẩn thận"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "条",
-                "pinyin": "tiáo",
-                "vietnamese": "lượng từ của những vật dài"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "裤子",
-                "pinyin": "kù zi",
-                "vietnamese": "cái quần"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "记得",
-                "pinyin": "jì de",
-                "vietnamese": "nhớ"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "衬衫",
-                "pinyin": "chèn shān",
-                "vietnamese": "áo sơ mi"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "元",
-                "pinyin": "yuán",
-                "vietnamese": "đơn vị tiền"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "新鲜",
-                "pinyin": "xīn xiān",
-                "vietnamese": "tươi, tươi mới"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "甜",
-                "pinyin": "tián",
-                "vietnamese": "ngọt"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "只",
-                "pinyin": "zhǐ",
-                "vietnamese": "chỉ"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "放",
-                "pinyin": "fàng",
-                "vietnamese": "đặt, để"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "放下",
-                "pinyin": "fàng xià",
-                "vietnamese": "đặt xuống, để xuống"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "饮料",
-                "pinyin": "yǐn liào",
-                "vietnamese": "thức uống"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "或者",
-                "pinyin": "huò zhě",
-                "vietnamese": "hoặc, hay là (chỉ dùng trong câu trần thuật)"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "舒服",
-                "pinyin": "shū fu",
-                "vietnamese": "thoải mái"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "花",
-                "pinyin": "huā",
-                "vietnamese": "bông hoa"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "绿",
-                "pinyin": "lǜ",
-                "vietnamese": "màu xanh lá cây"
-              , "example": "", "cauChuyen": "" },
-              {
-                "chinese": "顾客",
-                "pinyin": "gù kè",
-                "vietnamese": "khách hàng"
-              , "example": "", "cauChuyen": "" },
-              {
-                  "chinese": "比赛",
-                  "pinyin": "bǐ sài",
-                  "vietnamese": "cuộc thi, trận đấu"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "照片",
-                  "pinyin": "zhào piàn",
-                  "vietnamese": "tấm ảnh (lượng từ: 张)"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "年级",
-                  "pinyin": "nián jí",
-                  "vietnamese": "lớp (trong trường học)"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "又",
-                  "pinyin": "yòu",
-                  "vietnamese": "lại"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "聪明",
-                  "pinyin": "cōng míng",
-                  "vietnamese": "thông minh"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "热情",
-                  "pinyin": "rè qíng",
-                  "vietnamese": "nhiệt tình"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "努力",
-                  "pinyin": "nǔ lì",
-                  "vietnamese": "nỗ lực, cố gắng"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "总是",
-                  "pinyin": "zǒng shì",
-                  "vietnamese": "luôn luôn"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "回答",
-                  "pinyin": "huí dá",
-                  "vietnamese": "trả lời"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "站",
-                  "pinyin": "zhàn",
-                  "vietnamese": "đứng"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "站起来",
-                  "pinyin": "zhàn qǐ lái",
-                  "vietnamese": "đứng lên"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "饿",
-                  "pinyin": "è",
-                  "vietnamese": "đói"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "超市",
-                  "pinyin": "chāo shì",
-                  "vietnamese": "siêu thị"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "蛋糕",
-                  "pinyin": "dàn gāo",
-                  "vietnamese": "bánh kem"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "年轻",
-                  "pinyin": "nián qīng",
-                  "vietnamese": "trẻ"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "认真",
-                  "pinyin": "rèn zhēn",
-                  "vietnamese": "nghiêm túc"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "客人",
-                  "pinyin": "kè rén",
-                  "vietnamese": "khách, khách hàng"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "古代",
-                  "pinyin": "gǔ dài",
-                  "vietnamese": "cổ đại"
-                , "example": "", "cauChuyen": "" },
-                {
-                  "chinese": "故事",
-                  "pinyin": "gù shì",
-                  "vietnamese": "câu chuyện"
-                , "example": "", "cauChuyen": "" },
-                {
-                    "chinese": "发烧",
-                    "pinyin": "fā shāo",
-                    "vietnamese": "phát sốt"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "为",
-                    "pinyin": "wèi",
-                    "vietnamese": "bởi, vì"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "照顾",
-                    "pinyin": "zhào gù",
-                    "vietnamese": "chăm sóc"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "用",
-                    "pinyin": "yòng",
-                    "vietnamese": "dùng, cần"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "感冒",
-                    "pinyin": "gǎn mào",
-                    "vietnamese": "cảm"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "季节",
-                    "pinyin": "jì jié",
-                    "vietnamese": "mùa"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "当然",
-                    "pinyin": "dāng rán",
-                    "vietnamese": "đương nhiên"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "春天",
-                    "pinyin": "chūn tiān",
-                    "vietnamese": "mùa xuân"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "夏天",
-                    "pinyin": "xià tiān",
-                    "vietnamese": "mùa hạ"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "秋天",
-                    "pinyin": "qiū tiān",
-                    "vietnamese": "mùa thu"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "冬天",
-                    "pinyin": "dōng tiān",
-                    "vietnamese": "mùa đông"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "草",
-                    "pinyin": "cǎo",
-                    "vietnamese": "cỏ"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "裙子",
-                    "pinyin": "qún zi",
-                    "vietnamese": "cái váy"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "最近",
-                    "pinyin": "zuì jìn",
-                    "vietnamese": "dạo gần đây"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "越",
-                    "pinyin": "yuè",
-                    "vietnamese": "càng"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "马上",
-                    "pinyin": "mǎ shàng",
-                    "vietnamese": "ngay lập tức"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "形容",
-                    "pinyin": "xíng róng",
-                    "vietnamese": "miêu tả"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                    "chinese": "医术",
-                    "pinyin": "yī shù",
-                    "vietnamese": "kỹ thuật y học"
-                  , "example": "", "cauChuyen": "" },
-                  {
-                      "chinese": "眼睛",
-                      "pinyin": "yǎn jīng",
-                      "vietnamese": "mắt"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "眼镜",
-                      "pinyin": "yǎn jìng",
-                      "vietnamese": "kính"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "突然",
-                      "pinyin": "tū rán",
-                      "vietnamese": "đột nhiên"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "离开",
-                      "pinyin": "lí kāi",
-                      "vietnamese": "rời xa, rời đi"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "清楚",
-                      "pinyin": "qīng chu",
-                      "vietnamese": "rõ, rõ ràng"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "刚才",
-                      "pinyin": "gāng cái",
-                      "vietnamese": "vừa mới"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "帮忙",
-                      "pinyin": "bāng máng",
-                      "vietnamese": "giúp đỡ"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "特别",
-                      "pinyin": "tè bié",
-                      "vietnamese": "đặc biệt"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "讲",
-                      "pinyin": "jiǎng",
-                      "vietnamese": "giảng, kể"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "明白",
-                      "pinyin": "míng bai",
-                      "vietnamese": "hiểu"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "锻炼",
-                      "pinyin": "duàn liàn",
-                      "vietnamese": "rèn luyện"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "音乐",
-                      "pinyin": "yīn yuè",
-                      "vietnamese": "âm nhạc"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "公园",
-                      "pinyin": "gōng yuán",
-                      "vietnamese": "công viên"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "聊天(儿)",
-                      "pinyin": "liáo tiān (er)",
-                      "vietnamese": "nói chuyện, tán gẫu"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "睡着",
-                      "pinyin": "shuì zháo",
-                      "vietnamese": "ngủ say, ngủ thiếp đi"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "更",
-                      "pinyin": "gēng",
-                      "vietnamese": "hơn, càng"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "正常",
-                      "pinyin": "zhèng cháng",
-                      "vietnamese": "bình thường"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "因此",
-                      "pinyin": "yīn cǐ",
-                      "vietnamese": "do đó, vì vậy"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "放弃",
-                      "pinyin": "fàng qì",
-                      "vietnamese": "bỏ cuộc"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "而",
-                      "pinyin": "ér",
-                      "vietnamese": "mà"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                      "chinese": "坚持",
-                      "pinyin": "jiān chí",
-                      "vietnamese": "kiên trì"
-                    , "example": "", "cauChuyen": "" },
-                    {
-                        "chinese": "同事",
-                        "pinyin": "tóng shi",
-                        "vietnamese": "đồng nghiệp"
-                      , "example": "", "cauChuyen": "" },
-                      {
-                        "chinese": "以前",
-                        "pinyin": "yǐ qián",
-                        "vietnamese": "trước đây"
-                      , "example": "", "cauChuyen": "" },
-                      {
-                        "chinese": "银行",
-                        "pinyin": "yín háng",
-                        "vietnamese": "ngân hàng"
-                      , "example": "", "cauChuyen": "" },
-                      {
-                        "chinese": "久",
-                        "pinyin": "jiǔ",
-                        "vietnamese": "lâu"
-                      , "example": "", "cauChuyen": "" },
-                      {
-                        "chinese": "感兴趣",
-                        "pinyin": "gǎn xìng qù",
-                        "vietnamese": "hứng thú, quan tâm"
-                      , "example": "", "cauChuyen": "" },
-                      {
-                        "chinese": "结婚",
-                        "pinyin": "jié hūn",
-                        "vietnamese": "kết hôn"
-                      , "example": "", "cauChuyen": "" },
-                      {
-                        "chinese": "欢迎",
-                        "pinyin": "huān yíng",
-                        "vietnamese": "hoan nghênh"
-                      , "example": "", "cauChuyen": "" },
-                      {
-                        "chinese": "迟到",
-                        "pinyin": "chí dào",
-                        "vietnamese": "đến muộn"
-                      , "example": "", "cauChuyen": "" },
-                      {
-                        "chinese": "半",
-                        "pinyin": "bàn",
-                        "vietnamese": "một nửa"
-                      , "example": "", "cauChuyen": "" },
-                      {
-                        "chinese": "接",
-                        "pinyin": "jiē",
-                        "vietnamese": "đón, gặp (ai đó)"
-                      , "example": "", "cauChuyen": "" },
-                      {
-                        "chinese": "刻",
-                        "pinyin": "kè",
-                        "vietnamese": "khắc, phút (15 phút)"
-                      , "example": "", "cauChuyen": "" },
-                      {
-                        "chinese": "差",
-                        "pinyin": "chà",
-                        "vietnamese": "kém"
-                      , "example": "", "cauChuyen": "" },
-                      {
-                        "chinese": "又",
-                        "pinyin": "yòu",
-                        "vietnamese": "lại, và"
-                      , "example": "", "cauChuyen": "" },
-                      {
-                          "chinese": "满意",
-                          "pinyin": "mǎn yì",
-                          "vietnamese": "hài lòng"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "电梯",
-                          "pinyin": "diàn tī",
-                          "vietnamese": "thang máy"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "害怕",
-                          "pinyin": "hài pà",
-                          "vietnamese": "sợ hãi"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "熊猫",
-                          "pinyin": "xióng māo",
-                          "vietnamese": "gấu trúc"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "见面",
-                          "pinyin": "jiàn miàn",
-                          "vietnamese": "gặp mặt (động từ ly hợp)"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "安静",
-                          "pinyin": "ān jìng",
-                          "vietnamese": "yên tĩnh"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "可乐",
-                          "pinyin": "kè lè",
-                          "vietnamese": "Coca-Cola"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "一会儿",
-                          "pinyin": "yí huìr",
-                          "vietnamese": "một lát"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "马上",
-                          "pinyin": "mǎ shàng",
-                          "vietnamese": "ngay lập tức"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "洗手间",
-                          "pinyin": "xǐ shǒu jiān",
-                          "vietnamese": "nhà vệ sinh, phòng tắm"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "老",
-                          "pinyin": "lǎo",
-                          "vietnamese": "già, cũ"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "几乎",
-                          "pinyin": "jī hū",
-                          "vietnamese": "gần như"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "变化",
-                          "pinyin": "biàn huà",
-                          "vietnamese": "thay đổi, biến hóa"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "健康",
-                          "pinyin": "jiàn kāng",
-                          "vietnamese": "khỏe mạnh"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "重要",
-                          "pinyin": "zhòng yào",
-                          "vietnamese": "quan trọng"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                          "chinese": "全面",
-                          "pinyin": "quán miàn",
-                          "vietnamese": "toàn diện"
-                        , "example": "", "cauChuyen": "" },
-                        {
-                            "chinese": "中文",
-                            "pinyin": "zhōng wén",
-                            "vietnamese": "tiếng Trung"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                            "chinese": "班",
-                            "pinyin": "bān",
-                            "vietnamese": "lớp"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                            "chinese": "一样",
-                            "pinyin": "yí yàng",
-                            "vietnamese": "giống, như nhau"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                            "chinese": "最后",
-                            "pinyin": "zuì hòu",
-                            "vietnamese": "cuối cùng"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                            "chinese": "放心",
-                            "pinyin": "fàng xīn",
-                            "vietnamese": "yên tâm"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                            "chinese": "一定",
-                            "pinyin": "yí dìng",
-                            "vietnamese": "nhất định"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                            "chinese": "担心",
-                            "pinyin": "dān xīn",
-                            "vietnamese": "lo lắng"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                            "chinese": "比较",
-                            "pinyin": "bǐ jiào",
-                            "vietnamese": "tương đối, so sánh"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                            "chinese": "了解",
-                            "pinyin": "liǎo jiě",
-                            "vietnamese": "hiểu biết, tìm hiểu"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                            "chinese": "先",
-                            "pinyin": "xiān",
-                            "vietnamese": "trước"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                            "chinese": "中间",
-                            "pinyin": "zhōng jiān",
-                            "vietnamese": "ở giữa, trung gian"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                            "chinese": "参加",
-                            "pinyin": "cān jiā",
-                            "vietnamese": "tham gia"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                            "chinese": "影响",
-                            "pinyin": "yǐng xiǎng",
-                            "vietnamese": "ảnh hưởng"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                            "chinese": "优点",
-                            "pinyin": "yōu diǎn",
-                            "vietnamese": "ưu điểm"
-                          , "example": "", "cauChuyen": "" },
-                          {
-                              "chinese": "个子",
-                              "pinyin": "gè zi",
-                              "vietnamese": "vóc dáng, chiều cao"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "矮",
-                              "pinyin": "ǎi",
-                              "vietnamese": "lùn, thấp"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "历史",
-                              "pinyin": "lì shǐ",
-                              "vietnamese": "lịch sử"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "体育",
-                              "pinyin": "tǐ yù",
-                              "vietnamese": "thể dục, thể thao"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "数学",
-                              "pinyin": "shù xué",
-                              "vietnamese": "toán học"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "方便",
-                              "pinyin": "fāng biàn",
-                              "vietnamese": "thuận tiện"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "自行车",
-                              "pinyin": "zì xíng chē",
-                              "vietnamese": "xe đạp"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "骑",
-                              "pinyin": "qí",
-                              "vietnamese": "cưỡi, đi (xe đạp, ngựa)"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "旧",
-                              "pinyin": "jiù",
-                              "vietnamese": "cũ, đã qua sử dụng"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "换",
-                              "pinyin": "huàn",
-                              "vietnamese": "đổi"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "地方",
-                              "pinyin": "dì fang",
-                              "vietnamese": "nơi, địa điểm"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "中介",
-                              "pinyin": "zhōng jiè",
-                              "vietnamese": "môi giới, trung gian"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "主要",
-                              "pinyin": "zhǔ yào",
-                              "vietnamese": "chủ yếu"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "环境",
-                              "pinyin": "huán jìng",
-                              "vietnamese": "môi trường"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                              "chinese": "附近",
-                              "pinyin": "fù jìn",
-                              "vietnamese": "gần đây, lân cận"
-                            , "example": "", "cauChuyen": "" },
-                            {
-                                "chinese": "图书馆",
-                                "pinyin": "tú shū guǎn",
-                                "vietnamese": "thư viện"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "借",
-                                "pinyin": "jiè",
-                                "vietnamese": "mượn"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "词典",
-                                "pinyin": "cí diǎn",
-                                "vietnamese": "từ điển"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "还",
-                                "pinyin": "huán",
-                                "vietnamese": "trả"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "灯",
-                                "pinyin": "dēng",
-                                "vietnamese": "đèn"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "会议",
-                                "pinyin": "huì yì",
-                                "vietnamese": "cuộc họp"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "结束",
-                                "pinyin": "jié shù",
-                                "vietnamese": "kết thúc"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "忘记",
-                                "pinyin": "wàng jì",
-                                "vietnamese": "quên"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "空调",
-                                "pinyin": "kōng tiáo",
-                                "vietnamese": "máy lạnh, điều hòa"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "关",
-                                "pinyin": "guān",
-                                "vietnamese": "đóng, tắt"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "地铁",
-                                "pinyin": "dì tiě",
-                                "vietnamese": "tàu điện ngầm"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "双",
-                                "pinyin": "shuāng",
-                                "vietnamese": "lượng từ cho vật có đôi"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "筷子",
-                                "pinyin": "kuài zi",
-                                "vietnamese": "đôi đũa"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "口",
-                                "pinyin": "kǒu",
-                                "vietnamese": "miệng, khẩu (lượng từ)"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "瓶子",
-                                "pinyin": "píng zi",
-                                "vietnamese": "cái chai"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "笔记本",
-                                "pinyin": "bǐ jì běn",
-                                "vietnamese": "vở, laptop"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "电子邮件",
-                                "pinyin": "diàn zǐ yóu jiàn",
-                                "vietnamese": "thư điện tử, email"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "习惯",
-                                "pinyin": "xí guàn",
-                                "vietnamese": "thói quen; quen thuộc"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "太阳",
-                                "pinyin": "tài yáng",
-                                "vietnamese": "mặt trời"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "西",
-                                "pinyin": "xī",
-                                "vietnamese": "phía tây"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "生气",
-                                "pinyin": "shēng qì",
-                                "vietnamese": "tức giận"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "行李箱",
-                                "pinyin": "xíng li xiāng",
-                                "vietnamese": "va li, hành lý"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "自己",
-                                "pinyin": "zì jǐ",
-                                "vietnamese": "bản thân, chính mình"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "包",
-                                "pinyin": "bāo",
-                                "vietnamese": "cái túi"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "发现",
-                                "pinyin": "fā xiàn",
-                                "vietnamese": "phát hiện"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                "chinese": "护照",
-                                "pinyin": "hù zhào",
-                                "vietnamese": "hộ chiếu"
-                              , "example": "", "cauChuyen": "" },
-                              {
-                                  "chinese": "起飞",
-                                  "pinyin": "qǐ fēi",
-                                  "vietnamese": "cất cánh"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "司机",
-                                  "pinyin": "sī jī",
-                                  "vietnamese": "tài xế"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "教",
-                                  "pinyin": "jiào",
-                                  "vietnamese": "dạy"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "画",
-                                  "pinyin": "huà",
-                                  "vietnamese": "vẽ; bức vẽ"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "需要",
-                                  "pinyin": "xū yào",
-                                  "vietnamese": "cần"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "黑板",
-                                  "pinyin": "hēi bǎn",
-                                  "vietnamese": "bảng đen"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "终于",
-                                  "pinyin": "zhōng yú",
-                                  "vietnamese": "cuối cùng"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "爷爷",
-                                  "pinyin": "yè ye",
-                                  "vietnamese": "ông nội"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "礼物",
-                                  "pinyin": "lǐ wù",
-                                  "vietnamese": "món quà"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "奶奶",
-                                  "pinyin": "nǎi nai",
-                                  "vietnamese": "bà nội"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "遇到",
-                                  "pinyin": "yù dào",
-                                  "vietnamese": "gặp phải"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "一边……一边……",
-                                  "pinyin": "yì biān…… yì biān……",
-                                  "vietnamese": "vừa làm việc này vừa làm việc kia"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "过去",
-                                  "pinyin": "guò qù",
-                                  "vietnamese": "qua đi; đi qua"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "一般",
-                                  "pinyin": "yì bān",
-                                  "vietnamese": "thông thường, phổ biến"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "愿意",
-                                  "pinyin": "yuàn yì",
-                                  "vietnamese": "đồng ý, sẵn sàng"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "起来",
-                                  "pinyin": "qǐ lai",
-                                  "vietnamese": "đứng lên; tăng lên"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "应该",
-                                  "pinyin": "yīng gāi",
-                                  "vietnamese": "nên"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "生活",
-                                  "pinyin": "shēng huó",
-                                  "vietnamese": "cuộc sống"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "校长",
-                                  "pinyin": "xiào zhǎng",
-                                  "vietnamese": "hiệu trưởng"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "坏",
-                                  "pinyin": "huài",
-                                  "vietnamese": "hỏng, xấu"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "经常",
-                                  "pinyin": "jīng cháng",
-                                  "vietnamese": "thường xuyên"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "打扫",
-                                  "pinyin": "dǎ sǎo",
-                                  "vietnamese": "dọn dẹp"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "干净",
-                                  "pinyin": "gān jìng",
-                                  "vietnamese": "sạch sẽ"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "然后",
-                                  "pinyin": "rán hòu",
-                                  "vietnamese": "sau đó"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "冰箱",
-                                  "pinyin": "bīng xiāng",
-                                  "vietnamese": "tủ lạnh"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "洗澡",
-                                  "pinyin": "xǐ zǎo",
-                                  "vietnamese": "tắm"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "节目",
-                                  "pinyin": "jié mù",
-                                  "vietnamese": "chương trình"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "月亮",
-                                  "pinyin": "yuè liang",
-                                  "vietnamese": "mặt trăng, ánh trăng"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "像",
-                                  "pinyin": "xiàng",
-                                  "vietnamese": "giống"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "盘子",
-                                  "pinyin": "pán zi",
-                                  "vietnamese": "cái đĩa"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "阿姨",
-                                  "pinyin": "ā yí",
-                                  "vietnamese": "cô, dì"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "声音",
-                                  "pinyin": "shēng yīn",
-                                  "vietnamese": "âm thanh, tiếng động"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "菜单",
-                                  "pinyin": "cài dān",
-                                  "vietnamese": "thực đơn"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "简单",
-                                  "pinyin": "jiǎn dān",
-                                  "vietnamese": "đơn giản"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "香蕉",
-                                  "pinyin": "xiāng jiāo",
-                                  "vietnamese": "quả chuối"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                  "chinese": "限",
-                                  "pinyin": "xiàn",
-                                  "vietnamese": "giới hạn"
-                                , "example": "", "cauChuyen": "" },
-                                {
-                                    "chinese": "及早",
-                                    "pinyin": "jí zǎo",
-                                    "vietnamese": "càng sớm càng tốt"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "留学",
-                                    "pinyin": "liú xué",
-                                    "vietnamese": "du học"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "水平",
-                                    "pinyin": "shuǐ píng",
-                                    "vietnamese": "trình độ"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "提高",
-                                    "pinyin": "tí gāo",
-                                    "vietnamese": "nâng cao"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "练习",
-                                    "pinyin": "liàn xí",
-                                    "vietnamese": "luyện tập"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "完成",
-                                    "pinyin": "wán chéng",
-                                    "vietnamese": "hoàn thành"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "句子",
-                                    "pinyin": "jù zi",
-                                    "vietnamese": "câu"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "其他",
-                                    "pinyin": "qí tā",
-                                    "vietnamese": "khác, phần còn lại"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "发",
-                                    "pinyin": "fā",
-                                    "vietnamese": "gửi, phát"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "要求",
-                                    "pinyin": "yāo qiú",
-                                    "vietnamese": "yêu cầu"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "注意",
-                                    "pinyin": "zhù yì",
-                                    "vietnamese": "chú ý"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "上网",
-                                    "pinyin": "shàng wǎng",
-                                    "vietnamese": "lên mạng"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "网上",
-                                    "pinyin": "wǎng shàng",
-                                    "vietnamese": "trên mạng"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "除了",
-                                    "pinyin": "chú le",
-                                    "vietnamese": "ngoài ra, ngoài… ra"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "花",
-                                    "pinyin": "huā",
-                                    "vietnamese": "tiêu, chi tiêu"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "极了",
-                                    "pinyin": "jí le",
-                                    "vietnamese": "cực kỳ (Adj + 极了)"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "节日",
-                                    "pinyin": "jié rì",
-                                    "vietnamese": "ngày lễ, lễ hội"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "举行",
-                                    "pinyin": "jǔ xíng",
-                                    "vietnamese": "tổ chức, cử hành"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "世界",
-                                    "pinyin": "shì jiè",
-                                    "vietnamese": "thế giới"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "街道",
-                                    "pinyin": "jiē dào",
-                                    "vietnamese": "đường phố"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "各",
-                                    "pinyin": "gè",
-                                    "vietnamese": "mỗi"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "文化",
-                                    "pinyin": "wén huà",
-                                    "vietnamese": "văn hóa"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "面貌",
-                                    "pinyin": "miàn mào",
-                                    "vietnamese": "diện mạo, tình hình"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "诚实",
-                                    "pinyin": "chéng shí",
-                                    "vietnamese": "trung thực"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "任何",
-                                    "pinyin": "rèn hé",
-                                    "vietnamese": "bất kỳ"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "城市",
-                                    "pinyin": "chéng shì",
-                                    "vietnamese": "thành phố"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "如果",
-                                    "pinyin": "rú guǒ",
-                                    "vietnamese": "nếu"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "认为",
-                                    "pinyin": "rèn wéi",
-                                    "vietnamese": "cho rằng, nghĩ rằng"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "皮鞋",
-                                    "pinyin": "pí xié",
-                                    "vietnamese": "giày da (lượng từ: 双)"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "帽子",
-                                    "pinyin": "mào zi",
-                                    "vietnamese": "cái mũ"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "长",
-                                    "pinyin": "zhǎng",
-                                    "vietnamese": "lớn lên, phát triển"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                    "chinese": "可爱",
-                                    "pinyin": "kě ài",
-                                    "vietnamese": "dễ thương"
-                                  , "example": "", "cauChuyen": "" },
-                                  {
-                                      "chinese": "米",
-                                      "pinyin": "mǐ",
-                                      "vietnamese": "mét"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "公斤",
-                                      "pinyin": "gōng jīn",
-                                      "vietnamese": "kilôgam (kg)"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "鼻子",
-                                      "pinyin": "bí zi",
-                                      "vietnamese": "cái mũi"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "头发",
-                                      "pinyin": "tóu fa",
-                                      "vietnamese": "tóc"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "检查",
-                                      "pinyin": "jiǎn chá",
-                                      "vietnamese": "kiểm tra"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "刷牙",
-                                      "pinyin": "shuā yá",
-                                      "vietnamese": "đánh răng"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "关系",
-                                      "pinyin": "guān xì",
-                                      "vietnamese": "mối quan hệ"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "别人",
-                                      "pinyin": "bié rén",
-                                      "vietnamese": "người khác"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "词语",
-                                      "pinyin": "cí yǔ",
-                                      "vietnamese": "từ ngữ"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "对待",
-                                      "pinyin": "duì dài",
-                                      "vietnamese": "đối đãi"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "正确",
-                                      "pinyin": "zhèng què",
-                                      "vietnamese": "đúng đắn"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "处处",
-                                      "pinyin": "chù chù",
-                                      "vietnamese": "mọi nơi, nơi nơi"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "请假",
-                                      "pinyin": "qǐng jià",
-                                      "vietnamese": "xin nghỉ phép"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "一共",
-                                      "pinyin": "yí gòng",
-                                      "vietnamese": "tổng cộng"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "邻居",
-                                      "pinyin": "lín jū",
-                                      "vietnamese": "hàng xóm"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "后来",
-                                      "pinyin": "hòu lái",
-                                      "vietnamese": "sau này"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "爱好",
-                                      "pinyin": "ài hào",
-                                      "vietnamese": "sở thích"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "办法",
-                                      "pinyin": "bàn fǎ",
-                                      "vietnamese": "cách, biện pháp"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "为了",
-                                      "pinyin": "wèi le",
-                                      "vietnamese": "để, vì"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "饱",
-                                      "pinyin": "bǎo",
-                                      "vietnamese": "no"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "决定",
-                                      "pinyin": "jué dìng",
-                                      "vietnamese": "quyết định"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "选择",
-                                      "pinyin": "xuǎn zé",
-                                      "vietnamese": "lựa chọn"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "必须",
-                                      "pinyin": "bì xū",
-                                      "vietnamese": "bắt buộc, phải"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "根据",
-                                      "pinyin": "gēn jù",
-                                      "vietnamese": "dựa theo, căn cứ"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "渴",
-                                      "pinyin": "kě",
-                                      "vietnamese": "khát"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "利于",
-                                      "pinyin": "lì yú",
-                                      "vietnamese": "có lợi cho"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "向",
-                                      "pinyin": "xiàng",
-                                      "vietnamese": "hướng về, về phía"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "万",
-                                      "pinyin": "wàn",
-                                      "vietnamese": "vạn"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "只",
-                                      "pinyin": "zhī",
-                                      "vietnamese": "lượng từ chỉ động vật"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "嘴",
-                                      "pinyin": "zuǐ",
-                                      "vietnamese": "cái miệng"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "动物",
-                                      "pinyin": "dòng wù",
-                                      "vietnamese": "động vật"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "段",
-                                      "pinyin": "duàn",
-                                      "vietnamese": "đoạn (giai đoạn, đoạn văn)"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "有名",
-                                      "pinyin": "yǒu míng",
-                                      "vietnamese": "nổi tiếng"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                      "chinese": "同意",
-                                      "pinyin": "tóng yì",
-                                      "vietnamese": "đồng ý"
-                                    , "example": "", "cauChuyen": "" },
-                                    {
-                                        "chinese": "相信",
-                                        "pinyin": "xiāng xìn",
-                                        "vietnamese": "tin tưởng"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "关于",
-                                        "pinyin": "guān yú",
-                                        "vietnamese": "liên quan đến, về"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "机会",
-                                        "pinyin": "jī huì",
-                                        "vietnamese": "cơ hội"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "国家",
-                                        "pinyin": "guó jiā",
-                                        "vietnamese": "quốc gia"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "种",
-                                        "pinyin": "zhǒng",
-                                        "vietnamese": "loại, chủng loại"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "特点",
-                                        "pinyin": "tè diǎn",
-                                        "vietnamese": "đặc điểm"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "奇怪",
-                                        "pinyin": "qí guài",
-                                        "vietnamese": "kỳ lạ"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "耳朵",
-                                        "pinyin": "ěr duo",
-                                        "vietnamese": "cái tai"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "脸",
-                                        "pinyin": "liǎn",
-                                        "vietnamese": "khuôn mặt"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "短",
-                                        "pinyin": "duǎn",
-                                        "vietnamese": "ngắn"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "马",
-                                        "pinyin": "mǎ",
-                                        "vietnamese": "con ngựa"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "位",
-                                        "pinyin": "wèi",
-                                        "vietnamese": "vị (lượng từ chỉ người)"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "蓝",
-                                        "pinyin": "lán",
-                                        "vietnamese": "màu xanh da trời"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "鸟",
-                                        "pinyin": "niǎo",
-                                        "vietnamese": "con chim"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "哭",
-                                        "pinyin": "kū",
-                                        "vietnamese": "khóc"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "船",
-                                        "pinyin": "chuán",
-                                        "vietnamese": "con thuyền"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                        "chinese": "经过",
-                                        "pinyin": "jīng guò",
-                                        "vietnamese": "trải qua; đi qua"
-                                      , "example": "", "cauChuyen": "" },
-                                      {
-                                          "chinese": "照相机",
-                                          "pinyin": "zhào xiàng jī",
-                                          "vietnamese": "máy ảnh"
-                                        , "example": "", "cauChuyen": "" },
-                                        {
-                                          "chinese": "被",
-                                          "pinyin": "bèi",
-                                          "vietnamese": "bị (dùng trong câu bị động)"
-                                        , "example": "", "cauChuyen": "" },
-                                        {
-                                          "chinese": "难过",
-                                          "pinyin": "nán guò",
-                                          "vietnamese": "buồn, đau lòng"
-                                        , "example": "", "cauChuyen": "" },
-                                        {
-                                          "chinese": "东",
-                                          "pinyin": "dōng",
-                                          "vietnamese": "phía đông"
-                                        , "example": "", "cauChuyen": "" },
-                                        {
-                                          "chinese": "信用卡",
-                                          "pinyin": "xìn yòng kǎ",
-                                          "vietnamese": "thẻ tín dụng"
-                                        , "example": "", "cauChuyen": "" },
-                                        {
-                                          "chinese": "关心",
-                                          "pinyin": "guān xīn",
-                                          "vietnamese": "quan tâm"
-                                        , "example": "", "cauChuyen": "" },
-                                        {
-                                          "chinese": "成绩",
-                                          "pinyin": "chéng jì",
-                                          "vietnamese": "thành tích, kết quả học tập"
-                                        , "example": "", "cauChuyen": "" },
-                                        {
-                                          "chinese": "碗",
-                                          "pinyin": "wǎn",
-                                          "vietnamese": "cái bát"
-                                        , "example": "", "cauChuyen": "" },
-                                        {
-                                          "chinese": "分",
-                                          "pinyin": "fēn",
-                                          "vietnamese": "phút; điểm; chia"
-                                        , "example": "", "cauChuyen": "" },
-                                        {
-                                          "chinese": "解决",
-                                          "pinyin": "jiě jué",
-                                          "vietnamese": "giải quyết"
-                                        , "example": "", "cauChuyen": "" },
-                                        {
-                                          "chinese": "试",
-                                          "pinyin": "shì",
-                                          "vietnamese": "thử"
-                                        , "example": "", "cauChuyen": "" },
-                                        {
-                                          "chinese": "真正",
-                                          "pinyin": "zhēn zhèng",
-                                          "vietnamese": "thật sự, thực sự"
-                                        , "example": "", "cauChuyen": "" },
-                                        {
-                                          "chinese": "多么",
-                                          "pinyin": "duō me",
-                                          "vietnamese": "biết bao, rất (dùng trong câu cảm thán)",
-                                            "example": "", "cauChuyen": "" }
-                          
-                      
+    "chinese": "解决",
+    "pinyin": "jiě jué",
+    "vietnamese": "giải quyết",
+    "example": "解决问题。(Giải quyết vấn đề.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "腿",
+    "pinyin": "tuǐ",
+    "vietnamese": "chân",
+    "example": "我的腿很长。(Chân của tôi rất dài.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "疼",
+    "pinyin": "téng",
+    "vietnamese": "đau",
+    "example": "头很疼。(Đầu rất đau.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "脚",
+    "pinyin": "jiǎo",
+    "vietnamese": "bàn chân, ngón chân",
+    "example": "洗脚。(Rửa chân.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "树",
+    "pinyin": "shù",
+    "vietnamese": "cái cây",
+    "example": "树下有人。(Dưới cây có người.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "容易",
+    "pinyin": "róng yì",
+    "vietnamese": "dễ dàng",
+    "example": "这个很容易。(Cái này rất dễ.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "难",
+    "pinyin": "nán",
+    "vietnamese": "khó",
+    "example": "不难。(Không khó.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "太太",
+    "pinyin": "tài tai",
+    "vietnamese": "madam, bà",
+    "example": "王太太不在。(Bà Vương không có ở đây.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "秘书",
+    "pinyin": "mì shū",
+    "vietnamese": "thư ký",
+    "example": "她是经理的秘书。(Cô ấy là thư ký của quản lý.)",
+    "cauChuyen": ""
+  },
+  {
+    "chinese": "经理",
+    "pinyin": "jīng lǐ",
+    "vietnamese": "quản lý",
+    "example": "经理出去了。(Quản lý đi ra ngoài rồi.)",
+    "cauChuyen": ""
+  },
+  { "chinese": "办公室", "pinyin": "bàn gōng shì", "vietnamese": "văn phòng", "example": "他在办公室。(Anh ấy ở văn phòng.)", "cauChuyen": "" },
+  { "chinese": "辆", "pinyin": "liàng", "vietnamese": "lượng từ của xe", "example": "一辆自行车。(Một chiếc xe đạp.)", "cauChuyen": "" },
+  { "chinese": "楼", "pinyin": "lóu", "vietnamese": "lầu", "example": "他在二楼。(Anh ấy ở tầng hai.)", "cauChuyen": "" },
+  { "chinese": "拿", "pinyin": "ná", "vietnamese": "cầm, nắm", "example": "拿一下。(Cầm lấy một chút.)", "cauChuyen": "" },
+  { "chinese": "把", "pinyin": "bǎ", "vietnamese": "đem (cấu trúc câu)", "example": "把门关上。(Đóng cửa vào.)", "cauChuyen": "" },
+  { "chinese": "伞", "pinyin": "sǎn", "vietnamese": "cái dù", "example": "带把伞吧。(Mang theo cái dù đi.)", "cauChuyen": "" },
+  { "chinese": "胖", "pinyin": "pàng", "vietnamese": "mập", "example": "我不胖。(Tôi không mập.)", "cauChuyen": "" },
+  { "chinese": "瘦", "pinyin": "shòu", "vietnamese": "ốm, gầy", "example": "你瘦了。(Bạn gầy đi rồi.)", "cauChuyen": "" },
+  { "chinese": "其实", "pinyin": "qí shí", "vietnamese": "thật ra", "example": "其实我不去。(Thật ra tôi không đi.)", "cauChuyen": "" },
+  { "chinese": "其实上", "pinyin": "qí shí shàng", "vietnamese": "trên thực tế", "example": "其实上他很有钱。(Thực tế là anh ấy rất giàu.)", "cauChuyen": "" },
+  { "chinese": "健康", "pinyin": "jiàn kāng", "vietnamese": "khỏe mạnh", "example": "身体健康。(Cơ thể khỏe mạnh.)", "cauChuyen": "" },
+  { "chinese": "还是", "pinyin": "hái shì", "vietnamese": "hay là", "example": "咖啡还是茶？(Cà phê hay là trà?)", "cauChuyen": "" },
+  { "chinese": "爬山", "pinyin": "pá shān", "vietnamese": "leo núi", "example": "我们去爬山。(Chúng ta đi leo núi.)", "cauChuyen": "" },
+  { "chinese": "小心", "pinyin": "xiǎo xīn", "vietnamese": "cẩn thận", "example": "小心点儿。(Cẩn thận một chút.)", "cauChuyen": "" },
+  { "chinese": "条", "pinyin": "tiáo", "vietnamese": "lượng từ vật dài", "example": "一条裤子。(Một cái quần.)", "cauChuyen": "" },
+  { "chinese": "裤子", "pinyin": "kù zi", "vietnamese": "cái quần", "example": "这条裤子很贵。(Cái quần này rất đắt.)", "cauChuyen": "" },
+  { "chinese": "记得", "pinyin": "jì de", "vietnamese": "nhớ", "example": "我不记得了。(Tôi không nhớ nữa.)", "cauChuyen": "" },
+  { "chinese": "衬衫", "pinyin": "chèn shān", "vietnamese": "áo sơ mi", "example": "这件衬衫很漂亮。(Chiếc áo sơ mi này rất đẹp.)", "cauChuyen": "" },
+  { "chinese": "元", "pinyin": "yuán", "vietnamese": "đơn vị tiền", "example": "这把伞五十元。(Cái dù này 50 tệ.)", "cauChuyen": "" },
+  { "chinese": "新鲜", "pinyin": "xīn xiān", "vietnamese": "tươi, tươi mới", "example": "水果很新鲜。(Hoa quả rất tươi.)", "cauChuyen": "" },
+  { "chinese": "甜", "pinyin": "tián", "vietnamese": "ngọt", "example": "西瓜真甜。(Dưa hấu thật là ngọt.)", "cauChuyen": "" },
+  { "chinese": "只", "pinyin": "zhǐ", "vietnamese": "chỉ", "example": "我只有十元。(Tôi chỉ có 10 tệ.)", "cauChuyen": "" },
+  { "chinese": "放", "pinyin": "fàng", "vietnamese": "đặt, để", "example": "放在桌子上。(Để ở trên bàn.)", "cauChuyen": "" },
+  { "chinese": "放下", "pinyin": "fàng xià", "vietnamese": "đặt xuống, để xuống", "example": "请放下手机。(Xin hãy đặt điện thoại xuống.)", "cauChuyen": "" },
+  { "chinese": "饮料", "pinyin": "yǐn liào", "vietnamese": "thức uống", "example": "你想喝什么饮料？(Bạn muốn uống thức uống gì?)", "cauChuyen": "" },
+  { "chinese": "或者", "pinyin": "huò zhě", "vietnamese": "hoặc, hay là (câu trần thuật)", "example": "喝茶或者咖啡都可以。(Uống trà hoặc cà phê đều được.)", "cauChuyen": "" },
+  { "chinese": "舒服", "pinyin": "shū fu", "vietnamese": "thoải mái", "example": "坐在这儿很舒服。(Ngồi ở đây rất thoải mái.)", "cauChuyen": "" },
+  { "chinese": "花", "pinyin": "huā", "vietnamese": "bông hoa", "example": "这些花真好看。(Những bông hoa này thật đẹp.)", "cauChuyen": "" },
+  { "chinese": "绿", "pinyin": "lǜ", "vietnamese": "màu xanh lá cây", "example": "那是绿色的毛衣。(Đó là chiếc áo len màu xanh lá.)", "cauChuyen": "" },
+  { "chinese": "顾客", "pinyin": "gù kè", "vietnamese": "khách hàng", "example": "商店里有很多顾客。(Trong cửa hàng có rất nhiều khách hàng.)", "cauChuyen": "" },
+  { "chinese": "比赛", "pinyin": "bǐ sài", "vietnamese": "cuộc thi, trận đấu", "example": "我看足球比赛。(Tôi xem trận đấu bóng đá.)", "cauChuyen": "" },
+  { "chinese": "照片", "pinyin": "zhào piàn", "vietnamese": "tấm ảnh (lượng từ: 张)", "example": "这张照片是谁的？(Tấm ảnh này là của ai?)", "cauChuyen": "" },
+  { "chinese": "年级", "pinyin": "nián jí", "vietnamese": "lớp (trong trường học)", "example": "我读三年级。(Tôi học lớp 3.)", "cauChuyen": "" },
+  { "chinese": "又", "pinyin": "yòu", "vietnamese": "lại", "example": "你怎么又来了？(Sao bạn lại đến nữa rồi?)", "cauChuyen": "" },
+  { "chinese": "聪明", "pinyin": "cōng míng", "vietnamese": "thông minh", "example": "那个孩子很聪明。(Đứa trẻ đó rất thông minh.)", "cauChuyen": "" },
+  { "chinese": "热情", "pinyin": "rè qíng", "vietnamese": "nhiệt tình", "example": "他很热情。(Anh ấy rất nhiệt tình.)", "cauChuyen": "" },
+  { "chinese": "努力", "pinyin": "nǔ lì", "vietnamese": "nỗ lực, cố gắng", "example": "努力学习。(Nỗ lực học tập.)", "cauChuyen": "" },
+  { "chinese": "总是", "pinyin": "zǒng shì", "vietnamese": "luôn luôn", "example": "他总是迟到。(Anh ấy luôn luôn đến muộn.)", "cauChuyen": "" },
+  { "chinese": "回答", "pinyin": "huí dá", "vietnamese": "trả lời", "example": "请回答我的问题。(Xin hãy trả lời câu hỏi của tôi.)", "cauChuyen": "" },
+  { "chinese": "站", "pinyin": "zhàn", "vietnamese": "đứng", "example": "车站就在那儿。(Bến xe ở ngay kia.)", "cauChuyen": "" },
+  { "chinese": "站起来", "pinyin": "zhàn qǐ lái", "vietnamese": "đứng lên", "example": "请大家都站起来。(Mời mọi người đứng lên.)", "cauChuyen": "" },
+  { "chinese": "饿", "pinyin": "è", "vietnamese": "đói", "example": "我饿了。(Tôi đói rồi.)", "cauChuyen": "" },
+  { "chinese": "超市", "pinyin": "chāo shì", "vietnamese": "siêu thị", "example": "我去超市买东西。(Tôi đi siêu thị mua đồ.)", "cauChuyen": "" },
+  { "chinese": "蛋糕", "pinyin": "dàn gāo", "vietnamese": "bánh kem", "example": "我想吃蛋糕。(Tôi muốn ăn bánh kem.)", "cauChuyen": "" },
+  { "chinese": "年轻", "pinyin": "nián qīng", "vietnamese": "trẻ", "example": "他很年轻。(Anh ấy rất trẻ.)", "cauChuyen": "" },
+  { "chinese": "认真", "pinyin": "rèn zhēn", "vietnamese": "nghiêm túc", "example": "你太不认真了。(Bạn quá không nghiêm túc rồi.)", "cauChuyen": "" },
+  { "chinese": "客人", "pinyin": "kè rén", "vietnamese": "khách, khách hàng", "example": "家里有客人。(Trong nhà có khách.)", "cauChuyen": "" },
+  { "chinese": "古代", "pinyin": "gǔ dài", "vietnamese": "cổ đại", "example": "古代的故事。(Câu chuyện thời cổ đại.)", "cauChuyen": "" },
+  { "chinese": "故事", "pinyin": "gù shì", "vietnamese": "câu chuyện", "example": "讲故事。(Kể chuyện.)", "cauChuyen": "" },
+  { "chinese": "发烧", "pinyin": "fā shāo", "vietnamese": "phát sốt", "example": "我发烧了。(Tôi bị sốt rồi.)", "cauChuyen": "" },
+  { "chinese": "为", "pinyin": "wèi", "vietnamese": "bởi, vì", "example": "这是为你买的。(Đây là mua cho bạn.)", "cauChuyen": "" },
+  { "chinese": "照顾", "pinyin": "zhào gù", "vietnamese": "chăm sóc", "example": "照顾好自己。(Chăm sóc tốt bản thân nhé.)", "cauChuyen": "" },
+  { "chinese": "用", "pinyin": "yòng", "vietnamese": "dùng, cần", "example": "不用谢。(Không cần cảm ơn.)", "cauChuyen": "" },
+  { "chinese": "感冒", "pinyin": "gǎn mào", "vietnamese": "cảm", "example": "我感冒了。(Tôi bị cảm rồi.)", "cauChuyen": "" },
+  { "chinese": "季节", "pinyin": "jì jié", "vietnamese": "mùa", "example": "一年有四个季节。(Một năm có bốn mùa.)", "cauChuyen": "" },
+  { "chinese": "当然", "pinyin": "dāng rán", "vietnamese": "đương nhiên", "example": "当然可以。(Đương nhiên là có thể.)", "cauChuyen": "" },
+  { "chinese": "春天", "pinyin": "chūn tiān", "vietnamese": "mùa xuân", "example": "春天来了。(Mùa xuân đến rồi.)", "cauChuyen": "" },
+  { "chinese": "夏天", "pinyin": "xià tiān", "vietnamese": "mùa hạ", "example": "夏天很热。(Mùa hè rất nóng.)", "cauChuyen": "" },
+  { "chinese": "秋天", "pinyin": "qiū tiān", "vietnamese": "mùa thu", "example": "秋天很舒服。(Mùa thu rất thoải mái.)", "cauChuyen": "" },
+  { "chinese": "冬天", "pinyin": "dōng tiān", "vietnamese": "mùa đông", "example": "冬天很冷。(Mùa đông rất lạnh.)", "cauChuyen": "" },
+  { "chinese": "草", "pinyin": "cǎo", "vietnamese": "cỏ", "example": "草绿了。(Cỏ xanh rồi.)", "cauChuyen": "" },
+  { "chinese": "裙子", "pinyin": "qún zi", "vietnamese": "cái váy", "example": "她穿着红裙子。(Cô ấy đang mặc cái váy đỏ.)", "cauChuyen": "" },
+  { "chinese": "最近", "pinyin": "zuì jìn", "vietnamese": "dạo gần đây", "example": "你最近怎么样？(Dạo này bạn thế nào?)", "cauChuyen": "" },
+  { "chinese": "越", "pinyin": "yuè", "vietnamese": "càng", "example": "雨越下越大。(Mưa càng lúc càng to.)", "cauChuyen": "" },
+  { "chinese": "马上", "pinyin": "mǎ shàng", "vietnamese": "ngay lập tức", "example": "我马上就到。(Tôi đến ngay đây.)", "cauChuyen": "" },
+  { "chinese": "形容", "pinyin": "xíng róng", "vietnamese": "miêu tả", "example": "我不会形容。(Tôi không biết miêu tả thế nào.)", "cauChuyen": "" },
+  { "chinese": "医术", "pinyin": "yī shù", "vietnamese": "kỹ thuật y học", "example": "医术高明。(Y thuật cao minh.)", "cauChuyen": "" },
+  { "chinese": "眼睛", "pinyin": "yǎn jīng", "vietnamese": "mắt", "example": "她的眼睛很大。(Mắt của cô ấy rất to.)", "cauChuyen": "" },
+  { "chinese": "眼镜", "pinyin": "yǎn jìng", "vietnamese": "kính", "example": "我的眼镜在哪儿？(Kính của tôi ở đâu?)", "cauChuyen": "" },
+  { "chinese": "突然", "pinyin": "tū rán", "vietnamese": "đột nhiên", "example": "天突然下雨了。(Trời đột nhiên đổ mưa.)", "cauChuyen": "" },
+  { "chinese": "离开", "pinyin": "lí kāi", "vietnamese": "rời xa, rời đi", "example": "他不舍得离开。(Anh ấy không nỡ rời xa.)", "cauChuyen": "" },
+  { "chinese": "清楚", "pinyin": "qīng chu", "vietnamese": "rõ, rõ ràng", "example": "我看得很清楚。(Tôi nhìn rất rõ.)", "cauChuyen": "" },
+  { "chinese": "刚才", "pinyin": "gāng cái", "vietnamese": "vừa mới", "example": "刚才谁来了？(Vừa nãy ai đến vậy?)", "cauChuyen": "" },
+  { "chinese": "帮忙", "pinyin": "bāng máng", "vietnamese": "giúp đỡ", "example": "你能帮个忙吗？(Bạn có thể giúp một tay không?)", "cauChuyen": "" },
+  { "chinese": "特别", "pinyin": "tè bié", "vietnamese": "đặc biệt", "example": "今天特别热。(Hôm nay đặc biệt nóng.)", "cauChuyen": "" },
+  { "chinese": "讲", "pinyin": "jiǎng", "vietnamese": "giảng, kể", "example": "老师在讲课。(Thầy giáo đang giảng bài.)", "cauChuyen": "" },
+  { "chinese": "明白", "pinyin": "míng bai", "vietnamese": "hiểu", "example": "我明白了。(Tôi hiểu rồi.)", "cauChuyen": "" },
+  { "chinese": "锻炼", "pinyin": "duàn liàn", "vietnamese": "rèn luyện", "example": "我去锻炼身体。(Tôi đi tập thể dục/rèn luyện thân thể.)", "cauChuyen": "" },
+  { "chinese": "音乐", "pinyin": "yīn yuè", "vietnamese": "âm nhạc", "example": "我喜欢听音乐。(Tôi thích nghe nhạc.)", "cauChuyen": "" },
+  { "chinese": "公园", "pinyin": "gōng yuán", "vietnamese": "công viên", "example": "我们在公园散步。(Chúng tôi đi dạo ở công viên.)", "cauChuyen": "" },
+  { "chinese": "聊天(儿)", "pinyin": "liáo tiān (er)", "vietnamese": "nói chuyện, tán gẫu", "example": "我不喜欢聊天。(Tôi không thích tán gẫu.)", "cauChuyen": "" },
+  { "chinese": "睡着", "pinyin": "shuì zháo", "vietnamese": "ngủ say, ngủ thiếp đi", "example": "他已经睡着了。(Anh ấy đã ngủ thiếp đi rồi.)", "cauChuyen": "" },
+  { "chinese": "更", "pinyin": "gèng", "vietnamese": "hơn, càng", "example": "今天比昨天更热。(Hôm nay còn nóng hơn hôm qua.)", "cauChuyen": "" },
+  { "chinese": "正常", "pinyin": "zhèng cháng", "vietnamese": "bình thường", "example": "这很正常。(Việc này rất bình thường.)", "cauChuyen": "" },
+  { "chinese": "因此", "pinyin": "yīn cǐ", "vietnamese": "do đó, vì vậy", "example": "他很努力，因此成功了。(Anh ấy rất nỗ lực, vì vậy đã thành công.)", "cauChuyen": "" },
+  { "chinese": "放弃", "pinyin": "fàng qì", "vietnamese": "bỏ cuộc", "example": "请不要放弃。(Xin đừng bỏ cuộc.)", "cauChuyen": "" },
+  { "chinese": "而", "pinyin": "ér", "vietnamese": "mà", "example": "这个贵而不好。(Cái này đắt mà không tốt.)", "cauChuyen": "" },
+  { "chinese": "坚持", "pinyin": "jiān chí", "vietnamese": "kiên trì", "example": "坚持就是胜利。(Kiên trì chính là thắng lợi.)", "cauChuyen": "" },
+  { "chinese": "同事", "pinyin": "tóng shì", "vietnamese": "đồng nghiệp", "example": "他们是我的同事。(Họ là đồng nghiệp của tôi.)", "cauChuyen": "" },
+  { "chinese": "以前", "pinyin": "yǐ qián", "vietnamese": "trước đây", "example": "以前我不认识他。(Trước đây tôi không quen anh ấy.)", "cauChuyen": "" },
+  { "chinese": "银行", "pinyin": "yín háng", "vietnamese": "ngân hàng", "example": "银行在那儿。(Ngân hàng ở đằng kia.)", "cauChuyen": "" },
+  { "chinese": "久", "pinyin": "jiǔ", "vietnamese": "lâu", "example": "等了很久。(Đã đợi rất lâu rồi.)", "cauChuyen": "" },
+  { "chinese": "感兴趣", "pinyin": "gǎn xìng qù", "vietnamese": "hứng thú, quan tâm", "example": "我对汉语感兴趣。(Tôi có hứng thú với tiếng Hán.)", "cauChuyen": "" },
+  { "chinese": "结婚", "pinyin": "jié hūn", "vietnamese": "kết hôn", "example": "他们结婚了。(Họ kết hôn rồi.)", "cauChuyen": "" },
+  { "chinese": "欢迎", "pinyin": "huān yíng", "vietnamese": "hoan nghênh", "example": "欢迎你们！(Hoan nghênh các bạn!)", "cauChuyen": "" },
+  { "chinese": "迟到", "pinyin": "chí dào", "vietnamese": "đến muộn", "example": "别迟到了。(Đừng đến muộn nhé.)", "cauChuyen": "" },
+  { "chinese": "半", "pinyin": "bàn", "vietnamese": "một nửa", "example": "五点半。(Năm giờ rưỡi.)", "cauChuyen": "" },
+  { "chinese": "接", "pinyin": "jiē", "vietnamese": "đón, gặp", "example": "我去机场接你。(Tôi đi sân bay đón bạn.)", "cauChuyen": "" },
+  { "chinese": "刻", "pinyin": "kè", "vietnamese": "khắc (15 phút)", "example": "七点一刻。(Bảy giờ mười lăm.)", "cauChuyen": "" },
+  { "chinese": "差", "pinyin": "chà", "vietnamese": "kém", "example": "差十分八点。(Tám giờ kém mười.)", "cauChuyen": "" },
+  { "chinese": "又", "pinyin": "yòu", "vietnamese": "lại, và", "example": "他又迟到了。(Anh ấy lại đến muộn rồi.)", "cauChuyen": "" },
+  { "chinese": "满意", "pinyin": "mǎn yì", "vietnamese": "hài lòng", "example": "我很满意。(Tôi rất hài lòng.)", "cauChuyen": "" },
+  { "chinese": "电梯", "pinyin": "diàn tī", "vietnamese": "thang máy", "example": "坐电梯上去。(Đi thang máy lên trên.)", "cauChuyen": "" },
+  { "chinese": "害怕", "pinyin": "hài pà", "vietnamese": "sợ hãi", "example": "我不害怕。(Tôi không sợ.)", "cauChuyen": "" },
+  { "chinese": "熊猫", "pinyin": "xióng māo", "vietnamese": "gấu trúc", "example": "熊猫很可爱。(Gấu trúc rất đáng yêu.)", "cauChuyen": "" },
+  { "chinese": "见面", "pinyin": "jiàn miàn", "vietnamese": "gặp mặt", "example": "我想跟你见面。(Tôi muốn gặp mặt bạn.)", "cauChuyen": "" },
+  { "chinese": "安静", "pinyin": "ān jìng", "vietnamese": "yên tĩnh", "example": "这儿很安静。(Ở đây rất yên tĩnh.)", "cauChuyen": "" },
+  { "chinese": "可乐", "pinyin": "kě lè", "vietnamese": "Coca-Cola", "example": "我想喝可乐。(Tôi muốn uống Coca.)", "cauChuyen": "" },
+  { "chinese": "一会儿", "pinyin": "yí huìr", "vietnamese": "một lát", "example": "等一会儿。(Đợi một lát.)", "cauChuyen": "" },
+  { "chinese": "洗手间", "pinyin": "xǐ shǒu jiān", "vietnamese": "nhà vệ sinh", "example": "洗手间在哪儿？(Nhà vệ sinh ở đâu?)", "cauChuyen": "" },
+  { "chinese": "老", "pinyin": "lǎo", "vietnamese": "già, cũ", "example": "这是一本老书。(Đây là một cuốn sách cũ.)", "cauChuyen": "" },
+  { "chinese": "几乎", "pinyin": "jī hū", "vietnamese": "gần như", "example": "我几乎忘了。(Tôi gần như quên mất rồi.)", "cauChuyen": "" },
+  { "chinese": "变化", "pinyin": "biàn huà", "vietnamese": "thay đổi", "example": "这里的变化很大。(Sự thay đổi ở đây rất lớn.)", "cauChuyen": "" },
+  { "chinese": "健康", "pinyin": "jiàn kāng", "vietnamese": "khỏe mạnh", "example": "祝你健康。(Chúc bạn khỏe mạnh.)", "cauChuyen": "" },
+  { "chinese": "重要", "pinyin": "zhòng yào", "vietnamese": "quan trọng", "example": "这件事很重要。(Việc này rất quan trọng.)", "cauChuyen": "" },
+  { "chinese": "全面", "pinyin": "quán miàn", "vietnamese": "toàn diện", "example": "他发展很全面。(Anh ấy phát triển rất toàn diện.)", "cauChuyen": "" },
+  { "chinese": "中文", "pinyin": "zhōng wén", "vietnamese": "tiếng Trung", "example": "你会说中文吗？(Bạn biết nói tiếng Trung không?)", "cauChuyen": "" },
+  { "chinese": "班", "pinyin": "bān", "vietnamese": "lớp", "example": "我在三班。(Tôi ở lớp 3.)", "cauChuyen": "" },
+  { "chinese": "一样", "pinyin": "yí yàng", "vietnamese": "giống, như nhau", "example": "我也一样。(Tôi cũng vậy/cũng giống thế.)", "cauChuyen": "" },
+  { "chinese": "最后", "pinyin": "zuì hòu", "vietnamese": "cuối cùng", "example": "这是最后一次。(Đây là lần cuối cùng.)", "cauChuyen": "" },
+  { "chinese": "放心", "pinyin": "fàng xīn", "vietnamese": "yên tâm", "example": "请放心。(Xin hãy yên tâm.)", "cauChuyen": "" },
+  { "chinese": "一定", "pinyin": "yí dìng", "vietnamese": "nhất định", "example": "明天我一定来。(Mai tôi nhất định đến.)", "cauChuyen": "" },
+  { "chinese": "担心", "pinyin": "dān xīn", "vietnamese": "lo lắng", "example": "别担心。(Đừng lo lắng.)", "cauChuyen": "" },
+  { "chinese": "比较", "pinyin": "bǐ jiào", "vietnamese": "tương đối, so sánh", "example": "今天比较冷。(Hôm nay tương đối lạnh.)", "cauChuyen": "" },
+  { "chinese": "了解", "pinyin": "liǎo jiě", "vietnamese": "hiểu biết, tìm hiểu", "example": "我很了解他。(Tôi rất hiểu anh ấy.)", "cauChuyen": "" },
+  { "chinese": "先", "pinyin": "xiān", "vietnamese": "trước", "example": "你先说吧。(Bạn nói trước đi.)", "cauChuyen": "" },
+  { "chinese": "中间", "pinyin": "zhōng jiān", "vietnamese": "ở giữa, trung gian", "example": "他在中间。(Anh ấy ở giữa.)", "cauChuyen": "" },
+  { "chinese": "参加", "pinyin": "cān jiā", "vietnamese": "tham gia", "example": "参加比赛。(Tham gia thi đấu.)", "cauChuyen": "" },
+  { "chinese": "影响", "pinyin": "yǐng xiǎng", "vietnamese": "ảnh hưởng", "example": "别影响别人。(Đừng ảnh hưởng người khác.)", "cauChuyen": "" },
+  { "chinese": "优点", "pinyin": "yōu diǎn", "vietnamese": "ưu điểm", "example": "他的优点很多。(Ưu điểm của anh ấy rất nhiều.)", "cauChuyen": "" },
+  { "chinese": "个子", "pinyin": "gè zi", "vietnamese": "vóc dáng, chiều cao", "example": "他个子很高。(Vóc dáng anh ấy rất cao.)", "cauChuyen": "" },
+  { "chinese": "矮", "pinyin": "ǎi", "pinyin": "ǎi", "vietnamese": "lùn, thấp", "example": "他比我矮一点。(Anh ấy thấp hơn tôi một chút.)", "cauChuyen": "" },
+  { "chinese": "历史", "pinyin": "lì shǐ", "vietnamese": "lịch sử", "example": "历史课很有趣。(Tiết lịch sử rất thú vị.)", "cauChuyen": "" },
+  { "chinese": "体育", "pinyin": "tǐ yù", "vietnamese": "thể dục, thể thao", "example": "我喜欢体育运动。(Tôi thích vận động thể thao.)", "cauChuyen": "" },
+  { "chinese": "数学", "pinyin": "shù xué", "vietnamese": "toán học", "example": "数学很难。(Toán học rất khó.)", "cauChuyen": "" },
+  { "chinese": "方便", "pinyin": "fāng biàn", "vietnamese": "thuận tiện", "example": "这儿很方便。(Ở đây rất thuận tiện.)", "cauChuyen": "" },
+  { "chinese": "自行车", "pinyin": "zì xíng chē", "vietnamese": "xe đạp", "example": "骑自行车去学校。(Đi xe đạp đến trường.)", "cauChuyen": "" },
+  { "chinese": "骑", "pinyin": "qí", "vietnamese": "cưỡi, đi (xe đạp, ngựa)", "example": "你会骑马吗？(Bạn biết cưỡi ngựa không?)", "cauChuyen": "" },
+  { "chinese": "旧", "pinyin": "jiù", "vietnamese": "cũ", "example": "旧衣服。(Quần áo cũ.)", "cauChuyen": "" },
+  { "chinese": "换", "pinyin": "huàn", "vietnamese": "đổi", "example": "我想换钱。(Tôi muốn đổi tiền.)", "cauChuyen": "" },
+  { "chinese": "地方", "pinyin": "dì fang", "vietnamese": "nơi, địa điểm", "example": "这个地方很漂亮。(Nơi này rất đẹp.)", "cauChuyen": "" },
+  { "chinese": "中介", "pinyin": "zhōng jiè", "vietnamese": "môi giới, trung gian", "example": "我通过中介租了一套房子。(Tôi thuê một căn nhà thông qua môi giới.)", "cauChuyen": "" },
+  { "chinese": "主要", "pinyin": "zhǔ yào", "vietnamese": "chủ yếu", "example": "这个计划主要由他负责。(Kế hoạch này chủ yếu do anh ấy phụ trách.)", "cauChuyen": "" },
+  { "chinese": "环境", "pinyin": "huán jìng", "vietnamese": "môi trường", "example": "这里的环境非常安静。(Môi trường ở đây rất yên tĩnh.)", "cauChuyen": "" },
+  { "chinese": "附近", "pinyin": "fù jìn", "vietnamese": "gần đây, lân cận", "example": "学校附近有很多小吃店。(Gần trường học có rất nhiều quán ăn vặt.)", "cauChuyen": "" },
+  { "chinese": "图书馆", "pinyin": "tú shū guǎn", "vietnamese": "thư viện", "example": "图书馆里有很多书。(Trong thư viện có rất nhiều sách.)", "cauChuyen": "" },
+  { "chinese": "借", "pinyin": "jiè", "vietnamese": "mượn", "example": "我想借你的电脑用一下。(Tôi muốn mượn máy tính của bạn dùng một lát.)", "cauChuyen": "" },
+  { "chinese": "词典", "pinyin": "cí diǎn", "vietnamese": "từ điển", "example": "这本词典很有用。(Cuốn từ điển này rất hữu ích.)", "cauChuyen": "" },
+  { "chinese": "还", "pinyin": "huán", "vietnamese": "trả", "example": "借的东西一定要还。(Đồ đã mượn thì nhất định phải trả.)", "cauChuyen": "" },
+  { "chinese": "灯", "pinyin": "dēng", "vietnamese": "đèn", "example": "离开房间请关灯。(Rời phòng xin hãy tắt đèn.)", "cauChuyen": "" },
+  { "chinese": "会议", "pinyin": "huì yì", "vietnamese": "cuộc họp", "example": "会议三点钟开始。(Cuộc họp bắt đầu lúc ba giờ.)", "cauChuyen": "" },
+  { "chinese": "结束", "pinyin": "jié shù", "vietnamese": "kết thúc", "example": "电影什么时候结束？(Phim khi nào kết thúc?)", "cauChuyen": "" },
+  { "chinese": "忘记", "pinyin": "wàng jì", "vietnamese": "quên", "example": "我忘记他的名字了。(Tôi quên tên anh ấy rồi.)", "cauChuyen": "" },
+  { "chinese": "空调", "pinyin": "kōng tiáo", "vietnamese": "máy lạnh, điều hòa", "example": "请把空调打开。(Hãy bật điều hòa lên.)", "cauChuyen": "" },
+  { "chinese": "关", "pinyin": "guān", "vietnamese": "đóng, tắt", "example": "关门 / 关电视。(Đóng cửa / Tắt tivi.)", "cauChuyen": "" },
+  { "chinese": "地铁", "pinyin": "dì tiě", "vietnamese": "tàu điện ngầm", "example": "坐地铁去上班。(Đi làm bằng tàu điện ngầm.)", "cauChuyen": "" },
+  { "chinese": "双", "pinyin": "shuāng", "vietnamese": "đôi (lượng từ)", "example": "一双鞋 / 一双筷子。(Một đôi giày / Một đôi đũa.)", "cauChuyen": "" },
+  { "chinese": "筷子", "pinyin": "kuài zi", "vietnamese": "đôi đũa", "example": "中国人用筷子吃饭。(Người Trung Quốc dùng đũa ăn cơm.)", "cauChuyen": "" },
+  { "chinese": "口", "pinyin": "kǒu", "vietnamese": "miệng, khẩu (lượng từ)", "example": "他家有五口人。(Nhà anh ấy có năm người.)", "cauChuyen": "" },
+  { "chinese": "瓶子", "pinyin": "píng zi", "vietnamese": "cái chai", "example": "瓶子里装满了水。(Trong chai chứa đầy nước.)", "cauChuyen": "" },
+  { "chinese": "笔记本", "pinyin": "bǐ jì běn", "vietnamese": "vở, laptop", "example": "我在笔记本上写字。(Tôi viết chữ trên cuốn vở.)", "cauChuyen": "" },
+  { "chinese": "电子邮件", "pinyin": "diàn zǐ yóu jiàn", "vietnamese": "email", "example": "我给你发了一封电子邮件。(Tôi đã gửi cho bạn một bức email.)", "cauChuyen": "" },
+  { "chinese": "习惯", "pinyin": "xí guàn", "vietnamese": "thói quen; quen thuộc", "example": "早起是一个好习惯。(Dậy sớm là một thói quen tốt.)", "cauChuyen": "" },
+  { "chinese": "太阳", "pinyin": "tài yáng", "vietnamese": "mặt trời", "example": "今天的太阳很大。(Hôm nay nắng rất to.)", "cauChuyen": "" },
+  { "chinese": "西", "pinyin": "xī", "vietnamese": "phía tây", "example": "太阳从西边落下。(Mặt trời lặn ở phía tây.)", "cauChuyen": "" },
+  { "chinese": "生气", "pinyin": "shēng qì", "vietnamese": "tức giận", "example": "别生我的气了。(Đừng giận tôi nữa.)", "cauChuyen": "" },
+  { "chinese": "行李箱", "pinyin": "xíng li xiāng", "vietnamese": "va li", "example": "这个行李箱太重了。(Cái vali này nặng quá.)", "cauChuyen": "" },
+  { "chinese": "自己", "pinyin": "zì jǐ", "vietnamese": "bản thân, chính mình", "example": "我喜欢一个人自己旅行。(Tôi thích tự đi du lịch một mình.)", "cauChuyen": "" },
+  { "chinese": "包", "pinyin": "bāo", "vietnamese": "cái túi", "example": "包里有手机和钱。(Trong túi có điện thoại và tiền.)", "cauChuyen": "" },
+  { "chinese": "发现", "pinyin": "fā xiàn", "vietnamese": "phát hiện", "example": "我发现他今天有点不开心。(Tôi phát hiện hôm nay anh ấy hơi không vui.)", "cauChuyen": "" },
+  { "chinese": "护照", "pinyin": "hù zhào", "vietnamese": "hộ chiếu", "example": "出国必须带护照。(Ra nước ngoài bắt buộc phải mang hộ chiếu.)", "cauChuyen": "" },
+  { "chinese": "起飞", "pinyin": "qǐ fēi", "vietnamese": "cất cánh", "example": "飞机马上就要起飞了。(Máy bay sắp cất cánh rồi.)", "cauChuyen": "" },
+  { "chinese": "司机", "pinyin": "sī jī", "vietnamese": "tài xế", "example": "这位司机师傅很热情。(Bác tài xế này rất nhiệt tình.)", "cauChuyen": "" },
+  { "chinese": "教", "pinyin": "jiào", "vietnamese": "dạy", "example": "王老师教我们数学。(Thầy Vương dạy chúng tôi toán học.)", "cauChuyen": "" },
+  { "chinese": "画", "pinyin": "huà", "vietnamese": "vẽ; bức vẽ", "example": "他在画一张画。(Anh ấy đang vẽ một bức tranh.)", "cauChuyen": "" },
+  { "chinese": "需要", "pinyin": "xū yào", "vietnamese": "cần", "example": "我需要你的帮助。(Tôi cần sự giúp đỡ của bạn.)", "cauChuyen": "" },
+  { "chinese": "黑板", "pinyin": "hēi bǎn", "vietnamese": "bảng đen", "example": "请看黑板上的字。(Xin hãy nhìn chữ trên bảng đen.)", "cauChuyen": "" },
+  { "chinese": "终于", "pinyin": "zhōng yú", "vietnamese": "cuối cùng", "example": "作业终于做完了。(Bài tập cuối cùng cũng làm xong rồi.)", "cauChuyen": "" },
+  { "chinese": "爷爷", "pinyin": "yè ye", "vietnamese": "ông nội", "example": "我爷爷今年八十岁了。(Ông nội tôi năm nay 80 tuổi rồi.)", "cauChuyen": "" },
+  { "chinese": "礼物", "pinyin": "lǐ wù", "vietnamese": "món quà", "example": "这是送给你的生日礼物。(Đây là quà sinh nhật tặng cho bạn.)", "cauChuyen": "" },
+  { "chinese": "奶奶", "pinyin": "nǎi nai", "vietnamese": "bà nội", "example": "奶奶做的饭最好吃。(Cơm bà nội nấu là ngon nhất.)", "cauChuyen": "" },
+  { "chinese": "遇到", "pinyin": "yù dào", "vietnamese": "gặp phải", "example": "在路上遇到了一个老朋友。(Gặp lại một người bạn cũ trên đường.)", "cauChuyen": "" },
+  { "chinese": "一边……一边……", "pinyin": "yì biān…… yì biān……", "vietnamese": "vừa... vừa...", "example": "他一边喝咖啡，一边看报纸。(Anh ấy vừa uống cà phê vừa đọc báo.)", "cauChuyen": "" },
+  { "chinese": "过去", "pinyin": "guò qù", "vietnamese": "qua đi; đi qua", "example": "这件事情已经过去了。(Chuyện này đã qua rồi.)", "cauChuyen": "" },
+  { "chinese": "一般", "pinyin": "yì bān", "vietnamese": "thông thường", "example": "我一般六点起床。(Tôi thường ngủ dậy lúc 6 giờ.)", "cauChuyen": "" },
+  { "chinese": "愿意", "pinyin": "yuàn yì", "vietnamese": "đồng ý, sẵn lòng", "example": "你愿意嫁给我吗？(Em có đồng ý gả cho anh không?)", "cauChuyen": "" },
+  { "chinese": "起来", "pinyin": "qǐ lai", "vietnamese": "đứng lên; dậy", "example": "他每天六点起床起来。(Anh ấy thức dậy lúc 6 giờ mỗi ngày.)", "cauChuyen": "" },
+  { "chinese": "应该", "pinyin": "yīng gāi", "vietnamese": "nên", "example": "你应该多喝开水。(Bạn nên uống nhiều nước lọc.)", "cauChuyen": "" },
+  { "chinese": "生活", "pinyin": "shēng huó", "vietnamese": "cuộc sống", "example": "我喜欢这里的生活。(Tôi thích cuộc sống ở đây.)", "cauChuyen": "" },
+  { "chinese": "校长", "pinyin": "xiào zhǎng", "vietnamese": "hiệu trưởng", "example": "校长正在开会。(Hiệu trưởng đang họp.)", "cauChuyen": "" },
+  { "chinese": "坏", "pinyin": "huài", "vietnamese": "hỏng, xấu", "example": "手机坏了，不能用了。(Điện thoại hỏng rồi, không dùng được nữa.)", "cauChuyen": "" },
+  { "chinese": "经常", "pinyin": "jīng cháng", "vietnamese": "thường xuyên", "example": "我经常去公园跑步。(Tôi thường xuyên đi công viên chạy bộ.)", "cauChuyen": "" },
+  { "chinese": "打扫", "pinyin": "dǎ sǎo", "vietnamese": "dọn dẹp", "example": "周六我们要打扫房间。(Thứ Bảy chúng tôi phải dọn dẹp phòng.)", "cauChuyen": "" },
+  { "chinese": "干净", "pinyin": "gān jìng", "vietnamese": "sạch sẽ", "example": "教室打扫得很干净。(Lớp học được dọn dẹp rất sạch sẽ.)", "cauChuyen": "" },
+  { "chinese": "然后", "pinyin": "rán hòu", "vietnamese": "sau đó", "example": "先吃饭，然后去散步。(Ăn cơm trước, sau đó đi tản bộ.)", "cauChuyen": "" },
+  { "chinese": "冰箱", "pinyin": "bīng xiāng", "vietnamese": "tủ lạnh", "example": "冰箱里没有牛奶了。(Trong tủ lạnh không còn sữa nữa.)", "cauChuyen": "" },
+  { "chinese": "洗澡", "pinyin": "xǐ zǎo", "vietnamese": "tắm", "example": "他正在洗澡呢。(Anh ấy đang tắm.)", "cauChuyen": "" },
+  { "chinese": "节目", "pinyin": "jié mù", "vietnamese": "chương trình", "example": "这个电视节目很有趣。(Chương trình tivi này rất thú vị.)", "cauChuyen": "" },
+  { "chinese": "月亮", "pinyin": "yuè liang", "vietnamese": "mặt trăng", "example": "今晚的月亮真圆。(Mặt trăng tối nay thật tròn.)", "cauChuyen": "" },
+  { "chinese": "像", "pinyin": "xiàng", "vietnamese": "giống", "example": "他长得真像他爸爸。(Anh ấy trông thật giống bố mình.)", "cauChuyen": "" },
+  { "chinese": "盘子", "pinyin": "pán zi", "vietnamese": "cái đĩa", "example": "请把桌上的盘子洗了。(Hãy rửa cái đĩa trên bàn đi.)", "cauChuyen": "" },
+  { "chinese": "阿姨", "pinyin": "ā yí", "vietnamese": "cô, dì", "example": "王阿姨对我很好。(Cô Vương đối xử với tôi rất tốt.)", "cauChuyen": "" },
+  { "chinese": "声音", "pinyin": "shēng yīn", "vietnamese": "âm thanh", "example": "你声音太小，我听不见。(Tiếng của bạn nhỏ quá, tôi nghe không rõ.)", "cauChuyen": "" },
+  { "chinese": "菜单", "pinyin": "cài dān", "vietnamese": "thực đơn", "example": "服务员，请给我菜单。(Phục vụ, cho tôi xem thực đơn.)", "cauChuyen": "" },
+  { "chinese": "简单", "pinyin": "jiǎn dān", "vietnamese": "đơn giản", "example": "这个问题很简单。(Vấn đề này rất đơn giản.)", "cauChuyen": "" },
+  { "chinese": "香蕉", "pinyin": "xiāng jiāo", "vietnamese": "quả chuối", "example": "我想买一斤香蕉。(Tôi muốn mua một cân chuối.)", "cauChuyen": "" },
+  { "chinese": "限", "pinyin": "xiàn", "vietnamese": "giới hạn", "example": "超市买一送一，限今天。(Siêu thị mua một tặng một, giới hạn trong hôm nay.)", "cauChuyen": "" },
+  { "chinese": "及早", "pinyin": "jí zǎo", "vietnamese": "càng sớm càng tốt", "example": "生病了要及早去看医生。(Bị bệnh thì phải đi khám bác sĩ sớm.)", "cauChuyen": "" },
+  { "chinese": "留学", "pinyin": "liú xué", "vietnamese": "du học", "example": "他明年去中国留学。(Năm sau anh ấy đi Trung Quốc du học.)", "cauChuyen": "" },
+  { "chinese": "水平", "pinyin": "shuǐ píng", "vietnamese": "trình độ", "example": "你的汉语水平提高了很多。(Trình độ tiếng Trung của bạn đã nâng cao rất nhiều.)", "cauChuyen": "" },
+  { "chinese": "提高", "pinyin": "tí gāo", "vietnamese": "nâng cao", "example": "多听听力可以提高水平。(Nghe nhiều có thể nâng cao trình độ.)", "cauChuyen": "" },
+  { "chinese": "练习", "pinyin": "liàn xí", "vietnamese": "luyện tập", "example": "下课后要多做练习。(Sau giờ học phải làm bài tập/luyện tập nhiều hơn.)", "cauChuyen": "" },
+  { "chinese": "完成", "pinyin": "wán chéng", "vietnamese": "hoàn thành", "example": "我终于完成作业了。(Cuối cùng tôi cũng hoàn thành bài tập rồi.)", "cauChuyen": "" },
+  { "chinese": "句子", "pinyin": "jù zi", "vietnamese": "câu", "example": "请用这个词造一个句子。(Hãy dùng từ này để đặt một câu.)", "cauChuyen": "" },
+  { "chinese": "其他", "pinyin": "qí tā", "vietnamese": "khác", "example": "除了他，其他人都来了。(Ngoài anh ấy ra, những người khác đều đã đến.)", "cauChuyen": "" },
+  { "chinese": "发", "pinyin": "fā", "vietnamese": "gửi", "example": "别忘了给我发照片。(Đừng quên gửi ảnh cho tôi nhé.)", "cauChuyen": "" },
+  { "chinese": "要求", "pinyin": "yāo qiú", "vietnamese": "yêu cầu", "example": "老师对我们的要求很高。(Thầy giáo yêu cầu rất cao ở chúng tôi.)", "cauChuyen": "" },
+  { "chinese": "注意", "pinyin": "zhù yì", "vietnamese": "chú ý", "example": "过马路要多注意安全。(Qua đường phải chú ý an toàn.)", "cauChuyen": "" },
+  { "chinese": "上网", "pinyin": "shàng wǎng", "vietnamese": "lên mạng", "example": "我每天上网学汉语。(Mỗi ngày tôi đều lên mạng học tiếng Trung.)", "cauChuyen": "" },
+  { "chinese": "网上", "pinyin": "wǎng shàng", "vietnamese": "trên mạng", "example": "网上买东西很方便。(Mua đồ trên mạng rất tiện lợi.)", "cauChuyen": "" },
+  { "chinese": "除了", "pinyin": "chú le", "vietnamese": "ngoài ra", "example": "除了苹果，我还喜欢西瓜。(Ngoài táo ra, tôi còn thích dưa hấu.)", "cauChuyen": "" },
+  { "chinese": "花", "pinyin": "huā", "vietnamese": "tiêu, chi tiêu", "example": "他在买书上花了不少钱。(Anh ấy tốn không ít tiền vào việc mua sách.)", "cauChuyen": "" },
+  { "chinese": "极了", "pinyin": "jí le", "vietnamese": "cực kỳ", "example": "这件衣服漂亮极了。(Bộ quần áo này đẹp cực kỳ.)", "cauChuyen": "" },
+  { "chinese": "节日", "pinyin": "jié rì", "vietnamese": "ngày lễ", "example": "春节是中国最重要的节日。(Tết Nguyên Đán là ngày lễ quan trọng nhất của Trung Quốc.)", "cauChuyen": "" },
+  { "chinese": "举行", "pinyin": "jǔ xíng", "vietnamese": "tổ chức", "example": "下周学校举行运动会。(Tuần sau trường tổ chức đại hội thể thao.)", "cauChuyen": "" },
+  { "chinese": "世界", "pinyin": "shì jiè", "vietnamese": "thế giới", "example": "世界很大，我想去看看。(Thế giới rất lớn, tôi muốn đi xem thử.)", "cauChuyen": "" },
+  { "chinese": "街道", "pinyin": "jiē dào", "vietnamese": "đường phố", "example": "街道两边有很多树。(Hai bên đường phố có rất nhiều cây.)", "cauChuyen": "" },
+  { "chinese": "各", "pinyin": "gè", "vietnamese": "mỗi, các", "example": "各国都有自己的文化。(Mỗi quốc gia đều có văn hóa riêng của mình.)", "cauChuyen": "" },
+  { "chinese": "文化", "pinyin": "wén huà", "vietnamese": "văn hóa", "example": "中国文化很有意思。(Văn hóa Trung Quốc rất thú vị.)", "cauChuyen": "" },
+  { "chinese": "面貌", "pinyin": "miàn mào", "vietnamese": "diện mạo, tình hình", "example": "这个城市的面貌焕然一新。(Diện mạo của thành phố này đã hoàn toàn đổi mới.)", "cauChuyen": "" },
+  { "chinese": "诚实", "pinyin": "chéng shí", "vietnamese": "trung thực", "example": "诚实是做人最基本的品质。(Trung thực là phẩm chất cơ bản nhất của con người.)", "cauChuyen": "" },
+  { "chinese": "任何", "pinyin": "rèn hé", "vietnamese": "bất kỳ", "example": "遇到任何困难都不要放弃。(Dù gặp bất kỳ khó khăn nào cũng đừng bỏ cuộc.)", "cauChuyen": "" },
+  { "chinese": "城市", "pinyin": "chéng shì", "vietnamese": "thành phố", "example": "我喜欢这个城市的夜景。(Tôi thích cảnh đêm của thành phố này.)", "cauChuyen": "" },
+  { "chinese": "如果", "pinyin": "rú guǒ", "vietnamese": "nếu", "example": "如果明天下雨，我就不去。(Nếu ngày mai trời mưa, tôi sẽ không đi.)", "cauChuyen": "" },
+  { "chinese": "认为", "pinyin": "rèn wéi", "vietnamese": "cho rằng, nghĩ rằng", "example": "你认为这个计划怎么样？(Bạn cho rằng kế hoạch này thế nào?)", "cauChuyen": "" },
+  { "chinese": "皮鞋", "pinyin": "pí xié", "vietnamese": "giày da (lượng từ: 双)", "example": "这双皮鞋很贵。(Đôi giày da này rất đắt.)", "cauChuyen": "" },
+  { "chinese": "帽子", "pinyin": "mào zi", "vietnamese": "cái mũ", "example": "他戴着一顶黑色的帽子。(Anh ấy đội một chiếc mũ màu đen.)", "cauChuyen": "" },
+  { "chinese": "长", "pinyin": "zhǎng", "vietnamese": "lớn lên, phát triển", "example": "孩子长得很快。(Đứa trẻ lớn lên rất nhanh.)", "cauChuyen": "" },
+  { "chinese": "可爱", "pinyin": "kě ài", "vietnamese": "dễ thương", "example": "那个小女孩真可爱。(Bé gái đó thật dễ thương.)", "cauChuyen": "" },
+  { "chinese": "米", "pinyin": "mǐ", "vietnamese": "mét", "example": "这条绳子有三米长。(Sợi dây này dài ba mét.)", "cauChuyen": "" },
+  { "chinese": "公斤", "pinyin": "gōng jīn", "vietnamese": "kilôgam (kg)", "example": "我买了两公斤苹果。(Tôi đã mua hai cân táo.)", "cauChuyen": "" },
+  { "chinese": "鼻子", "pinyin": "bí zi", "vietnamese": "cái mũi", "example": "她的鼻子很高。(Mũi của cô ấy rất cao.)", "cauChuyen": "" },
+  { "chinese": "头发", "pinyin": "tóu fa", "vietnamese": "tóc", "example": "她的头发又黑又亮。(Tóc của cô ấy vừa đen vừa bóng.)", "cauChuyen": "" },
+  { "chinese": "检查", "pinyin": "jiǎn chá", "vietnamese": "kiểm tra", "example": "出发前请检查一下护照。(Trước khi xuất phát hãy kiểm tra lại hộ chiếu.)", "cauChuyen": "" },
+  { "chinese": "刷牙", "pinyin": "shuā yá", "vietnamese": "đánh răng", "example": "每天早晚都要刷牙。(Mỗi ngày sáng tối đều phải đánh răng.)", "cauChuyen": "" },
+  { "chinese": "关系", "pinyin": "guān xì", "vietnamese": "mối quan hệ", "example": "他们两人的关系非常好。(Mối quan hệ của hai người họ rất tốt.)", "cauChuyen": "" },
+  { "chinese": "别人", "pinyin": "bié rén", "vietnamese": "người khác", "example": "尊重别人就是尊重自己。(Tôn trọng người khác chính là tôn trọng chính mình.)", "cauChuyen": "" },
+  { "chinese": "词语", "pinyin": "cí yǔ", "vietnamese": "từ ngữ", "example": "请用这些词语造句。(Hãy dùng những từ ngữ này để đặt câu.)", "cauChuyen": "" },
+  { "chinese": "对待", "pinyin": "duì dài", "vietnamese": "đối đãi", "example": "我们要平等地对待每一个人。(Chúng ta nên đối xử bình đẳng với mỗi người.)", "cauChuyen": "" },
+  { "chinese": "正确", "pinyin": "zhèng què", "vietnamese": "đúng đắn", "example": "这是一个正确的决定。(Đây là một quyết định đúng đắn.)", "cauChuyen": "" },
+  { "chinese": "处处", "pinyin": "chù chù", "vietnamese": "mọi nơi, nơi nơi", "example": "生活中处处有惊喜。(Trong cuộc sống nơi nơi đều có điều bất ngờ.)", "cauChuyen": "" },
+  { "chinese": "请假", "pinyin": "qǐng jià", "vietnamese": "xin nghỉ phép", "example": "他生病了，想跟老师请假。(Anh ấy bị ốm, muốn xin giáo viên nghỉ phép.)", "cauChuyen": "" },
+  { "chinese": "一共", "pinyin": "yí gòng", "vietnamese": "tổng cộng", "example": "这一共多少钱？(Chỗ này tổng cộng bao nhiêu tiền?)", "cauChuyen": "" },
+  { "chinese": "邻居", "pinyin": "lín jū", "vietnamese": "hàng xóm", "example": "我的邻居很热情。(Hàng xóm của tôi rất nhiệt tình.)", "cauChuyen": "" },
+  { "chinese": "后来", "pinyin": "hòu lái", "vietnamese": "sau này", "example": "后来，他们成了好朋友。(Sau này, họ đã trở thành bạn thân.)", "cauChuyen": "" },
+  { "chinese": "爱好", "pinyin": "ài hào", "vietnamese": "sở thích", "example": "我的爱好是看电影。(Sở thích của tôi là xem phim.)", "cauChuyen": "" },
+  { "chinese": "办法", "pinyin": "bàn fǎ", "vietnamese": "cách, biện pháp", "example": "别担心，我们总会有办法的。(Đừng lo lắng, chúng ta luôn sẽ có cách thôi.)", "cauChuyen": "" },
+  { "chinese": "为了", "pinyin": "wèi le", "vietnamese": "để, vì", "example": "为了学好汉语，他每天都练习。(Để học tốt tiếng Trung, anh ấy luyện tập mỗi ngày.)", "cauChuyen": "" },
+  { "chinese": "饱", "pinyin": "bǎo", "vietnamese": "no", "example": "我已经吃饱了。(Tôi đã ăn no rồi.)", "cauChuyen": "" },
+  { "chinese": "决定", "pinyin": "jué dìng", "vietnamese": "quyết định", "example": "他决定明年去中国留学。(Anh ấy quyết định năm sau đi Trung Quốc du học.)", "cauChuyen": "" },
+  { "chinese": "选择", "pinyin": "xuǎn zé", "vietnamese": "lựa chọn", "example": "每个人都有选择的权利。(Mỗi người đều có quyền lựa chọn.)", "cauChuyen": "" },
+  { "chinese": "必须", "pinyin": "bì xū", "vietnamese": "bắt buộc, phải", "example": "你必须在两点前到达。(Bạn bắt buộc phải đến trước hai giờ.)", "cauChuyen": "" },
+  { "chinese": "根据", "pinyin": "gēn jù", "vietnamese": "dựa theo, căn cứ", "example": "根据天气预报，明天有大雨。(Theo dự báo thời tiết, ngày mai có mưa lớn.)", "cauChuyen": "" },
+  { "chinese": "渴", "pinyin": "kě", "vietnamese": "khát", "example": "我很渴，想喝水。(Tôi rất khát, muốn uống nước.)", "cauChuyen": "" },
+  { "chinese": "利于", "pinyin": "lì yú", "vietnamese": "có lợi cho", "example": "多喝水利于身体健康。(Uống nhiều nước có lợi cho sức khỏe.)", "cauChuyen": "" },
+  { "chinese": "向", "pinyin": "xiàng", "vietnamese": "hướng về, về phía", "example": "请向大家介绍一下你自己。(Mời bạn giới thiệu bản thân với mọi người.)", "cauChuyen": "" },
+  { "chinese": "万", "pinyin": "wàn", "vietnamese": "vạn", "example": "那本书要三万块钱。(Quyển sách đó giá ba vạn tệ.)", "cauChuyen": "" },
+  { "chinese": "只", "pinyin": "zhī", "vietnamese": "lượng từ chỉ động vật", "example": "树上有一只小鸟。(Trên cây có một con chim nhỏ.)", "cauChuyen": "" },
+  { "chinese": "嘴", "pinyin": "zuǐ", "vietnamese": "cái miệng", "example": "他嘴里正吃着东西。(Trong miệng anh ấy đang ăn gì đó.)", "cauChuyen": "" },
+  { "chinese": "动物", "pinyin": "dòng wù", "vietnamese": "động vật", "example": "我们要爱护动物。(Chúng ta cần phải yêu quý động vật.)", "cauChuyen": "" },
+  { "chinese": "段", "pinyin": "duàn", "vietnamese": "đoạn (giai đoạn, đoạn văn)", "example": "请读一下这一段话。(Hãy đọc đoạn văn này.)", "cauChuyen": "" },
+  { "chinese": "有名", "pinyin": "yǒu míng", "vietnamese": "nổi tiếng", "example": "他是这里有名的医生。(Ông ấy là bác sĩ nổi tiếng ở đây.)", "cauChuyen": "" },
+  { "chinese": "同意", "pinyin": "tóng yì", "vietnamese": "đồng ý", "example": "我完全同意你的看法。(Tôi hoàn toàn đồng ý với quan điểm của bạn.)", "cauChuyen": "" },
+  { "chinese": "相信", "pinyin": "xiāng xìn", "vietnamese": "tin tưởng", "example": "请相信我说的话。(Hãy tin lời tôi nói.)", "cauChuyen": "" },
+  { "chinese": "关于", "pinyin": "guān yú", "vietnamese": "liên quan đến, về", "example": "关于这件事，我还不清楚。(Về việc này, tôi vẫn chưa rõ.)", "cauChuyen": "" },
+  { "chinese": "机会", "pinyin": "jī huì", "vietnamese": "cơ hội", "example": "这是一个难得的机会。(Đây là một cơ hội hiếm có.)", "cauChuyen": "" },
+  { "chinese": "国家", "pinyin": "guó jiā", "vietnamese": "quốc gia", "example": "中国是一个美丽的国家。(Trung Quốc là một quốc gia xinh đẹp.)", "cauChuyen": "" },
+  { "chinese": "种", "pinyin": "zhǒng", "vietnamese": "loại, chủng loại", "example": "你喜欢哪种颜色？(Bạn thích loại màu sắc nào?)", "cauChuyen": "" },
+  { "chinese": "特点", "pinyin": "tè diǎn", "vietnamese": "đặc điểm", "example": "每个人都有自己的特点。(Mỗi người đều có đặc điểm riêng.)", "cauChuyen": "" },
+  { "chinese": "奇怪", "pinyin": "qí guài", "vietnamese": "kỳ lạ", "example": "发生这样的事真奇怪。(Chuyện như vậy xảy ra thật kỳ lạ.)", "cauChuyen": "" },
+  { "chinese": "耳朵", "pinyin": "ěr duo", "vietnamese": "cái tai", "example": "小狗的耳朵很灵。(Tai của cún con rất thính.)", "cauChuyen": "" },
+  { "chinese": "脸", "pinyin": "liǎn", "vietnamese": "khuôn mặt", "example": "她的脸上挂着微笑。(Trên mặt cô ấy nở nụ cười.)", "cauChuyen": "" },
+  { "chinese": "短", "pinyin": "duǎn", "vietnamese": "ngắn", "example": "冬天的白天很短。(Ngày mùa đông rất ngắn.)", "cauChuyen": "" },
+  { "chinese": "马", "pinyin": "mǎ", "vietnamese": "con ngựa", "example": "他在草原上骑马。(Anh ấy cưỡi ngựa trên thảo nguyên.)", "cauChuyen": "" },
+  { "chinese": "位", "pinyin": "wèi", "vietnamese": "vị (lượng từ chỉ người)", "example": "哪位是你的老师？(Vị nào là thầy giáo của bạn?)", "cauChuyen": "" },
+  { "chinese": "蓝", "pinyin": "lán", "vietnamese": "màu xanh da trời", "example": "今天的天空很蓝。(Bầu trời hôm nay rất xanh.)", "cauChuyen": "" },
+  { "chinese": "鸟", "pinyin": "niǎo", "vietnamese": "con chim", "example": "鸟儿在天空中飞翔。(Chim non đang bay lượn trên bầu trời.)", "cauChuyen": "" },
+  { "chinese": "哭", "pinyin": "kū", "vietnamese": "khóc", "example": "别哭了，一切都会好的。(Đừng khóc nữa, mọi chuyện rồi sẽ tốt thôi.)", "cauChuyen": "" },
+  { "chinese": "船", "pinyin": "chuán", "vietnamese": "con thuyền", "example": "河上有一条小船。(Trên sông có một con thuyền nhỏ.)", "cauChuyen": "" },
+  { "chinese": "经过", "pinyin": "jīng guò", "vietnamese": "trải qua; đi qua", "example": "经过努力，他终于成功了。(Qua nỗ lực, cuối cùng anh ấy đã thành công.)", "cauChuyen": "" },
+  { "chinese": "照相机", "pinyin": "zhào xiàng jī", "vietnamese": "máy ảnh", "example": "我新买了一个照相机。(Tôi mới mua một chiếc máy ảnh.)", "cauChuyen": "" },
+  { "chinese": "被", "pinyin": "bèi", "vietnamese": "bị (dùng trong câu bị động)", "example": "杯子被我不小心打破了。(Cái cốc bị tôi vô tình làm vỡ rồi.)", "cauChuyen": "" },
+  { "chinese": "难过", "pinyin": "nán guò", "vietnamese": "buồn, đau lòng", "example": "听到这个消息，他很难过。(Nghe thấy tin này, anh ấy rất buồn.)", "cauChuyen": "" },
+  { "chinese": "东", "pinyin": "dōng", "vietnamese": "phía đông", "example": "太阳从东边升起。(Mặt trời mọc ở hướng đông.)", "cauChuyen": "" },
+  { "chinese": "信用卡", "pinyin": "xìn yòng kǎ", "vietnamese": "thẻ tín dụng", "example": "我可以刷信用卡吗？(Tôi có thể quẹt thẻ tín dụng không?)", "cauChuyen": "" },
+  { "chinese": "关心", "pinyin": "guān xīn", "vietnamese": "quan tâm", "example": "我们要多关心父母。(Chúng ta cần quan tâm cha mẹ nhiều hơn.)", "cauChuyen": "" },
+  { "chinese": "成绩", "pinyin": "chéng jì", "vietnamese": "thành tích, kết quả học tập", "example": "这次考试他的成绩很好。(Kỳ thi lần này thành tích của anh ấy rất tốt.)", "cauChuyen": "" },
+  { "chinese": "碗", "pinyin": "wǎn", "vietnamese": "cái bát", "example": "请给我一个干净的碗。(Vui lòng cho tôi một cái bát sạch.)", "cauChuyen": "" },
+  { "chinese": "分", "pinyin": "fēn", "vietnamese": "phút; điểm; chia", "example": "现在是三点十分。(Bây giờ là ba giờ mười phút.)", "cauChuyen": "" },
+  { "chinese": "解决", "pinyin": "jiě jué", "vietnamese": "giải quyết", "example": "这个问题很难解决。(Vấn đề này rất khó giải quyết.)", "cauChuyen": "" },
+  { "chinese": "试", "pinyin": "shì", "vietnamese": "thử", "example": "我想试一下这件衣服。(Tôi muốn mặc thử bộ quần áo này.)", "cauChuyen": "" },
+  { "chinese": "真正", "pinyin": "zhēn zhèng", "vietnamese": "thật sự, thực sự", "example": "什么是真正的快乐？(Thế nào là niềm vui thực sự?)", "cauChuyen": "" },
+  { "chinese": "多么", "pinyin": "duō me", "vietnamese": "biết bao, rất (dùng trong câu cảm thán)", "example": "这朵花多么漂亮啊！(Bông hoa này đẹp biết bao!)", "cauChuyen": "" }              
   ]
 }
