@@ -95,34 +95,49 @@ function getPartcodeRevPartner(vendorCode) {
     if (vendorCode == "250001348" || vendorCode == "250000051" || vendorCode == "500002006") { 
         result = getPartcodeRevSunway(vendorCode);
     }
-
     if (vendorCode == "250002768" || vendorCode == "250000069") {
         result = getPartcodeRevSeiyo(vendorCode);
     }
-
     if (vendorCode == "250001449") { 
         result = getPartcodeRevZhongzu(vendorCode);
     }
-    if (vendorCode == "250003738") { 
+    if (vendorCode == "250003738" || vendorCode == "250001478") { 
         result = getPartcodeRevVanlong(vendorCode);
     }
-
     if (vendorCode == "250000072") { 
         result = getPartcodeRevTaisei(vendorCode);
     }
-
     if (vendorCode == "250001383") { 
         result = getPartcodeRevBacviet(vendorCode);
     }
-
     if (vendorCode == "250000076") { 
         result = getPartcodeRevIritani(vendorCode);
     }
     if (vendorCode == "250003179") { 
         result = getPartcodeRevHudson(vendorCode);
     }
+    if (vendorCode == "250004228") { 
+        result = getPartcodeRevGaoqi(vendorCode);
+    }
+    if (vendorCode == "250000068") { 
+        result = getPartcodeRevSantomas(vendorCode);
+    }
+    if (vendorCode == "250000054") { 
+        result = getPartcodeRevChiyoda(vendorCode);
+    }
+    if (vendorCode == "250000060") { 
+        result = getPartcodeRevKuroda(vendorCode);
+    }
+    if (vendorCode == "250003288") { 
+        result = getPartcodeRevHTMP(vendorCode);
+    }
+    if (vendorCode == "250000588") { 
+        result = getPartcodeRevTOKYO(vendorCode);
+    }
 
-    //alert(result[0], result[1]);
+    
+    // alert(result[1]);
+    // alert(result[0]);
    return result;
 }
 function getPartcodeRevSunway(barcodeChiThi) {
@@ -160,10 +175,48 @@ function getPartcodeRevIritani(barcodeChiThi) { //Iritani: 302RV02070/V1/V016/26
     var tmp = arrCasemark[1].split("REV-");
     return [arrCasemark[0], tmp[1]];
 }
-
 function getPartcodeRevHudson(barcodeChiThi) { //Hudson: 30C0D1922002    12.00000            2601230003960123A0A
     var casemark = inputCaseMark.value;
     return [casemark.substring(1, 10), casemark.substring(11, 12)];
+}
+function getPartcodeRevGaoqi(barcodeChiThi) { //Gaoqi: 6K06370661\01\85\ZS20251024001
+    var arrCasemark = inputCaseMark.value.split("\\");
+    return [arrCasemark[0], arrCasemark[1]];
+}
+function getPartcodeRevSantomas(barcodeChiThi) { //Santomas: &/30C0D31220/V01/0000/251113/0001/01000/NS/----001//&SVN3/F1KVN00115-01-00/TR21KD0111/N/0
+    var cm = inputCaseMark.value;
+    cm = cm.replace("&/", "");
+    cm = cm.replace("/V", "/");
+    var arrCasemark = cm.split("/");
+    return [arrCasemark[0], arrCasemark[1]];
+}
+function getPartcodeRevChiyoda(barcodeChiThi) { //Chiyoda : 30C0D14300,R01,7680,7680,KYO001,130557865800010,SOA0289555601,01
+    var cm = inputCaseMark.value;
+    var arrCasemark = cm.split(",R");
+    return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
+}
+
+function getPartcodeRevKuroda(barcodeChiThi) { //Kuroda : 00001&3V2LV31230&20260128&050T-02&VK2&1,2,3,4,5,6,7,8&12000&012-0052-00&PIN DRIVE A (白)(3V2LV31230)&VA26010010940&201708003&012&202&1
+    var cm = inputCaseMark.value;
+    cm = cm.replace("00001&", "");
+    var arrCasemark = cm.split("&");
+    var tmp = arrCasemark[1].split("-");
+    return [arrCasemark[0], tmp[1].substring(0, 2)];
+}
+function getPartcodeRevHTMP(barcodeChiThi) { //HTMP: &/302YJ21150///201225/0002/0400//02/2/&;20251219000041085865;1;302YJ21150;;PCS;400.00;201225;;;;;KH0084;;238;TP-CANON-TV;1.00;;BGTD0026;BGKP0029;40;10;0;PCS;PCS
+    var cm = inputCaseMark.value;
+    cm = cm.replace("&/", "");
+    var arrCasemark = cm.split("///");
+    var tmp = arrCasemark[1].split("//");
+    return [arrCasemark[0], tmp[1].substring(0, 2)];
+}
+
+function getPartcodeRevTOKYO(barcodeChiThi) { //TOKYO: 303LL24300@PIN READING GUIDE VER.01@MFG251201152@130557155800010@500
+//MFG251201152@303LL24300@PIN READING GUIDE VER.01@500@0
+    var cm = inputCaseMark.value;
+    var arrCasemark = cm.split("@");
+    var tmp = arrCasemark[1].split("VER.");
+    return [arrCasemark[0], tmp[1].substring(0, 2)];
 }
 function xacNhanAndClear() {
     xacNhan();
@@ -173,7 +226,6 @@ function xacNhanAndClear() {
     inputDS.focus();
 }
 function xacNhan() {
-    
   var isErr = false;
     var arrBarCodeChiThi = inputChiThi.value.split("-");
    
@@ -184,12 +236,7 @@ function xacNhan() {
         alert("Hãy scan barcode tờ Chỉ thị");
         inputChiThi.focus();
     }
-
     if (!isErr) {
-        
-
-
-
         const ds = inputDS.value;
         if (ds.includes(arrBarCodeChiThi[0]) == true && arrBarCodeChiThi[0].length >= 10) {
             var arrDS = ds.split(arrBarCodeChiThi[0] + " ")
@@ -224,7 +271,5 @@ function xacNhan() {
             result.textContent = "NG";
             result.style.backgroundColor = "red";
         }
-        
-
     }
 }
