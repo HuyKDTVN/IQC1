@@ -1,9 +1,30 @@
+cai them
+Runestone
+Swift Playgrounds
+
+Learn Chinese
+1. Học qua câu chuyện
+nhấn mạnh vào việc học từ vựng qua câu chuyện là 1 việc dễ nhớ, nhớ lâu
+
+
+2. Học thụ động qua widget, noti
+
+nhấn mạnh việc widget, noti hiển thị liên tục giúp nhắc nhớ
+
+3. sắp xếp theo hsk
+
+nhắn mạnh việc sắp xếp theo hsk
+
+4. Free, no ads
+
+5. Danh ngôn
+danh ngôn giúp bớt nẳn, định hướng học tốt hơn
 {
   "vocabulary": [
-      { "chinese": "你", "pinyin": "nǐ", "vietnamese": "anh, chị, bạn", "example": "你好。 – Xin chào.", "cauChuyen": "" },
-      { "chinese": "好", "pinyin": "hǎo", "vietnamese": "khỏe, tốt", "example": "我很好。 – Tôi rất khỏe.", "cauChuyen": "" },
-              { "chinese": "您", "pinyin": "nín", "vietnamese": "ông, bà, ngài", "example": "您好。 – Xin chào (kính ngữ).", "cauChuyen": "" },
-      { "chinese": "你们", "pinyin": "nǐmen", "vietnamese": "các anh, các chị, các bạn", "example": "你们好。 – Chào các bạn.", "cauChuyen": "" },
+      { "chinese": "你", "pinyin": "nǐ", "vietnamese": "anh, chị, bạn", "example": "你好。 – Xin chào.", "cauChuyen": "người đối diện là người đúng, hay là người nằm và coi mọi chuyện đều nhỏ bé." },
+      { "chinese": "好", "pinyin": "hǎo", "vietnamese": "khỏe, tốt", "example": "我很好。 – Tôi rất khỏe.", "cauChuyen": "Người phụ nữ () được ở bên con () là một điều tốt ()" },
+      { "chinese": "您", "pinyin": "nín", "vietnamese": "ông, bà, ngài", "example": "您好。 – Xin chào (kính ngữ).", "cauChuyen": "Một người bạn () mà có tâm () thì là người đáng kính trọng như ông, bà ()" },
+      { "chinese": "你们", "pinyin": "nǐmen", "vietnamese": "các anh, các chị, các bạn", "example": "你们好。 – Chào các bạn.", "cauChuyen": "你: người đối diện là người đúng, hay là người nằm và coi mọi chuyện đều nhỏ bé.+++们: một người đứng () mở cửa () cho nhiều người () bên trong thoát ra ngoài" },
       { "chinese": "对不起", "pinyin": "duìbuqǐ", "vietnamese": "xin lỗi", "example": "对不起，我错了。 – Xin lỗi, tôi sai rồi.", "cauChuyen": "" },
       { "chinese": "没关系", "pinyin": "méi guānxi", "vietnamese": "không sao đâu, không có vấn đề gì", "example": "没关系。 – Không sao đâu.", "cauChuyen": "" },
       { "chinese": "谢谢", "pinyin": "xièxie", "vietnamese": "cảm ơn", "example": "谢谢你。 – Cảm ơn bạn.", "cauChuyen": "" },
@@ -24,12 +45,12 @@
       { "chinese": "的", "pinyin": "de", "vietnamese": "trợ từ dùng sau định ngữ", "example": "这是我的书。 – Đây là sách của tôi.", "cauChuyen": "" },
       { "chinese": "汉语", "pinyin": "Hànyǔ", "vietnamese": "tiếng Trung Quốc", "example": "我学汉语。 – Tôi học tiếng Trung.", "cauChuyen": "" },
       { "chinese": "哪", "pinyin": "nǎ", "vietnamese": "nào", "example": "你是哪国人？ – Bạn là người nước nào?", "cauChuyen": "" },
-      { "chinese": "国", "pinyin": "guó", "vietnamese": "quốc gia, đất nước", "example": "中国是一个国家。 – Trung Quốc là một quốc gia.", "cauChuyen": "" },
+      { "chinese": "国", "pinyin": "guó", "vietnamese": "quốc gia, đất nước", "example": "中国是一个国家。 – Trung Quốc là một quốc gia.", "cauChuyen": "Nơi bao quanh () những viên ngọc () là quốc () gia" },
       { "chinese": "呢", "pinyin": "ne", "vietnamese": "trợ từ cuối câu hỏi mang nghĩa 'thì sao'", "example": "你呢？ – Còn bạn thì sao?", "cauChuyen": "" },
       { "chinese": "他", "pinyin": "tā", "vietnamese": "anh ấy, ông ấy", "example": "他是我同学。 – Anh ấy là bạn cùng lớp của tôi.", "cauChuyen": "" },
       { "chinese": "同学", "pinyin": "tóngxué", "vietnamese": "bạn cùng lớp", "example": "他是我的同学。 – Anh ấy là bạn cùng lớp của tôi.", "cauChuyen": "" },
       { "chinese": "朋友", "pinyin": "péngyou", "vietnamese": "bạn", "example": "她是我的朋友。 – Cô ấy là bạn của tôi.", "cauChuyen": "" },
-              { "chinese": "家", "pinyin": "jiā", "vietnamese": "nhà", "example": "我家有四口人。 – Nhà tôi có bốn người.", "cauChuyen": "" },
+      { "chinese": "家", "pinyin": "jiā", "vietnamese": "nhà", "example": "我家有四口人。 – Nhà tôi có bốn người.", "cauChuyen": "Dưới mái hiên () có con lợn () thì mới là nhà () no đủ" },
       { "chinese": "有", "pinyin": "yǒu", "vietnamese": "có", "example": "我有一个姐姐。 – Tôi có một chị gái.", "cauChuyen": "" },
       { "chinese": "口", "pinyin": "kǒu", "vietnamese": "lượng từ dùng cho người", "example": "我家有三口人。 – Nhà tôi có ba người.", "cauChuyen": "" },
       { "chinese": "女儿", "pinyin": "nǚ'ér", "vietnamese": "con gái", "example": "她有一个女儿。 – Cô ấy có một con gái.", "cauChuyen": "" },
@@ -38,7 +59,7 @@
       { "chinese": "了", "pinyin": "le", "vietnamese": "rồi", "example": "我吃饭了。 – Tôi ăn cơm rồi.", "cauChuyen": "" },
       { "chinese": "今年", "pinyin": "jīnnián", "vietnamese": "năm nay", "example": "我今年二十岁。 – Năm nay tôi 20 tuổi.", "cauChuyen": "" },
       { "chinese": "多", "pinyin": "duō", "vietnamese": "nhiều, chỉ mức độ", "example": "他有很多朋友。 – Anh ấy có nhiều bạn.", "cauChuyen": "" },
-      { "chinese": "大", "pinyin": "dà", "vietnamese": "to, lớn", "example": "他多大？ – Anh ấy bao nhiêu tuổi?", "cauChuyen": "" },
+      { "chinese": "大", "pinyin": "dà", "vietnamese": "to, lớn", "example": "他多大？ – Anh ấy bao nhiêu tuổi?", "cauChuyen": "Người () mà đang mang gánh nặng trên vai là người vĩ đại ()" },
       { "chinese": "会", "pinyin": "huì", "vietnamese": "biết", "example": "我会说汉语。 – Tôi biết nói tiếng Trung.", "cauChuyen": "" },
       { "chinese": "说", "pinyin": "shuō", "vietnamese": "nói", "example": "他说英语。 – Anh ấy nói tiếng Anh.", "cauChuyen": "" },
       { "chinese": "妈妈", "pinyin": "māma", "vietnamese": "mẹ", "example": "这是我妈妈。 – Đây là mẹ tôi.", "cauChuyen": "" },
@@ -48,7 +69,7 @@
       { "chinese": "做", "pinyin": "zuò", "vietnamese": "làm, nấu", "example": "妈妈做饭。 – Mẹ nấu cơm.", "cauChuyen": "" },
       { "chinese": "写", "pinyin": "xiě", "vietnamese": "viết", "example": "我写汉字。 – Tôi viết chữ Hán.", "cauChuyen": "" },
       { "chinese": "汉字", "pinyin": "Hànzì", "vietnamese": "chữ Hán", "example": "汉字很难。 – Chữ Hán rất khó.", "cauChuyen": "" },
-      { "chinese": "字", "pinyin": "zì", "vietnamese": "chữ", "example": "这个字怎么读？ – Chữ này đọc thế nào?", "cauChuyen": "" },
+      { "chinese": "字", "pinyin": "zì", "vietnamese": "chữ", "example": "这个字怎么读？ – Chữ này đọc thế nào?", "cauChuyen": "Đứa trẻ con () ngồi dưới mái hiên () để học chữ ()" },
       { "chinese": "怎么", "pinyin": "zěnme", "vietnamese": "như thế nào", "example": "这个字怎么写？ – Chữ này viết thế nào?", "cauChuyen": "" },
       { "chinese": "读", "pinyin": "dú", "vietnamese": "đọc", "example": "请读这个字。 – Xin đọc chữ này.", "cauChuyen": "" },
       { "chinese": "请", "pinyin": "qǐng", "vietnamese": "mời, xin", "example": "请进。 – Mời vào.", "cauChuyen": "" },
@@ -57,13 +78,13 @@
       { "chinese": "号", "pinyin": "hào", "vietnamese": "ngày", "example": "今天几号？ – Hôm nay ngày mấy?", "cauChuyen": "" },
       { "chinese": "月", "pinyin": "yuè", "vietnamese": "tháng", "example": "现在是三月。 – Bây giờ là tháng ba.", "cauChuyen": "" },
       { "chinese": "星期", "pinyin": "xīngqī", "vietnamese": "tuần, thứ", "example": "今天星期几？ – Hôm nay thứ mấy?", "cauChuyen": "" },
-              { "chinese": "昨天", "pinyin": "zuótiān", "vietnamese": "hôm qua", "example": "昨天我很忙。 – Hôm qua tôi rất bận.", "cauChuyen": "" },
+      { "chinese": "昨天", "pinyin": "zuótiān", "vietnamese": "hôm qua", "example": "昨天我很忙。 – Hôm qua tôi rất bận.", "cauChuyen": "" },
       { "chinese": "明天", "pinyin": "míngtiān", "vietnamese": "ngày mai", "example": "明天我去学校。 – Ngày mai tôi đi học.", "cauChuyen": "" },
       { "chinese": "去", "pinyin": "qù", "vietnamese": "đi, đi đến", "example": "我去学校。 – Tôi đi đến trường.", "cauChuyen": "" },
       { "chinese": "学校", "pinyin": "xuéxiào", "vietnamese": "trường học", "example": "她在学校。 – Cô ấy ở trường.", "cauChuyen": "" },
       { "chinese": "看", "pinyin": "kàn", "vietnamese": "nhìn, xem", "example": "我看书。 – Tôi đọc sách.", "cauChuyen": "" },
       { "chinese": "书", "pinyin": "shū", "vietnamese": "sách", "example": "这是我的书。 – Đây là sách của tôi.", "cauChuyen": "" },
-      { "chinese": "想", "pinyin": "xiǎng", "vietnamese": "muốn, nghĩ, nhớ", "example": "我想喝茶。 – Tôi muốn uống trà.", "cauChuyen": "" },
+      { "chinese": "想", "pinyin": "xiǎng", "vietnamese": "muốn, nghĩ, nhớ", "example": "我想喝茶。 – Tôi muốn uống trà.", "cauChuyen": "Mỗi ngày () tôi đúng tựa gốc cây () để nghĩ () về những việc có tâm ()" },
       { "chinese": "喝", "pinyin": "hē", "vietnamese": "uống", "example": "我喝水。 – Tôi uống nước.", "cauChuyen": "" },
       { "chinese": "茶", "pinyin": "chá", "vietnamese": "trà", "example": "他喝茶。 – Anh ấy uống trà.", "cauChuyen": "" },
       { "chinese": "吃", "pinyin": "chī", "vietnamese": "ăn", "example": "我吃米饭。 – Tôi ăn cơm.", "cauChuyen": "" },
@@ -79,12 +100,12 @@
       { "chinese": "那", "pinyin": "nà", "vietnamese": "kia, đó", "example": "那是我的书。 – Kia là sách của tôi.", "cauChuyen": "" },
       { "chinese": "块", "pinyin": "kuài", "vietnamese": "đồng, đơn vị tiền tệ", "example": "十块钱。 – Mười đồng.", "cauChuyen": "" },
       { "chinese": "那儿", "pinyin": "nàr", "vietnamese": "chỗ đó", "example": "他在那儿。 – Anh ấy ở đó.", "cauChuyen": "" },
-      { "chinese": "小", "pinyin": "xiǎo", "vietnamese": "nhỏ, bé", "example": "这只猫很小。 – Con mèo này rất nhỏ.", "cauChuyen": "" },
+      { "chinese": "小", "pinyin": "xiǎo", "vietnamese": "nhỏ, bé", "example": "这只猫很小。 – Con mèo này rất nhỏ.", "cauChuyen": "Đứa trẻ đứng giang tay nghịch ngợm là đứa trẻ nhỏ ()" },
       { "chinese": "猫", "pinyin": "māo", "vietnamese": "mèo", "example": "我喜欢猫。 – Tôi thích mèo.", "cauChuyen": "" },
       { "chinese": "在", "pinyin": "zài", "vietnamese": "ở, vào", "example": "我在家。 – Tôi ở nhà.", "cauChuyen": "" },
       { "chinese": "哪儿", "pinyin": "nǎr", "vietnamese": "đâu", "example": "你在哪儿？ – Bạn ở đâu?", "cauChuyen": "" },
       { "chinese": "狗", "pinyin": "gǒu", "vietnamese": "chó", "example": "他有一只狗。 – Anh ấy có một con chó.", "cauChuyen": "" },
-              { "chinese": "椅子", "pinyin": "yǐzi", "vietnamese": "ghế dựa", "example": "椅子在桌子下面。 – Ghế ở dưới bàn.", "cauChuyen": "" },
+      { "chinese": "椅子", "pinyin": "yǐzi", "vietnamese": "ghế dựa", "example": "椅子在桌子下面。 – Ghế ở dưới bàn.", "cauChuyen": "" },
       { "chinese": "下面", "pinyin": "xiàmiàn", "vietnamese": "bên dưới, phía dưới", "example": "猫在桌子下面。 – Con mèo ở dưới bàn.", "cauChuyen": "" },
       { "chinese": "工作", "pinyin": "gōngzuò", "vietnamese": "làm việc, công việc", "example": "他在医院工作。 – Anh ấy làm việc ở bệnh viện.", "cauChuyen": "" },
       { "chinese": "儿子", "pinyin": "érzi", "vietnamese": "con trai", "example": "他有一个儿子。 – Anh ấy có một con trai.", "cauChuyen": "" },
@@ -95,7 +116,7 @@
       { "chinese": "上", "pinyin": "shàng", "vietnamese": "trên, phía trên", "example": "电脑在桌子上。 – Máy tính ở trên bàn.", "cauChuyen": "" },
       { "chinese": "电脑", "pinyin": "diànnǎo", "vietnamese": "máy tính", "example": "我有一台电脑。 – Tôi có một máy tính.", "cauChuyen": "" },
       { "chinese": "和", "pinyin": "hé", "vietnamese": "và", "example": "我和你去。 – Tôi và bạn đi.", "cauChuyen": "" },
-      { "chinese": "本", "pinyin": "běn", "vietnamese": "cuốn, quyển", "example": "一本书。 – Một quyển sách.", "cauChuyen": "" },
+      { "chinese": "本", "pinyin": "běn", "vietnamese": "cuốn, quyển", "example": "一本书。 – Một quyển sách.", "cauChuyen": "Chặt một cái cây () để làm nhiều quyển sách ()" },
       { "chinese": "里", "pinyin": "lǐ", "vietnamese": "trong, bên trong", "example": "书在包里。 – Sách ở trong cặp.", "cauChuyen": "" },
       { "chinese": "前面", "pinyin": "qiánmiàn", "vietnamese": "phía trước", "example": "学校在前面。 – Trường ở phía trước.", "cauChuyen": "" },
       { "chinese": "后面", "pinyin": "hòumiàn", "vietnamese": "phía sau", "example": "商店在学校后面。 – Cửa hàng ở sau trường.", "cauChuyen": "" },
@@ -112,7 +133,7 @@
       { "chinese": "回", "pinyin": "huí", "vietnamese": "về, trở về", "example": "我回家。 – Tôi về nhà.", "cauChuyen": "" },
       { "chinese": "我们", "pinyin": "wǒmen", "vietnamese": "chúng ta", "example": "我们是朋友。 – Chúng ta là bạn.", "cauChuyen": "" },
       { "chinese": "电影", "pinyin": "diànyǐng", "vietnamese": "phim chiếu rạp", "example": "我们看电影。 – Chúng tôi xem phim.", "cauChuyen": "" },
-              { "chinese": "住", "pinyin": "zhù", "vietnamese": "ở", "example": "我住在河内。 – Tôi sống ở Hà Nội.", "cauChuyen": "" },
+      { "chinese": "住", "pinyin": "zhù", "vietnamese": "ở", "example": "我住在河内。 – Tôi sống ở Hà Nội.", "cauChuyen": "" },
       { "chinese": "前", "pinyin": "qián", "vietnamese": "trước", "example": "学校前有一个商店。 – Trước trường có một cửa hàng.", "cauChuyen": "" },
       { "chinese": "天气", "pinyin": "tiānqì", "vietnamese": "thời tiết", "example": "今天天气很好。 – Hôm nay thời tiết rất đẹp.", "cauChuyen": "" },
       { "chinese": "怎么样", "pinyin": "zěnmeyàng", "vietnamese": "như thế nào", "example": "你怎么样？ – Bạn thế nào?", "cauChuyen": "" },
@@ -136,7 +157,7 @@
       { "chinese": "喜欢", "pinyin": "xǐhuan", "vietnamese": "thích", "example": "我喜欢喝茶。 – Tôi thích uống trà.", "cauChuyen": "" },
       { "chinese": "给", "pinyin": "gěi", "vietnamese": "cho", "example": "我给你打电话。 – Tôi gọi điện cho bạn.", "cauChuyen": "" },
       { "chinese": "打电话", "pinyin": "dǎ diànhuà", "vietnamese": "gọi điện thoại", "example": "我给妈妈打电话。 – Tôi gọi điện cho mẹ.", "cauChuyen": "" },
-              { "chinese": "吧", "pinyin": "ba", "vietnamese": "trợ từ ngữ khí dùng cuối câu (đề nghị, yêu cầu, thương lượng)", "example": "我们走吧。 – Chúng ta đi thôi.", "cauChuyen": "" },
+      { "chinese": "吧", "pinyin": "ba", "vietnamese": "trợ từ ngữ khí dùng cuối câu (đề nghị, yêu cầu, thương lượng)", "example": "我们走吧。 – Chúng ta đi thôi.", "cauChuyen": "" },
       { "chinese": "东西", "pinyin": "dōngxi", "vietnamese": "đồ, đồ đạc", "example": "我买了很多东西。 – Tôi mua rất nhiều đồ.", "cauChuyen": "" },
       { "chinese": "一点儿", "pinyin": "yìdiǎnr", "vietnamese": "một ít, một chút", "example": "我喝一点儿水。 – Tôi uống một chút nước.", "cauChuyen": "" },
       { "chinese": "苹果", "pinyin": "píngguǒ", "vietnamese": "táo", "example": "我喜欢吃苹果。 – Tôi thích ăn táo.", "cauChuyen": "" },
