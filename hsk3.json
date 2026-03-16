@@ -1,458 +1,840 @@
 {
   "vocabulary": [
       {
-    "chinese": "周末",
-    "pinyin": "zhōu mò",
-    "vietnamese": "cuối tuần",
-    "example": "周末你想做什么？(Cuối tuần bạn muốn làm gì?)",
-    "cauChuyen": ""
-  },
+"chinese": "周末",
+"pinyin": "zhōu mò",
+"vietnamese": "cuối tuần",
+"example": "周末你想做什么？(Cuối tuần bạn muốn làm gì?)",
+"cauChuyen": "周: Trong một vùng đất được bao quanh (冂), người ta trồng trọt trên ruộng (田) và nói năng (口) thận trọng suốt một chu kỳ tuần (周).\n\n末: Cái cây (木) có cành phía trên dài hơn cành dưới, chỉ vào phần ngọn hoặc điểm cuối (末) cùng."
+},
+{
+"chinese": "打算",
+"pinyin": "dǎ suàn",
+"vietnamese": "kế hoạch, dự định",
+"example": "你有什么打算？(Bạn có dự định gì?)",
+"cauChuyen": "打: Dùng bàn tay (扌) cầm cái đinh (丁) để bắt tay vào làm việc (打).\n\n算: Dùng đôi tay (廾) cầm các thẻ tre (竹) trên khay mục (目) để tính toán (算) kế hoạch."
+},
   {
-    "chinese": "打算",
-    "pinyin": "dǎ suàn",
-    "vietnamese": "kế hoạch, dự định",
-    "example": "你有什么打算？(Bạn có dự định gì?)",
-    "cauChuyen": ""
-  },
+"chinese": "跟",
+"pinyin": "gēn",
+"vietnamese": "cùng, với",
+"example": "我跟你去。(Tôi đi cùng bạn.)",
+"cauChuyen": "Dùng chân (⻊) bước đi và mắt luôn nhìn chằm chằm vào gót chân người phía trước để dừng lại (艮) đúng lúc, đó là hành động đi theo hoặc đi cùng (跟)."
+},
   {
-    "chinese": "跟",
-    "pinyin": "gēn",
-    "vietnamese": "cùng, với",
-    "example": "我跟你去。(Tôi đi cùng bạn.)",
-    "cauChuyen": ""
-  },
+"chinese": "和",
+"pinyin": "hé",
+"vietnamese": "và",
+"example": "我和你。(Tôi và bạn.)",
+"cauChuyen": "Cây lúa (禾) tượng trưng cho lương thực, cái miệng (口) tượng trưng cho sự ăn uống; có lúa hòa vào miệng thì mọi người đều hòa thuận (和)."
+},
+{
+"chinese": "一直",
+"pinyin": "yī zhí",
+"vietnamese": "luôn luôn, suốt",
+"example": "我一直在这儿。(Tôi luôn ở đây.)",
+"cauChuyen": "一: Một nét gạch ngang thống nhất.\n\n直: Mười (十) con mắt (目) nhìn thẳng về phía trước không hề lệch lạc (乚) để giữ sự thẳng tắp, xuyên suốt (直)."
+},
+{
+"chinese": "游戏",
+"pinyin": "yóu xì",
+"vietnamese": "trò chơi",
+"example": "我不玩游戏。(Tôi không chơi trò chơi.)",
+"cauChuyen": "游: Có nước (氵), có cờ (方) hiệu, có người con (子) đang bơi lội vui chơi.\n\n戏: Dùng binh khí (戈) biểu diễn dưới sự điều khiển của bàn tay (又) và cái miệng (口) để tạo nên trò diễn (戏)."
+},
+{
+"chinese": "作业",
+"pinyin": "zuò yè",
+"vietnamese": "bài tập",
+"example": "写作业吧。(Viết bài tập đi.)",
+"cauChuyen": "作: Con người (亻) cầm dụng cụ để làm việc một cách có ý thức (乍).\n\n业: Hình ảnh những chiếc răng cưa trên giá treo chuông nhạc thời cổ, tượng trưng cho nền tảng nghề nghiệp (业)."
+},
+{
+"chinese": "着急",
+"pinyin": "zháo jí",
+"vietnamese": "lo lắng, sốt ruột",
+"example": "别着急。(Đừng lo lắng.)",
+"cauChuyen": "着: Con cừu (羊) bị mắt (目) dòm ngó khiến nó cảm thấy bồn chồn.\n\n急: Khi phải đi qua khe hẹp (刍) mà trái tim (心) lại đập nhanh thì đó là sự vội vàng, sốt ruột (急)."
+},
+{
+"chinese": "复习",
+"pinyin": "fù xí",
+"vietnamese": "ôn tập",
+"example": "我要复习课文。(Tôi cần ôn tập bài khóa.)",
+"cauChuyen": "复: Đi đi lại lại trên con đường (辶/夂) để lặp lại hành động che đậy (日) kiến thức cũ.\n\n习: Hình ảnh đôi cánh chim đang tập bay phía trên màu trắng (白) của ánh sáng ban ngày."
+},
+{
+"chinese": "练习",
+"pinyin": "liàn xí",
+"vietnamese": "luyện tập",
+"example": "我要练习听力。(Tôi cần luyện tập kỹ năng nghe.)",
+"cauChuyen": "练: Dùng sợi tơ (纟) để chọn lọc (柬) ra những kỹ năng tinh túy nhất qua quá trình rèn luyện (练).\n\n习: Chim non đập cánh luyện tập mỗi ngày."
+},
+{
+"chinese": "南方",
+"pinyin": "nán fāng",
+"vietnamese": "phương nam",
+"example": "南方很暖和。(Phương nam rất ấm áp.)",
+"cauChuyen": "南: Dưới mái nhà (亠) có bụi cây xanh tốt nhờ ánh nắng từ phương Nam chiếu vào.\n\n方: Hình ảnh chiếc cày hoặc con thuyền đang định hướng di chuyển."
+},
+{
+"chinese": "北方",
+"pinyin": "běi fāng",
+"vietnamese": "phương bắc",
+"example": "北方下雪了。(Phương bắc tuyết rơi rồi.)",
+"cauChuyen": "北: Hai người đứng quay lưng (匕) lại với nhau vì cái lạnh giá từ phương Bắc dội tới."
+},
+{
+"chinese": "东方",
+"pinyin": "dōng fāng",
+"vietnamese": "phương đông",
+"example": "太阳 từ 东方升起。(Mặt trời mọc ở phương đông.)",
+"cauChuyen": "东: Mặt trời (日) đang mọc lên xuyên qua những cành cây (木) ở phía Đông."
+},
+{
+"chinese": "西方",
+"pinyin": "xī fāng",
+"vietnamese": "phương tây",
+"example": "他去西方国家。(Anh ấy đi các nước phương Tây.)",
+"cauChuyen": "西: Hình ảnh con chim đang đậu trên tổ khi mặt trời lặn ở hướng Tây."
+},
+{
+"chinese": "面包",
+"pinyin": "miàn bāo",
+"vietnamese": "bánh mì",
+"example": "我吃面包。(Tôi ăn bánh mì.)",
+"cauChuyen": "面: Bột mì được cán phẳng như mặt người (面).\n\n包: Hình ảnh một thai nhi đang được bao bọc (包) kín trong bụng mẹ."
+},
+{
+"chinese": "带",
+"pinyin": "dài",
+"vietnamese": "mang, đem, đội",
+"example": "别忘了带钱。(Đừng quên mang theo tiền.)",
+"cauChuyen": "Dùng dây đai (巾) để thắt ngang hông và giắt những vật phẩm quan trọng mang theo (带) bên người."
+},
+{
+"chinese": "地图",
+"pinyin": "dì tú",
+"vietnamese": "bản đồ",
+"example": "我看地图。(Tôi xem bản đồ.)",
+"cauChuyen": "地: Mặt đất (土) dành cho con người và vạn vật (也).\n\n图: Trong một khung hình (囗), các nét vẽ (冬) phác họa lại vị trí các vùng miền."
+},
+{
+"chinese": "搬",
+"pinyin": "bān",
+"vietnamese": "chuyển, dời",
+"example": "我要搬家。(Tôi muốn chuyển nhà.)",
+"cauChuyen": "Dùng bàn tay (扌) phối hợp với thuyền (舟) và sức lực của nhiều người để vận chuyển (搬) đồ đạc."
+},
+{
+"chinese": "厉害",
+"pinyin": "lì hǎi",
+"vietnamese": "lợi hại, giỏi",
+"example": "你真厉害！(Bạn thật lợi hại!)",
+"cauChuyen": "厉: Dưới vách đá (厂), con bọ cạp (万) đe dọa người bằng sự sắc bén (厉).\n\n害: Dưới mái nhà (宀), những lời nói (口) sai trái gây hại (害) cho người khác."
+},
+{
+"chinese": "英雄",
+"pinyin": "yīng xióng",
+"vietnamese": "anh hùng",
+"example": "他是大英雄。(Anh ấy là anh hùng lớn.)",
+"cauChuyen": "英: Loài hoa (艹) tinh túy nhất trên bệ đứng (央).\n\n雄: Con chim trống (隹) có sức mạnh làm chủ (厷) cả bầy đàn."
+},
+{
+"chinese": "比喻",
+"pinyin": "bǐ yù",
+"vietnamese": " ẩn dụ, ví von",
+"example": "这个比喻很好。(Phép ví von này rất hay.)",
+"cauChuyen": "比: Hai người đứng cạnh nhau để so sánh.\n\n喻: Dùng lời nói (讠) từ cái miệng (口) để làm sáng tỏ (俞) một ý nghĩa khác qua cách ví von."
+},
+{
+"chinese": "积累",
+"pinyin": "jī lèi",
+"vietnamese": "tích lũy",
+"example": "积累经验。(Tích lũy kinh nghiệm.)",
+"cauChuyen": "积: Những hạt lúa (禾) được mang vào kho (只) để tích trữ (积).\n\n累: Dùng sợi tơ (纟) buộc chặt những gì thu hoạch được từ cánh đồng (田) để tích lũy dần."
+},
+{
+"chinese": "精神",
+"pinyin": "jīng shén",
+"vietnamese": "tinh thần",
+"example": "他很有精神。(Anh ấy rất có tinh thần.)",
+"cauChuyen": "精: Những hạt gạo (米) được chọn lọc tinh khiết nhất qua màu xanh (青).\n\n神: Trên bàn thờ (示), vị thần dùng quyền năng của mình như tia chớp (申) để biểu hiện sức mạnh tâm linh."
+},
+{
+"chinese": "遇到", "pinyin": "yù dào", "vietnamese": "gặp phải", "example": "遇到好朋友。(Gặp được bạn tốt.)", "cauChuyen": "遇: Trên đường đi (辶), ngẫu nhiên trông thấy một người cầm vương miện (禺) đi tới nên gặp nhau (遇).\n\n到: Mũi tên bay đến đích và dùng dao đánh dấu."
+},
+{ "chinese": "困难", "pinyin": "kùn nán", "vietnamese": "khó khăn", "example": "我不怕困难。(Tôi không sợ khó khăn.)", "cauChuyen": "困: Cái cây (木) bị nhốt trong khung (囗) nên không lớn được, gặp khó khăn (困).\n\n难: Con chim (隹) bị lửa đốt phía dưới và vật cản bên trái nên rất khó thoát (难)." },
+{ "chinese": "办法", "pinyin": "bàn fǎ", "vietnamese": "cách, phương pháp", "example": "你有办法吗？(Bạn có cách nào không?)", "cauChuyen": "办: Dùng sức lực (力) tác động vào hai bên để thực hiện công việc (办).\n\n法: Dùng nước (氵) để tẩy rửa và loại bỏ (去) những cái sai nhằm giữ đúng phép tắc (法)." },
+{ "chinese": "克服", "pinyin": "kè fú", "vietnamese": "khắc phục", "example": "克服困难。(Khắc phục khó khăn.)", "cauChuyen": "克: Một người đội mũ giáp cứng cáp, đủ sức để thắng được (克) mười người khác.\n\n服: Người dắt người khác đi thuyền (舟) một cách tâm phục khẩu phục (服)." },
+{
+"chinese": "解决",
+"pinyin": "jiě jué",
+"vietnamese": "giải quyết",
+"example": "解决问题。(Giải quyết vấn đề.)",
+"cauChuyen": "解: Dùng con dao (刀) để xẻ sừng (角) con trâu (牛) ra thành từng phần nhằm tháo gỡ (解).\n\n决: Dùng dòng nước (氵) mạnh mẽ để phá tan khối băng (夬) nhằm đưa ra quyết định (决) cuối cùng."
+},
   {
-    "chinese": "和",
-    "pinyin": "hé",
-    "vietnamese": "và",
-    "example": "我和你。(Tôi và bạn.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "一直",
-    "pinyin": "yī zhí",
-    "vietnamese": "luôn luôn, suốt",
-    "example": "我一直在这儿。(Tôi luôn ở đây.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "游戏",
-    "pinyin": "yóu xì",
-    "vietnamese": "trò chơi",
-    "example": "我不玩游戏。(Tôi không chơi trò chơi.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "作业",
-    "pinyin": "zuò yè",
-    "vietnamese": "bài tập",
-    "example": "写作业吧。(Viết bài tập đi.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "着急",
-    "pinyin": "zháo jí",
-    "vietnamese": "lo lắng, sốt ruột",
-    "example": "别着急。(Đừng lo lắng.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "复习",
-    "pinyin": "fù xí",
-    "vietnamese": "ôn tập",
-    "example": "我要复习课文。(Tôi cần ôn tập bài khóa.)",
-    "cauChuyen": ""
-  },
-        { "chinese": "练习", "pinyin": "liàn xí", "vietnamese": "luyện tập", "example": "我要练习听力。(Tôi cần luyện tập kỹ năng nghe.)", "cauChuyen": "" },
-  { "chinese": "南方", "pinyin": "nán fāng", "vietnamese": "phương nam", "example": "南方很暖和。(Phương nam rất ấm áp.)", "cauChuyen": "" },
-  { "chinese": "北方", "pinyin": "běi fāng", "vietnamese": "phương bắc", "example": "北方下雪了。(Phương bắc tuyết rơi rồi.)", "cauChuyen": "" },
-  { "chinese": "东方", "pinyin": "dōng fāng", "vietnamese": "phương đông", "example": "太阳从东方升起。(Mặt trời mọc ở phương đông.)", "cauChuyen": "" },
-  { "chinese": "西方", "pinyin": "xī fāng", "vietnamese": "phương tây", "example": "他去西方国家。(Anh ấy đi các nước phương Tây.)", "cauChuyen": "" },
-  { "chinese": "面包", "pinyin": "miàn bāo", "vietnamese": "bánh mì", "example": "我吃面包。(Tôi ăn bánh mì.)", "cauChuyen": "" },
-  { "chinese": "带", "pinyin": "dài", "vietnamese": "mang, đem, đội", "example": "别忘了带钱。(Đừng quên mang theo tiền.)", "cauChuyen": "" },
-  { "chinese": "地图", "pinyin": "dì tú", "vietnamese": "bản đồ", "example": "我看地图。(Tôi xem bản đồ.)", "cauChuyen": "" },
-  { "chinese": "搬", "pinyin": "bān", "vietnamese": "chuyển, dời", "example": "我要搬家。(Tôi muốn chuyển nhà.)", "cauChuyen": "" },
-  { "chinese": "厉害", "pinyin": "lì hǎi", "vietnamese": "lợi hại, giỏi", "example": "你真厉害！(Bạn thật lợi hại!)", "cauChuyen": "" },
-  { "chinese": "英雄", "pinyin": "yīng xióng", "vietnamese": "anh hùng", "example": "他是大英雄。(Anh ấy là anh hùng lớn.)", "cauChuyen": "" },
-  { "chinese": "比喻", "pinyin": "bǐ yù", "vietnamese": " ẩn dụ, ví von", "example": "这个比喻很好。(Phép ví von này rất hay.)", "cauChuyen": "" },
-  { "chinese": "积累", "pinyin": "jī lèi", "vietnamese": "tích lũy", "example": "积累经验。(Tích lũy kinh nghiệm.)", "cauChuyen": "" },
-  { "chinese": "精神", "pinyin": "jīng shén", "vietnamese": "tinh thần", "example": "他很有精神。(Anh ấy rất có tinh thần.)", "cauChuyen": "" },
-  { "chinese": "遇到", "pinyin": "yù dào", "vietnamese": "gặp phải", "example": "遇到好朋友。(Gặp được bạn tốt.)", "cauChuyen": "" },
-  { "chinese": "困难", "pinyin": "kùn nán", "vietnamese": "khó khăn", "example": "我不怕困难。(Tôi không sợ khó khăn.)", "cauChuyen": "" },
-  { "chinese": "办法", "pinyin": "bàn fǎ", "vietnamese": "cách, phương pháp", "example": "你有办法吗？(Bạn có cách nào không?)", "cauChuyen": "" },
-  { "chinese": "克服", "pinyin": "kè fú", "vietnamese": "khắc phục", "example": "克服困难。(Khắc phục khó khăn.)", "cauChuyen": "" },
-        {
-    "chinese": "解决",
-    "pinyin": "jiě jué",
-    "vietnamese": "giải quyết",
-    "example": "解决问题。(Giải quyết vấn đề.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "腿",
-    "pinyin": "tuǐ",
-    "vietnamese": "chân",
-    "example": "我的腿很长。(Chân của tôi rất dài.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "疼",
-    "pinyin": "téng",
-    "vietnamese": "đau",
-    "example": "头很疼。(Đầu rất đau.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "脚",
-    "pinyin": "jiǎo",
-    "vietnamese": "bàn chân, ngón chân",
-    "example": "洗脚。(Rửa chân.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "树",
-    "pinyin": "shù",
-    "vietnamese": "cái cây",
-    "example": "树下有人。(Dưới cây có người.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "容易",
-    "pinyin": "róng yì",
-    "vietnamese": "dễ dàng",
-    "example": "这个很容易。(Cái này rất dễ.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "难",
-    "pinyin": "nán",
-    "vietnamese": "khó",
-    "example": "不难。(Không khó.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "太太",
-    "pinyin": "tài tai",
-    "vietnamese": "madam, bà",
-    "example": "王太太不在。(Bà Vương không có ở đây.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "秘书",
-    "pinyin": "mì shū",
-    "vietnamese": "thư ký",
-    "example": "她是经理的秘书。(Cô ấy là thư ký của quản lý.)",
-    "cauChuyen": ""
-  },
-  {
-    "chinese": "经理",
-    "pinyin": "jīng lǐ",
-    "vietnamese": "quản lý",
-    "example": "经理出去了。(Quản lý đi ra ngoài rồi.)",
-    "cauChuyen": ""
-  },
-  { "chinese": "办公室", "pinyin": "bàn gōng shì", "vietnamese": "văn phòng", "example": "他在办公室。(Anh ấy ở văn phòng.)", "cauChuyen": "" },
-  { "chinese": "辆", "pinyin": "liàng", "vietnamese": "lượng từ của xe", "example": "一辆自行车。(Một chiếc xe đạp.)", "cauChuyen": "" },
-  { "chinese": "楼", "pinyin": "lóu", "vietnamese": "lầu", "example": "他在二楼。(Anh ấy ở tầng hai.)", "cauChuyen": "" },
-  { "chinese": "拿", "pinyin": "ná", "vietnamese": "cầm, nắm", "example": "拿一下。(Cầm lấy một chút.)", "cauChuyen": "" },
-  { "chinese": "把", "pinyin": "bǎ", "vietnamese": "đem (cấu trúc câu)", "example": "把门关上。(Đóng cửa vào.)", "cauChuyen": "" },
-  { "chinese": "伞", "pinyin": "sǎn", "vietnamese": "cái dù", "example": "带把伞吧。(Mang theo cái dù đi.)", "cauChuyen": "" },
-  { "chinese": "胖", "pinyin": "pàng", "vietnamese": "mập", "example": "我不胖。(Tôi không mập.)", "cauChuyen": "" },
-  { "chinese": "瘦", "pinyin": "shòu", "vietnamese": "ốm, gầy", "example": "你瘦了。(Bạn gầy đi rồi.)", "cauChuyen": "" },
-  { "chinese": "其实", "pinyin": "qí shí", "vietnamese": "thật ra", "example": "其实我不去。(Thật ra tôi không đi.)", "cauChuyen": "" },
-  { "chinese": "其实上", "pinyin": "qí shí shàng", "vietnamese": "trên thực tế", "example": "其实上他很有钱。(Thực tế là anh ấy rất giàu.)", "cauChuyen": "" },
-  { "chinese": "健康", "pinyin": "jiàn kāng", "vietnamese": "khỏe mạnh", "example": "身体健康。(Cơ thể khỏe mạnh.)", "cauChuyen": "" },
-  { "chinese": "还是", "pinyin": "hái shì", "vietnamese": "hay là", "example": "咖啡还是茶？(Cà phê hay là trà?)", "cauChuyen": "" },
-  { "chinese": "爬山", "pinyin": "pá shān", "vietnamese": "leo núi", "example": "我们去爬山。(Chúng ta đi leo núi.)", "cauChuyen": "" },
-  { "chinese": "小心", "pinyin": "xiǎo xīn", "vietnamese": "cẩn thận", "example": "小心点儿。(Cẩn thận một chút.)", "cauChuyen": "" },
-  { "chinese": "条", "pinyin": "tiáo", "vietnamese": "lượng từ vật dài", "example": "一条裤子。(Một cái quần.)", "cauChuyen": "" },
-  { "chinese": "裤子", "pinyin": "kù zi", "vietnamese": "cái quần", "example": "这条裤子很贵。(Cái quần này rất đắt.)", "cauChuyen": "" },
-  { "chinese": "记得", "pinyin": "jì de", "vietnamese": "nhớ", "example": "我不记得了。(Tôi không nhớ nữa.)", "cauChuyen": "" },
-  { "chinese": "衬衫", "pinyin": "chèn shān", "vietnamese": "áo sơ mi", "example": "这件衬衫很漂亮。(Chiếc áo sơ mi này rất đẹp.)", "cauChuyen": "" },
-  { "chinese": "元", "pinyin": "yuán", "vietnamese": "đơn vị tiền", "example": "这把伞五十元。(Cái dù này 50 tệ.)", "cauChuyen": "" },
-  { "chinese": "新鲜", "pinyin": "xīn xiān", "vietnamese": "tươi, tươi mới", "example": "水果很新鲜。(Hoa quả rất tươi.)", "cauChuyen": "" },
-  { "chinese": "甜", "pinyin": "tián", "vietnamese": "ngọt", "example": "西瓜真甜。(Dưa hấu thật là ngọt.)", "cauChuyen": "" },
-  { "chinese": "只", "pinyin": "zhǐ", "vietnamese": "chỉ", "example": "我只有十元。(Tôi chỉ có 10 tệ.)", "cauChuyen": "" },
-  { "chinese": "放", "pinyin": "fàng", "vietnamese": "đặt, để", "example": "放在桌子上。(Để ở trên bàn.)", "cauChuyen": "" },
-  { "chinese": "放下", "pinyin": "fàng xià", "vietnamese": "đặt xuống, để xuống", "example": "请放下手机。(Xin hãy đặt điện thoại xuống.)", "cauChuyen": "" },
-  { "chinese": "饮料", "pinyin": "yǐn liào", "vietnamese": "thức uống", "example": "你想喝什么饮料？(Bạn muốn uống thức uống gì?)", "cauChuyen": "" },
-  { "chinese": "或者", "pinyin": "huò zhě", "vietnamese": "hoặc, hay là (câu trần thuật)", "example": "喝茶或者咖啡都可以。(Uống trà hoặc cà phê đều được.)", "cauChuyen": "" },
-  { "chinese": "舒服", "pinyin": "shū fu", "vietnamese": "thoải mái", "example": "坐在这儿很舒服。(Ngồi ở đây rất thoải mái.)", "cauChuyen": "" },
-  { "chinese": "花", "pinyin": "huā", "vietnamese": "bông hoa", "example": "这些花真好看。(Những bông hoa này thật đẹp.)", "cauChuyen": "" },
-  { "chinese": "绿", "pinyin": "lǜ", "vietnamese": "màu xanh lá cây", "example": "那是绿色的毛衣。(Đó là chiếc áo len màu xanh lá.)", "cauChuyen": "" },
-  { "chinese": "顾客", "pinyin": "gù kè", "vietnamese": "khách hàng", "example": "商店里有很多顾客。(Trong cửa hàng có rất nhiều khách hàng.)", "cauChuyen": "" },
-  { "chinese": "比赛", "pinyin": "bǐ sài", "vietnamese": "cuộc thi, trận đấu", "example": "我看足球比赛。(Tôi xem trận đấu bóng đá.)", "cauChuyen": "" },
-  { "chinese": "照片", "pinyin": "zhào piàn", "vietnamese": "tấm ảnh (lượng từ: 张)", "example": "这张照片是谁的？(Tấm ảnh này là của ai?)", "cauChuyen": "" },
-  { "chinese": "年级", "pinyin": "nián jí", "vietnamese": "lớp (trong trường học)", "example": "我读三年级。(Tôi học lớp 3.)", "cauChuyen": "" },
-  { "chinese": "又", "pinyin": "yòu", "vietnamese": "lại", "example": "你怎么又来了？(Sao bạn lại đến nữa rồi?)", "cauChuyen": "" },
-  { "chinese": "聪明", "pinyin": "cōng míng", "vietnamese": "thông minh", "example": "那个孩子很聪明。(Đứa trẻ đó rất thông minh.)", "cauChuyen": "" },
-  { "chinese": "热情", "pinyin": "rè qíng", "vietnamese": "nhiệt tình", "example": "他很热情。(Anh ấy rất nhiệt tình.)", "cauChuyen": "" },
-  { "chinese": "努力", "pinyin": "nǔ lì", "vietnamese": "nỗ lực, cố gắng", "example": "努力学习。(Nỗ lực học tập.)", "cauChuyen": "" },
-  { "chinese": "总是", "pinyin": "zǒng shì", "vietnamese": "luôn luôn", "example": "他总是迟到。(Anh ấy luôn luôn đến muộn.)", "cauChuyen": "" },
-  { "chinese": "回答", "pinyin": "huí dá", "vietnamese": "trả lời", "example": "请回答我的问题。(Xin hãy trả lời câu hỏi của tôi.)", "cauChuyen": "" },
-  { "chinese": "站", "pinyin": "zhàn", "vietnamese": "đứng", "example": "车站就在那儿。(Bến xe ở ngay kia.)", "cauChuyen": "" },
-  { "chinese": "站起来", "pinyin": "zhàn qǐ lái", "vietnamese": "đứng lên", "example": "请大家都站起来。(Mời mọi người đứng lên.)", "cauChuyen": "" },
-  { "chinese": "饿", "pinyin": "è", "vietnamese": "đói", "example": "我饿了。(Tôi đói rồi.)", "cauChuyen": "" },
-  { "chinese": "超市", "pinyin": "chāo shì", "vietnamese": "siêu thị", "example": "我去超市买东西。(Tôi đi siêu thị mua đồ.)", "cauChuyen": "" },
-  { "chinese": "蛋糕", "pinyin": "dàn gāo", "vietnamese": "bánh kem", "example": "我想吃蛋糕。(Tôi muốn ăn bánh kem.)", "cauChuyen": "" },
-  { "chinese": "年轻", "pinyin": "nián qīng", "vietnamese": "trẻ", "example": "他很年轻。(Anh ấy rất trẻ.)", "cauChuyen": "" },
-  { "chinese": "认真", "pinyin": "rèn zhēn", "vietnamese": "nghiêm túc", "example": "你太不认真了。(Bạn quá không nghiêm túc rồi.)", "cauChuyen": "" },
-  { "chinese": "客人", "pinyin": "kè rén", "vietnamese": "khách, khách hàng", "example": "家里有客人。(Trong nhà có khách.)", "cauChuyen": "" },
-  { "chinese": "古代", "pinyin": "gǔ dài", "vietnamese": "cổ đại", "example": "古代的故事。(Câu chuyện thời cổ đại.)", "cauChuyen": "" },
-  { "chinese": "故事", "pinyin": "gù shì", "vietnamese": "câu chuyện", "example": "讲故事。(Kể chuyện.)", "cauChuyen": "" },
-  { "chinese": "发烧", "pinyin": "fā shāo", "vietnamese": "phát sốt", "example": "我发烧了。(Tôi bị sốt rồi.)", "cauChuyen": "" },
-  { "chinese": "为", "pinyin": "wèi", "vietnamese": "bởi, vì", "example": "这是为你买的。(Đây là mua cho bạn.)", "cauChuyen": "" },
-  { "chinese": "照顾", "pinyin": "zhào gù", "vietnamese": "chăm sóc", "example": "照顾好自己。(Chăm sóc tốt bản thân nhé.)", "cauChuyen": "" },
-  { "chinese": "用", "pinyin": "yòng", "vietnamese": "dùng, cần", "example": "不用谢。(Không cần cảm ơn.)", "cauChuyen": "" },
-  { "chinese": "感冒", "pinyin": "gǎn mào", "vietnamese": "cảm", "example": "我感冒了。(Tôi bị cảm rồi.)", "cauChuyen": "" },
-  { "chinese": "季节", "pinyin": "jì jié", "vietnamese": "mùa", "example": "一年有四个季节。(Một năm có bốn mùa.)", "cauChuyen": "" },
-  { "chinese": "当然", "pinyin": "dāng rán", "vietnamese": "đương nhiên", "example": "当然可以。(Đương nhiên là có thể.)", "cauChuyen": "" },
-  { "chinese": "春天", "pinyin": "chūn tiān", "vietnamese": "mùa xuân", "example": "春天来了。(Mùa xuân đến rồi.)", "cauChuyen": "" },
-  { "chinese": "夏天", "pinyin": "xià tiān", "vietnamese": "mùa hạ", "example": "夏天很热。(Mùa hè rất nóng.)", "cauChuyen": "" },
-  { "chinese": "秋天", "pinyin": "qiū tiān", "vietnamese": "mùa thu", "example": "秋天很舒服。(Mùa thu rất thoải mái.)", "cauChuyen": "" },
-  { "chinese": "冬天", "pinyin": "dōng tiān", "vietnamese": "mùa đông", "example": "冬天很冷。(Mùa đông rất lạnh.)", "cauChuyen": "" },
-  { "chinese": "草", "pinyin": "cǎo", "vietnamese": "cỏ", "example": "草绿了。(Cỏ xanh rồi.)", "cauChuyen": "" },
-  { "chinese": "裙子", "pinyin": "qún zi", "vietnamese": "cái váy", "example": "她穿着红裙子。(Cô ấy đang mặc cái váy đỏ.)", "cauChuyen": "" },
-  { "chinese": "最近", "pinyin": "zuì jìn", "vietnamese": "dạo gần đây", "example": "你最近怎么样？(Dạo này bạn thế nào?)", "cauChuyen": "" },
-  { "chinese": "越", "pinyin": "yuè", "vietnamese": "càng", "example": "雨越下越大。(Mưa càng lúc càng to.)", "cauChuyen": "" },
-  { "chinese": "马上", "pinyin": "mǎ shàng", "vietnamese": "ngay lập tức", "example": "我马上就到。(Tôi đến ngay đây.)", "cauChuyen": "" },
-  { "chinese": "形容", "pinyin": "xíng róng", "vietnamese": "miêu tả", "example": "我不会形容。(Tôi không biết miêu tả thế nào.)", "cauChuyen": "" },
-  { "chinese": "医术", "pinyin": "yī shù", "vietnamese": "kỹ thuật y học", "example": "医术高明。(Y thuật cao minh.)", "cauChuyen": "" },
-  { "chinese": "眼睛", "pinyin": "yǎn jīng", "vietnamese": "mắt", "example": "她的眼睛很大。(Mắt của cô ấy rất to.)", "cauChuyen": "" },
-  { "chinese": "眼镜", "pinyin": "yǎn jìng", "vietnamese": "kính", "example": "我的眼镜在哪儿？(Kính của tôi ở đâu?)", "cauChuyen": "" },
-  { "chinese": "突然", "pinyin": "tū rán", "vietnamese": "đột nhiên", "example": "天突然下雨了。(Trời đột nhiên đổ mưa.)", "cauChuyen": "" },
-  { "chinese": "离开", "pinyin": "lí kāi", "vietnamese": "rời xa, rời đi", "example": "他不舍得离开。(Anh ấy không nỡ rời xa.)", "cauChuyen": "" },
-  { "chinese": "清楚", "pinyin": "qīng chu", "vietnamese": "rõ, rõ ràng", "example": "我看得很清楚。(Tôi nhìn rất rõ.)", "cauChuyen": "" },
-  { "chinese": "刚才", "pinyin": "gāng cái", "vietnamese": "vừa mới", "example": "刚才谁来了？(Vừa nãy ai đến vậy?)", "cauChuyen": "" },
-  { "chinese": "帮忙", "pinyin": "bāng máng", "vietnamese": "giúp đỡ", "example": "你能帮个忙吗？(Bạn có thể giúp một tay không?)", "cauChuyen": "" },
-  { "chinese": "特别", "pinyin": "tè bié", "vietnamese": "đặc biệt", "example": "今天特别热。(Hôm nay đặc biệt nóng.)", "cauChuyen": "" },
-  { "chinese": "讲", "pinyin": "jiǎng", "vietnamese": "giảng, kể", "example": "老师在讲课。(Thầy giáo đang giảng bài.)", "cauChuyen": "" },
-  { "chinese": "明白", "pinyin": "míng bai", "vietnamese": "hiểu", "example": "我明白了。(Tôi hiểu rồi.)", "cauChuyen": "" },
-  { "chinese": "锻炼", "pinyin": "duàn liàn", "vietnamese": "rèn luyện", "example": "我去锻炼身体。(Tôi đi tập thể dục/rèn luyện thân thể.)", "cauChuyen": "" },
-  { "chinese": "音乐", "pinyin": "yīn yuè", "vietnamese": "âm nhạc", "example": "我喜欢听音乐。(Tôi thích nghe nhạc.)", "cauChuyen": "" },
-  { "chinese": "公园", "pinyin": "gōng yuán", "vietnamese": "công viên", "example": "我们在公园散步。(Chúng tôi đi dạo ở công viên.)", "cauChuyen": "" },
-  { "chinese": "聊天(儿)", "pinyin": "liáo tiān (er)", "vietnamese": "nói chuyện, tán gẫu", "example": "我不喜欢聊天。(Tôi không thích tán gẫu.)", "cauChuyen": "" },
-  { "chinese": "睡着", "pinyin": "shuì zháo", "vietnamese": "ngủ say, ngủ thiếp đi", "example": "他已经睡着了。(Anh ấy đã ngủ thiếp đi rồi.)", "cauChuyen": "" },
-  { "chinese": "更", "pinyin": "gèng", "vietnamese": "hơn, càng", "example": "今天比昨天更热。(Hôm nay còn nóng hơn hôm qua.)", "cauChuyen": "" },
-  { "chinese": "正常", "pinyin": "zhèng cháng", "vietnamese": "bình thường", "example": "这很正常。(Việc này rất bình thường.)", "cauChuyen": "" },
-  { "chinese": "因此", "pinyin": "yīn cǐ", "vietnamese": "do đó, vì vậy", "example": "他很努力，因此成功了。(Anh ấy rất nỗ lực, vì vậy đã thành công.)", "cauChuyen": "" },
-  { "chinese": "放弃", "pinyin": "fàng qì", "vietnamese": "bỏ cuộc", "example": "请不要放弃。(Xin đừng bỏ cuộc.)", "cauChuyen": "" },
-  { "chinese": "而", "pinyin": "ér", "vietnamese": "mà", "example": "这个贵而不好。(Cái này đắt mà không tốt.)", "cauChuyen": "" },
-  { "chinese": "坚持", "pinyin": "jiān chí", "vietnamese": "kiên trì", "example": "坚持就是胜利。(Kiên trì chính là thắng lợi.)", "cauChuyen": "" },
-  { "chinese": "同事", "pinyin": "tóng shì", "vietnamese": "đồng nghiệp", "example": "他们是我的同事。(Họ là đồng nghiệp của tôi.)", "cauChuyen": "" },
-  { "chinese": "以前", "pinyin": "yǐ qián", "vietnamese": "trước đây", "example": "以前我不认识他。(Trước đây tôi không quen anh ấy.)", "cauChuyen": "" },
-  { "chinese": "银行", "pinyin": "yín háng", "vietnamese": "ngân hàng", "example": "银行在那儿。(Ngân hàng ở đằng kia.)", "cauChuyen": "" },
-  { "chinese": "久", "pinyin": "jiǔ", "vietnamese": "lâu", "example": "等了很久。(Đã đợi rất lâu rồi.)", "cauChuyen": "" },
-  { "chinese": "感兴趣", "pinyin": "gǎn xìng qù", "vietnamese": "hứng thú, quan tâm", "example": "我对汉语感兴趣。(Tôi có hứng thú với tiếng Hán.)", "cauChuyen": "" },
-  { "chinese": "结婚", "pinyin": "jié hūn", "vietnamese": "kết hôn", "example": "他们结婚了。(Họ kết hôn rồi.)", "cauChuyen": "" },
-  { "chinese": "欢迎", "pinyin": "huān yíng", "vietnamese": "hoan nghênh", "example": "欢迎你们！(Hoan nghênh các bạn!)", "cauChuyen": "" },
-  { "chinese": "迟到", "pinyin": "chí dào", "vietnamese": "đến muộn", "example": "别迟到了。(Đừng đến muộn nhé.)", "cauChuyen": "" },
-  { "chinese": "半", "pinyin": "bàn", "vietnamese": "một nửa", "example": "五点半。(Năm giờ rưỡi.)", "cauChuyen": "" },
-  { "chinese": "接", "pinyin": "jiē", "vietnamese": "đón, gặp", "example": "我去机场接你。(Tôi đi sân bay đón bạn.)", "cauChuyen": "" },
-  { "chinese": "刻", "pinyin": "kè", "vietnamese": "khắc (15 phút)", "example": "七点一刻。(Bảy giờ mười lăm.)", "cauChuyen": "" },
-  { "chinese": "差", "pinyin": "chà", "vietnamese": "kém", "example": "差十分八点。(Tám giờ kém mười.)", "cauChuyen": "" },
-  { "chinese": "又", "pinyin": "yòu", "vietnamese": "lại, và", "example": "他又迟到了。(Anh ấy lại đến muộn rồi.)", "cauChuyen": "" },
-  { "chinese": "满意", "pinyin": "mǎn yì", "vietnamese": "hài lòng", "example": "我很满意。(Tôi rất hài lòng.)", "cauChuyen": "" },
-  { "chinese": "电梯", "pinyin": "diàn tī", "vietnamese": "thang máy", "example": "坐电梯上去。(Đi thang máy lên trên.)", "cauChuyen": "" },
-  { "chinese": "害怕", "pinyin": "hài pà", "vietnamese": "sợ hãi", "example": "我不害怕。(Tôi không sợ.)", "cauChuyen": "" },
-  { "chinese": "熊猫", "pinyin": "xióng māo", "vietnamese": "gấu trúc", "example": "熊猫很可爱。(Gấu trúc rất đáng yêu.)", "cauChuyen": "" },
-  { "chinese": "见面", "pinyin": "jiàn miàn", "vietnamese": "gặp mặt", "example": "我想跟你见面。(Tôi muốn gặp mặt bạn.)", "cauChuyen": "" },
-  { "chinese": "安静", "pinyin": "ān jìng", "vietnamese": "yên tĩnh", "example": "这儿很安静。(Ở đây rất yên tĩnh.)", "cauChuyen": "" },
-  { "chinese": "可乐", "pinyin": "kě lè", "vietnamese": "Coca-Cola", "example": "我想喝可乐。(Tôi muốn uống Coca.)", "cauChuyen": "" },
-  { "chinese": "一会儿", "pinyin": "yí huìr", "vietnamese": "một lát", "example": "等一会儿。(Đợi một lát.)", "cauChuyen": "" },
-  { "chinese": "洗手间", "pinyin": "xǐ shǒu jiān", "vietnamese": "nhà vệ sinh", "example": "洗手间在哪儿？(Nhà vệ sinh ở đâu?)", "cauChuyen": "" },
-  { "chinese": "老", "pinyin": "lǎo", "vietnamese": "già, cũ", "example": "这是一本老书。(Đây là một cuốn sách cũ.)", "cauChuyen": "" },
-  { "chinese": "几乎", "pinyin": "jī hū", "vietnamese": "gần như", "example": "我几乎忘了。(Tôi gần như quên mất rồi.)", "cauChuyen": "" },
-  { "chinese": "变化", "pinyin": "biàn huà", "vietnamese": "thay đổi", "example": "这里的变化很大。(Sự thay đổi ở đây rất lớn.)", "cauChuyen": "" },
-  { "chinese": "健康", "pinyin": "jiàn kāng", "vietnamese": "khỏe mạnh", "example": "祝你健康。(Chúc bạn khỏe mạnh.)", "cauChuyen": "" },
-  { "chinese": "重要", "pinyin": "zhòng yào", "vietnamese": "quan trọng", "example": "这件事很重要。(Việc này rất quan trọng.)", "cauChuyen": "" },
-  { "chinese": "全面", "pinyin": "quán miàn", "vietnamese": "toàn diện", "example": "他发展很全面。(Anh ấy phát triển rất toàn diện.)", "cauChuyen": "" },
-  { "chinese": "中文", "pinyin": "zhōng wén", "vietnamese": "tiếng Trung", "example": "你会说中文吗？(Bạn biết nói tiếng Trung không?)", "cauChuyen": "" },
-  { "chinese": "班", "pinyin": "bān", "vietnamese": "lớp", "example": "我在三班。(Tôi ở lớp 3.)", "cauChuyen": "" },
-  { "chinese": "一样", "pinyin": "yí yàng", "vietnamese": "giống, như nhau", "example": "我也一样。(Tôi cũng vậy/cũng giống thế.)", "cauChuyen": "" },
-  { "chinese": "最后", "pinyin": "zuì hòu", "vietnamese": "cuối cùng", "example": "这是最后一次。(Đây là lần cuối cùng.)", "cauChuyen": "" },
-  { "chinese": "放心", "pinyin": "fàng xīn", "vietnamese": "yên tâm", "example": "请放心。(Xin hãy yên tâm.)", "cauChuyen": "" },
-  { "chinese": "一定", "pinyin": "yí dìng", "vietnamese": "nhất định", "example": "明天我一定来。(Mai tôi nhất định đến.)", "cauChuyen": "" },
-  { "chinese": "担心", "pinyin": "dān xīn", "vietnamese": "lo lắng", "example": "别担心。(Đừng lo lắng.)", "cauChuyen": "" },
-  { "chinese": "比较", "pinyin": "bǐ jiào", "vietnamese": "tương đối, so sánh", "example": "今天比较冷。(Hôm nay tương đối lạnh.)", "cauChuyen": "" },
-  { "chinese": "了解", "pinyin": "liǎo jiě", "vietnamese": "hiểu biết, tìm hiểu", "example": "我很了解他。(Tôi rất hiểu anh ấy.)", "cauChuyen": "" },
-  { "chinese": "先", "pinyin": "xiān", "vietnamese": "trước", "example": "你先说吧。(Bạn nói trước đi.)", "cauChuyen": "" },
-  { "chinese": "中间", "pinyin": "zhōng jiān", "vietnamese": "ở giữa, trung gian", "example": "他在中间。(Anh ấy ở giữa.)", "cauChuyen": "" },
-  { "chinese": "参加", "pinyin": "cān jiā", "vietnamese": "tham gia", "example": "参加比赛。(Tham gia thi đấu.)", "cauChuyen": "" },
-  { "chinese": "影响", "pinyin": "yǐng xiǎng", "vietnamese": "ảnh hưởng", "example": "别影响别人。(Đừng ảnh hưởng người khác.)", "cauChuyen": "" },
-  { "chinese": "优点", "pinyin": "yōu diǎn", "vietnamese": "ưu điểm", "example": "他的优点很多。(Ưu điểm của anh ấy rất nhiều.)", "cauChuyen": "" },
-  { "chinese": "个子", "pinyin": "gè zi", "vietnamese": "vóc dáng, chiều cao", "example": "他个子很高。(Vóc dáng anh ấy rất cao.)", "cauChuyen": "" },
-  { "chinese": "矮", "pinyin": "ǎi", "pinyin": "ǎi", "vietnamese": "lùn, thấp", "example": "他比我矮一点。(Anh ấy thấp hơn tôi một chút.)", "cauChuyen": "" },
-  { "chinese": "历史", "pinyin": "lì shǐ", "vietnamese": "lịch sử", "example": "历史课很有趣。(Tiết lịch sử rất thú vị.)", "cauChuyen": "" },
-  { "chinese": "体育", "pinyin": "tǐ yù", "vietnamese": "thể dục, thể thao", "example": "我喜欢体育运动。(Tôi thích vận động thể thao.)", "cauChuyen": "" },
-  { "chinese": "数学", "pinyin": "shù xué", "vietnamese": "toán học", "example": "数学很难。(Toán học rất khó.)", "cauChuyen": "" },
-  { "chinese": "方便", "pinyin": "fāng biàn", "vietnamese": "thuận tiện", "example": "这儿很方便。(Ở đây rất thuận tiện.)", "cauChuyen": "" },
-  { "chinese": "自行车", "pinyin": "zì xíng chē", "vietnamese": "xe đạp", "example": "骑自行车去学校。(Đi xe đạp đến trường.)", "cauChuyen": "" },
-  { "chinese": "骑", "pinyin": "qí", "vietnamese": "cưỡi, đi (xe đạp, ngựa)", "example": "你会骑马吗？(Bạn biết cưỡi ngựa không?)", "cauChuyen": "" },
-  { "chinese": "旧", "pinyin": "jiù", "vietnamese": "cũ", "example": "旧衣服。(Quần áo cũ.)", "cauChuyen": "" },
-  { "chinese": "换", "pinyin": "huàn", "vietnamese": "đổi", "example": "我想换钱。(Tôi muốn đổi tiền.)", "cauChuyen": "" },
-  { "chinese": "地方", "pinyin": "dì fang", "vietnamese": "nơi, địa điểm", "example": "这个地方很漂亮。(Nơi này rất đẹp.)", "cauChuyen": "" },
-  { "chinese": "中介", "pinyin": "zhōng jiè", "vietnamese": "môi giới, trung gian", "example": "我通过中介租了一套房子。(Tôi thuê một căn nhà thông qua môi giới.)", "cauChuyen": "" },
-  { "chinese": "主要", "pinyin": "zhǔ yào", "vietnamese": "chủ yếu", "example": "这个计划主要由他负责。(Kế hoạch này chủ yếu do anh ấy phụ trách.)", "cauChuyen": "" },
-  { "chinese": "环境", "pinyin": "huán jìng", "vietnamese": "môi trường", "example": "这里的环境非常安静。(Môi trường ở đây rất yên tĩnh.)", "cauChuyen": "" },
-  { "chinese": "附近", "pinyin": "fù jìn", "vietnamese": "gần đây, lân cận", "example": "学校附近有很多小吃店。(Gần trường học có rất nhiều quán ăn vặt.)", "cauChuyen": "" },
-  { "chinese": "图书馆", "pinyin": "tú shū guǎn", "vietnamese": "thư viện", "example": "图书馆里有很多书。(Trong thư viện có rất nhiều sách.)", "cauChuyen": "" },
-  { "chinese": "借", "pinyin": "jiè", "vietnamese": "mượn", "example": "我想借你的电脑用一下。(Tôi muốn mượn máy tính của bạn dùng một lát.)", "cauChuyen": "" },
-  { "chinese": "词典", "pinyin": "cí diǎn", "vietnamese": "từ điển", "example": "这本词典很有用。(Cuốn từ điển này rất hữu ích.)", "cauChuyen": "" },
-  { "chinese": "还", "pinyin": "huán", "vietnamese": "trả", "example": "借的东西一定要还。(Đồ đã mượn thì nhất định phải trả.)", "cauChuyen": "" },
-  { "chinese": "灯", "pinyin": "dēng", "vietnamese": "đèn", "example": "离开房间请关灯。(Rời phòng xin hãy tắt đèn.)", "cauChuyen": "" },
-  { "chinese": "会议", "pinyin": "huì yì", "vietnamese": "cuộc họp", "example": "会议三点钟开始。(Cuộc họp bắt đầu lúc ba giờ.)", "cauChuyen": "" },
-  { "chinese": "结束", "pinyin": "jié shù", "vietnamese": "kết thúc", "example": "电影什么时候结束？(Phim khi nào kết thúc?)", "cauChuyen": "" },
-  { "chinese": "忘记", "pinyin": "wàng jì", "vietnamese": "quên", "example": "我忘记他的名字了。(Tôi quên tên anh ấy rồi.)", "cauChuyen": "" },
-  { "chinese": "空调", "pinyin": "kōng tiáo", "vietnamese": "máy lạnh, điều hòa", "example": "请把空调打开。(Hãy bật điều hòa lên.)", "cauChuyen": "" },
-  { "chinese": "关", "pinyin": "guān", "vietnamese": "đóng, tắt", "example": "关门 / 关电视。(Đóng cửa / Tắt tivi.)", "cauChuyen": "" },
-  { "chinese": "地铁", "pinyin": "dì tiě", "vietnamese": "tàu điện ngầm", "example": "坐地铁去上班。(Đi làm bằng tàu điện ngầm.)", "cauChuyen": "" },
-  { "chinese": "双", "pinyin": "shuāng", "vietnamese": "đôi (lượng từ)", "example": "一双鞋 / 一双筷子。(Một đôi giày / Một đôi đũa.)", "cauChuyen": "" },
-  { "chinese": "筷子", "pinyin": "kuài zi", "vietnamese": "đôi đũa", "example": "中国人用筷子吃饭。(Người Trung Quốc dùng đũa ăn cơm.)", "cauChuyen": "" },
-  { "chinese": "口", "pinyin": "kǒu", "vietnamese": "miệng, khẩu (lượng từ)", "example": "他家有五口人。(Nhà anh ấy có năm người.)", "cauChuyen": "" },
-  { "chinese": "瓶子", "pinyin": "píng zi", "vietnamese": "cái chai", "example": "瓶子里装满了水。(Trong chai chứa đầy nước.)", "cauChuyen": "" },
-  { "chinese": "笔记本", "pinyin": "bǐ jì běn", "vietnamese": "vở, laptop", "example": "我在笔记本上写字。(Tôi viết chữ trên cuốn vở.)", "cauChuyen": "" },
-  { "chinese": "电子邮件", "pinyin": "diàn zǐ yóu jiàn", "vietnamese": "email", "example": "我给你发了一封电子邮件。(Tôi đã gửi cho bạn một bức email.)", "cauChuyen": "" },
-  { "chinese": "习惯", "pinyin": "xí guàn", "vietnamese": "thói quen; quen thuộc", "example": "早起是一个好习惯。(Dậy sớm là một thói quen tốt.)", "cauChuyen": "" },
-  { "chinese": "太阳", "pinyin": "tài yáng", "vietnamese": "mặt trời", "example": "今天的太阳很大。(Hôm nay nắng rất to.)", "cauChuyen": "" },
-  { "chinese": "西", "pinyin": "xī", "vietnamese": "phía tây", "example": "太阳从西边落下。(Mặt trời lặn ở phía tây.)", "cauChuyen": "" },
-  { "chinese": "生气", "pinyin": "shēng qì", "vietnamese": "tức giận", "example": "别生我的气了。(Đừng giận tôi nữa.)", "cauChuyen": "" },
-  { "chinese": "行李箱", "pinyin": "xíng li xiāng", "vietnamese": "va li", "example": "这个行李箱太重了。(Cái vali này nặng quá.)", "cauChuyen": "" },
-  { "chinese": "自己", "pinyin": "zì jǐ", "vietnamese": "bản thân, chính mình", "example": "我喜欢一个人自己旅行。(Tôi thích tự đi du lịch một mình.)", "cauChuyen": "" },
-  { "chinese": "包", "pinyin": "bāo", "vietnamese": "cái túi", "example": "包里有手机和钱。(Trong túi có điện thoại và tiền.)", "cauChuyen": "" },
-  { "chinese": "发现", "pinyin": "fā xiàn", "vietnamese": "phát hiện", "example": "我发现他今天有点不开心。(Tôi phát hiện hôm nay anh ấy hơi không vui.)", "cauChuyen": "" },
-  { "chinese": "护照", "pinyin": "hù zhào", "vietnamese": "hộ chiếu", "example": "出国必须带护照。(Ra nước ngoài bắt buộc phải mang hộ chiếu.)", "cauChuyen": "" },
-  { "chinese": "起飞", "pinyin": "qǐ fēi", "vietnamese": "cất cánh", "example": "飞机马上就要起飞了。(Máy bay sắp cất cánh rồi.)", "cauChuyen": "" },
-  { "chinese": "司机", "pinyin": "sī jī", "vietnamese": "tài xế", "example": "这位司机师傅很热情。(Bác tài xế này rất nhiệt tình.)", "cauChuyen": "" },
-  { "chinese": "教", "pinyin": "jiào", "vietnamese": "dạy", "example": "王老师教我们数学。(Thầy Vương dạy chúng tôi toán học.)", "cauChuyen": "" },
-  { "chinese": "画", "pinyin": "huà", "vietnamese": "vẽ; bức vẽ", "example": "他在画一张画。(Anh ấy đang vẽ một bức tranh.)", "cauChuyen": "" },
-  { "chinese": "需要", "pinyin": "xū yào", "vietnamese": "cần", "example": "我需要你的帮助。(Tôi cần sự giúp đỡ của bạn.)", "cauChuyen": "" },
-  { "chinese": "黑板", "pinyin": "hēi bǎn", "vietnamese": "bảng đen", "example": "请看黑板上的字。(Xin hãy nhìn chữ trên bảng đen.)", "cauChuyen": "" },
-  { "chinese": "终于", "pinyin": "zhōng yú", "vietnamese": "cuối cùng", "example": "作业终于做完了。(Bài tập cuối cùng cũng làm xong rồi.)", "cauChuyen": "" },
-  { "chinese": "爷爷", "pinyin": "yè ye", "vietnamese": "ông nội", "example": "我爷爷今年八十岁了。(Ông nội tôi năm nay 80 tuổi rồi.)", "cauChuyen": "" },
-  { "chinese": "礼物", "pinyin": "lǐ wù", "vietnamese": "món quà", "example": "这是送给你的生日礼物。(Đây là quà sinh nhật tặng cho bạn.)", "cauChuyen": "" },
-  { "chinese": "奶奶", "pinyin": "nǎi nai", "vietnamese": "bà nội", "example": "奶奶做的饭最好吃。(Cơm bà nội nấu là ngon nhất.)", "cauChuyen": "" },
-  { "chinese": "遇到", "pinyin": "yù dào", "vietnamese": "gặp phải", "example": "在路上遇到了一个老朋友。(Gặp lại một người bạn cũ trên đường.)", "cauChuyen": "" },
-  { "chinese": "一边……一边……", "pinyin": "yì biān…… yì biān……", "vietnamese": "vừa... vừa...", "example": "他一边喝咖啡，一边看报纸。(Anh ấy vừa uống cà phê vừa đọc báo.)", "cauChuyen": "" },
-  { "chinese": "过去", "pinyin": "guò qù", "vietnamese": "qua đi; đi qua", "example": "这件事情已经过去了。(Chuyện này đã qua rồi.)", "cauChuyen": "" },
-  { "chinese": "一般", "pinyin": "yì bān", "vietnamese": "thông thường", "example": "我一般六点起床。(Tôi thường ngủ dậy lúc 6 giờ.)", "cauChuyen": "" },
-  { "chinese": "愿意", "pinyin": "yuàn yì", "vietnamese": "đồng ý, sẵn lòng", "example": "你愿意嫁给我吗？(Em có đồng ý gả cho anh không?)", "cauChuyen": "" },
-  { "chinese": "起来", "pinyin": "qǐ lai", "vietnamese": "đứng lên; dậy", "example": "他每天六点起床起来。(Anh ấy thức dậy lúc 6 giờ mỗi ngày.)", "cauChuyen": "" },
-  { "chinese": "应该", "pinyin": "yīng gāi", "vietnamese": "nên", "example": "你应该多喝开水。(Bạn nên uống nhiều nước lọc.)", "cauChuyen": "" },
-  { "chinese": "生活", "pinyin": "shēng huó", "vietnamese": "cuộc sống", "example": "我喜欢这里的生活。(Tôi thích cuộc sống ở đây.)", "cauChuyen": "" },
-  { "chinese": "校长", "pinyin": "xiào zhǎng", "vietnamese": "hiệu trưởng", "example": "校长正在开会。(Hiệu trưởng đang họp.)", "cauChuyen": "" },
-  { "chinese": "坏", "pinyin": "huài", "vietnamese": "hỏng, xấu", "example": "手机坏了，不能用了。(Điện thoại hỏng rồi, không dùng được nữa.)", "cauChuyen": "" },
-  { "chinese": "经常", "pinyin": "jīng cháng", "vietnamese": "thường xuyên", "example": "我经常去公园跑步。(Tôi thường xuyên đi công viên chạy bộ.)", "cauChuyen": "" },
-  { "chinese": "打扫", "pinyin": "dǎ sǎo", "vietnamese": "dọn dẹp", "example": "周六我们要打扫房间。(Thứ Bảy chúng tôi phải dọn dẹp phòng.)", "cauChuyen": "" },
-  { "chinese": "干净", "pinyin": "gān jìng", "vietnamese": "sạch sẽ", "example": "教室打扫得很干净。(Lớp học được dọn dẹp rất sạch sẽ.)", "cauChuyen": "" },
-  { "chinese": "然后", "pinyin": "rán hòu", "vietnamese": "sau đó", "example": "先吃饭，然后去散步。(Ăn cơm trước, sau đó đi tản bộ.)", "cauChuyen": "" },
-  { "chinese": "冰箱", "pinyin": "bīng xiāng", "vietnamese": "tủ lạnh", "example": "冰箱里没有牛奶了。(Trong tủ lạnh không còn sữa nữa.)", "cauChuyen": "" },
-  { "chinese": "洗澡", "pinyin": "xǐ zǎo", "vietnamese": "tắm", "example": "他正在洗澡呢。(Anh ấy đang tắm.)", "cauChuyen": "" },
-  { "chinese": "节目", "pinyin": "jié mù", "vietnamese": "chương trình", "example": "这个电视节目很有趣。(Chương trình tivi này rất thú vị.)", "cauChuyen": "" },
-  { "chinese": "月亮", "pinyin": "yuè liang", "vietnamese": "mặt trăng", "example": "今晚的月亮真圆。(Mặt trăng tối nay thật tròn.)", "cauChuyen": "" },
-  { "chinese": "像", "pinyin": "xiàng", "vietnamese": "giống", "example": "他长得真像他爸爸。(Anh ấy trông thật giống bố mình.)", "cauChuyen": "" },
-  { "chinese": "盘子", "pinyin": "pán zi", "vietnamese": "cái đĩa", "example": "请把桌上的盘子洗了。(Hãy rửa cái đĩa trên bàn đi.)", "cauChuyen": "" },
-  { "chinese": "阿姨", "pinyin": "ā yí", "vietnamese": "cô, dì", "example": "王阿姨对我很好。(Cô Vương đối xử với tôi rất tốt.)", "cauChuyen": "" },
-  { "chinese": "声音", "pinyin": "shēng yīn", "vietnamese": "âm thanh", "example": "你声音太小，我听不见。(Tiếng của bạn nhỏ quá, tôi nghe không rõ.)", "cauChuyen": "" },
-  { "chinese": "菜单", "pinyin": "cài dān", "vietnamese": "thực đơn", "example": "服务员，请给我菜单。(Phục vụ, cho tôi xem thực đơn.)", "cauChuyen": "" },
-  { "chinese": "简单", "pinyin": "jiǎn dān", "vietnamese": "đơn giản", "example": "这个问题很简单。(Vấn đề này rất đơn giản.)", "cauChuyen": "" },
-  { "chinese": "香蕉", "pinyin": "xiāng jiāo", "vietnamese": "quả chuối", "example": "我想买一斤香蕉。(Tôi muốn mua một cân chuối.)", "cauChuyen": "" },
-  { "chinese": "限", "pinyin": "xiàn", "vietnamese": "giới hạn", "example": "超市买一送一，限今天。(Siêu thị mua một tặng một, giới hạn trong hôm nay.)", "cauChuyen": "" },
-  { "chinese": "及早", "pinyin": "jí zǎo", "vietnamese": "càng sớm càng tốt", "example": "生病了要及早去看医生。(Bị bệnh thì phải đi khám bác sĩ sớm.)", "cauChuyen": "" },
-  { "chinese": "留学", "pinyin": "liú xué", "vietnamese": "du học", "example": "他明年去中国留学。(Năm sau anh ấy đi Trung Quốc du học.)", "cauChuyen": "" },
-  { "chinese": "水平", "pinyin": "shuǐ píng", "vietnamese": "trình độ", "example": "你的汉语水平提高了很多。(Trình độ tiếng Trung của bạn đã nâng cao rất nhiều.)", "cauChuyen": "" },
-  { "chinese": "提高", "pinyin": "tí gāo", "vietnamese": "nâng cao", "example": "多听听力可以提高水平。(Nghe nhiều có thể nâng cao trình độ.)", "cauChuyen": "" },
-  { "chinese": "练习", "pinyin": "liàn xí", "vietnamese": "luyện tập", "example": "下课后要多做练习。(Sau giờ học phải làm bài tập/luyện tập nhiều hơn.)", "cauChuyen": "" },
-  { "chinese": "完成", "pinyin": "wán chéng", "vietnamese": "hoàn thành", "example": "我终于完成作业了。(Cuối cùng tôi cũng hoàn thành bài tập rồi.)", "cauChuyen": "" },
-  { "chinese": "句子", "pinyin": "jù zi", "vietnamese": "câu", "example": "请用这个词造一个句子。(Hãy dùng từ này để đặt một câu.)", "cauChuyen": "" },
-  { "chinese": "其他", "pinyin": "qí tā", "vietnamese": "khác", "example": "除了他，其他人都来了。(Ngoài anh ấy ra, những người khác đều đã đến.)", "cauChuyen": "" },
-  { "chinese": "发", "pinyin": "fā", "vietnamese": "gửi", "example": "别忘了给我发照片。(Đừng quên gửi ảnh cho tôi nhé.)", "cauChuyen": "" },
-  { "chinese": "要求", "pinyin": "yāo qiú", "vietnamese": "yêu cầu", "example": "老师对我们的要求很高。(Thầy giáo yêu cầu rất cao ở chúng tôi.)", "cauChuyen": "" },
-  { "chinese": "注意", "pinyin": "zhù yì", "vietnamese": "chú ý", "example": "过马路要多注意安全。(Qua đường phải chú ý an toàn.)", "cauChuyen": "" },
-  { "chinese": "上网", "pinyin": "shàng wǎng", "vietnamese": "lên mạng", "example": "我每天上网学汉语。(Mỗi ngày tôi đều lên mạng học tiếng Trung.)", "cauChuyen": "" },
-  { "chinese": "网上", "pinyin": "wǎng shàng", "vietnamese": "trên mạng", "example": "网上买东西很方便。(Mua đồ trên mạng rất tiện lợi.)", "cauChuyen": "" },
-  { "chinese": "除了", "pinyin": "chú le", "vietnamese": "ngoài ra", "example": "除了苹果，我还喜欢西瓜。(Ngoài táo ra, tôi còn thích dưa hấu.)", "cauChuyen": "" },
-  { "chinese": "花", "pinyin": "huā", "vietnamese": "tiêu, chi tiêu", "example": "他在买书上花了不少钱。(Anh ấy tốn không ít tiền vào việc mua sách.)", "cauChuyen": "" },
-  { "chinese": "极了", "pinyin": "jí le", "vietnamese": "cực kỳ", "example": "这件衣服漂亮极了。(Bộ quần áo này đẹp cực kỳ.)", "cauChuyen": "" },
-  { "chinese": "节日", "pinyin": "jié rì", "vietnamese": "ngày lễ", "example": "春节是中国最重要的节日。(Tết Nguyên Đán là ngày lễ quan trọng nhất của Trung Quốc.)", "cauChuyen": "" },
-  { "chinese": "举行", "pinyin": "jǔ xíng", "vietnamese": "tổ chức", "example": "下周学校举行运动会。(Tuần sau trường tổ chức đại hội thể thao.)", "cauChuyen": "" },
-  { "chinese": "世界", "pinyin": "shì jiè", "vietnamese": "thế giới", "example": "世界很大，我想去看看。(Thế giới rất lớn, tôi muốn đi xem thử.)", "cauChuyen": "" },
-  { "chinese": "街道", "pinyin": "jiē dào", "vietnamese": "đường phố", "example": "街道两边有很多树。(Hai bên đường phố có rất nhiều cây.)", "cauChuyen": "" },
-  { "chinese": "各", "pinyin": "gè", "vietnamese": "mỗi, các", "example": "各国都有自己的文化。(Mỗi quốc gia đều có văn hóa riêng của mình.)", "cauChuyen": "" },
-  { "chinese": "文化", "pinyin": "wén huà", "vietnamese": "văn hóa", "example": "中国文化很有意思。(Văn hóa Trung Quốc rất thú vị.)", "cauChuyen": "" },
-  { "chinese": "面貌", "pinyin": "miàn mào", "vietnamese": "diện mạo, tình hình", "example": "这个城市的面貌焕然一新。(Diện mạo của thành phố này đã hoàn toàn đổi mới.)", "cauChuyen": "" },
-  { "chinese": "诚实", "pinyin": "chéng shí", "vietnamese": "trung thực", "example": "诚实是做人最基本的品质。(Trung thực là phẩm chất cơ bản nhất của con người.)", "cauChuyen": "" },
-  { "chinese": "任何", "pinyin": "rèn hé", "vietnamese": "bất kỳ", "example": "遇到任何困难都不要放弃。(Dù gặp bất kỳ khó khăn nào cũng đừng bỏ cuộc.)", "cauChuyen": "" },
-  { "chinese": "城市", "pinyin": "chéng shì", "vietnamese": "thành phố", "example": "我喜欢这个城市的夜景。(Tôi thích cảnh đêm của thành phố này.)", "cauChuyen": "" },
-  { "chinese": "如果", "pinyin": "rú guǒ", "vietnamese": "nếu", "example": "如果明天下雨，我就不去。(Nếu ngày mai trời mưa, tôi sẽ không đi.)", "cauChuyen": "" },
-  { "chinese": "认为", "pinyin": "rèn wéi", "vietnamese": "cho rằng, nghĩ rằng", "example": "你认为这个计划怎么样？(Bạn cho rằng kế hoạch này thế nào?)", "cauChuyen": "" },
-  { "chinese": "皮鞋", "pinyin": "pí xié", "vietnamese": "giày da (lượng từ: 双)", "example": "这双皮鞋很贵。(Đôi giày da này rất đắt.)", "cauChuyen": "" },
-  { "chinese": "帽子", "pinyin": "mào zi", "vietnamese": "cái mũ", "example": "他戴着一顶黑色的帽子。(Anh ấy đội một chiếc mũ màu đen.)", "cauChuyen": "" },
-  { "chinese": "长", "pinyin": "zhǎng", "vietnamese": "lớn lên, phát triển", "example": "孩子长得很快。(Đứa trẻ lớn lên rất nhanh.)", "cauChuyen": "" },
-  { "chinese": "可爱", "pinyin": "kě ài", "vietnamese": "dễ thương", "example": "那个小女孩真可爱。(Bé gái đó thật dễ thương.)", "cauChuyen": "" },
-  { "chinese": "米", "pinyin": "mǐ", "vietnamese": "mét", "example": "这条绳子有三米长。(Sợi dây này dài ba mét.)", "cauChuyen": "" },
-  { "chinese": "公斤", "pinyin": "gōng jīn", "vietnamese": "kilôgam (kg)", "example": "我买了两公斤苹果。(Tôi đã mua hai cân táo.)", "cauChuyen": "" },
-  { "chinese": "鼻子", "pinyin": "bí zi", "vietnamese": "cái mũi", "example": "她的鼻子很高。(Mũi của cô ấy rất cao.)", "cauChuyen": "" },
-  { "chinese": "头发", "pinyin": "tóu fa", "vietnamese": "tóc", "example": "她的头发又黑又亮。(Tóc của cô ấy vừa đen vừa bóng.)", "cauChuyen": "" },
-  { "chinese": "检查", "pinyin": "jiǎn chá", "vietnamese": "kiểm tra", "example": "出发前请检查一下护照。(Trước khi xuất phát hãy kiểm tra lại hộ chiếu.)", "cauChuyen": "" },
-  { "chinese": "刷牙", "pinyin": "shuā yá", "vietnamese": "đánh răng", "example": "每天早晚都要刷牙。(Mỗi ngày sáng tối đều phải đánh răng.)", "cauChuyen": "" },
-  { "chinese": "关系", "pinyin": "guān xì", "vietnamese": "mối quan hệ", "example": "他们两人的关系非常好。(Mối quan hệ của hai người họ rất tốt.)", "cauChuyen": "" },
-  { "chinese": "别人", "pinyin": "bié rén", "vietnamese": "người khác", "example": "尊重别人就是尊重自己。(Tôn trọng người khác chính là tôn trọng chính mình.)", "cauChuyen": "" },
-  { "chinese": "词语", "pinyin": "cí yǔ", "vietnamese": "từ ngữ", "example": "请用这些词语造句。(Hãy dùng những từ ngữ này để đặt câu.)", "cauChuyen": "" },
-  { "chinese": "对待", "pinyin": "duì dài", "vietnamese": "đối đãi", "example": "我们要平等地对待每一个人。(Chúng ta nên đối xử bình đẳng với mỗi người.)", "cauChuyen": "" },
-  { "chinese": "正确", "pinyin": "zhèng què", "vietnamese": "đúng đắn", "example": "这是一个正确的决定。(Đây là một quyết định đúng đắn.)", "cauChuyen": "" },
-  { "chinese": "处处", "pinyin": "chù chù", "vietnamese": "mọi nơi, nơi nơi", "example": "生活中处处有惊喜。(Trong cuộc sống nơi nơi đều có điều bất ngờ.)", "cauChuyen": "" },
-  { "chinese": "请假", "pinyin": "qǐng jià", "vietnamese": "xin nghỉ phép", "example": "他生病了，想跟老师请假。(Anh ấy bị ốm, muốn xin giáo viên nghỉ phép.)", "cauChuyen": "" },
-  { "chinese": "一共", "pinyin": "yí gòng", "vietnamese": "tổng cộng", "example": "这一共多少钱？(Chỗ này tổng cộng bao nhiêu tiền?)", "cauChuyen": "" },
-  { "chinese": "邻居", "pinyin": "lín jū", "vietnamese": "hàng xóm", "example": "我的邻居很热情。(Hàng xóm của tôi rất nhiệt tình.)", "cauChuyen": "" },
-  { "chinese": "后来", "pinyin": "hòu lái", "vietnamese": "sau này", "example": "后来，他们成了好朋友。(Sau này, họ đã trở thành bạn thân.)", "cauChuyen": "" },
-  { "chinese": "爱好", "pinyin": "ài hào", "vietnamese": "sở thích", "example": "我的爱好是看电影。(Sở thích của tôi là xem phim.)", "cauChuyen": "" },
-  { "chinese": "办法", "pinyin": "bàn fǎ", "vietnamese": "cách, biện pháp", "example": "别担心，我们总会有办法的。(Đừng lo lắng, chúng ta luôn sẽ có cách thôi.)", "cauChuyen": "" },
-  { "chinese": "为了", "pinyin": "wèi le", "vietnamese": "để, vì", "example": "为了学好汉语，他每天都练习。(Để học tốt tiếng Trung, anh ấy luyện tập mỗi ngày.)", "cauChuyen": "" },
-  { "chinese": "饱", "pinyin": "bǎo", "vietnamese": "no", "example": "我已经吃饱了。(Tôi đã ăn no rồi.)", "cauChuyen": "" },
-  { "chinese": "决定", "pinyin": "jué dìng", "vietnamese": "quyết định", "example": "他决定明年去中国留学。(Anh ấy quyết định năm sau đi Trung Quốc du học.)", "cauChuyen": "" },
-  { "chinese": "选择", "pinyin": "xuǎn zé", "vietnamese": "lựa chọn", "example": "每个人都有选择的权利。(Mỗi người đều có quyền lựa chọn.)", "cauChuyen": "" },
-  { "chinese": "必须", "pinyin": "bì xū", "vietnamese": "bắt buộc, phải", "example": "你必须在两点前到达。(Bạn bắt buộc phải đến trước hai giờ.)", "cauChuyen": "" },
-  { "chinese": "根据", "pinyin": "gēn jù", "vietnamese": "dựa theo, căn cứ", "example": "根据天气预报，明天有大雨。(Theo dự báo thời tiết, ngày mai có mưa lớn.)", "cauChuyen": "" },
-  { "chinese": "渴", "pinyin": "kě", "vietnamese": "khát", "example": "我很渴，想喝水。(Tôi rất khát, muốn uống nước.)", "cauChuyen": "" },
-  { "chinese": "利于", "pinyin": "lì yú", "vietnamese": "có lợi cho", "example": "多喝水利于身体健康。(Uống nhiều nước có lợi cho sức khỏe.)", "cauChuyen": "" },
-  { "chinese": "向", "pinyin": "xiàng", "vietnamese": "hướng về, về phía", "example": "请向大家介绍一下你自己。(Mời bạn giới thiệu bản thân với mọi người.)", "cauChuyen": "" },
-  { "chinese": "万", "pinyin": "wàn", "vietnamese": "vạn", "example": "那本书要三万块钱。(Quyển sách đó giá ba vạn tệ.)", "cauChuyen": "" },
-  { "chinese": "只", "pinyin": "zhī", "vietnamese": "lượng từ chỉ động vật", "example": "树上有一只小鸟。(Trên cây có một con chim nhỏ.)", "cauChuyen": "" },
-  { "chinese": "嘴", "pinyin": "zuǐ", "vietnamese": "cái miệng", "example": "他嘴里正吃着东西。(Trong miệng anh ấy đang ăn gì đó.)", "cauChuyen": "" },
-  { "chinese": "动物", "pinyin": "dòng wù", "vietnamese": "động vật", "example": "我们要爱护动物。(Chúng ta cần phải yêu quý động vật.)", "cauChuyen": "" },
-  { "chinese": "段", "pinyin": "duàn", "vietnamese": "đoạn (giai đoạn, đoạn văn)", "example": "请读一下这一段话。(Hãy đọc đoạn văn này.)", "cauChuyen": "" },
-  { "chinese": "有名", "pinyin": "yǒu míng", "vietnamese": "nổi tiếng", "example": "他是这里有名的医生。(Ông ấy là bác sĩ nổi tiếng ở đây.)", "cauChuyen": "" },
-  { "chinese": "同意", "pinyin": "tóng yì", "vietnamese": "đồng ý", "example": "我完全同意你的看法。(Tôi hoàn toàn đồng ý với quan điểm của bạn.)", "cauChuyen": "" },
-  { "chinese": "相信", "pinyin": "xiāng xìn", "vietnamese": "tin tưởng", "example": "请相信我说的话。(Hãy tin lời tôi nói.)", "cauChuyen": "" },
-  { "chinese": "关于", "pinyin": "guān yú", "vietnamese": "liên quan đến, về", "example": "关于这件事，我还不清楚。(Về việc này, tôi vẫn chưa rõ.)", "cauChuyen": "" },
-  { "chinese": "机会", "pinyin": "jī huì", "vietnamese": "cơ hội", "example": "这是一个难得的机会。(Đây là một cơ hội hiếm có.)", "cauChuyen": "" },
-  { "chinese": "国家", "pinyin": "guó jiā", "vietnamese": "quốc gia", "example": "中国是一个美丽的国家。(Trung Quốc là một quốc gia xinh đẹp.)", "cauChuyen": "" },
-  { "chinese": "种", "pinyin": "zhǒng", "vietnamese": "loại, chủng loại", "example": "你喜欢哪种颜色？(Bạn thích loại màu sắc nào?)", "cauChuyen": "" },
-  { "chinese": "特点", "pinyin": "tè diǎn", "vietnamese": "đặc điểm", "example": "每个人都有自己的特点。(Mỗi người đều có đặc điểm riêng.)", "cauChuyen": "" },
-  { "chinese": "奇怪", "pinyin": "qí guài", "vietnamese": "kỳ lạ", "example": "发生这样的事真奇怪。(Chuyện như vậy xảy ra thật kỳ lạ.)", "cauChuyen": "" },
-  { "chinese": "耳朵", "pinyin": "ěr duo", "vietnamese": "cái tai", "example": "小狗的耳朵很灵。(Tai của cún con rất thính.)", "cauChuyen": "" },
-  { "chinese": "脸", "pinyin": "liǎn", "vietnamese": "khuôn mặt", "example": "她的脸上挂着微笑。(Trên mặt cô ấy nở nụ cười.)", "cauChuyen": "" },
-  { "chinese": "短", "pinyin": "duǎn", "vietnamese": "ngắn", "example": "冬天的白天很短。(Ngày mùa đông rất ngắn.)", "cauChuyen": "" },
-  { "chinese": "马", "pinyin": "mǎ", "vietnamese": "con ngựa", "example": "他在草原上骑马。(Anh ấy cưỡi ngựa trên thảo nguyên.)", "cauChuyen": "" },
-  { "chinese": "位", "pinyin": "wèi", "vietnamese": "vị (lượng từ chỉ người)", "example": "哪位是你的老师？(Vị nào là thầy giáo của bạn?)", "cauChuyen": "" },
-  { "chinese": "蓝", "pinyin": "lán", "vietnamese": "màu xanh da trời", "example": "今天的天空很蓝。(Bầu trời hôm nay rất xanh.)", "cauChuyen": "" },
-  { "chinese": "鸟", "pinyin": "niǎo", "vietnamese": "con chim", "example": "鸟儿在天空中飞翔。(Chim non đang bay lượn trên bầu trời.)", "cauChuyen": "" },
-  { "chinese": "哭", "pinyin": "kū", "vietnamese": "khóc", "example": "别哭了，一切都会好的。(Đừng khóc nữa, mọi chuyện rồi sẽ tốt thôi.)", "cauChuyen": "" },
-  { "chinese": "船", "pinyin": "chuán", "vietnamese": "con thuyền", "example": "河上有一条小船。(Trên sông có một con thuyền nhỏ.)", "cauChuyen": "" },
-  { "chinese": "经过", "pinyin": "jīng guò", "vietnamese": "trải qua; đi qua", "example": "经过努力，他终于成功了。(Qua nỗ lực, cuối cùng anh ấy đã thành công.)", "cauChuyen": "" },
-  { "chinese": "照相机", "pinyin": "zhào xiàng jī", "vietnamese": "máy ảnh", "example": "我新买了一个照相机。(Tôi mới mua một chiếc máy ảnh.)", "cauChuyen": "" },
-  { "chinese": "被", "pinyin": "bèi", "vietnamese": "bị (dùng trong câu bị động)", "example": "杯子被我不小心打破了。(Cái cốc bị tôi vô tình làm vỡ rồi.)", "cauChuyen": "" },
-  { "chinese": "难过", "pinyin": "nán guò", "vietnamese": "buồn, đau lòng", "example": "听到这个消息，他很难过。(Nghe thấy tin này, anh ấy rất buồn.)", "cauChuyen": "" },
-  { "chinese": "东", "pinyin": "dōng", "vietnamese": "phía đông", "example": "太阳从东边升起。(Mặt trời mọc ở hướng đông.)", "cauChuyen": "" },
-  { "chinese": "信用卡", "pinyin": "xìn yòng kǎ", "vietnamese": "thẻ tín dụng", "example": "我可以刷信用卡吗？(Tôi có thể quẹt thẻ tín dụng không?)", "cauChuyen": "" },
-  { "chinese": "关心", "pinyin": "guān xīn", "vietnamese": "quan tâm", "example": "我们要多关心父母。(Chúng ta cần quan tâm cha mẹ nhiều hơn.)", "cauChuyen": "" },
-  { "chinese": "成绩", "pinyin": "chéng jì", "vietnamese": "thành tích, kết quả học tập", "example": "这次考试他的成绩很好。(Kỳ thi lần này thành tích của anh ấy rất tốt.)", "cauChuyen": "" },
-  { "chinese": "碗", "pinyin": "wǎn", "vietnamese": "cái bát", "example": "请给我一个干净的碗。(Vui lòng cho tôi một cái bát sạch.)", "cauChuyen": "" },
-  { "chinese": "分", "pinyin": "fēn", "vietnamese": "phút; điểm; chia", "example": "现在是三点十分。(Bây giờ là ba giờ mười phút.)", "cauChuyen": "" },
-  { "chinese": "解决", "pinyin": "jiě jué", "vietnamese": "giải quyết", "example": "这个问题很难解决。(Vấn đề này rất khó giải quyết.)", "cauChuyen": "" },
-  { "chinese": "试", "pinyin": "shì", "vietnamese": "thử", "example": "我想试一下这件衣服。(Tôi muốn mặc thử bộ quần áo này.)", "cauChuyen": "" },
-  { "chinese": "真正", "pinyin": "zhēn zhèng", "vietnamese": "thật sự, thực sự", "example": "什么是真正的快乐？(Thế nào là niềm vui thực sự?)", "cauChuyen": "" },
-  { "chinese": "多么", "pinyin": "duō me", "vietnamese": "biết bao, rất (dùng trong câu cảm thán)", "example": "这朵花多么漂亮啊！(Bông hoa này đẹp biết bao!)", "cauChuyen": "" }              
+"chinese": "腿",
+"pinyin": "tuǐ",
+"vietnamese": "chân",
+"example": "我的腿很长。(Chân của tôi rất dài.)",
+"cauChuyen": "Cơ thể con người (月/nhục) muốn rút lui (退) hoặc bước đi trên đường (辶) đều phải dùng đến đôi chân (腿)."
+},
+{
+"chinese": "疼",
+"pinyin": "téng",
+"vietnamese": "đau",
+"example": "头很疼。(Đầu rất đau.)",
+"cauChuyen": "Người nằm trong giường bệnh (疒) mà cảm thấy nóng như mùa hè (冬/đông) là lúc đang thấy đau (疼) đớn."
+},
+{
+"chinese": "脚",
+"pinyin": "jiǎo",
+"vietnamese": "bàn chân, ngón chân",
+"example": "洗脚。(Rửa chân.)",
+"cauChuyen": "Bộ phận cơ thể (月) dùng để bước đi qua các thung lũng (谷) và được điều khiển bởi các khớp xương (卩) chính là bàn chân (脚)."
+},
+{
+"chinese": "树",
+"pinyin": "shù",
+"vietnamese": "cái cây",
+"example": "树下有人。(Dưới cây có người.)",
+"cauChuyen": "Cái cây (木) mọc ở trong làng (壴) cần bàn tay (寸) của con người chăm sóc thì mới cao lớn (树)."
+},
+{
+"chinese": "容易",
+"pinyin": "róng yì",
+"vietnamese": "dễ dàng",
+"example": "这个很容易。(Cái này rất dễ.)",
+"cauChuyen": "容: Dưới mái nhà (宀) có cái hang (谷), mọi thứ đều có thể chứa đựng một cách bao dung (容).\n\n易: Hình ảnh con tắc kè đổi màu dưới ánh mặt trời (日), nó thay đổi một cách cực kỳ dễ dàng (易)."
+},
+{
+"chinese": "难",
+"pinyin": "nán",
+"vietnamese": "khó",
+"example": "不难。(Không khó.)",
+"cauChuyen": "Con chim (隹) bị mắc kẹt giữa đống lửa và vách đá, muốn thoát ra là một việc cực kỳ khó (难)."
+},
+{
+"chinese": "太太",
+"pinyin": "tài tai",
+"vietnamese": "madam, bà",
+"example": "王太太不在。(Bà Vương không có ở đây.)",
+"cauChuyen": "Chữ đại (大) thêm một dấu chấm ở dưới để chỉ sự cực hạn, tôn kính dành cho người phụ nữ có vị thế trong gia đình (太太)."
+},
+{
+"chinese": "秘书",
+"pinyin": "mì shū",
+"vietnamese": "thư ký",
+"example": "她是经理的秘书。(Cô ấy là thư ký của quản lý.)",
+"cauChuyen": "秘: Cây lúa (禾) là vật quý giá cần được giữ bí mật (必) kín đáo (秘).\n\n书: Hình ảnh bàn tay cầm bút lông đang viết chữ lên trên một tấm giấy hoặc thẻ tre (书)."
+},
+{
+"chinese": "经理",
+"pinyin": "jīng lǐ",
+"vietnamese": "quản lý",
+"example": "经理出去了。(Quản lý đi ra ngoài rồi.)",
+"cauChuyen": "经: Sợi tơ (纟) dệt nên những quy tắc trải qua dòng thời gian (巠).\n\n理: Vị vua (王) dùng trí tuệ để mài giũa viên ngọc theo những đường vân của ngôi làng (里) nhằm quản lý (理) mọi việc theo lẽ phải."
+},
+  { "chinese": "办公室", "pinyin": "bàn gōng shì", "vietnamese": "văn phòng", "example": "他在办公室。(Anh ấy ở văn phòng.)", "cauChuyen": "办: Dùng sức lực (力) tác động vào hai bên để xử lý công việc.\n\n公: Chia (八) tài sản riêng (厶) thành đồ chung của công.\n\n室: Dưới mái nhà (宀), đích đến (至) của mọi nhân viên chính là phòng làm việc." },
+
+{ "chinese": "辆", "pinyin": "liàng", "vietnamese": "lượng từ của xe", "example": "一辆自行车。(Một chiếc xe đạp.)", "cauChuyen": "Lượng từ dành cho xe (车) có hai (两) bánh hoặc dùng để chở hai người." },
+
+{ "chinese": "楼", "pinyin": "lóu", "vietnamese": "lầu", "example": "他在二楼。(Anh ấy ở tầng hai.)", "cauChuyen": "Tòa nhà làm bằng gỗ (木) có nhiều tầng, nơi phụ nữ (女) mang gạo (米) lên kho chứa ở trên cao." },
+
+{ "chinese": "拿", "pinyin": "ná", "vietnamese": "cầm, nắm", "example": "拿一下。(Cầm lấy một chút.)", "cauChuyen": "Dưới mái nhà chung (合), hãy dùng bàn tay (手) để cầm nắm lấy vật phẩm." },
+
+{ "chinese": "把", "pinyin": "bǎ", "vietnamese": "đem (cấu trúc câu)", "example": "把门关上。(Đóng cửa vào.)", "cauChuyen": "Dùng bàn tay (扌) cầm nắm lấy một vật (giống như cái đuôi (巴) của con vật) để tác động vào nó." },
+
+{ "chinese": "伞", "pinyin": "sǎn", "vietnamese": "cái dù", "example": "带把伞吧。(Mang theo cái dù đi.)", "cauChuyen": "Hình ảnh mô phỏng cái ô có tay cầm và các nan ô bên dưới mái che để che cho con người (人)." },
+
+{ "chinese": "胖", "pinyin": "pàng", "vietnamese": "mập", "example": "我不胖。(Tôi không mập.)", "cauChuyen": "Cơ thể (月/nhục) mà phát triển theo thời gian nửa tháng (半) một đã thấy to ra thì là mập." },
+
+{ "chinese": "瘦", "pinyin": "shòu", "vietnamese": "ốm, gầy", "example": "你瘦了。(Bạn gầy đi rồi.)", "cauChuyen": "Người nằm trong giường bệnh (疒) mà gầy đến mức lộ rõ xương sườn như các nấc thang gỗ (叟) thì là gầy." },
+
+{ "chinese": "其实", "pinyin": "qí shí", "vietnamese": "thật ra", "example": "其实我不去。(Thật ra tôi không đi.)", "cauChuyen": "其: Hình ảnh cái sàng lọc chọn ra cái cốt yếu.\n\n实: Dưới mái nhà (宀) có vỏ sò (贝) tiền bạc, đó mới là giá trị thực tế." },
+
+{ "chinese": "其实上", "pinyin": "qí shí shàng", "vietnamese": "trên thực tế", "example": "其实上他很有钱。(Thực tế là anh ấy rất giàu.)", "cauChuyen": "Sự kết hợp giữa cái thực tế cốt lõi (其实) và vị thế bề trên (上)." },
+
+{ "chinese": "健康", "pinyin": "jiàn kāng", "vietnamese": "khỏe mạnh", "example": "身体健康。(Cơ thể khỏe mạnh.)", "cauChuyen": "健: Con người (亻) có nghị lực xây dựng (建) bản thân vững vàng.\n\n康: Trong một không gian rộng lớn (广), gạo cơm đầy đủ, tay cầm cối giã đều đặn là biểu hiện của sự an khang." },
+
+{ "chinese": "还是", "pinyin": "hái shì", "vietnamese": "hay là", "example": "咖啡还是茶？(Cà phê hay là trà?)", "cauChuyen": "Dù đi trên đường (辶) vẫn (还) đang cân nhắc xem cái nào mới đúng (是) sự lựa chọn của mình." },
+
+{ "chinese": "爬山", "pinyin": "pá shān", "vietnamese": "leo núi", "example": "我们去爬山。(Chúng ta đi leo núi.)", "cauChuyen": "爬: Con móng vuốt (爪) của con vật đang bò leo trên mặt đất giống như cái đuôi (巴).\n\n山: Hình ảnh ba ngọn núi nhấp nhô." },
+
+{ "chinese": "小心", "pinyin": "xiǎo xīn", "vietnamese": "cẩn thận", "example": "小心点儿。(Cẩn thận một chút.)", "cauChuyen": "Giữ cho trái tim (心) của mình thật nhỏ bé (小), đừng để xao động quá mức mới có thể chú ý kỹ." },
+
+{ "chinese": "条", "pinyin": "tiáo", "vietnamese": "lượng từ vật dài", "example": "一条裤子。(Một cái quần.)", "cauChuyen": "Hình ảnh những cành cây (木) nhỏ, dài được bàn tay phía trên bẻ xuống." },
+
+{ "chinese": "裤子", "pinyin": "kù zi", "vietnamese": "cái quần", "example": "这条裤子很贵。(Cái quần này rất đắt.)", "cauChuyen": "Trang phục (衤) mặc vào để che chắn cho đôi chân khi đi qua các hang động (库)." },
+
+{ "chinese": "记得", "pinyin": "jì de", "vietnamese": "nhớ", "example": "我不记得了。(Tôi không nhớ nữa.)", "cauChuyen": "记: Dùng lời nói (讠) ghi lại vào bản thân (己) để ghi nhớ.\n\n得: Bước đi (彳) dưới ánh mặt trời (日) và nắm lấy (寸) được kiến thức trong đầu." },
+
+{ "chinese": "衬衫", "pinyin": "chèn shān", "vietnamese": "áo sơ mi", "example": "这件衬衫很漂亮。(Chiếc áo sơ mi này rất đẹp.)", "cauChuyen": "衬: Trang phục (衤) mặc sát vào thân thể (寸).\n\n衫: Trang phục (衤) nhẹ nhàng như những nét vẽ lông chim (彡)." },
+
+{ "chinese": "元", "pinyin": "yuán", "vietnamese": "đơn vị tiền", "example": "这把伞五十元。(Cái dù này 50 tệ.)", "cauChuyen": "Hình ảnh người đứng đầu đội vương miện, tượng trưng cho thứ cơ bản và quan trọng nhất (như đơn vị tiền tệ chính)." },
+
+{ "chinese": "新鲜", "pinyin": "xīn xiān", "vietnamese": "tươi, tươi mới", "example": "水果很新鲜。(Hoa quả rất tươi.)", "cauChuyen": "新: Đứng bên cây dùng rìu đẽo cái mới.\n\n鲜: Con cá (鱼) và con cừu (羊) gộp lại chính là định nghĩa của sự tươi ngon nhất." },
+
+{ "chinese": "甜", "pinyin": "tián", "vietnamese": "ngọt", "example": "西瓜真甜。(Dưa hấu thật là ngọt.)", "cauChuyen": "Dùng lưỡi (舌) để nếm vị của cam cam (甘) hảo hạng, cảm nhận được vị ngọt." },
+
+{ "chinese": "只", "pinyin": "zhǐ", "vietnamese": "chỉ", "example": "我只有十元。(Tôi chỉ có 10 tệ.)", "cauChuyen": "Miệng (口) thốt ra lời nói ít ỏi, giống như đôi bàn tay chỉ nắm được một chút gì đó bên dưới." },
+
+{ "chinese": "放", "pinyin": "fàng", "vietnamese": "đặt, để", "example": "放在桌子上。(Để ở trên bàn.)", "cauChuyen": "Dùng tay cầm cây gậy (攵) để điều hướng vật phẩm đi về một phương (方) hướng và đặt nó xuống đó." },
+
+  { "chinese": "放下", "pinyin": "fàng xià", "vietnamese": "đặt xuống, để xuống", "example": "请放下手机。(Xin hãy đặt điện thoại xuống.)", "cauChuyen": "放: Dùng tay cầm roi (攵) đuổi gia súc về một phương (方) để chúng nghỉ ngơi. \n\n下: Một nét gạch ngang làm mốc, nét còn lại chỉ xuống phía dưới." },
+
+{ "chinese": "饮料", "pinyin": "yǐn liào", "vietnamese": "thức uống", "example": "你想喝什么饮料？(Bạn muốn uống thức uống gì?)", "cauChuyen": "饮: Con người há miệng (欠) ra để thưởng thức đồ ăn thức uống (饣). \n\n料: Dùng cái đấu (斗) để đong đếm hạt gạo (米), tượng trưng cho nguyên liệu làm đồ uống." },
+
+{ "chinese": "或者", "pinyin": "huò zhě", "vietnamese": "hoặc, hay là (câu trần thuật)", "example": "喝茶或者咖啡都可以。(Uống trà hoặc cà phê đều được.)", "cauChuyen": "或: Một người cầm vũ khí (戈) bảo vệ vùng đất (囗) trên mặt đất (一), luôn phải cân nhắc hoặc là chiến đấu hoặc là phòng thủ. \n\n者: Hình ảnh cụ già tóc dài đứng trên đất, đại diện cho những đối tượng/lựa chọn được nhắc đến." },
+
+{ "chinese": "舒服", "pinyin": "shū fu", "vietnamese": "thoải mái", "example": "坐在这儿很舒服。(Ngồi ở đây rất thoải mái.)", "cauChuyen": "舒: Người ta cầm nơi ở (舍) bên mình và buông lỏng (予) mọi thứ để thư giãn. \n\n服: Hình ảnh người phục vụ trên thuyền (舟), đem lại cảm giác dễ chịu cho người khác." },
+
+{ "chinese": "花", "pinyin": "huā", "vietnamese": "bông hoa", "example": "这些花真好看。(Những bông hoa này thật đẹp.)", "cauChuyen": "Loài cỏ cây (艹) có sự biến hóa (化) từ nụ thành những bông hoa rực rỡ." },
+
+{ "chinese": "绿", "pinyin": "lǜ", "vietnamese": "màu xanh lá cây", "example": "那是绿色的毛衣。(Đó là chiếc áo len màu xanh lá.)", "cauChuyen": "Dùng sợi tơ (纟) được nhuộm màu chiết xuất từ nước (氺) của các loại lá cây trên núi (彐)." },
+
+{ "chinese": "顾客", "pinyin": "gù kè", "vietnamese": "khách hàng", "example": "商店里有很多顾客。(Trong cửa hàng có rất nhiều khách hàng.)", "cauChuyen": "顾: Quay đầu (页) lại nhìn xem (厄) món hàng. \n\n客: Người khách đến dưới mái nhà (宀) và mở miệng (口) hỏi mua đồ." },
+
+{ "chinese": "比赛", "pinyin": "bǐ sài", "vietnamese": "cuộc thi, trận đấu", "example": "我看足球比赛。(Tôi xem trận đấu bóng đá.)", "cauChuyen": "比: Hai người đứng cạnh nhau để so tài. \n\n赛: Dưới mái nhà (宀), người ta dùng vỏ sò tiền bạc (贝) làm phần thưởng cho người chiến thắng trong cuộc đối đầu (共)." },
+
+{ "chinese": "照片", "pinyin": "照 piàn", "vietnamese": "tấm ảnh (lượng từ: 张)", "example": "这张照片是谁的？(Tấm ảnh này là của ai?)", "cauChuyen": "照: Dưới ánh mặt trời (日), vạn vật hiện lên rõ ràng như có ngọn lửa (灬) chiếu rọi vào mời gọi (召). \n\n片: Hình ảnh một nửa của thân cây gỗ bị chẻ đôi, tượng trưng cho những vật mỏng như tấm ảnh." },
+
+{ "chinese": "年级", "pinyin": "nián jí", "vietnamese": "lớp (trong trường học)", "example": "我读三年级。(Tôi học lớp 3.)", "cauChuyen": "年: Một năm thu hoạch lúa. \n\n级: Dùng sợi tơ (纟) để đánh dấu các nấc thang, các cấp bậc con người (及) đạt tới." },
+
+{ "chinese": "又", "pinyin": "yòu", "vietnamese": "lại", "example": "你怎么又来了？(Sao bạn lại đến nữa rồi?)", "cauChuyen": "Hình ảnh bàn tay lặp lại hành động cầm nắm một vật gì đó nhiều lần." },
+
+{ "chinese": "聪明", "pinyin": "cōng míng", "vietnamese": "thông minh", "example": "那个孩子很聪明。(Đứa trẻ đó rất thông minh.)", "cauChuyen": "聪: Người thông minh là người dùng tai (耳) nghe thấu suốt, dùng mắt trông rộng và dùng trái tim (心) để thấu hiểu. \n\n明: Có cả mặt trời (日) và mặt trăng (月) thì mọi thứ đều sáng tỏ." },
+
+{ "chinese": "热情", "pinyin": "rè qíng", "vietnamese": "nhiệt tình", "example": "他很热情。(Anh ấy rất nhiệt tình.)", "cauChuyen": "热: Dưới sự điều khiển của bàn tay (执), ngọn lửa (灬) bốc lên tạo ra sự nóng bỏng. \n\n情: Tình cảm phát ra từ trái tim (忄) xanh tươi (青)." },
+
+{ "chinese": "努力", "pinyin": "nǔ lì", "vietnamese": "nỗ lực, cố gắng", "example": "努力学习。(Nỗ lực học tập.)", "cauChuyen": "努: Người nô lệ (奴) phải dùng hết sức lực (力) của mình để làm việc. \n\n力: Hình ảnh cái bắp tay hoặc cái cày tượng trưng cho sức mạnh." },
+
+{ "chinese": "总是", "pinyin": "zǒng shì", "vietnamese": "luôn luôn", "example": "他总是迟到。(Anh ấy luôn luôn đến muộn.)", "cauChuyen": "总: Gom tất cả các sợi tơ và trái tim (心) lại làm một đầu mối chung. \n\n是: Ánh mặt trời soi rọi bước chân đi đúng đường." },
+
+{ "chinese": "回答", "pinyin": "huí dá", "vietnamese": "trả lời", "example": "请回答我的问题。(Xin hãy trả lời câu hỏi của tôi.)", "cauChuyen": "回: Hình ảnh vòng tròn lặp lại, quay trở lại. \n\n答: Lời nói được viết trên thẻ tre (竹) để giải đáp sự việc một cách hòa hợp (合)." },
+
+{ "chinese": "站", "pinyin": "zhàn", "vietnamese": "đứng", "example": "车站就在那儿。(Bến xe ở ngay kia.)", "cauChuyen": "Một người (亻) đứng thẳng (立) trên một vị trí đã chiếm giữ (占)." },
+
+{ "chinese": "站起来", "pinyin": "zhàn qǐ lái", "vietnamese": "đứng lên", "example": "请大家都站起来。(Mời mọi người đứng lên.)", "cauChuyen": "站: Đứng. \n\n起: Dùng đôi chân chạy (走) và vươn mình (己) đứng dậy. \n\n来: Hình ảnh cây lúa mì từ xa được mang đến." },
+
+{ "chinese": "饿", "pinyin": "è", "vietnamese": "đói", "example": "我饿了。(Tôi đói rồi.)", "cauChuyen": "Bản thân tôi (我) đang rất cần thức ăn (饣) vì dạ dày đang trống rỗng." },
+
+{ "chinese": "超市", "pinyin": "chāo shì", "vietnamese": "siêu thị", "example": "我去超市买东西。(Tôi đi siêu thị mua đồ.)", "cauChuyen": "超: Dùng đôi chân chạy (走) vượt qua lời triệu gọi (召). \n\n市: Khu vực có mái che để mọi người trao đổi hàng hóa bên trên mặt đất." },
+
+{ "chinese": "蛋糕", "pinyin": "dàn gāo", "vietnamese": "bánh kem", "example": "我想吃蛋糕。(Tôi muốn ăn bánh kem.)", "cauChuyen": "蛋: Trứng. \n\n糕: Loại bánh được làm từ gạo (米) nghiền mịn, ngon như thịt lợn và cừu (羔)." },
+
+{ "chinese": "年轻", "pinyin": "nián qīng", "vietnamese": "trẻ", "example": "他很年轻。(Anh ấy rất trẻ.)", "cauChuyen": "年: Năm. \n\n轻: Chiếc xe (车) chạy nhanh trên đường như luồng nước (巠) vì nó rất nhẹ." },
+
+{ "chinese": "认真", "pinyin": "rèn zhēn", "vietnamese": "nghiêm túc", "example": "你太不认真了。(Bạn quá không nghiêm túc rồi.)", "cauChuyen": "认: Dùng lời nói (讠) để xác nhận bản thân (己). \n\n真: Dưới mái nhà, mười con mắt cùng nhìn vào một vật phẩm trên bệ để xác định tính chân thật." },
+
+{ "chinese": "客人", "pinyin": "kè rén", "vietnamese": "khách, khách hàng", "example": "家里有客人。(Trong nhà có khách.)", "cauChuyen": "客: Người khách đến dưới mái nhà. \n\n人: Hình ảnh người đứng nghiêng." },
+
+{ "chinese": "古代", "pinyin": "gǔ dài", "vietnamese": "cổ đại", "example": "古代的故事。(Câu chuyện thời cổ đại.)", "cauChuyen": "古: Lời nói truyền qua mười (十) cái miệng (口) thì trở nên cổ xưa. \n\n代: Con người (亻) thay thế nhau theo từng thế hệ bằng cách bắn mũi tên (弋)." },
+
+{ "chinese": "故事", "pinyin": "gù shì", "vietnamese": "câu chuyện", "example": "讲故事。(Kể chuyện.)", "cauChuyen": "故: Những việc xưa cũ bị đánh (攵) cho tan tác. \n\n事: Việc ghi chép lại mọi sự việc." },
+
+{ "chinese": "发烧", "pinyin": "fā shāo", "vietnamese": "phát sốt", "example": "我发烧了。(Tôi bị sốt rồi.)", "cauChuyen": "发: Bắn mũi tên ra ngoài. \n\n烧: Ngọn lửa (火) đốt cháy những vùng đất xung quanh cao vút (尧) tạo nên sức nóng." },
+
+{ "chinese": "为", "pinyin": "wèi", "vietnamese": "bởi, vì", "example": "这是为你买的。(Đây là mua cho bạn.)", "cauChuyen": "Hình ảnh bàn tay đang dắt một con vật đi, làm việc vì một mục đích nào đó." },
+
+{ "chinese": "照顾", "pinyin": "zhào gù", "vietnamese": "chăm sóc", "example": "照顾好自己。(Chăm sóc tốt bản thân nhé.)", "cauChuyen": "照: Chiếu sáng rạng rỡ. \n\n顾: Quay đầu lại nhìn để quan tâm." },
+
+{ "chinese": "用", "pinyin": "yòng", "vietnamese": "dùng, cần", "example": "不用谢。(Không cần cảm ơn.)", "cauChuyen": "Hình ảnh cái gậy đâm xuyên qua cái chuông, tượng trưng cho việc sử dụng công cụ." },
+
+{ "chinese": "感冒", "pinyin": "gǎn mào", "vietnamese": "cảm", "example": "我感冒了。(Tôi bị cảm rồi.)", "cauChuyen": "感: Trái tim (心) rung động trước một vật gì đó. \n\n冒: Đôi mắt (目) bị che phủ phía trên bởi một cái mũ (mưa nắng), tượng trưng cho việc bị nhiễm bệnh." },
+
+{ "chinese": "季节", "pinyin": "jì jié", "vietnamese": "mùa", "example": "一年有四个季节。(Một năm có bốn mùa.)", "cauChuyen": "季: Đứa con (子) lớn lên nhờ những cây lúa (禾) theo từng mùa. \n\n节: Những đốt tre (竹) chia thân tre thành từng đoạn, giống như các nấc thời gian." },
+
+{ "chinese": "当然", "pinyin": "dāng rán", "vietnamese": "đương nhiên", "example": "当然可以。(Đương nhiên là có thể.)", "cauChuyen": "当: Dưới mái nhà, việc ruộng đất (田) là việc đương đầu phải làm. \n\n然: Thịt nướng trên lửa là trạng thái hiển nhiên." },
+
+{ "chinese": "春天", "pinyin": "chūn tiān", "vietnamese": "mùa xuân", "example": "春天来了。(Mùa xuân đến rồi.)", "cauChuyen": "Dưới ánh mặt trời (日), cỏ cây (三) đâm chồi nảy lộc khỏi mặt đất vào mùa xuân." },
+
+{ "chinese": "夏天", "pinyin": "xià tiān", "vietnamese": "mùa hạ", "example": "夏天很热。(Mùa hè rất nóng.)", "cauChuyen": "Một người đội mũ che nắng, đi bộ dưới cái nóng của mùa hè." },
+
+{ "chinese": "秋天", "pinyin": "qiū tiān", "vietnamese": "mùa thu", "example": "秋天很舒服。(Mùa thu rất thoải mái.)", "cauChuyen": "Sau khi thu hoạch lúa (禾), người ta đốt lửa (火) để làm sạch đồng ruộng vào mùa thu." },
+
+{ "chinese": "冬天", "pinyin": "dōng tiān", "vietnamese": "mùa đông", "example": "冬天很冷。(Mùa đông rất lạnh.)", "cauChuyen": "Hình ảnh những tảng băng rơi xuống mặt đất đánh dấu sự kết thúc của một năm." },
+
+{ "chinese": "草", "pinyin": "cǎo", "vietnamese": "cỏ", "example": "草绿了。(Cỏ xanh rồi.)", "cauChuyen": "Loài thực vật (艹) mọc sớm nhất dưới ánh mặt trời (日) chính là cỏ." },
+  { "chinese": "裙子", "pinyin": "qún zi", "vietnamese": "cái váy", "example": "她穿着红裙子。(Cô ấy đang mặc cái váy đỏ.)", "cauChuyen": "Trang phục (衤) mà những người trong cùng một nhóm, một quân đoàn (君) thường mặc là cái váy (裙)." },
+
+{ "chinese": "最近", "pinyin": "zuì jìn", "vietnamese": "dạo gần đây", "example": "你最近怎么样？(Dạo này bạn thế nào?)", "cauChuyen": "最: Mặt trời (日) mọc trên cao nhất, soi rõ những lựa chọn (取).\n\n近: Trên con đường (辶), dùng rìu (斤) chặt một nhát là tới nơi. Khoảng cách gần nhất về thời gian chính là dạo này." },
+
+{ "chinese": "越", "pinyin": "yuè", "vietnamese": "càng", "example": "雨越下越大。(Mưa càng lúc càng to.)", "cauChuyen": "Dùng đôi chân chạy (走) mang theo cây rìu vượt qua (戉) mọi giới hạn để tiến xa hơn, mạnh hơn." },
+
+{ "chinese": "马上", "pinyin": "mǎ shàng", "vietnamese": "ngay lập tức", "example": "我马上就到。(Tôi đến ngay đây.)", "cauChuyen": "Thời xưa muốn đi nhanh thì phải leo lên (上) lưng ngựa (马), vì thế 'trên lưng ngựa' nghĩa là ngay lập tức." },
+
+{ "chinese": "形容", "pinyin": "xíng róng", "vietnamese": "miêu tả", "example": "我不会形容。(Tôi không biết miêu tả thế nào.)", "cauChuyen": "形: Những nét vẽ (彡) tạo nên hình dáng của các hàng rào (开).\n\n容: Dưới mái nhà (宀) có cái hang (谷) rộng lớn, đủ để chứa đựng và miêu tả mọi thứ." },
+
+{ "chinese": "医术", "pinyin": "yī shù", "vietnamese": "kỹ thuật y học", "example": "医术高明。(Y thuật cao minh.)", "cauChuyen": "医: Những mũi tên được cất trong hộp để thầy thuốc chữa bệnh.\n\n术: Kỹ thuật tỉ mỉ như dòng chảy của nhựa cây trong thân cây (木) có thêm một nét chấm điểm xuyết." },
+
+{ "chinese": "眼睛", "pinyin": "yǎn jīng", "vietnamese": "mắt", "example": "她的眼睛很大。(Mắt của cô ấy rất to.)", "cauChuyen": "眼: Con mắt (目) có khả năng dừng lại (艮) để quan sát.\n\n睛: Con mắt (目) nhìn thấy màu xanh (青) trong trẻo của con ngươi." },
+
+{ "chinese": "眼镜", "pinyin": "yǎn jìng", "vietnamese": "kính", "example": "我的眼镜在哪儿？(Kính của tôi ở đâu?)", "cauChuyen": "眼: Con mắt.\n\n镜: Vật làm bằng kim loại (钅) sáng bóng như gương và rõ ràng (竟) để hỗ trợ mắt." },
+
+{ "chinese": "突然", "pinyin": "tū rán", "vietnamese": "đột nhiên", "example": "天突然下雨了。(Trời đột nhiên đổ mưa.)", "cauChuyen": "Tình huống bất ngờ như một con chó (犬) đột ngột vọt ra khỏi hang (穴)." },
+
+{ "chinese": "离开", "pinyin": "lí kāi", "vietnamese": "rời xa, rời đi", "example": "他不舍得离开。(Anh ấy không nỡ rời xa.)", "cauChuyen": "离: Con chim bay xa khỏi mái nhà.\n\n开: Hình ảnh đôi bàn tay mở tung cánh cổng (门) để đi ra ngoài." },
+
+{ "chinese": "清楚", "pinyin": "qīng chu", "vietnamese": "rõ, rõ ràng", "example": "我看得很清楚。(Tôi nhìn rất rõ.)", "cauChuyen": "清: Nước (氵) xanh (青) thì nhìn rất trong.\n\n楚: Trong rừng (林) có những khóm hoa sơ khai (疋) hiện lên rõ nét." },
+
+{ "chinese": "刚才", "pinyin": "gāng cái", "vietnamese": "vừa mới", "example": "刚才谁来了？(Vừa nãy ai đến vậy?)", "cauChuyen": "刚: Dùng dao (刂) chặt mạnh vào mạng lưới (冈) một cách dứt khoát.\n\n才: Hình ảnh mầm cây vừa mới nhú lên khỏi mặt đất." },
+
+{ "chinese": "帮忙", "pinyin": "bāng máng", "vietnamese": "giúp đỡ", "example": "你能帮个忙吗？(Bạn có thể giúp một tay không?)", "cauChuyen": "帮: Dùng đôi tay nâng đỡ tấm khăn (巾).\n\n忙: Trái tim (忄) cảm thấy như mất mát (亡) vì có quá nhiều việc phải làm, cần người giúp." },
+
+{ "chinese": "特别", "pinyin": "tè bié", "vietnamese": "đặc biệt", "example": "今天特别热。(Hôm nay đặc biệt nóng.)", "cauChuyen": "特: Con trâu (牛) quý hiếm được nuôi trong chùa (寺) là một vật phẩm đặc biệt.\n\n别: Dùng dao chia tách ra để tạo sự khác biệt." },
+
+{ "chinese": "讲", "pinyin": "jiǎng", "vietnamese": "giảng, kể", "example": "老师在讲课。(Thầy giáo đang giảng bài.)", "cauChuyen": "Dùng lời nói (讠) để giải thích các cấu trúc phức tạp như khung giàn của giếng nước (井)." },
+
+{ "chinese": "明白", "pinyin": "míng bai", "vietnamese": "hiểu", "example": "我明白了。(Tôi hiểu rồi.)", "cauChuyen": "Khi mặt trời mặt trăng (明) cùng chiếu sáng và mọi thứ trở nên trắng (白) rõ thì ta sẽ hiểu." },
+
+{ "chinese": "锻炼", "pinyin": "duàn liàn", "vietnamese": "rèn luyện", "example": "我去锻炼身体。(Tôi đi tập thể dục/rèn luyện thân thể.)", "cauChuyen": "锻: Dùng kim loại (钅) và búa đập lên những đoạn gỗ để rèn luyện sự dẻo dai.\n\n炼: Dùng lửa (火) để tinh luyện những vật phẩm chọn lọc (柬)." },
+
+{ "chinese": "音乐", "pinyin": "yīn yuè", "vietnamese": "âm nhạc", "example": "我喜欢听音乐。(Tôi thích nghe nhạc.)", "cauChuyen": "音: Tiếng động phát ra từ miệng.\n\n乐: Hình ảnh nhạc cụ làm bằng gỗ (木) mang lại niềm vui." },
+
+{ "chinese": "公园", "pinyin": "gōng yuán", "vietnamese": "công viên", "example": "我们在公园散步。(Chúng tôi đi dạo ở công viên.)", "cauChuyen": "公: Của công.\n\n园: Khu đất có tường bao quanh (囗) trồng các loại cây quý (元)." },
+
+{ "chinese": "聊天(儿)", "pinyin": "liáo tiān (er)", "vietnamese": "nói chuyện, tán gẫu", "example": "我不喜欢聊天。(Tôi không thích tán gẫu.)", "cauChuyen": "聊: Dùng tai (耳) để nghe những lời nói lặp đi lặp lại như tiếng chim kêu từ xa (卯)." },
+
+{ "chinese": "睡着", "pinyin": "shuì zháo", "vietnamese": "ngủ say, ngủ thiếp đi", "example": "他已经睡着了。(Anh ấy đã ngủ thiếp đi rồi.)", "cauChuyen": "睡: Con mắt (目) cụp xuống vì mí mắt nặng như quả cân (垂).\n\n着: Trạng thái đang diễn ra." },
+
+{ "chinese": "更", "pinyin": "gèng", "vietnamese": "hơn, càng", "example": "今天比昨天更热。(Hôm nay còn nóng hơn hôm qua.)", "cauChuyen": "Dưới ánh mặt trời, con người dùng tay thay đổi công cụ để đạt được kết quả tốt hơn." },
+
+{ "chinese": "正常", "pinyin": "zhèng cháng", "vietnamese": "bình thường", "example": "这很正常。(Việc này rất bình thường.)", "cauChuyen": "正: Đi đúng đường.\n\n常: Thói quen dùng khăn hằng ngày." },
+
+{ "chinese": "因此", "pinyin": "yīn cǐ", "vietnamese": "do đó, vì vậy", "example": "他很努力，因此成功了。(Anh ấy rất nỗ lực, vì vậy đã thành công.)", "cauChuyen": "因: Nguyên nhân nằm trong một cái khung.\n\n此: Dừng lại (止) ở người này (人) để xác định nguyên do từ đây." },
+
+{ "chinese": "放弃", "pinyin": "fàng qì", "vietnamese": "bỏ cuộc", "example": "请不要放弃。(Xin đừng bỏ cuộc.)", "cauChuyen": "放: Thả ra.\n\n弃: Một đứa trẻ bị vứt bỏ vào cái thúng bằng gỗ (木) vì sự ruồng bỏ (𠀠)." },
+
+{ "chinese": "而", "pinyin": "ér", "vietnamese": "mà", "example": "这个贵而不好。(Cái này đắt mà không tốt.)", "cauChuyen": "Hình ảnh bộ râu dưới cằm, dùng để nối các ý nghĩa trong câu nói." },
+
+{ "chinese": "坚持", "pinyin": "jiān chí", "vietnamese": "kiên trì", "example": "坚持就是胜利。(Kiên trì chính là thắng lợi.)", "cauChuyen": "坚: Dưới đất (土) có sự bền vững như người cầm đồ vật sắc bén (竖).\n\n持: Dùng bàn tay (扌) giữ vững những quy tắc trong chùa (寺)." },
+
+{ "chinese": "同事", "pinyin": "tóng shì", "vietnamese": "đồng nghiệp", "example": "他们是我的同事。(Họ là đồng nghiệp của tôi.)", "cauChuyen": "同: Những người cùng sống dưới một mái nhà và mở miệng (口) nói cùng một tiếng.\n\n事: Công việc." },
+
+{ "chinese": "以前", "pinyin": "yǐ qián", "vietnamese": "trước đây", "example": "以前我不认识他。(Trước đây tôi không quen anh ấy.)", "cauChuyen": "以: Dùng một cái mốc để làm căn cứ.\n\n前: Con thuyền (月/vốn là chu) đang tiến về phía trước dưới sự điều khiển của con người và đao (刂)." },
+
+{ "chinese": "银行", "pinyin": "yín háng", "vietnamese": "ngân hàng", "example": "银行在那儿。(Ngân hàng ở đằng kia.)", "cauChuyen": "银: Kim loại (钅) sáng bóng nhưng không quý bằng vàng, đó là bạc.\n\n行: Hình ảnh ngã tư đường, nơi mọi người đi lại để giao dịch." },
+
+{ "chinese": "久", "pinyin": "jiǔ", "vietnamese": "lâu", "example": "等了很久。(Đã đợi rất lâu rồi.)", "cauChuyen": "Hình ảnh một người đang phải chống gậy từ phía sau, tượng trưng cho thời gian kéo dài lê thê." },
+  { "chinese": "感兴趣", "pinyin": "gǎn xìng qù", "vietnamese": "hứng thú, quan tâm", "example": "我对汉语感兴趣。(Tôi có hứng thú với tiếng Hán.)", "cauChuyen": "感: Trái tim (心) rung động trước một lời nói (咸). \n\n性: Bản tính con người từ khi sinh (生) ra đã nằm ở trong tim (忄). \n\n趣: Chạy (走) đến nơi có những điều lấy (取) được sự chú ý của mình chính là hứng thú." },
+
+{ "chinese": "结婚", "pinyin": "jié hūn", "vietnamese": "kết hôn", "example": " họ 结婚了。(Họ kết hôn rồi.)", "cauChuyen": "结: Dùng sợi tơ (纟) thắt nút lại tạo nên sự gắn kết vững chắc (吉). \n\n婚: Người phụ nữ (女) về nhà chồng vào lúc hoàng hôn (昏)." },
+
+{ "chinese": "欢迎", "pinyin": "huān yíng", "vietnamese": "hoan nghênh", "example": "欢迎你们！(Hoan nghênh các bạn!)", "cauChuyen": "欢: Con chim nhỏ há miệng (欠) hót vui vẻ bên cạnh cây cỏ. \n\n迎: Đứng trên đường (辶) để ngóng đợi và đón tiếp một người đang đi tới (卬)." },
+
+{ "chinese": "迟到", "pinyin": "chí dào", "vietnamese": "đến muộn", "example": "别迟到了。(Đừng đến muộn nhé.)", "cauChuyen": "迟: Đi trên đường (辶) mà chậm chạp như con tê tê (尸) thì sẽ bị muộn. \n\n到: Mũi tên bay đến đích và dùng dao đánh dấu." },
+
+{ "chinese": "半", "pinyin": "bàn", "vietnamese": "một nửa", "example": "五点半。(Năm giờ rưỡi.)", "cauChuyen": "Hình ảnh một con vật (như con trâu) bị một nhát dao chia đôi ở giữa (八) thành hai phần bằng nhau." },
+
+{ "chinese": "接", "pinyin": "jiē", "vietnamese": "đón, gặp", "example": "我去机场接你。(Tôi đi sân bay đón bạn.)", "cauChuyen": "Dùng bàn tay (扌) để đón lấy và thiết lập sự kết nối giữa phụ nữ (女) và nam giới dưới một mái nhà (立)." },
+
+{ "chinese": "刻", "pinyin": "kè", "vietnamese": "khắc (15 phút)", "example": "七点一刻。(Bảy giờ mười lăm.)", "cauChuyen": "Dùng con dao (刂) khắc lên thanh tre hoặc đồng hồ nước từng khía một để đo thời gian." },
+
+{ "chinese": "差", "pinyin": "chà", "vietnamese": "kém", "example": "差十分八点。(Tám giờ kém mười.)", "cauChuyen": "Hình ảnh bông lúa bị lệch, không thẳng hàng với đôi tay bên dưới, chỉ sự sai lệch, thiếu sót." },
+
+{ "chinese": "又", "pinyin": "yòu", "vietnamese": "lại, và", "example": "他又迟到了。(Anh ấy lại đến muộn rồi.)", "cauChuyen": "Hình ảnh bàn tay lặp lại hành động nhiều lần." },
+
+{ "chinese": "满意", "pinyin": "mǎn yì", "vietnamese": "hài lòng", "example": "我很满意。(Tôi rất hài lòng.)", "cauChuyen": "满: Nước (氵) đổ đầy vào trong bình có nắp đậy (廿) và hai bên cân đối (两). \n\n意: Ý nghĩ từ trong tim." },
+
+{ "chinese": "电梯", "pinyin": "diàn tī", "vietnamese": "thang máy", "example": "坐电梯上去。(Đi thang máy lên trên.)", "cauChuyen": "电: Tia chớp. \n\n梯: Cái thang làm từ gỗ (木) giúp con người leo lên cao như ở trên các tầng bậc (弟)." },
+
+{ "chinese": "害怕", "pinyin": "hài pà", "vietnamese": "sợ hãi", "example": "我不害怕。(Tôi không sợ.)", "cauChuyen": "害: Sự tổn hại dưới mái nhà. \n\n怕: Trái tim (忄) trở nên trắng bệch (白) vì lo sợ." },
+
+{ "chinese": "熊猫", "pinyin": "xióng māo", "vietnamese": "gấu trúc", "example": "熊猫很可爱。(Gấu trúc rất đáng yêu.)", "cauChuyen": "熊: Con thú có khả năng đứng vững như vách đá (能) phía trên ngọn lửa (灬). \n\n猫: Loài thú (犭) thường ở trên ruộng (田) để bắt những mầm lúa nhỏ (艹)." },
+
+{ "chinese": "见面", "pinyin": "jiàn miàn", "vietnamese": "gặp mặt", "example": "我想跟你见面。(Tôi muốn gặp mặt bạn.)", "cauChuyen": "见: Một người đang mở to mắt nhìn. \n\n面: Hình ảnh khuôn mặt người với mắt và mũi rõ ràng." },
+
+{ "chinese": "安静", "pinyin": "ān jìng", "vietnamese": "yên tĩnh", "example": "这儿很安静。(Ở đây rất yên tĩnh.)", "cauChuyen": "安: Người phụ nữ (女) ở dưới mái nhà (宀) thì sẽ bình an. \n\n静: Sự tranh giành (争) đã kết thúc và màu xanh (青) bình yên trở lại." },
+
+{ "chinese": "可乐", "pinyin": "kě lè", "vietnamese": "Coca-Cola", "example": "我想喝可乐。(Tôi muốn uống Coca.)", "cauChuyen": "Có thể (可) mang lại niềm vui (乐)." },
+
+{ "chinese": "一会儿", "pinyin": "yí huìr", "vietnamese": "một lát", "example": "等一会儿。(Đợi một lát.)", "cauChuyen": "一: Một. \n\n会: Mọi người tụ họp dưới một mái nhà. \n\n儿: Đứa trẻ." },
+
+{ "chinese": "洗手间", "pinyin": "xǐ shǒu jiān", "vietnamese": "nhà vệ sinh", "example": "洗手间在哪儿？(Nhà vệ sinh ở đâu?)", "cauChuyen": "洗: Dùng nước (氵) tẩy rửa những thứ cũ kỹ (先). \n\n手: Tay. \n\n间: Khoảng không gian giữa cánh cửa (门) nơi ánh nắng mặt trời (日) chiếu vào." },
+
+{ "chinese": "老", "pinyin": "lǎo", "vietnamese": "già, cũ", "example": "这是一本老书。(Đây là một cuốn sách cũ.)", "cauChuyen": "Hình ảnh một người già chống gậy, tóc dài đang bước đi trên đất." },
+
+{ "chinese": "几乎", "pinyin": "jī hū", "vietnamese": "gần như", "example": "我几乎忘了。(Tôi gần như quên mất rồi.)", "cauChuyen": "几: Hình ảnh một cái bàn nhỏ hoặc một vài thứ nhỏ bé. \n\n乎: Một từ dùng để cảm thán, chỉ trạng thái suýt soát đạt tới điều gì đó." },
+
+{ "chinese": "变化", "pinyin": "biàn huà", "vietnamese": "thay đổi", "example": "这里的变化很大。(Sự thay đổi ở đây rất lớn.)", "cauChuyen": "变: Dùng tay (又) thay đổi những lời nói lộn xộn (亦) phía trên. \n\n化: Một người đứng và một người lộn ngược, tượng trưng cho sự biến đổi hoàn toàn." },
+
+{ "chinese": "重要", "pinyin": "zhòng yào", "vietnamese": "quan trọng", "example": "这件事很重要。(Việc này rất quan trọng.)", "cauChuyen": "重: Một người gánh một túi đồ nặng đi trên đất (里). \n\n要: Người phụ nữ (女) chống tay lên hông, thể hiện yêu cầu thiết yếu." },
+
+{ "chinese": "全面", "pinyin": "quán miàn", "vietnamese": "toàn diện", "example": "他发展很全面。(Anh ấy phát triển rất toàn diện.)", "cauChuyen": "全: Vị vua (王) ở trong nhà của mình thì có quyền lực trọn vẹn. \n\n面: Mặt, bề mặt." },
+
+{ "chinese": "中文", "pinyin": "zhōng wén", "vietnamese": "tiếng Trung", "example": "你会说中文吗？(Bạn biết nói tiếng Trung không?)", "cauChuyen": "中: Đường kẻ xuyên qua tâm vòng tròn. \n\n文: Hình ảnh những nét vẽ, hoa văn hoặc một người có hình xăm trên ngực (chữ viết)." },
+
+{ "chinese": "班", "pinyin": "bān", "vietnamese": "lớp", "example": "我在三班。(Tôi ở lớp 3.)", "cauChuyen": "Hai vị vua dùng đao chia ngọc thành từng nhóm lớp." },
+
+{ "chinese": "一样", "pinyin": "yí yàng", "vietnamese": "giống, như nhau", "example": "我也一样。(Tôi cũng vậy/cũng giống thế.)", "cauChuyen": "一: Một. \n\n样: Cái cây (木) có hình dáng giống như con cừu (羊) đứng bên cạnh dòng nước (永)." },
+
+{ "chinese": "最后", "pinyin": "zuì hòu", "vietnamese": "cuối cùng", "example": "这是最后一次。(Đây là lần cuối cùng.)", "cauChuyen": "最: Nhất. \n\n后: Người đứng sau mái che phát ra mệnh lệnh (口)." },
+
+{ "chinese": "放心", "pinyin": "fàng xīn", "vietnamese": "yên tâm", "example": "请放心。(Xin hãy yên tâm.)", "cauChuyen": "Phóng thích trái tim khỏi sự lo âu." },
+
+{ "chinese": "一定", "pinyin": "yí dìng", "vietnamese": "nhất định", "example": "明天我一定来。(Mai tôi nhất định đến.)", "cauChuyen": "一: Một. \n\n定: Dưới mái nhà (宀), bước chân (正) đã dừng lại vững chắc ở một vị trí cố định." },
+
+{ "chinese": "担心", "pinyin": "dān xīn", "vietnamese": "lo lắng", "example": "别担心。(Đừng lo lắng.)", "cauChuyen": "Dùng vai gánh (担/vốn có bộ thủ) cả một trái tim (心) trĩu nặng sự lo âu." },
+
+{ "chinese": "比较", "pinyin": "bǐ jiào", "vietnamese": "tương đối, so sánh", "example": "今天比较冷。(Hôm nay tương đối lạnh.)", "cauChuyen": "比: So sánh. \n\n较: Hai chiếc xe (车) đang chạy đua để so sánh sự giao thoa (交) giữa chúng." },
+
+{ "chinese": "了解", "pinyin": "liǎo jiě", "vietnamese": "hiểu biết, tìm hiểu", "example": "我很了解他。(Tôi rất hiểu anh ấy.)", "cauChuyen": "了: Hình ảnh đứa trẻ hoàn thành việc học. \n\n解: Dùng dao xẻ sừng trâu ra để thấu hiểu cấu trúc bên trong." },
+
+{ "chinese": "先", "pinyin": "xiān", "vietnamese": "trước", "example": "你先说吧。(Bạn nói trước đi.)", "cauChuyen": "Người đi đầu tiên trên mặt đất là người đi trước." },
+
+{ "chinese": "中间", "pinyin": "zhōng jiān", "vietnamese": "ở giữa, trung gian", "example": "他在中间。(Anh ấy ở giữa.)", "cauChuyen": "中: Giữa. \n\n间: Khoảng giữa cánh cửa." },
+
+{ "chinese": "参加", "pinyin": "cān jiā", "vietnamese": "tham gia", "example": "参加比赛。(Tham gia thi đấu.)", "cauChuyen": "参: Ba ngôi sao sáng phía trên người đàn ông đang làm việc. \n\n加: Dùng sức lực (力) và lời nói (口) để thêm vào, tham dự vào." },
+
+{ "chinese": "影响", "pinyin": "yǐng xiǎng", "vietnamese": "ảnh hưởng", "example": "别影响别人。(Đừng ảnh hưởng người khác.)", "cauChuyen": "影: Dưới ánh mặt trời (日), bóng của kinh đô (京) hiện lên rực rỡ (彡). \n\n响: Âm thanh phát ra từ hướng (向) của cái miệng (口) tạo ra tiếng vang." },
+
+{ "chinese": "优点", "pinyin": "yōu diǎn", "vietnamese": "ưu điểm", "example": "他的优点很多。(Ưu điểm của anh ấy rất nhiều.)", "cauChuyen": "优: Con người (亻) có phẩm chất ưu tú như một diễn viên tài năng. \n\n点: Dùng lửa (灬) chấm lên một vị trí rõ ràng trên bề mặt (占)." },
+
+{ "chinese": "个子", "pinyin": "gè zi", "vietnamese": "vóc dáng, chiều cao", "example": "他个子很高。(Vóc dáng anh ấy rất cao.)", "cauChuyen": "个: Hình ảnh chiếc dù che cho một người. \n\n子: Đứa trẻ/Con người." },
+
+{ "chinese": "矮", "pinyin": "ǎi", "vietnamese": "lùn, thấp", "example": "他比我矮一点。(Anh ấy thấp hơn tôi một chút.)", "cauChuyen": "Người thấp đến mức chỉ cao bằng một mũi tên (矢) và phải đứng trên một bệ lúa (禾) mới tới nơi ủy thác (委)." },
+
+{ "chinese": "历史", "pinyin": "lì shǐ", "vietnamese": "lịch sử", "example": "历史课很有趣。(Tiết lịch sử rất thú vị.)", "cauChuyen": "历: Trải qua dòng thời gian dưới vách đá và những bụi cây. \n\n史: Bàn tay cầm thẻ tre ghi chép lại sự việc một cách trung thực." },
+
+{ "chinese": "体育", "pinyin": "tǐ yù", "vietnamese": "thể dục, thể thao", "example": "我喜欢体育运动。(Tôi thích vận động thể thao.)", "cauChuyen": "体: Cơ thể con người (亻) vững như gốc cây (本). \n\n育: Một người phụ nữ sinh ra đứa con lộn ngược, tượng trưng cho sự nuôi dưỡng và giáo dục." },
+
+{ "chinese": "数学", "pinyin": "shù xué", "vietnamese": "toán học", "example": "数学很难。(Toán học rất khó.)", "cauChuyen": "数: Dùng gậy (攵) đếm các hạt gạo và những sợi tơ của người phụ nữ (女). \n\n学: Đứa trẻ học dưới mái nhà có sự hướng dẫn." },
+
+{ "chinese": "方便", "pinyin": "fāng biàn", "vietnamese": "thuận tiện", "example": "这儿很方便。(Ở đây rất thuận tiện.)", "cauChuyen": "方: Phương hướng. \n\n便: Con người thay đổi cho thuận tiện." },
+
+{ "chinese": "自行车", "pinyin": "zì xíng chē", "vietnamese": "xe đạp", "example": "骑自行车去学校。(Đi xe đạp đến trường.)", "cauChuyen": "自: Cái mũi (tự bản thân). \n\n行: Đi lại. \n\n车: Xe. Xe tự mình làm nó đi được." },
+
+{ "chinese": "骑", "pinyin": "qí", "vietnamese": "cưỡi, đi (xe đạp, ngựa)", "example": "你会骑马吗？(Bạn biết cưỡi ngựa không?)", "cauChuyen": "Ngồi trên con ngựa (马) để đi qua những vùng đất kỳ lạ (奇)." },
+
+{ "chinese": "旧", "pinyin": "jiù", "vietnamese": "cũ", "example": "旧衣服。(Quần áo cũ.)", "cauChuyen": "Một chiếc quan tài cũ được đặt dưới ánh mặt trời từ ngày xưa (日)." },
+  { "chinese": "换", "pinyin": "huàn", "vietnamese": "đổi", "example": "我想换钱。(Tôi muốn đổi tiền.)", "cauChuyen": "Dùng bàn tay (扌) để tráo đổi những vật phẩm tỏa sáng rực rỡ (奂) cho nhau." },
+
+{ "chinese": "地方", "pinyin": "dì fang", "vietnamese": "nơi, địa điểm", "example": "这个地方很漂亮。(Nơi này rất đẹp.)", "cauChuyen": "地: Đất (土) dành cho vạn vật (也). \n\n方: Hình ảnh chiếc cày đang định vị hướng đi trên một vùng đất." },
+
+{ "chinese": "中介", "pinyin": "zhōng jiè", "vietnamese": "môi giới, trung gian", "example": "我通过中介租了一套房子。(Tôi thuê một căn nhà thông qua môi giới.)", "cauChuyen": "中: Ở giữa. \n\n介: Hình ảnh một người (人) đứng giữa để phân chia hoặc kết nối hai bên (八)." },
+
+{ "chinese": "主要", "pinyin": "zhǔ yào", "vietnamese": "chủ yếu", "example": "这个计划主要由他负责。(Kế hoạch này chủ yếu do anh ấy phụ trách.)", "cauChuyen": "主: Hình ảnh ngọn lửa trên cây đèn, là điểm sáng trung tâm. \n\n要: Người phụ nữ (女) nhấn mạnh yêu cầu quan trọng nhất." },
+
+{ "chinese": "环境", "pinyin": "huán jìng", "vietnamese": "môi trường", "example": "这里的环境非常安静。(Môi trường ở đây rất yên tĩnh.)", "cauChuyen": "环: Viên ngọc (王) tròn trịa bao quanh lấy vạn vật. \n\n境: Vùng đất (土) nằm ở nơi cuối cùng (竟) của một khu vực." },
+
+{ "chinese": "附近", "pinyin": "fù jìn", "vietnamese": "gần đây, lân cận", "example": "学校附近有很多小吃店。(Gần trường học có rất nhiều quán ăn vặt.)", "cauChuyen": "附: Dựa vào vách núi (阝) để ở sát cạnh nhau. \n\n近: Gần." },
+
+{ "chinese": "图书馆", "pinyin": "tú shū guǎn", "vietnamese": "thư viện", "example": "图书馆里有很多书。(Trong thư viện có rất nhiều sách.)", "cauChuyen": "图: Bản đồ/Bức vẽ. \n\n书: Sách. \n\n馆: Nơi cung cấp thức ăn (饣) và chỗ ở công cộng cho quan viên hoặc học giả (官)." },
+
+{ "chinese": "借", "pinyin": "jiè", "vietnamese": "mượn", "example": "我想借你的电脑用一下。(Tôi muốn mượn máy tính của bạn dùng một lát.)", "cauChuyen": "Con người (亻) nhờ cậy vào những ngày cũ (昔) để mượn đồ dùng." },
+
+{ "chinese": "词典", "pinyin": "cí diǎn", "vietnamese": "từ điển", "example": "这本词典很有用。(Cuốn từ điển này rất hữu ích.)", "cauChuyen": "词: Lời nói (讠) được quản lý (司) một cách có hệ thống. \n\n典: Cuốn sách quý được đặt trang trọng trên giá đỡ bằng hai tay (廾)." },
+
+{ "chinese": "还", "pinyin": "huán", "vietnamese": "trả", "example": "借的东西一定要还。(Đồ đã mượn thì nhất định phải trả.)", "cauChuyen": "Đi trên đường (辶) để mang vật phẩm quay về (不) chỗ cũ cho chủ nhân." },
+
+{ "chinese": "灯", "pinyin": "dēng", "vietnamese": "đèn", "example": "离开房间请关灯。(Rời phòng xin hãy tắt đèn.)", "cauChuyen": "Ngọn lửa (火) được đặt trên cái giá cao (丁) để chiếu sáng." },
+
+{ "chinese": "会议", "pinyin": "huì yì", "vietnamese": "cuộc họp", "example": "会议三点钟开始。(Cuộc họp bắt đầu lúc ba giờ.)", "cauChuyen": "会: Tụ họp. \n\n议: Dùng lời nói (讠) để bàn bạc về sự chính nghĩa (义)." },
+
+{ "chinese": "结束", "pinyin": "jié shù", "vietnamese": "kết thúc", "example": "电影什么时候结束？(Phim khi nào kết thúc?)", "cauChuyen": "结: Thắt nút lại. \n\n束: Dùng dây buộc chặt cái cây (木) lại để thu dọn cho gọn gàng, chấm dứt hành động." },
+
+{ "chinese": "忘记", "pinyin": "wàng jì", "vietnamese": "quên", "example": "我忘记他的名字了。(Tôi quên tên anh ấy rồi.)", "cauChuyen": "忘: Khi trái tim (心) bị mất đi (亡) ký ức thì sẽ quên. \n\n记: Ghi chép bằng lời nói." },
+
+{ "chinese": "空调", "pinyin": "kōng tiáo", "vietnamese": "máy lạnh, điều hòa", "example": "请把空调打开。(Hãy bật điều hòa lên.)", "cauChuyen": "空: Cái hang (穴) trống rỗng chỉ còn không khí (工). \n\n调: Dùng lời nói (讠) để điều chỉnh các vòng tròn chu kỳ (周)." },
+
+{ "chinese": "关", "pinyin": "guān", "vietnamese": "đóng, tắt", "example": "关门 / 关电视。(Đóng cửa / Tắt tivi.)", "cauChuyen": "Hình ảnh then cài cửa dùng để đóng chặt lối đi." },
+
+{ "chinese": "地铁", "pinyin": "dì tiě", "vietnamese": "tàu điện ngầm", "example": "坐地铁去上班。(Đi làm bằng tàu điện ngầm.)", "cauChuyen": "地: Đất. \n\n铁: Loại kim loại (钅) cứng nhất làm mất đi (失) sự mềm mỏng của các vật liệu khác." },
+
+{ "chinese": "双", "pinyin": "shuāng", "vietnamese": "đôi (lượng từ)", "example": "一双鞋 / 一双筷子。(Một đôi giày / Một đôi đũa.)", "cauChuyen": "Hình ảnh hai (又 + 又) bàn tay hoặc hai con chim đậu cạnh nhau tạo thành một cặp." },
+
+{ "chinese": "筷子", "pinyin": "kuài zi", "vietnamese": "đôi đũa", "example": "中国人用筷子吃饭。(Người Trung Quốc dùng đũa ăn cơm.)", "cauChuyen": "Dụng cụ làm bằng tre (竹) giúp con người gắp thức ăn một cách nhanh chóng (快)." },
+
+{ "chinese": "口", "pinyin": "kǒu", "vietnamese": "miệng, khẩu (lượng từ)", "example": "他家有五口人。(Nhà anh ấy có năm người.)", "cauChuyen": "Hình dáng cái miệng đang mở." },
+
+{ "chinese": "瓶子", "pinyin": "píng zi", "vietnamese": "cái chai", "example": "瓶子里装满了水。(Trong chai chứa đầy nước.)", "cauChuyen": "Vật phẩm được làm bằng gốm sứ (瓦) có bề mặt phẳng (并) và cổ chai dài." },
+
+{ "chinese": "笔记本", "pinyin": "bǐ jì běn", "vietnamese": "vở, laptop", "example": "我在笔记本上写字。(Tôi viết chữ trên cuốn vở.)", "cauChuyen": "笔: Bút (làm từ tre). \n\n记: Ghi chép. \n\n本: Gốc cây (quyển vở)." },
+
+{ "chinese": "电子邮件", "pinyin": "diàn zǐ yóu jiàn", "vietnamese": "email", "example": "我给你发了一封电子邮件。(Tôi đã gửi cho bạn một bức email.)", "cauChuyen": "电: Điện. \n\n子: Tử (hạt nhân/con). \n\n邮: Nơi dừng chân tại vùng đất (阝) để chuyển thư. \n\n件: Con người (亻) phân chia các vật phẩm như con bò (牛) thành từng phần/bức." },
+
+{ "chinese": "习惯", "pinyin": "xí guàn", "vietnamese": "thói quen; quen thuộc", "example": "早起是一个好习惯。(Dậy sớm là một thói quen tốt.)", "cauChuyen": "习: Luyện tập đôi cánh. \n\n惯: Trái tim (心) đã trở nên quen với việc chi tiêu tiền bạc (贯) mỗi ngày." },
+
+{ "chinese": "太阳", "pinyin": "tài yáng", "vietnamese": "mặt trời", "example": "今天的太阳很大。(Hôm nay nắng rất to.)", "cauChuyen": "太: Cực lớn. \n\n阳: Phía vách núi (阝) đón nhận ánh sáng mặt trời rạng rỡ (昜)." },
+
+{ "chinese": "西", "pinyin": "xī", "vietnamese": "phía tây", "example": "太阳 từ 西边落下。(Mặt trời lặn ở phía tây.)", "cauChuyen": "Hình ảnh con chim đậu trên tổ khi chiều tà ở hướng Tây." },
+
+{ "chinese": "生气", "pinyin": "shēng qì", "vietnamese": "tức giận", "example": "别生我的气了。(Đừng giận tôi nữa.)", "cauChuyen": "Phát sinh (生) ra luồng khí (气) nóng trong người do bực bội." },
+
+{ "chinese": "行李箱", "pinyin": "xíng li xiāng", "vietnamese": "va li", "example": "这个行李箱太重了。(Cái vali này nặng quá.)", "cauChuyen": "行: Đi lại. \n\n李: Cây mận (hành lý thời xưa thường là túi vải). \n\n箱: Chiếc hộp làm bằng tre (竹) dùng để đựng đồ đạc chắc chắn (相)." },
+
+{ "chinese": "自己", "pinyin": "zì jǐ", "vietnamese": "bản thân, chính mình", "example": "我喜欢一个人自己旅行。(Tôi thích tự đi du lịch một mình.)", "cauChuyen": "自: Cái mũi (chỉ mình). \n\n己: Hình ảnh một người đang cúi mình tự nhìn lại bản thân." },
+
+{ "chinese": "包", "pinyin": "bāo", "vietnamese": "cái túi", "example": "包里有手机和钱。(Trong túi có điện thoại và tiền.)", "cauChuyen": "Hình ảnh bao bọc lấy vật bên trong." },
+
+{ "chinese": "发现", "pinyin": "fā xiàn", "vietnamese": "phát hiện", "example": "我发现他今天有点不开心。(Tôi phát hiện hôm nay anh ấy hơi không vui.)", "cauChuyen": "发: Phát ra. \n\n现: Viên ngọc (王) hiện ra trước mắt (见)." },
+
+{ "chinese": "护照", "pinyin": "hù zhào", "vietnamese": "hộ chiếu", "example": "出国必须带护照。(Ra nước ngoài bắt buộc phải mang hộ chiếu.)", "cauChuyen": "护: Dùng tay (扌) bảo vệ những lời nói (户) quan trọng. \n\n照: Chiếu soi/Chụp ảnh." },
+
+{ "chinese": "起飞", "pinyin": "qǐ fēi", "vietnamese": "cất cánh", "example": "飞机马上就要起飞了。(Máy bay sắp cất cánh rồi.)", "cauChuyen": "起: Đứng dậy/Bắt đầu. \n\n飞: Hình ảnh con chim đang dang cánh bay trên trời." },
+
+{ "chinese": "司机", "pinyin": "sī jī", "vietnamese": "tài xế", "example": "这位司机师傅很热情。(Bác tài xế này rất nhiệt tình.)", "cauChuyen": "司: Người điều hành/quản lý. \n\n机: Cỗ máy làm từ gỗ (木) có cấu tạo tinh vi (几)." },
+
+{ "chinese": "教", "pinyin": "jiào", "vietnamese": "dạy", "example": "王老师教我们数学。(Thầy Vương dạy chúng tôi toán học.)", "cauChuyen": "Dùng roi (攵) để uốn nắn trẻ con (子) học theo đạo hiếu (耂)." },
+
+{ "chinese": "画", "pinyin": "huà", "vietnamese": "vẽ; bức vẽ", "example": "他在画一张画。(Anh ấy đang vẽ một bức tranh.)", "cauChuyen": "Dùng tay cầm bút vẽ một khung cảnh có biên giới (田) rõ ràng." },
+
+{ "chinese": "需要", "pinyin": "xū yào", "vietnamese": "cần", "example": "我需要你的帮助。(Tôi cần sự giúp đỡ của bạn.)", "cauChuyen": "需: Khi trời mưa (雨) con người (而) rất cần nơi trú ẩn. \n\n要: Yêu cầu." },
+
+{ "chinese": "黑板", "pinyin": "hēi bǎn", "vietnamese": "bảng đen", "example": "请看黑板上的字。(Xin hãy nhìn chữ trên bảng đen.)", "cauChuyen": "黑: Đám khói đen bốc lên từ ngọn lửa (灬) dưới ngôi nhà. \n\n板: Tấm gỗ (木) phẳng để viết lên." },
+
+{ "chinese": "终于", "pinyin": "zhōng yú", "vietnamese": "cuối cùng", "example": "作业终于做完了。(Bài tập cuối cùng cũng làm xong rồi.)", "cauChuyen": "终: Sợi tơ (纟) đã đi đến điểm kết thúc vào mùa đông (冬). \n\n于: Một từ chỉ vị trí hoặc sự đạt tới đích." },
+
+{ "chinese": "爷爷", "pinyin": "yè ye", "vietnamese": "ông nội", "example": "我爷爷今年八十岁了。(Ông nội tôi năm nay 80 tuổi rồi.)", "cauChuyen": "Người cha (父) có vị thế cao trong gia đình." },
+
+{ "chinese": "礼物", "pinyin": "lǐ wù", "vietnamese": "món quà", "example": "这是送给你的生日礼物。(Đây là quà sinh nhật tặng cho bạn.)", "cauChuyen": "礼: Sự bày tỏ (示) trên bệ cao. \n\n物: Con bò (牛) có màu lông đa dạng (勿) đại diện cho mọi vật phẩm." },
+
+{ "chinese": "奶奶", "pinyin": "nǎi nai", "vietnamese": "bà nội", "example": "奶奶做的饭最好吃。(Cơm bà nội nấu là ngon nhất.)", "cauChuyen": "Người phụ nữ (女) nuôi nấng con cháu bằng dòng sữa." },
+
+{ "chinese": "遇到", "pinyin": "yù dào", "vietnamese": "gặp phải", "example": "在路上遇到了一个老朋友。(Gặp lại một người bạn cũ trên đường.)", "cauChuyen": "Gặp gỡ trên đường đi." },
+
+{ "chinese": "一边……一边……", "pinyin": "yì biān…… yì biān……", "vietnamese": "vừa... vừa...", "example": "他一边喝咖啡，一边看报纸。(Anh ấy vừa uống cà phê vừa đọc báo.)", "cauChuyen": "Thực hiện hai việc ở hai phía (边) khác nhau cùng một lúc." },
+
+{ "chinese": "过去", "pinyin": "guò qù", "vietnamese": "qua đi; đi qua", "example": "这件事情已经过去了。(Chuyện này đã qua rồi.)", "cauChuyen": "过: Đi qua. \n\n去: Rời khỏi hang để đi ra ngoài." },
+
+{ "chinese": "一般", "pinyin": "yì bān", "vietnamese": "thông thường", "example": "我一般六点起床。(Tôi thường ngủ dậy lúc 6 giờ.)", "cauChuyen": "Một (一) chiếc thuyền (舟) đang di chuyển một cách bình thường như mọi con thuyền khác." },
+
+{ "chinese": "愿意", "pinyin": "yuàn yì", "vietnamese": "đồng ý, sẵn lòng", "example": "你愿意嫁给我吗？(Em có đồng ý gả cho anh không?)", "cauChuyen": "愿: Trái tim (心) khao khát như nguồn nước chảy từ vách đá. \n\n意: Ý chí." },
+
+{ "chinese": "起来", "pinyin": "qǐ lai", "vietnamese": "đứng lên; dậy", "example": "他每天六点起床起来。(Anh ấy thức dậy lúc 6 giờ mỗi ngày.)", "cauChuyen": "Hành động vươn mình đứng dậy và tiến tới." },
+
+{ "chinese": "应该", "pinyin": "yīng gāi", "vietnamese": "nên", "example": "你应该多喝开水。(Bạn nên uống nhiều nước lọc.)", "cauChuyen": "应: Phải thực hiện dưới mái nhà rộng. \n\n该: Dùng lời nói (讠) để nhắc nhở về việc của trẻ con (亥) cần làm." },
+
+{ "chinese": "生活", "pinyin": "shēng huó", "vietnamese": "cuộc sống", "example": "我喜欢这里的生活。(Tôi thích cuộc sống ở đây.)", "cauChuyen": "生: Sự sinh trưởng. \n\n活: Có nước (氵) chảy qua cái miệng (舌) thì mới duy trì được sự sống." },
+
+{ "chinese": "校长", "pinyin": "xiào zhǎng", "vietnamese": "hiệu trưởng", "example": "校长正在开会。(Hiệu trưởng đang họp.)", "cauChuyen": "校: Ngôi trường làm từ gỗ. \n\n长: Người có mái tóc dài và kinh nghiệm đứng đầu." },
+
+{ "chinese": "坏", "pinyin": "huài", "vietnamese": "hỏng, xấu", "example": "手机坏了，不能用了。(Điện thoại hỏng rồi, không dùng được nữa.)", "cauChuyen": "Khi đất (土) không còn tốt và trở nên xấu xa (不) thì nó bị hỏng." },
+
+{ "chinese": "经常", "pinyin": "jīng cháng", "vietnamese": "thường xuyên", "example": "我经常去公园跑步。(Tôi thường xuyên đi công viên chạy bộ.)", "cauChuyen": "经: Trải qua. \n\n常: Thường lệ." },
+
+{ "chinese": "打扫", "pinyin": "dǎ sǎo", "vietnamese": "dọn dẹp", "example": "周六我们要打扫房间。(Thứ Bảy chúng tôi phải dọn dẹp phòng.)", "cauChuyen": "打: Đánh/Làm. \n\n扫: Dùng tay (扌) cầm cái chổi làm từ cỏ (彐) để quét dọn." },
+
+{ "chinese": "干净", "pinyin": "gān jìng", "vietnamese": "sạch sẽ", "example": "教室打扫得很干净。(Lớp học được dọn dẹp rất sạch sẽ.)", "cauChuyen": "干: Khô ráo. \n\n净: Dùng nước (氵) để làm sạch những vết bẩn tranh giành (争) không gian." },
+
+{ "chinese": "然后", "pinyin": "rán hòu", "vietnamese": "sau đó", "example": "先吃饭，然后去散步。(Ăn cơm trước, sau đó đi tản bộ.)", "cauChuyen": "Sau khi sự việc diễn ra một cách hiển nhiên (然)." },
+
+{ "chinese": "冰箱", "pinyin": "bīng xiāng", "vietnamese": "tủ lạnh", "example": "冰箱里没有牛奶了。(Trong tủ lạnh không còn sữa nữa.)", "cauChuyen": "冰: Băng/Đá. \n\n箱: Chiếc hộp." },
+
+{ "chinese": "洗澡", "pinyin": "xǐ zǎo", "vietnamese": "tắm", "example": "他正在洗澡呢。(Anh ấy đang tắm.)", "cauChuyen": "洗: Rửa. \n\n澡: Dùng nước (氵) để làm sạch cơ thể như chim uống nước trên cây (喿)." },
+
+{ "chinese": "节目", "pinyin": "jié mù", "vietnamese": "chương trình", "example": "这个电视节目很有趣。(Chương trình tivi này rất thú vị.)", "cauChuyen": "节: Tiết/Đoạn. \n\n目: Mục lục/Con mắt." },
+
+{ "chinese": "月亮", "pinyin": "yuè liang", "vietnamese": "mặt trăng", "example": "今晚的月亮真圆。(Mặt trăng tối nay thật tròn.)", "cauChuyen": "月: Mặt trăng. \n\n亮: Ánh sáng chiếu trên cao (亠) xuyên qua cửa sổ (口) của ngôi nhà (冖) dưới chân người." },
+
+{ "chinese": "像", "pinyin": "xiàng", "vietnamese": "giống", "example": "他长得真像他爸爸。(Anh ấy trông thật giống bố mình.)", "cauChuyen": "Con người (亻) có hình dáng to lớn như con voi (象)." },
+
+{ "chinese": "盘子", "pinyin": "pán zi", "vietnamese": "cái đĩa", "example": "请把桌上的盘子洗了。(Hãy rửa cái đĩa trên bàn đi.)", "cauChuyen": "Cái bát/đĩa (皿) dùng để đựng thức ăn khi tàu thuyền (舟) cập bến (皿)." },
+
+{ "chinese": "阿姨", "pinyin": "ā yí", "vietnamese": "cô, dì", "example": "王阿姨对我很好。(Cô Vương đối xử với tôi rất tốt.)", "cauChuyen": "Người phụ nữ (女) có quan hệ thân thiết bên cạnh mình (夷)." },
+
+{ "chinese": "声音", "pinyin": "shēng yīn", "vietnamese": "âm thanh", "example": "你声音太小，我听不见。(Tiếng của bạn nhỏ quá, tôi nghe không rõ.)", "cauChuyen": "声: Âm thanh phát ra khi đánh vào nhạc khí treo trên giá. \n\n音: Tiếng động." },
+
+{ "chinese": "菜单", "pinyin": "cài dān", "vietnamese": "thực đơn", "example": "服务员，请给我菜单。(Phục vụ, cho tôi xem thực đơn.)", "cauChuyen": "菜: Rau/Thức ăn. \n\n单: Một tờ giấy ghi chép đơn giản." },
+
+{ "chinese": "简单", "pinyin": "jiǎn dān", "vietnamese": "đơn giản", "example": "这个问题很简单。(Vấn đề này rất đơn giản.)", "cauChuyen": "简: Viết trên thẻ tre (竹) một cách ngăn nắp (间). \n\n单: Đơn độc/Đơn giản." },
+
+{ "chinese": "香蕉", "pinyin": "xiāng jiāo", "vietnamese": "quả chuối", "example": "我想买一斤香蕉。(Tôi muốn mua một cân chuối.)", "cauChuyen": "香: Mùi thơm của lúa (禾) dưới ánh mặt trời (日). \n\n蕉: Loài cỏ (艹) bị đốt cháy dưới nắng (焦) cho ra quả ngọt." },
+
+{ "chinese": "限", "pinyin": "xiàn", "vietnamese": "giới hạn", "example": "超市买一送一，限今天。(Siêu thị mua một tặng một, giới hạn trong hôm nay.)", "cauChuyen": "Dựng vách ngăn (阝) để mắt (目) chỉ nhìn thấy một phạm vi nhất định (艮)." },
+
+{ "chinese": "及早", "pinyin": "jí zǎo", "vietnamese": "càng sớm càng tốt", "example": "生病了要及早去看医生。(Bị bệnh thì phải đi khám bác sĩ sớm.)", "cauChuyen": "及: Kịp lúc. \n\n早: Mặt trời mọc trên ngọn cỏ vào sáng sớm." },
+
+{ "chinese": "留学", "pinyin": "liú xué", "vietnamese": "du học", "example": "他明年去中国留学。(Năm sau anh ấy đi Trung Quốc du học.)", "cauChuyen": "留: Ở lại trên ruộng đất (田) bằng cách dùng dao đánh dấu. \n\n学: Học tập." },
+  { "chinese": "水平", "pinyin": "shuǐ píng", "vietnamese": "trình độ", "example": "你的汉语水平提高了很多。(Trình độ tiếng Trung của bạn đã nâng cao rất nhiều.)", "cauChuyen": "水: Nước. \n\n平: Mặt đất phẳng lặng. Trình độ con người được đo bằng mặt nước phẳng lặng, không gợn sóng." },
+
+{ "chinese": "提高", "pinyin": "tí gāo", "vietnamese": "nâng cao", "example": "多听听力可以提高水平。(Nghe nhiều có thể nâng cao trình độ.)", "cauChuyen": "提: Dùng tay (扌) nhấc một vật lên. \n\n高: Hình ảnh một tòa tháp cao có mái che và cửa sổ." },
+
+{ "chinese": "练习", "pinyin": "liàn xí", "vietnamese": "luyện tập", "example": "下课后要多做练习。(Sau giờ học phải làm bài tập/luyện tập nhiều hơn.)", "cauChuyen": "练: Dùng sợi tơ (纟) để rèn luyện sự khéo léo. \n\n习: Hình ảnh đôi cánh chim đang tập bay trên tổ." },
+
+{ "chinese": "完成", "pinyin": "wán chéng", "vietnamese": "hoàn thành", "example": "我终于完成作业了。(Cuối cùng tôi cũng hoàn thành bài tập rồi.)", "cauChuyen": "完: Dưới mái nhà (宀), mọi việc đã được sắp xếp nguyên vẹn (元). \n\n成: Dùng vũ khí (戈) để bình định và đạt được thành quả." },
+
+{ "chinese": "句子", "pinyin": "jù zi", "vietnamese": "câu", "example": "请用这个词造一个句子。(Hãy dùng từ này để đặt một câu.)", "cauChuyen": "句: Dùng miệng (口) nói ra những lời bao quát (勹) thành một ý trọn vẹn." },
+
+{ "chinese": "其他", "pinyin": "qí tā", "vietnamese": "khác", "example": "除了他，其他人都来了。(Ngoài anh ấy ra, những người khác đều đã đến.)", "cauChuyen": "其: Cái sàng làm bằng tre để lọc lấy những thứ khác biệt. \n\n他: Con người (亻) ở bên cạnh (không phải mình)." },
+
+{ "chinese": "发", "pinyin": "fā", "vietnamese": "gửi", "example": "别忘了给我发照片。(Đừng quên gửi ảnh cho tôi nhé.)", "cauChuyen": "Hình ảnh bắn mũi tên ra xa, đại diện cho việc gửi đi." },
+
+{ "chinese": "要求", "pinyin": "yāo qiú", "vietnamese": "yêu cầu", "example": "老师对我们的要求很高。(Thầy giáo yêu cầu rất cao ở chúng tôi.)", "cauChuyen": "要: Cần thiết. \n\n求: Hình ảnh một người đang cầu xin dòng nước cứu mạng, sau này chỉ sự mong cầu, đòi hỏi." },
+
+{ "chinese": "注意", "pinyin": "zhù yì", "vietnamese": "chú ý", "example": "过马路要多注意安全。(Qua đường phải chú ý an toàn.)", "cauChuyen": "注: Rót nước (氵) vào một cái bình chính (主) để tập trung. \n\n意: Ý chí từ trong tim." },
+
+{ "chinese": "上网", "pinyin": "shàng wǎng", "vietnamese": "lên mạng", "example": "我每天上网学汉语。(Mỗi ngày tôi đều lên mạng học tiếng Trung.)", "cauChuyen": "上: Lên. \n\n网: Hình ảnh cái lưới đánh cá, tượng trưng cho mạng internet kết nối mọi người." },
+
+{ "chinese": "网上", "pinyin": "wǎng shàng", "vietnamese": "trên mạng", "example": "网上买东西很方便。(Mua đồ trên mạng rất tiện lợi.)", "cauChuyen": "Mọi giao dịch nằm trên (上) tấm lưới (网) kỹ thuật số." },
+
+{ "chinese": "除了", "pinyin": "chú le", "vietnamese": "ngoài ra", "example": "除了苹果，我还喜欢西瓜。(Ngoài táo ra, tôi còn thích dưa hấu.)", "cauChuyen": "除: Loại bỏ những thứ thừa thãi bên vách núi (阝). \n\n了: Kết thúc." },
+
+{ "chinese": "花", "pinyin": "huā", "vietnamese": "tiêu, chi tiêu", "example": "他在买书上花了不少钱。(Anh ấy tốn không ít tiền vào việc mua sách.)", "cauChuyen": "Tiền bạc tiêu đi như hoa (花) nở rồi tàn, mang tính biến hóa (化)." },
+
+{ "chinese": "极了", "pinyin": "jí le", "vietnamese": "cực kỳ", "example": "这件衣服漂亮极了。(Bộ quần áo này đẹp cực kỳ.)", "cauChuyen": "极: Cái xà nhà làm bằng gỗ (木), là điểm cao nhất và xa nhất của ngôi nhà." },
+
+{ "chinese": "节日", "pinyin": "jié rì", "vietnamese": "ngày lễ", "example": "春节是中国最重要的节日。(Tết Nguyên Đán là ngày lễ quan trọng nhất của Trung Quốc.)", "cauChuyen": "节: Đốt tre chia thời gian. \n\n日: Ngày mặt trời tỏa sáng." },
+
+{ "chinese": "举行", "pinyin": "jǔ xíng", "vietnamese": "tổ chức", "example": "下周学校举行运动会。(Tuần sau trường tổ chức đại hội thể thao.)", "cauChuyen": "举: Nhiều bàn tay cùng nâng một vật lên cao để bắt đầu. \n\n行: Tiến hành đi lại." },
+
+{ "chinese": "世界", "pinyin": "shì jiè", "vietnamese": "thế giới", "example": "世界很大，我想去看看。(Thế giới rất lớn, tôi muốn đi xem thử.)", "cauChuyen": "世: Ba mươi năm là một đời người (thế hệ). \n\n界: Ranh giới giữa các thửa ruộng (田) chia cắt không gian." },
+
+{ "chinese": "街道", "pinyin": "jiē dào", "vietnamese": "đường phố", "example": "街道两边有很多树。(Hai bên đường phố có rất nhiều cây.)", "cauChuyen": "街: Đường đi lại giữa các gian hàng. \n\n道: Con đường dẫn lối cho cái đầu (首) và bước chân (辶)." },
+
+{ "chinese": "各", "pinyin": "gè", "vietnamese": "mỗi, các", "example": "各国都有自己的文化。(Mỗi quốc gia đều có văn hóa riêng của mình.)", "cauChuyen": "Bước chân đi tới mỗi cái miệng (口) khác nhau để nói lời chào riêng biệt." },
+
+{ "chinese": "文化", "pinyin": "wén huà", "vietnamese": "văn hóa", "example": "中国文化很有意思。(Văn hóa Trung Quốc rất thú vị.)", "cauChuyen": "文: Chữ viết/Hoa văn. \n\n化: Sự biến đổi con người thông qua giáo dục và tri thức." },
+
+{ "chinese": "面貌", "pinyin": "miàn mào", "vietnamese": "diện mạo, tình hình", "example": "这个城市的面貌焕然一新。(Diện mạo của thành phố này đã hoàn toàn đổi mới.)", "cauChuyen": "面: Khuôn mặt. \n\n貌: Hình dáng của loài thú (豸) có khuôn mặt rõ ràng." },
+
+{ "chinese": "诚实", "pinyin": "chéng shí", "vietnamese": "trung thực", "example": "诚实是做人最基本的品质。(Trung thực là phẩm chất cơ bản nhất của con người.)", "cauChuyen": "诚: Lời nói (讠) trở thành sự thật (成). \n\n实: Dưới mái nhà (宀) có tiền bạc/vỏ sò (贝) thật sự." },
+
+{ "chinese": "任何", "pinyin": "rèn hé", "vietnamese": "bất kỳ", "example": "遇到任何困难都不要放弃。(Dù gặp bất kỳ khó khăn nào cũng đừng bỏ cuộc.)", "cauChuyen": "任: Con người gánh vác trách nhiệm. \n\n何: Người vác rìu đi hỏi bất kỳ ai trên đường." },
+
+{ "chinese": "城市", "pinyin": "chéng shì", "vietnamese": "thành phố", "example": "我喜欢这个城市的夜景。(Tôi thích cảnh đêm của thành phố này.)", "cauChuyen": "城: Bức tường bằng đất (土) bảo vệ vùng đất. \n\n市: Nơi họp chợ." },
+
+{ "chinese": "如果", "pinyin": "rú guǒ", "vietnamese": "nếu", "example": "如果明天下雨，我就不去。(Nếu ngày mai trời mưa, tôi sẽ không đi.)", "cauChuyen": "如: Người phụ nữ (女) nghe theo lời nói (口). \n\n果: Trái cây kết tinh từ trên cây (木)." },
+
+{ "chinese": "认为", "pinyin": "rèn wéi", "vietnamese": "cho rằng, nghĩ rằng", "example": "你认为这个计划怎么样？(Bạn cho rằng kế hoạch này thế nào?)", "cauChuyen": "认: Xác nhận. \n\n为: Hành động dựa trên suy nghĩ." },
+
+{ "chinese": "皮鞋", "pinyin": "pí xié", "vietnamese": "giày da", "example": "这双皮鞋很贵。(Đôi giày da này rất đắt.)", "cauChuyen": "皮: Da thú. \n\n鞋: Đồ vật làm bằng da (革) để đi lại sạch sẽ (圭)." },
+
+{ "chinese": "帽子", "pinyin": "mào zi", "vietnamese": "cái mũ", "example": "他戴着一顶黑色的帽子。(Anh ấy đội một chiếc mũ màu đen.)", "cauChuyen": "Vật dùng để che phủ (冒) đầu trẻ con (子)." },
+
+{ "chinese": "长", "pinyin": "zhǎng", "vietnamese": "lớn lên, phát triển", "example": "孩子长得很快。(Đứa trẻ lớn lên rất nhanh.)", "cauChuyen": "Hình ảnh người tóc dài, tượng trưng cho sự trưởng thành theo thời gian." },
+
+{ "chinese": "可爱", "pinyin": "kě ài", "vietnamese": "dễ thương", "example": "那个小女孩真可爱。(Bé gái đó thật dễ thương.)", "cauChuyen": "可: Có thể. \n\n爱: Trái tim (心) dành cho một người giữa sự chuyển động chậm rãi." },
+
+{ "chinese": "米", "pinyin": "mǐ", "vietnamese": "mét", "example": "这条绳子有三米长。(Sợi dây này dài ba mét.)", "cauChuyen": "Hình ảnh hạt gạo tỏa ra 4 phương, sau này mượn âm để chỉ đơn vị đo lường mét." },
+
+{ "chinese": "公斤", "pinyin": "gōng jīn", "vietnamese": "kilôgam (kg)", "example": "我买了两公斤苹果。(Tôi đã mua hai cân táo.)", "cauChuyen": "公: Của công/Quốc tế. \n\n金: Cái rìu (đơn vị trọng lượng cổ)." },
+
+{ "chinese": "鼻子", "pinyin": "bí zi", "vietnamese": "cái mũi", "example": "她的鼻子很高。(Mủi của cô ấy rất cao.)", "cauChuyen": "Tự bản thân (自) con người dùng cái mũi để thở và phân biệt vạn vật (畀)." },
+
+{ "chinese": "头发", "pinyin": "tóu fa", "vietnamese": "tóc", "example": "她的头发又黑又亮。(Tóc của cô ấy vừa đen vừa bóng.)", "cauChuyen": "头: Cái đầu. \n\n发: Những sợi mọc ra từ đầu." },
+
+{ "chinese": "检查", "pinyin": "jiǎn chá", "vietnamese": "kiểm tra", "example": "出发前请检查一下护照。(Trước khi xuất phát hãy kiểm tra lại hộ chiếu.)", "cauChuyen": "检: Dùng cây gậy (木) để gom (合) mọi thứ lại kiểm kê. \n\n查: Soi xét kỹ lưỡng như nhìn vào từng gốc cây (木) dưới ánh mặt trời (旦)." },
+
+{ "chinese": "刷牙", "pinyin": "shuā yá", "vietnamese": "đánh răng", "example": "每天早晚都要刷牙。(Mỗi ngày sáng tối đều phải đánh răng.)", "cauChuyen": "刷: Dùng con dao/dụng cụ (刂) tẩy rửa vết bẩn trên vải (尸). \n\n牙: Hình ảnh những chiếc răng đan xen vào nhau." },
+
+{ "chinese": "关系", "pinyin": "guān xì", "vietnamese": "mối quan hệ", "example": "他们两人的关系非常好。(Mối quan hệ của hai người họ rất tốt.)", "cauChuyen": "关: Cánh cổng. \n\n系: Sợi tơ (糸) kết nối các vật lại với nhau." },
+
+{ "chinese": "别人", "pinyin": "bié rén", "vietnamese": "người khác", "example": "尊重别人就是尊重自己。(Tôn trọng người khác chính là tôn trọng chính mình.)", "cauChuyen": "别: Phân tách. \n\n人: Người." },
+
+{ "chinese": "词语", "pinyin": "cí yǔ", "vietnamese": "từ ngữ", "example": "请用这些词语造句。(Hãy dùng những từ ngữ này để đặt câu.)", "cauChuyen": "词: Lời nói. \n\n语: Lời nói (讠) của năm (五) cái miệng (口), tức là ngôn ngữ chung." },
+
+{ "chinese": "对待", "pinyin": "duì dài", "vietnamese": "đối đãi", "example": "我们要平等地对待每一个人。(Chúng ta nên đối xử bình đẳng với mỗi người.)", "cauChuyen": "对: Đối diện. \n\n待: Đi trên đường (彳) và dừng lại ở chùa (寺) để chờ đợi và tiếp đón khách." },
+
+{ "chinese": "正确", "pinyin": "zhèng què", "vietnamese": "đúng đắn", "example": "这是一个正确的决定。(Đây là một quyết định đúng đắn.)", "cauChuyen": "正: Đi thẳng không lệch. \n\n确: Cứng rắn và rõ ràng như hòn đá (石) nằm dưới vách núi." },
+
+  { "chinese": "处处", "pinyin": "chù chù", "vietnamese": "mọi nơi, nơi nơi", "example": "生活中处处有惊喜。(Trong cuộc sống nơi nơi đều có điều bất ngờ.)", "cauChuyen": "Chữ 处 gồm bộ 夂 (đi chậm) và 几 (cái ghế). Đi mỏi chân ở khắp mọi nơi rồi cũng phải tìm một chỗ dừng chân để ngồi xuống." },
+
+{ "chinese": "请假", "pinyin": "qǐng jià", "vietnamese": "xin nghỉ phép", "example": "他生病了，想跟老师请假。(Anh ấy bị ốm, muốn xin giáo viên nghỉ phép.)", "cauChuyen": "请: Dùng lời nói (讠) một cách chân thành (青). \n假: Con người (亻) mượn thời gian nhàn rỗi để nghỉ ngơi thay vì làm việc thật." },
+
+{ "chinese": "一共", "pinyin": "yí gòng", "vietnamese": "tổng cộng", "example": "这一共多少钱？(Chỗ này tổng cộng bao nhiêu tiền?)", "cauChuyen": "一: Một. \n共: Hai bàn tay (廾) cùng nhau nâng một vật phẩm lên cao, thể hiện sự hợp lực, gom tất cả lại làm một." },
+
+{ "chinese": "邻居", "pinyin": "邻居", "pinyin": "lín jū", "vietnamese": "hàng xóm", "example": "我的邻居很热情。(Hàng xóm của tôi rất nhiệt tình.)", "cauChuyen": "邻: Những người sống ở vùng đất (阝) ngay sát bên cạnh. \n居: Người dân (尸) sống ổn định trên một vùng đất (古)." },
+
+{ "chinese": "后来", "pinyin": "hòu lái", "vietnamese": "sau này", "example": "后来，他们成了好朋友。(Sau này, họ đã trở thành bạn thân.)", "cauChuyen": "Người đứng ở phía sau (后) cuối cùng cũng đi đến (来) được một thời điểm mới trong tương lai." },
+
+{ "chinese": "爱好", "pinyin": "ài hào", "vietnamese": "sở thích", "example": "我的爱好是看电影。(Sở thích của tôi là xem phim.)", "cauChuyen": "Yêu (爱) và cảm thấy tốt (好) về một việc gì đó thì đó chính là sở thích cá nhân." },
+
+{ "chinese": "办法", "pinyin": "bàn fǎ", "vietnamese": "cách, biện pháp", "example": "别担心，我们总会有办法的。(Đừng lo lắng, chúng ta luôn sẽ có cách thôi.)", "cauChuyen": "办: Dùng sức lực (力) tác động vào hai bên để giải quyết việc. \n法: Cách làm suôn sẻ như dòng nước (氵) chảy đi (去)." },
+
+{ "chinese": "为了", "pinyin": "wèi le", "vietnamese": "để, vì", "example": "为了学好汉语，他每天都练习。(Để học tốt tiếng Trung, anh ấy luyện tập mỗi ngày.)", "cauChuyen": "为: Hình ảnh bàn tay đang dắt con voi làm việc, vì một mục đích nào đó. \n了: Kết thúc hành động để đạt được kết quả." },
+
+{ "chinese": "饱", "pinyin": "bǎo", "vietnamese": "no", "example": "我已经吃饱了。(Tôi đã ăn no rồi.)", "cauChuyen": "Khi thức ăn (饣) được lấp đầy (包) vào dạ dày thì chúng ta sẽ cảm thấy no." },
+
+{ "chinese": "决定", "pinyin": "jué dìng", "vietnamese": "quyết định", "example": "他决定明年去中国留学。(Anh ấy quyết định năm sau đi Trung Quốc du học.)", "cauChuyen": "决: Dùng nước (氵) để gột rửa và đưa ra phán quyết dứt khoát. \n定: Sự ổn định dưới mái nhà." },
+
+{ "chinese": "选择", "pinyin": "xuǎn zé", "vietnamese": "lựa chọn", "example": "每个人都有选择的权利。(Mỗi người đều có quyền lựa chọn.)", "cauChuyen": "选: Đi trên đường (辶) để tìm kiếm thứ hàng đầu. \n择: Dùng tay (扌) nhặt ra thứ mình ưng ý nhất trong một khu vườn." },
+
+{ "chinese": "必须", "pinyin": "bì xū", "vietnamese": "bắt buộc, phải", "example": "你必须在两点前到达。(Bạn bắt buộc phải đến trước hai giờ.)", "cauChuyen": "必: Một nhát chém xuyên qua trái tim, thể hiện sự quyết tâm bắt buộc. \n须: Hình ảnh bộ râu trên khuôn mặt, những gì vốn dĩ phải có." },
+
+{ "chinese": "根据", "pinyin": "gēn jù", "vietnamese": "dựa theo, căn cứ", "example": "根据天气预报，明天有大雨。(Theo dự báo thời tiết, ngày mai có mưa lớn.)", "cauChuyen": "根: Gốc rễ của cây (木). \n据: Dùng tay (扌) bám vào một vật cứng như xác ve (居) làm điểm tựa." },
+
+{ "chinese": "渴", "pinyin": "kě", "vietnamese": "khát", "example": "我很渴，想喝水。(Tôi rất khát, muốn uống nước.)", "cauChuyen": "Khi thiếu nước (氵), con người cảm thấy cổ họng như bị mặt trời thiêu đốt dưới vách đá (曷)." },
+
+{ "chinese": "利于", "pinyin": "lì yú", "vietnamese": "có lợi cho", "example": "多喝水利于身体健康。(Uống nhiều nước có lợi cho sức khỏe.)", "cauChuyen": "利: Dùng dao (刂) gặt lúa (禾), mang lại lợi ích và lương thực." },
+
+{ "chinese": "向", "pinyin": "xiàng", "vietnamese": "向", "pinyin": "xiàng", "vietnamese": "hướng về, về phía", "example": "请向大家介绍一下你自己。(Mời bạn giới thiệu bản thân với mọi người.)", "cauChuyen": "Hình ảnh một cái cửa sổ trong ngôi nhà, nơi mọi người hướng mắt nhìn ra bên ngoài." },
+
+{ "chinese": "万", "pinyin": "wàn", "vietnamese": "vạn", "example": "那本书要三万块钱。(Quyển sách đó giá ba vạn tệ.)", "cauChuyen": "Thời xưa, chữ này mô phỏng hình dáng con bọ cạp, vốn có số lượng rất nhiều, sau dùng để chỉ số mười nghìn." },
+
+{ "chinese": "只", "pinyin": "zhī", "vietnamese": "con (lượng từ)", "example": "树上有一只小鸟。(Trên cây có một con chim nhỏ.)", "cauChuyen": "Hình ảnh một bàn tay đang tóm lấy một con chim nhỏ." },
+
+{ "chinese": "嘴", "pinyin": "zuǐ", "vietnamese": "cái miệng", "example": "他嘴里正吃着东西。(Trong miệng anh ấy đang ăn gì đó.)", "cauChuyen": "Cái miệng (口) của loài thú có sừng, dùng để nhai các loại hạt (角 + 此)." },
+
+{ "chinese": "动物", "pinyin": "dòng wù", "vietnamese": "động vật", "example": "我们要爱护动物。(Chúng ta cần phải yêu quý động vật.)", "cauChuyen": "动: Dùng sức lực (力) để làm vật nặng di chuyển. \n物: Mọi vật phẩm (con bò là đại diện)." },
+
+{ "chinese": "段", "pinyin": "duàn", "vietnamese": "đoạn", "example": "请读一下这一段话。(Hãy đọc đoạn văn này.)", "cauChuyen": "Dùng búa đập vào đá ở vách núi để chia nó thành từng đoạn, từng phần." },
+
+{ "chinese": "有名", "pinyin": "yǒu míng", "vietnamese": "nổi tiếng", "example": "他是这里有名的医生。(Ông ấy là bác sĩ nổi tiếng ở đây.)", "cauChuyen": "Có (有) cái tên (名) được nhiều người biết đến gọi tên vào ban đêm." },
+
+{ "chinese": "同意", "pinyin": "tóng yì", "vietnamese": "đồng ý", "example": "我完全同意你的看法。(Tôi hoàn toàn đồng ý với quan điểm của bạn.)", "cauChuyen": "Cùng (同) một ý chí (意) và suy nghĩ như nhau." },
+
+{ "chinese": "相信", "pinyin": "xiāng xìn", "vietnamese": "tin tưởng", "example": "请相信我说的话。(Hãy tin lời tôi nói.)", "cauChuyen": "相: Mắt nhìn vào cây để quan sát kỹ. \n信: Lời nói của con người (亻) phải đáng tin cậy." },
+
+{ "chinese": "关于", "pinyin": "guān yú", "vietnamese": "liên quan đến, về", "example": "关于这件事，我还不清楚。(Về việc này, tôi vẫn chưa rõ.)", "cauChuyen": "关: Cánh cổng kết nối. \n于: Tại, ở." },
+
+{ "chinese": "机会", "pinyin": "jī huì", "vietnamese": "cơ hội", "example": "这是一个难得的机会。(Đây là một cơ hội hiếm có.)", "cauChuyen": "机: Cỗ máy/Thời cơ linh hoạt. \n会: Sự hội tụ của các điều kiện thuận lợi." },
+
+{ "chinese": "国家", "pinyin": "guó jiā", "vietnamese": "quốc gia", "example": "中国是一个美丽的国家。(Trung Quốc là một quốc gia xinh đẹp.)", "cauChuyen": "国: Vùng đất có biên giới bao quanh (囗) và có vị vua (王) cai trị. \n家: Dưới mái nhà có con lợn nuôi (biểu tượng của sự ổn định)." },
+
+{ "chinese": "种", "pinyin": "zhǒng", "vietnamese": "loại, chủng loại", "example": "你喜欢哪种颜色？(Bạn thích loại màu sắc nào?)", "cauChuyen": "Hạt giống lúa (禾) được phân chia thành từng loại nặng nhẹ (重) khác nhau." },
+
+{ "chinese": "特点", "pinyin": "tè diǎn", "vietnamese": "đặc điểm", "example": "每个人都有自己的特点。(Mỗi người đều có đặc điểm riêng.)", "cauChuyen": "特: Đặc biệt. \n点: Dấu chấm/Điểm nổi bật." },
+
+{ "chinese": "奇怪", "pinyin": "qí guài", "vietnamese": "kỳ lạ", "example": "发生这样的事真奇怪。(Chuyện như vậy xảy ra thật kỳ lạ.)", "cauChuyen": "奇: Một người (大) đứng trên khả năng (可) phi thường. \n怪: Trái tim (忄) cảm thấy khó hiểu trước sức mạnh của thánh thần (圣)." },
+
+{ "chinese": "耳朵", "pinyin": "ěr duo", "vietnamese": "cái tai", "example": "小狗的耳朵很灵。(Tai của cún con rất thính.)", "cauChuyen": "耳: Hình dáng cái lỗ tai. \n朵: Hình dáng bông hoa hoặc vành tai mềm mại trên cây (木)." },
+
+{ "chinese": "脸", "pinyin": "liǎn", "vietnamese": "khuôn mặt", "example": "她的脸上挂着微笑。(Trên mặt cô ấy nở nụ cười.)", "cauChuyen": "Phần cơ thể (月) hội tụ (佥) tất cả các bộ phận quan trọng nhất của con người." },
+
+{ "chinese": "短", "pinyin": "duǎn", "vietnamese": "ngắn", "example": "冬天的白天很短。(Ngày mùa đông rất ngắn.)", "cauChuyen": "Khi bắn một mũi tên (矢) vào cái đậu (豆) thì khoảng cách đó rất ngắn." },
+
+{ "chinese": "马", "pinyin": "mǎ", "vietnamese": "con ngựa", "example": "他在草原上骑马。(Anh ấy cưỡi ngựa trên thảo nguyên.)", "cauChuyen": "Hình vẽ một con ngựa đang phi nước đại với bờm và bốn chân." },
+
+{ "chinese": "位", "pinyin": "wèi", "vietnamese": "vị (người)", "example": "哪位是你的老师？(Vị nào là thầy giáo của bạn?)", "cauChuyen": "Con người (亻) đứng (立) ở một vị trí trang trọng." },
+
+{ "chinese": "蓝", "pinyin": "lán", "vietnamese": "màu xanh da trời", "example": "今天的天空很蓝。(Bầu trời hôm nay rất xanh.)", "cauChuyen": "Loại cỏ (艹) dùng để nhuộm quần áo trong chậu nước (监)." },
+
+{ "chinese": "鸟", "pinyin": "niǎo", "vietnamese": "con chim", "example": "鸟儿在天空中飞翔。(Chim non đang bay lượn trên bầu trời.)", "cauChuyen": "Hình vẽ con chim có mỏ, mắt, lông cánh và chân." },
+
+{ "chinese": "哭", "pinyin": "kū", "vietnamese": "khóc", "example": "别哭了，一切都会好的。(Đừng khóc nữa, mọi chuyện rồi sẽ tốt thôi.)", "cauChuyen": "Hai cái miệng (口) phía trên một con chó (犬), tượng trưng cho tiếng kêu khóc thảm thiết." },
+
+{ "chinese": "船", "pinyin": "chuán", "vietnamese": "con thuyền", "example": "河上有一条小船。(Trên sông có một con thuyền nhỏ.)", "cauChuyen": "Chiếc thuyền (舟) chở người và hàng hóa đi dọc theo các vùng đầm lầy (沿)." },
+
+{ "chinese": "经过", "pinyin": "jīng guò", "vietnamese": "trải qua; đi qua", "example": "经过努力，他终于成功了。(Qua nỗ lực, cuối cùng anh ấy đã thành công.)", "cauChuyen": "经: Sợi tơ dệt nên thời gian. \n过: Bước đi qua một mốc nào đó." },
+
+{ "chinese": "照相机", "pinyin": "zhào xiàng jī", "vietnamese": "máy ảnh", "example": "我新买了一个照相机。(Tôi mới mua một chiếc máy ảnh.)", "cauChuyen": "照: Chiếu sáng. \n相: Hình ảnh. \n机: Cỗ máy." },
+
+{ "chinese": "被", "pinyin": "bèi", "vietnamese": "bị", "example": "杯子被我不小心打破了。(Cái cốc bị tôi vô tình làm vỡ rồi.)", "cauChuyen": "Hình ảnh tấm chăn đắp lên người, nghĩa bóng là chịu sự tác động từ bên ngoài." },
+
+{ "chinese": "难过", "pinyin": "难过", "pinyin": "nán guò", "vietnamese": "buồn, đau lòng", "example": "听到这个消息，他很难过。(Nghe thấy tin này, anh ấy rất buồn.)", "cauChuyen": "Cảm thấy khó (难) để bước qua (过) một nỗi đau." },
+
+{ "chinese": "东", "pinyin": "dōng", "vietnamese": "phía đông", "example": "太阳从东边升起。(Mặt trời mọc ở hướng đông.)", "cauChuyen": "Hình ảnh mặt trời mọc xuyên qua kẽ lá của cây đại thụ." },
+
+{ "chinese": "信用卡", "pinyin": "xìn yòng kǎ", "vietnamese": "thẻ tín dụng", "example": "我可以刷信用卡吗？(Tôi có thể quẹt thẻ tín dụng không?)", "cauChuyen": "信: Tin tưởng. \n用: Sử dụng. \n卡: Vật bị kẹt giữa trên và dưới (cái thẻ)." },
+
+{ "chinese": "关心", "pinyin": "guān xīn", "vietnamese": "quan tâm", "example": "我们要多关心父母。(Chúng ta cần quan tâm cha mẹ nhiều hơn.)", "cauChuyen": "Gửi gắm trái tim (心) của mình qua cánh cổng (关) để đến với người khác." },
+
+{ "chinese": "成绩", "pinyin": "chéng jì", "vietnamese": "thành tích", "example": "这次考试他的成绩很好。(Kỳ thi lần này thành tích của anh ấy rất tốt.)", "cauChuyen": "成: Thành quả. \n绩: Những sợi tơ (纟) được dệt nên từ sự trách nhiệm (责)." },
+
+{ "chinese": "碗", "pinyin": "wǎn", "vietnamese": "cái bát", "example": "请给我一个干净的碗。(Vui lòng cho tôi một cái bát sạch.)", "cauChuyen": "Vật phẩm làm bằng đá (石) hoặc gốm, có hình dáng tròn trịa (宛)." },
+
+{ "chinese": "分", "pinyin": "fēn", "vietnamese": "phút; điểm; chia", "example": "现在是三点十分。(Bây giờ là ba giờ mười phút.)", "cauChuyen": "Dùng con dao (刀) chia đôi (八) một vật ra thành các phần nhỏ." },
+
+{ "chinese": "解决", "pinyin": "jiě jué", "vietnamese": "giải quyết", "example": "这个问题很难解决。(Vấn đề này rất khó giải quyết.)", "cauChuyen": "Dùng dao mổ xẻ (解) để đưa ra phán quyết (决) cuối cùng." },
+
+{ "chinese": "试", "pinyin": "shì", "vietnamese": "thử", "example": "我想试一下这件衣服。(Tôi muốn mặc thử bộ quần áo này.)", "cauChuyen": "Dùng lời nói (讠) để kiểm tra xem vật đó có đúng chuẩn mực (式) hay không." },
+
+{ "chinese": "真正", "pinyin": "zhēn zhèng", "vietnamese": "thật sự", "example": "什么是真正的快乐？(Thế nào là niềm vui thực sự?)", "cauChuyen": "真: Sự thật chân thực. \n正: Ngay thẳng, chính xác." },
+
+{ "chinese": "多么", "pinyin": "duō me", "vietnamese": "biết bao", "example": "这朵花多么漂亮啊！(Bông hoa này đẹp biết bao!)", "cauChuyen": "多: Hai miếng thịt xếp chồng lên nhau (nhiều). \n么: Một từ đệm để nhấn mạnh mức độ." }            
   ]
 }
