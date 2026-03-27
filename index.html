@@ -70,6 +70,80 @@ to Casemark: e
 
 GD1: CCNA sơ cấp
 CCNA: Cisco Certified Network Associate – chứng chỉ quốc tế do Cisco Systems cấp, dùng để xác nhận kiến thức nền tảng về mạng máy tính
+TCP (Transmission Control Protocol)
+UDP (User Datagram Protocol)
+
+
+đóng giói và giải đóng gói dữ liệu: càng xuống tầng dưới thì càng được bọc thêm lớp
+kích thước tối đa 1 segment: 1460, 1 ảnh 50Kb thì cần 35 seqment
+flow control trong tcp: window size: Tim kich thuoc toi da 1 seqment tu do quy dinh windows size: 
+
+Window size phụ thuộc vào yếu tố nào? Buffer của máy nhận và độ thông thoáng đường truyền
+cmd: show mac address-table : lệnh dùng tại switch không thể dùng tại CMD
+cmd: arp -a: Hiển thị tất cả IP và MAC tương ứng mà máy đã từng giao tiếp trong mạng LAN
+
+cơ chế truyền half duplex và full duplex trên erthernet: hub là thiết bị lạc hậu, hiện nay tất cả đã dùng switch
+conlission domain và cơ chế tránh đụng độ: vì nếu 2 máy cùng gửi qua half duplex thì sẽ không thể gửi, vì vậy phải sinh ra CSMA/CD để lắng nghe đường truyền giúp gửi theo thứ tự
+
+
+tổng quan về cấu trúc địa chỉ IPv4
+
+tổng quan về các lớp của địa chỉ IPv4
+
+1. Class A
+
+Dải địa chỉ: 1.0.0.0 → 126.255.255.255
+Bit đầu tiên: 0
+Subnet mask mặc định: 255.0.0.0 (/8)
+Số mạng: 128 mạng
+Số host mỗi mạng: ~ 16 triệu
+
+👉 Ứng dụng: mạng cực lớn (trước đây cấp cho tập đoàn lớn, ISP, chính phủ).
+
+✅ 2. Class B
+
+Dải địa chỉ: 128.0.0.0 → 191.255.255.255
+Bit đầu: 10
+Subnet mask mặc định: 255.255.0.0 (/16)
+Số mạng: ~ 16.384
+Số host mỗi mạng: ~ 65.000
+
+👉 Ứng dụng: mạng trung bình (trường đại học, doanh nghiệp lớn).
+
+✅ 3. Class C
+
+Dải địa chỉ: 192.0.0.0 → 223.255.255.255
+Bit đầu: 110
+Subnet mask mặc định: 255.255.255.0 (/24)
+Số mạng: ~ 2 triệu
+Số host mỗi mạng: 254
+
+👉 Ứng dụng: mạng nhỏ, phổ biến nhất trong LAN.
+
+✅ 4. Class D (Multicast)
+
+Dải địa chỉ: 224.0.0.0 → 239.255.255.255
+Bit đầu: 1110
+Không có subnet mask
+👉 Ứng dụng: Multicast (IPTV, streaming, video conference, routing protocols…).
+
+
+✅ 5. Class E (Nghiên cứu)
+
+Dải địa chỉ: 240.0.0.0 → 255.255.255.255
+Bit đầu: 1111
+👉 Ứng dụng: dự trữ, nghiên cứu – không dùng trong mạng thông thường.
+
+Hướng dẫn chuyển đổi từ prefix length thành sub net
+hướng dẫn chuyển đổi IPv4 từ nhị phân sang thập phân: Áp bảng giá trị: 128 – 64 – 32 – 16 – 8 – 4 – 2 – 1. Cộng tất cả các giá trị
+
+
+
+Run: ncpa.cpl mở cấu hình mạng
+ping máy khác: OK
+defaut gateway
+quy hạch lớp mạng
+
 
 Giai đoạn 2: Quản trị Hệ thống (System Admin)
 Kiến thức: Cách cài đặt và quản trị Windows Server, Active Directory (để tạo tài khoản nhân viên, phân quyền thư mục chung), DHCP, DNS.
