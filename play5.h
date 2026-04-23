@@ -126,7 +126,7 @@ public:
     void createTienDo(float w, float h);
     void updateStarPosition(float percent);
     void shakeScreen2(Node* target, float duration, float strength, float delayTime);
-    
+    void replaceAll(std::string& str, const std::string& from, const std::string& to);
     void createBg();
     void createBgColor(float w, float h);
     void createTraiDatAndPhiThuyenTenLua(float w, float h);

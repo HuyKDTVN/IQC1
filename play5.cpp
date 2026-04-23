@@ -43,6 +43,15 @@ Scene* Play5::createScene(int type, int level, int backTypePhepTinh, bool fromCh
     // return the scene
     return scene;
 }
+
+void Play5::replaceAll(std::string& str, const std::string& from, const std::string& to) {
+    size_t start_pos = 0;
+    while ((start_pos = str.find(from, start_pos)) != std::string::npos) {
+        str.replace(start_pos, from.length(), to);
+        start_pos += to.length();
+    }
+}
+
 // on "init" you need to initialize your instance
 bool Play5::init()
 {
@@ -123,6 +132,8 @@ bool Play5::init()
             flagB1ChuSo = true;
         }
     } else{
+        
+        replaceAll(arr.at(2), " ?", "");
         phepToan = cocos2d::__String::createWithFormat("%s", arr.at(2).c_str());
     }
     correctAnswer = std::stoi(arr.at(3));
@@ -550,16 +561,16 @@ void Play5::createTraiDatAndPhiThuyenTenLua(float w, float h) {
     //float ytitle = h * 0.9 - (earth->getContentSize().height / 2 * scalebgColor);
     float xtitleTenLua = w * 0.7 - (tenluaHienThi->getContentSize().width / 2 * scaleTenLua);
     
-    tenluaHienThi->setPosition(Vec2(xtitleTenLua, h/2 * 1.05));
+    tenluaHienThi->setPosition(earth->getPosition());
     if (h / w <= 1.53)
     {
-        tenluaHienThi->setPosition(Vec2(xtitleTenLua, h/2 * 0.85));
+        //tenluaHienThi->setPosition(Vec2(xtitleTenLua, h/2 * 0.85));
     }
     tenluaHienThi->setRotation(90);
     tenluaHienThi->runAction(animate);
     this->addChild(tenluaHienThi, 2);
     tenluaHienThi->setOpacity(0);
-    yTenLua = phithuyenHienThi->getPositionY() - phithuyenHienThi->getContentSize().width / 2 * scalePhiThuyen - tenluaHienThi->getContentSize().width / 2 * scaleTenLua;
+    //yTenLua = phithuyenHienThi->getPositionY() - phithuyenHienThi->getContentSize().width / 2 * scalePhiThuyen - tenluaHienThi->getContentSize().width / 2 * scaleTenLua;
     
     // create bom ten lua
     auto sprite_cacheBomTenLua = SpriteFrameCache::getInstance();
@@ -852,211 +863,87 @@ void Play5::createScore(float w, float h){
 }
 void Play5::createAnswer(float w, float h){
 
-    float fontSize = 0.09 * w;
+    float fontSize = 0.08 * w;
+    
+    int soHang = 0;
+    int soCot = 0;
+    
+    for (int i = 1; i < 13; ++i)
+    {
+        
+        if (i == 5) {
+            soHang = 1;
+            soCot = 0;
+        }
+        if (i == 9) {
+            soHang = 2;
+            soCot = 0;
+        }
+        auto stringNumber = __String::create(StringUtils::format("%d", i - 1))->getCString();
+        if (i == 11) {
+            stringNumber = "x";
+        }
+        if (i == 12) {
+            stringNumber = "OK";
+        }
+        buttonAnswer1 = ui::Button::create("bg-number1.png", "bg-number1_active.png"); // tao button ImageNamDapAn->getCString()
+        buttonAnswer1->setPressedActionEnabled(true);
+        buttonAnswer1->setZoomScale(0);
+        buttonAnswer1->setScale9Enabled(true);
+        buttonAnswer1->setTitleText(stringNumber);
+        buttonAnswer1->setTag(i - 1);
+        buttonAnswer1->setTitleFontName("fonts/ComicNeue-Bold.ttf");
 
-    buttonAnswer1 = ui::Button::create(ImageNamDapAn->getCString()); // tao button
-    buttonAnswer1->setPressedActionEnabled(true);
-    buttonAnswer1->setZoomScale(0);
-    buttonAnswer1->setScale9Enabled(true);
-    buttonAnswer1->setTitleText(HuyFunctions().NumberToString(answer1));
-    if (answer1 == correctAnswer)
-    {
-        buttonAnswer1->setTag(1);
-    }
-    else
-    {
-        buttonAnswer1->setTag(0);
-    }
-    buttonAnswer1->setTitleFontName("fonts/ComicNeue-Bold.ttf");
+        buttonAnswer1->setTitleColor(Color3B().WHITE);
+        buttonAnswer1->setTouchEnabled(true);
+        float ratioButtonAnswer1 = 6;
+        if (h / w <= 1.53)
+        {
+            ratioButtonAnswer1 = 11;
+            fontSize = 0.03 * w;
+        }
+        scaleButtonAnswer1 = w / ratioButtonAnswer1 / buttonAnswer1->getContentSize().width;
+        buttonAnswer1->setScale(scaleButtonAnswer1);
+        buttonAnswer1->setTitleFontSize(fontSize / scaleButtonAnswer1);
+        //float yButtonAnswer1 = 50 + buttonAnswer1->getContentSize().height / 2 * scaleButtonAnswer1;
+        
+        if (h / w <= 1.8)
+        {
+            //yButtonAnswer1 = 20 + buttonAnswer1->getContentSize().height / 2 * scaleButtonAnswer1;
+        }
+        float xNumber = (wScenePlay - 4.4 * buttonAnswer1->getContentSize().width * scaleButtonAnswer1) / 2 +  buttonAnswer1->getContentSize().width * scaleButtonAnswer1 / 2 + (soCot) * 1.1 * buttonAnswer1->getContentSize().width * scaleButtonAnswer1;
+        float yNumber = 2.5 * 1.15 * buttonAnswer1->getContentSize().height * scaleButtonAnswer1 - soHang * 1.06 * buttonAnswer1->getContentSize().height * scaleButtonAnswer1;
+        buttonAnswer1->setPosition(Vec2(xNumber, yNumber));
+        if (h / w <= 1.53)
+        {
+            //buttonAnswer1->setPosition(Vec2(w / 3 + w / 20, yButtonAnswer1));
+        }
+        buttonAnswer1->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){ // xu ly su kien button
+            switch (type)
+            {
+                case cocos2d::ui::Widget::TouchEventType::BEGAN:
+                    
+                    if (answer1 != correctAnswer)
+                    {
+                        //buttonAnswer1->loadTextureNormal("bg-number1_active.png");
+                        //buttonAnswer1->setTitleColor(Color3B().WHITE);
+                    }
+                    //handlerClickAnswer(answer1, buttonAnswer1);
 
-    buttonAnswer1->setTitleColor(Color3B().WHITE);
-    buttonAnswer1->setTouchEnabled(true);
-    float ratioButtonAnswer1 = 2.8;
-    if (h / w <= 1.53)
-    {
-        ratioButtonAnswer1 = 6.5;
-        fontSize = 0.04 * w;
+                    break;
+                case cocos2d::ui::Widget::TouchEventType::ENDED:
+                    //log("Button 1 clicked");
+                    break;
+                default:
+                    break;
+            }
+        });
+        addChild(buttonAnswer1, 10);//add button vao scene
+        soCot = soCot + 1;
     }
     
-    scaleButtonAnswer1 = w / ratioButtonAnswer1 / buttonAnswer1->getContentSize().width;
-    buttonAnswer1->setScale(scaleButtonAnswer1);
-    buttonAnswer1->setTitleFontSize(fontSize / scaleButtonAnswer1);
-    float yButtonAnswer1 = 50 + buttonAnswer1->getContentSize().height / 2 * scaleButtonAnswer1;
+
     
-    if (h / w <= 1.8)
-    {
-        yButtonAnswer1 = 20 + buttonAnswer1->getContentSize().height / 2 * scaleButtonAnswer1;
-    }
-    buttonAnswer1->setPosition(Vec2(w / 4 + w/25, yButtonAnswer1));
-    if (h / w <= 1.53)
-    {
-        buttonAnswer1->setPosition(Vec2(w / 3 + w / 20, yButtonAnswer1));
-    }
-    buttonAnswer1->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){ // xu ly su kien button
-        switch (type)
-        {
-            case cocos2d::ui::Widget::TouchEventType::BEGAN:
-                
-                if (answer1 != correctAnswer)
-                {
-                    buttonAnswer1->loadTextureNormal("box-wrong.png");
-                    buttonAnswer1->setTitleColor(Color3B().WHITE);
-                }
-                handlerClickAnswer(answer1, buttonAnswer1);
-
-                break;
-            case cocos2d::ui::Widget::TouchEventType::ENDED:
-                //log("Button 1 clicked");
-                break;
-            default:
-                break;
-        }
-    });
-    addChild(buttonAnswer1, 10);//add button vao scene
-
-    buttonAnswer2 = ui::Button::create(ImageNamDapAn->getCString()); // tao button
-    buttonAnswer2->setPressedActionEnabled(true);
-    buttonAnswer2->setZoomScale(0);
-    buttonAnswer2->setScale9Enabled(true);
-    buttonAnswer2->setTitleText(HuyFunctions().NumberToString(answer2));
-    if (answer2 == correctAnswer)
-    {
-        buttonAnswer2->setTag(1);
-    }
-    else
-    {
-        buttonAnswer2->setTag(0);
-    }
-    buttonAnswer2->setTitleFontName("fonts/ComicNeue-Bold.ttf");
-    buttonAnswer2->setTitleFontSize(fontSize / scaleButtonAnswer1);
-    buttonAnswer2->setTitleColor(Color3B().WHITE);
-    buttonAnswer2->setTouchEnabled(true);
-    float scaleButtonAnswer2 = w / ratioButtonAnswer1 / buttonAnswer2->getContentSize().width;
-    buttonAnswer2->setScale(scaleButtonAnswer2);
-    //float yButtonAnswer2 = 50 + buttonAnswer2->getContentSize().height / 2 * scaleButtonAnswer2;
-
-    buttonAnswer2->setPosition(Vec2(w * 3 / 4 - w/25, yButtonAnswer1));
-    if (h / w <= 1.53)
-    {
-        buttonAnswer2->setPosition(Vec2(w * 4 / 6 - w / 20, yButtonAnswer1));
-       
-    }
-    buttonAnswer2->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){ // xu ly su kien button
-        switch (type)
-        {
-            case cocos2d::ui::Widget::TouchEventType::BEGAN:
-                if (answer2 != correctAnswer)
-                {
-                    buttonAnswer2->loadTextureNormal("box-wrong.png");
-                    buttonAnswer2->setTitleColor(Color3B().WHITE);
-                }
-                handlerClickAnswer(answer2,buttonAnswer2);
-                break;
-            case cocos2d::ui::Widget::TouchEventType::ENDED:
-                //log("Button 1 clicked");
-                buttonAnswer2->loadTextureNormal("box-wrong.png");
-                break;
-            default:
-                break;
-        }
-    });
-    addChild(buttonAnswer2, 10);//add button vao scene
-
-    buttonAnswer3 = ui::Button::create(ImageNamDapAn->getCString()); // tao button
-    buttonAnswer3->setPressedActionEnabled(true);
-    buttonAnswer3->setZoomScale(0);
-    buttonAnswer3->setScale9Enabled(true);
-    buttonAnswer3->setTitleText(HuyFunctions().NumberToString(answer3));
-    if (answer3 == correctAnswer)
-    {
-        buttonAnswer3->setTag(1);
-    }
-    else
-    {
-        buttonAnswer3->setTag(0);
-    }
-    buttonAnswer3->setTitleFontName("fonts/ComicNeue-Bold.ttf");
-    buttonAnswer3->setTitleFontSize(fontSize / scaleButtonAnswer1);
-    buttonAnswer3->setTitleColor(Color3B().WHITE);
-    buttonAnswer3->setTouchEnabled(true);
-    float scaleButtonAnswer3 = w / ratioButtonAnswer1 / buttonAnswer3->getContentSize().width;
-    buttonAnswer3->setScale(scaleButtonAnswer3);
-    float yButtonAnswer3 = yButtonAnswer1 + buttonAnswer3->getContentSize().height * scaleButtonAnswer3 + 20;
-
-    buttonAnswer3->setPosition(Vec2(buttonAnswer1->getPositionX(), yButtonAnswer3));
-    
-//    if (h / w <= 1.53)
-//    {
-//        buttonAnswer3->setPosition(Vec2(w / 2.5 - 10, yButtonAnswer3));
-//
-//
-//    }
-    buttonAnswer3->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){ // xu ly su kien button
-        switch (type)
-        {
-            case cocos2d::ui::Widget::TouchEventType::BEGAN:
-                if (answer3 != correctAnswer)
-                {
-                    buttonAnswer3->loadTextureNormal("box-wrong.png");
-                    buttonAnswer3->setTitleColor(Color3B().WHITE);
-                }
-                handlerClickAnswer(answer3, buttonAnswer3);
-                break;
-            case cocos2d::ui::Widget::TouchEventType::ENDED:
-                //log("Button 1 clicked");
-                break;
-            default:
-                break;
-        }
-    });
-    addChild(buttonAnswer3, 10);//add button vao scene
-
-    buttonAnswer4 = ui::Button::create(ImageNamDapAn->getCString()); // tao button
-    buttonAnswer4->setPressedActionEnabled(true);
-    buttonAnswer4->setZoomScale(0);
-    buttonAnswer4->setScale9Enabled(true);
-    buttonAnswer4->setTitleText(HuyFunctions().NumberToString(answer4));
-    if (answer4 == correctAnswer)
-    {
-        buttonAnswer4->setTag(1);
-    }
-    else
-    {
-        buttonAnswer4->setTag(0);
-    }
-    buttonAnswer4->setTitleFontName("fonts/ComicNeue-Bold.ttf");
-    buttonAnswer4->setTitleFontSize(fontSize / scaleButtonAnswer1);
-    buttonAnswer4->setTitleColor(Color3B().WHITE);
-    buttonAnswer4->setTouchEnabled(true);
-    float scaleButtonAnswer4 = w / ratioButtonAnswer1 / buttonAnswer4->getContentSize().width;
-    buttonAnswer4->setScale(scaleButtonAnswer4);
-
-
-    buttonAnswer4->setPosition(Vec2(buttonAnswer2->getPositionX(), yButtonAnswer3));
-//    if (h / w <= 1.53)
-//    {
-//        buttonAnswer4->setPosition(Vec2(w / 2.5 + 10 + buttonAnswer2->getContentSize().width * scaleButtonAnswer2, yButtonAnswer3));
-//
-//    }
-    buttonAnswer4->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){ // xu ly su kien button
-        switch (type)
-        {
-            case cocos2d::ui::Widget::TouchEventType::BEGAN:
-                if (answer4 != correctAnswer)
-                {
-                    buttonAnswer4->loadTextureNormal("box-wrong.png");
-                    buttonAnswer4->setTitleColor(Color3B().WHITE);
-                }
-                handlerClickAnswer((answer4), buttonAnswer4);
-                break;
-            case cocos2d::ui::Widget::TouchEventType::ENDED:
-                //log("Button 1 clicked");
-                break;
-            default:
-                break;
-        }
-    });
-    addChild(buttonAnswer4, 10);//add button vao scene
 
 
     //show 4 button with animation
@@ -1065,27 +952,7 @@ void Play5::createAnswer(float w, float h){
     float valScale = 1.4;
     float time = 0.1;
     animationShowAnswer(buttonAnswer1, time, valScale);
-    animationShowAnswer(buttonAnswer2, time, valScale);
-    animationShowAnswer(buttonAnswer3, time, valScale);
-    animationShowAnswer(buttonAnswer4, time, valScale);
 
-    if (strcmp(loaiPhepTinh->getCString(), "ss") == 0) {
-        phepTinhSoSanh1 = true;
-        
-        if (buttonAnswer1->getTitleText() == "1") {
-            
-            buttonAnswer1->loadTextureNormal(ImageNamDapAnV->getCString());
-            buttonAnswer2->loadTextureNormal(ImageNamDapAnX->getCString());
-        }else{
-            buttonAnswer1->loadTextureNormal(ImageNamDapAnX->getCString());
-            buttonAnswer2->loadTextureNormal(ImageNamDapAnV->getCString());
-        }
-        buttonAnswer1->setTitleText("");
-        buttonAnswer2->setTitleText("");
-        buttonAnswer3->setVisible(false);
-        buttonAnswer4->setVisible(false);
-        //log("ban dang lam bai so sanh");
-    }
     
     /*
     buttonPause = ui::Button::create("pause.png", "pause-active.png"); // tao button
