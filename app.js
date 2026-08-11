@@ -15,8 +15,8 @@ inputDS.addEventListener("click", () => {
     html5QrCode.start(
         { facingMode: "environment" }, // camera sau
         {
-            fps: 15,
-            qrbox: 300
+            fps: 20,
+            qrbox: 400
         },
         (decodedText) => {
             
@@ -43,8 +43,8 @@ inputChiThi.addEventListener("focus", () => {
     html5QrCode.start(
         { facingMode: "environment" }, // camera sau
         {
-            fps: 15,
-            qrbox: 300
+            fps: 20,
+            qrbox: 400
         },
         (decodedText) => {
             inputChiThi.value = decodedText;
@@ -70,8 +70,8 @@ inputCaseMark.addEventListener("focus", () => {
     html5QrCode.start(
         { facingMode: "environment" }, // camera sau
         {
-            fps: 15,
-            qrbox: 300
+            fps: 20,
+            qrbox: 400
         },
         (decodedText) => {
             inputCaseMark.value = decodedText;
