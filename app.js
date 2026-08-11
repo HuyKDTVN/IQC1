@@ -16,7 +16,7 @@ inputDS.addEventListener("click", () => {
         { facingMode: "environment" }, // camera sau
         {
             fps: 20,
-            qrbox: 200
+            qrbox: 250
         },
         (decodedText) => {
             
@@ -44,7 +44,7 @@ inputChiThi.addEventListener("focus", () => {
         { facingMode: "environment" }, // camera sau
         {
             fps: 20,
-            qrbox: 200
+            qrbox: 250
         },
         (decodedText) => {
             inputChiThi.value = decodedText;
@@ -71,7 +71,7 @@ inputCaseMark.addEventListener("focus", () => {
         { facingMode: "environment" }, // camera sau
         {
             fps: 20,
-            qrbox: 200
+            qrbox: 250
         },
         (decodedText) => {
             inputCaseMark.value = decodedText;
