@@ -24,6 +24,7 @@ inputDS.addEventListener("click", () => {
             stopScanner();
             setTimeout(() => {
                 inputChiThi.focus();
+                inputChiThi.click();
             }, 1000);
             
         },
@@ -52,6 +53,7 @@ inputChiThi.addEventListener("focus", () => {
             
             setTimeout(() => {
                 inputCaseMark.focus();
+                inputCaseMark.click();
             }, 1000);
         },
         (errorMessage) => {
