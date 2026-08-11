@@ -5,7 +5,7 @@ let html5QrCode;
 
 inputDS.addEventListener("click", () => {
 
-    alert ("test 3");
+    alert ("test 4");
     result.textContent = "";
     result.style.backgroundColor = "white";
 
@@ -35,7 +35,7 @@ inputDS.addEventListener("click", () => {
     ).then(async () => {
         try {
             await html5QrCode.applyVideoConstraints({
-                advanced: [{ zoom: 1.5 }]
+                advanced: [{ zoom: 4.0 }]
             });
         } catch (err) {
             alert("Thiết bị không hỗ trợ zoom 2x:", err);
@@ -71,7 +71,7 @@ inputChiThi.addEventListener("focus", () => {
     ).then(async () => {
         try {
             await html5QrCode.applyVideoConstraints({
-                advanced: [{ zoom: 1.5 }]
+                advanced: [{ zoom: 4.0 }]
             });
         } catch (err) {
             alert("Thiết bị không hỗ trợ zoom 2x:", err);
@@ -101,7 +101,7 @@ inputCaseMark.addEventListener("focus", () => {
     ).then(async () => {
         try {
             await html5QrCode.applyVideoConstraints({
-                advanced: [{ zoom: 1.5 }]
+                advanced: [{ zoom: 4.0 }]
             });
         } catch (err) {
             alert("Thiết bị không hỗ trợ zoom 2x:", err);
