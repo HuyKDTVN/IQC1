@@ -31,7 +31,15 @@ inputDS.addEventListener("click", () => {
         (errorMessage) => {
             // ignore scan errors
         }
-    );
+    ).then(async () => {
+        try {
+            await html5QrCode.applyVideoConstraints({
+                advanced: [{ zoom: 2.0 }]
+            });
+        } catch (err) {
+            alert("Thiết bị không hỗ trợ zoom 2x:", err);
+        }
+    });
 });
 
 const inputChiThi = document.getElementById("barcodeChiThi");
@@ -59,7 +67,15 @@ inputChiThi.addEventListener("focus", () => {
         (errorMessage) => {
             // ignore scan errors
         }
-    );
+    ).then(async () => {
+        try {
+            await html5QrCode.applyVideoConstraints({
+                advanced: [{ zoom: 2.0 }]
+            });
+        } catch (err) {
+            alert("Thiết bị không hỗ trợ zoom 2x:", err);
+        }
+    });
 });
 
 const inputCaseMark = document.getElementById("barcodeCasemark");
@@ -81,7 +97,15 @@ inputCaseMark.addEventListener("focus", () => {
         (errorMessage) => {
             // ignore scan errors
         }
-    );
+    ).then(async () => {
+        try {
+            await html5QrCode.applyVideoConstraints({
+                advanced: [{ zoom: 2.0 }]
+            });
+        } catch (err) {
+            alert("Thiết bị không hỗ trợ zoom 2x:", err);
+        }
+    });
 });
 function stopScanner() {
     if (html5QrCode) {
