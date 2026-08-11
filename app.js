@@ -13,28 +13,55 @@ inputDS.addEventListener("click", () => {
     html5QrCode = new Html5Qrcode("reader");
 
     html5QrCode.start(
-        { facingMode: "environment"
-        width: { ideal: 1920 },
-        height: { ideal: 1080 }
-         }, // camera sau
+        {
+            facingMode: { ideal: "environment" },
+            width: { ideal: 1920 },
+            height: { ideal: 1080 }
+        },
         {
             fps: 20,
-            qrbox: 200
+            qrbox: {
+                width: 350,
+                height: 350
+            }
         },
         (decodedText) => {
-            
             inputDS.value = decodedText;
             stopScanner();
+
             setTimeout(() => {
                 inputChiThi.focus();
-                inputChiThi.click();
             }, 1000);
-            
         },
-        (errorMessage) => {
-            // ignore scan errors
+            () => {}
+    ).then(() => {
+
+        const video = document.querySelector("#reader video");
+
+        if (!video || !video.srcObject) {
+            return;
         }
-    );
+
+        const track = video.srcObject.getVideoTracks()[0];
+        const capabilities = track.getCapabilities();
+
+        console.log("Zoom camera:", capabilities.zoom);
+
+        if (capabilities.zoom) {
+
+            const zoom = Math.min(2, capabilities.zoom.max);
+
+            track.applyConstraints({
+                advanced: [
+                    { zoom: zoom }
+                ]
+            }).then(() => {
+                console.log("Đã zoom:", zoom);
+            }).catch(error => {
+                console.log("Không thể zoom:", error);
+            });
+        }
+    });
 });
 
 const inputChiThi = document.getElementById("barcodeChiThi");
