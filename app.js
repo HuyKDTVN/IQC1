@@ -15,8 +15,7 @@ inputDS.addEventListener("click", () => {
     html5QrCode.start(
         {
         facingMode: { ideal: "environment" },
-        width: { ideal: 1920 },
-        height: { ideal: 1080 }
+
     
          }, // camera sau
         {
@@ -48,8 +47,7 @@ inputChiThi.addEventListener("focus", () => {
     html5QrCode.start(
         {
         facingMode: { ideal: "environment" },
-        width: { ideal: 1920 },
-        height: { ideal: 1080 }
+
     
          }, // camera sau
         {
@@ -80,8 +78,7 @@ inputCaseMark.addEventListener("focus", () => {
     html5QrCode.start(
         {
         facingMode: { ideal: "environment" },
-        width: { ideal: 1920 },
-        height: { ideal: 1080 }
+
     
          }, // camera sau
         {
