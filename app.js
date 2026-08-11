@@ -5,7 +5,7 @@ let html5QrCode;
 
 inputDS.addEventListener("click", () => {
 
-    alert ("test 4");
+    
     result.textContent = "";
     result.style.backgroundColor = "white";
 
