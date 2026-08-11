@@ -13,11 +13,7 @@ inputDS.addEventListener("click", () => {
     html5QrCode = new Html5Qrcode("reader");
 
     html5QrCode.start(
-        {
-            facingMode: { ideal: "environment" },
-            width: { ideal: 1920 },
-            height: { ideal: 1080 }
-        },
+        { facingMode: { ideal: "environment" } },
         {
             fps: 20,
             qrbox: {
@@ -71,10 +67,7 @@ inputChiThi.addEventListener("focus", () => {
     readerDiv2.style.display = "block";
     html5QrCode = new Html5Qrcode("reader");
     html5QrCode.start(
-        { facingMode: { ideal: "environment" },
-            width: { ideal: 1920 },
-            height: { ideal: 1080 }
-         }, // camera sau
+        { facingMode: { ideal: "environment" } },
         {
             fps: 20,
             qrbox: 200
@@ -101,10 +94,7 @@ inputCaseMark.addEventListener("focus", () => {
     readerDiv3.style.display = "block";
     html5QrCode = new Html5Qrcode("reader");
     html5QrCode.start(
-        { facingMode: { ideal: "environment" },
-            width: { ideal: 1920 },
-            height: { ideal: 1080 }
-         }, // camera sau
+        { facingMode: { ideal: "environment" } }, // camera sau
         {
             fps: 20,
             qrbox: 200
