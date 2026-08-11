@@ -13,51 +13,30 @@ inputDS.addEventListener("click", () => {
     html5QrCode = new Html5Qrcode("reader");
 
     html5QrCode.start(
-        { facingMode: { ideal: "environment" } },
+        {
+        facingMode: { ideal: "environment" },
+        width: { ideal: 1920 },
+        height: { ideal: 1080 }
+    
+         }, // camera sau
         {
             fps: 20,
-            qrbox: {
-                width: 350,
-                height: 350
-            }
+            qrbox: 200
         },
         (decodedText) => {
+            
             inputDS.value = decodedText;
             stopScanner();
-
             setTimeout(() => {
                 inputChiThi.focus();
+                inputChiThi.click();
             }, 1000);
+            
         },
-            () => {}
-    ).then(() => {
-
-        const video = document.querySelector("#reader video");
-
-        if (!video || !video.srcObject) {
-            return;
+        (errorMessage) => {
+            // ignore scan errors
         }
-
-        const track = video.srcObject.getVideoTracks()[0];
-        const capabilities = track.getCapabilities();
-
-        console.log("Zoom camera:", capabilities.zoom);
-
-        if (capabilities.zoom) {
-
-            const zoom = Math.min(2, capabilities.zoom.max);
-
-            track.applyConstraints({
-                advanced: [
-                    { zoom: zoom }
-                ]
-            }).then(() => {
-                console.log("Đã zoom:", zoom);
-            }).catch(error => {
-                console.log("Không thể zoom:", error);
-            });
-        }
-    });
+    );
 });
 
 const inputChiThi = document.getElementById("barcodeChiThi");
@@ -67,7 +46,12 @@ inputChiThi.addEventListener("focus", () => {
     readerDiv2.style.display = "block";
     html5QrCode = new Html5Qrcode("reader");
     html5QrCode.start(
-        { facingMode: { ideal: "environment" } },
+        {
+        facingMode: { ideal: "environment" },
+        width: { ideal: 1920 },
+        height: { ideal: 1080 }
+    
+         }, // camera sau
         {
             fps: 20,
             qrbox: 200
@@ -94,7 +78,12 @@ inputCaseMark.addEventListener("focus", () => {
     readerDiv3.style.display = "block";
     html5QrCode = new Html5Qrcode("reader");
     html5QrCode.start(
-        { facingMode: { ideal: "environment" } }, // camera sau
+        {
+        facingMode: { ideal: "environment" },
+        width: { ideal: 1920 },
+        height: { ideal: 1080 }
+    
+         }, // camera sau
         {
             fps: 20,
             qrbox: 200
