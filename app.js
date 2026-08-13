@@ -5,7 +5,6 @@ let html5QrCode;
 
 inputDS.addEventListener("click", () => {
 
-    
     result.textContent = "";
     result.style.backgroundColor = "white";
 
@@ -166,19 +165,26 @@ function getPartcodeRevPartner(vendorCode) {
     if (vendorCode == "250000588") { 
         result = getPartcodeRevTOKYO(vendorCode);
     }
-
+    if (vendorCode == "250003703") { 
+        result = getPartcodeRevVanlong(vendorCode);
+    }
+    if (vendorCode == "250000653") { 
+        result = getPartcodeRevSunway(vendorCode);
+    }
     
     // alert(result[1]);
     // alert(result[0]);
    return result;
 }
+
 function getPartcodeRevSunway(barcodeChiThi) {
     //Sunway: 302S260010 01 
     //Advanex: 302RV25540 02/-/-/20250518/46020-20251229-101450/6000/1/002-002/-&10010921&1
     //Kdthk for KDTVN: 30C1445010 05/ADH-120AN AA/32/2535
+    //VOLEX: 3019527401 03/03/0250000653
 
     var arrCasemark = inputCaseMark.value.split(" ");
-    return [arrCasemark[0], arrCasemark[1]];
+    return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
 }
 function getPartcodeRevSeiyo(barcodeChiThi) { //Seyo hp & seiyo VN: 302RV08021&&01&&2025-4259&&14&&129
     var arrCasemark = inputCaseMark.value.split("&&");
@@ -193,13 +199,15 @@ function getPartcodeRevBacviet(barcodeChiThi) { //Bac viet: 302RV04150/V1/260112
     return [arrCasemark[0], arrCasemark[6]];
 }
 function getPartcodeRevVanlong(barcodeChiThi) { //Vanlong: 302S004060-03_VL.IJ26.2301.08_140_No.17_24-Jan-26
+    //TANAKE: 3V3TC46020-01/*TVN-260811-6748+15+1-1*/250003703/130605527000010/1-1/700/-/01
+
     var arrCasemark = inputCaseMark.value.split("-");
-    return [arrCasemark[0], arrCasemark[1]];
+    return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
 }
 function getPartcodeRevTaisei(barcodeChiThi) { //Taisei: *&302S046050-04&1500&TAISEI HANOI&-&1161&250609&302S046050-04&*
     barcodeChiThi = barcodeChiThi.replace("*&", "")
     var arrCasemark = inputCaseMark.value.split("-");
-    return [arrCasemark[0], arrCasemark[1]];
+    return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
 }
 function getPartcodeRevIritani(barcodeChiThi) { //Iritani: 302RV02070/V1/V016/260112/171/50/A/Rev-03/
     var arrCasemark = inputCaseMark.value.split("/");
