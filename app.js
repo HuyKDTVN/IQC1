@@ -184,6 +184,8 @@ function getPartcodeRevSunway(barcodeChiThi) {
     //VOLEX: 3019527401 03/03/0250000653
 
     var arrCasemark = inputCaseMark.value.split(" ");
+    alert(arrCasemark[0]);
+    alert(arrCasemark[1].substring(0, 2));
     return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
 }
 function getPartcodeRevSeiyo(barcodeChiThi) { //Seyo hp & seiyo VN: 302RV08021&&01&&2025-4259&&14&&129
@@ -217,9 +219,9 @@ function getPartcodeRevIritani(barcodeChiThi) { //Iritani: 302RV02070/V1/V016/26
 }
 function getPartcodeRevHudson(barcodeChiThi) { //Hudson: 30C0D1922002    12.00000            2601230003960123A0A
     var casemark = inputCaseMark.value;
-    alert(casemark.substring(1, 10));
-    alert(casemark.substring(11, 12));
-    return [casemark.substring(1, 10), casemark.substring(11, 12)];
+    alert(casemark.substring(0, 9));
+    alert(casemark.substring(10, 11));
+    return [casemark.substring(0, 9), casemark.substring(10, 11)];
 }
 function getPartcodeRevGaoqi(barcodeChiThi) { //Gaoqi: 6K06370661\01\85\ZS20251024001
     var arrCasemark = inputCaseMark.value.split("\\");
@@ -230,6 +232,8 @@ function getPartcodeRevSantomas(barcodeChiThi) { //Santomas: &/30C0D31220/V01/00
     cm = cm.replace("&/", "");
     cm = cm.replace("/V", "/");
     var arrCasemark = cm.split("/");
+    alert(arrCasemark[0]);
+    alert(arrCasemark[1]);
     return [arrCasemark[0], arrCasemark[1]];
 }
 function getPartcodeRevChiyoda(barcodeChiThi) { //Chiyoda : 30C0D14300,R01,7680,7680,KYO001,130557865800010,SOA0289555601,01
