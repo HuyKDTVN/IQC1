@@ -4,7 +4,7 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
-    alert("v.1.2");
+    alert("v.1.3");
     result.textContent = "";
     result.style.backgroundColor = "white";
 
@@ -123,9 +123,11 @@ btnScan.addEventListener("click", () => {
 function getPartcodeRevPartner(vendorCode) {
     var result = ["", ""];
     
-    if (vendorCode == "250001348" || vendorCode == "250000051" || vendorCode == "500002006") { 
-        alert("chuan bi xu ly");
+    if (vendorCode == "250001348" || vendorCode == "500002006") { 
         result = getPartcodeRevSunway(vendorCode);
+    }
+    if (vendorCode == "250000051") { 
+        result = getPartcodeRevAdvanex(vendorCode);
     }
     if (vendorCode == "250002768" || vendorCode == "250000069") {
         result = getPartcodeRevSeiyo(vendorCode);
