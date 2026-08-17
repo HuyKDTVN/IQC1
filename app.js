@@ -4,7 +4,7 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
-    alert("v.1.6");
+    //alert("v.1.6");
     result.textContent = "";
     result.style.backgroundColor = "white";
 
@@ -213,8 +213,7 @@ function getPartcodeRevVanlong(barcodeChiThi) { //Vanlong: 302S004060-03_VL.IJ26
     //TANAKE: 3V3TC46020-01/*TVN-260811-6748+15+1-1*/250003703/130605527000010/1-1/700/-/01
 
     var arrCasemark = inputCaseMark.value.split("-");
-    alert(arrCasemark[0]);
-    alert(arrCasemark[1].substring(0, 2));
+    
     return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
 }
 function getPartcodeRevTaisei(barcodeChiThi) { //Taisei: *&302S046050-04&1500&TAISEI HANOI&-&1161&250609&302S046050-04&*
