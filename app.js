@@ -4,7 +4,7 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
-    //alert("v.1.6");
+    alert("v.1.9");
     result.textContent = "";
     result.style.backgroundColor = "white";
 
@@ -24,14 +24,14 @@ inputDS.addEventListener("click", () => {
             videoConstraints: {
                 facingMode: "environment",
                 focusMode: "continuous", // Lấy nét liên tục (autofocus)
-                advanced: [{ zoom: 2.0 }] // Phóng to nhẹ 2x giúp bắt nét mã nhanh hơn
+                advanced: [{ zoom: 4.0 }] // Phóng to nhẹ 2x giúp bắt nét mã nhanh hơn
             }
         },
         (decodedText) => {
             inputDS.value = decodedText;
             stopScanner();
             setTimeout(() => {
-                alert("v1.8");
+                
                 inputChiThi.focus();
                 inputChiThi.click();
             }, 1000);
@@ -45,13 +45,13 @@ inputDS.addEventListener("click", () => {
             try {
                 await html5QrCode.applyVideoConstraints({
                     focusMode: "continuous",
-                    advanced: [{ zoom: 2.0 }]
+                    advanced: [{ zoom: 4.0 }]
                 });
             } catch (err) {
                 // Bỏ qua lỗi này ngầm để không làm phiền người dùng nếu thiết bị chặn
                 alert("Thiết bị không hỗ trợ ép xung/zoom nâng cao:" + err);
             }
-        }, 500);
+        }, 1000);
     });
 });
 const inputChiThi = document.getElementById("barcodeChiThi");
