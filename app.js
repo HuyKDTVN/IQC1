@@ -4,44 +4,100 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
-    //alert("v.1.6");
     result.textContent = "";
     result.style.backgroundColor = "white";
-
     readerDiv.style.display = "block";
 
     html5QrCode = new Html5Qrcode("reader");
 
     html5QrCode.start(
-        { facingMode: "environment" }, // camera sau
+        { facingMode: { ideal: "environment" } },
         {
             fps: 20,
-            qrbox: 250
+            qrbox: 250,
+            // Ưu tiên độ phân giải cao
+            videoConstraints: {
+                facingMode: { ideal: "environment" },
+                width: { ideal: 3840 },
+                height: { ideal: 2160 }
+            }
         },
         (decodedText) => {
-            
             inputDS.value = decodedText;
+
             stopScanner();
+
             setTimeout(() => {
+                alert("v1.6");
                 inputChiThi.focus();
                 inputChiThi.click();
             }, 1000);
-            
         },
         (errorMessage) => {
-            // ignore scan errors
+            // Bỏ qua lỗi scan
         }
     ).then(async () => {
         try {
-            await html5QrCode.applyVideoConstraints({
-                advanced: [{ zoom: 4.0 }]
-            });
+            // Lấy MediaStream hiện tại
+            const videoElement = document.querySelector("#reader video");
+            const stream = videoElement?.srcObject;
+            const track = stream?.getVideoTracks()?.[0];
+
+            if (!track) {
+                alert("Không tìm thấy camera track");
+                return;
+            }
+
+            const capabilities = track.getCapabilities();
+            const constraints = {};
+
+            // =========================
+            // AUTOFOCUS
+            // =========================
+            if (capabilities.focusMode) {
+                if (capabilities.focusMode.includes("continuous")) {
+                    constraints.focusMode = "continuous";
+                } else if (capabilities.focusMode.includes("single-shot")) {
+                    constraints.focusMode = "single-shot";
+                }
+            }
+
+            // =========================
+            // ĐỘ PHÂN GIẢI CAO NHẤT
+            // =========================
+            if (capabilities.width?.max) {
+                constraints.width = {
+                    exact: capabilities.width.max
+                };
+            }
+
+            if (capabilities.height?.max) {
+                constraints.height = {
+                    exact: capabilities.height.max
+                };
+            }
+
+            // =========================
+            // ZOOM CAO NHẤT
+            // =========================
+            if (capabilities.zoom?.max) {
+                // Không ép 4x nếu camera chỉ hỗ trợ thấp hơn
+                constraints.zoom = Math.min(4, capabilities.zoom.max);
+            }
+
+            alert("Camera capabilities:" + capabilities);
+            alert("Applying:" + constraints);
+
+            await track.applyConstraints(constraints);
+
         } catch (err) {
-            alert("Thiết bị không hỗ trợ zoom 2x:", err);
+            alert("Không thể thiết lập camera:" + err);
         }
+    })
+    .catch(err => {
+        alert("Không thể mở camera:" + err);
     });
 });
-
 const inputChiThi = document.getElementById("barcodeChiThi");
 const readerDiv2 = document.getElementById("reader2");
 
