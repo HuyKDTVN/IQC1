@@ -4,7 +4,7 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
-    alert("v.1.5");
+    alert("v.1.6");
     result.textContent = "";
     result.style.backgroundColor = "white";
 
@@ -135,7 +135,7 @@ function getPartcodeRevPartner(vendorCode) {
     if (vendorCode == "250001449") { 
         result = getPartcodeRevZhongzu(vendorCode);
     }
-    if (vendorCode == "250003738" || vendorCode == "250001478") { 
+    if (vendorCode == "250003738" || vendorCode == "250003248" || vendorCode == "250003138" || vendorCode == "250001478") { 
         result = getPartcodeRevVanlong(vendorCode);
     }
     if (vendorCode == "250000072") { 
