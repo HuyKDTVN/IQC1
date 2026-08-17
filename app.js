@@ -4,7 +4,7 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
-    alert("v.1.3");
+    alert("v.1.4");
     result.textContent = "";
     result.style.backgroundColor = "white";
 
@@ -123,7 +123,7 @@ btnScan.addEventListener("click", () => {
 function getPartcodeRevPartner(vendorCode) {
     var result = ["", ""];
     
-    if (vendorCode == "250001348" || vendorCode == "500002006") { 
+    if (vendorCode == "250001348") { 
         result = getPartcodeRevSunway(vendorCode);
     }
     if (vendorCode == "250000051") { 
@@ -195,8 +195,6 @@ function getPartcodeRevAdvanex(barcodeChiThi) {
 
     var arrCasemark = inputCaseMark.value.split("/");
     var tmp = arrCasemark[7].split("--");
-    alert(arrCasemark[0]);
-    alert(tmp[1]);
     return [arrCasemark[0], tmp[1]];
 }
 function getPartcodeRevSeiyo(barcodeChiThi) { //Seyo hp & seiyo VN: 302RV08021&&01&&2025-4259&&14&&129
