@@ -4,7 +4,7 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
-    alert("v.1.9");
+    alert("v.2.0");
     result.textContent = "";
     result.style.backgroundColor = "white";
 
@@ -13,45 +13,30 @@ inputDS.addEventListener("click", () => {
     html5QrCode = new Html5Qrcode("reader");
 
     html5QrCode.start(
-        { 
-            facingMode: "environment",
-            // Đưa thẳng cấu hình nét vào đây để trình duyệt tự kích hoạt
-            focusMode: "continuous" 
-        }, 
+        { facingMode: "environment" }, // Camera sau
         {
             fps: 20,
             qrbox: 250,
+            // Yêu cầu camera chạy ở độ phân giải cao (HD) giúp hình ảnh cực kỳ sắc nét
             videoConstraints: {
                 facingMode: "environment",
-                focusMode: "continuous", // Lấy nét liên tục (autofocus)
-                advanced: [{ zoom: 4.0 }] // Phóng to nhẹ 2x giúp bắt nét mã nhanh hơn
+                width: { ideal: 1280 },
+                height: { ideal: 720 }
             }
         },
         (decodedText) => {
             inputDS.value = decodedText;
             stopScanner();
             setTimeout(() => {
-                
                 inputChiThi.focus();
                 inputChiThi.click();
             }, 1000);
         },
         (errorMessage) => {
-            // ignore scan errors
+            // Bỏ qua lỗi quét liên tục
         }
-    ).then(() => {
-        // Đợi 0.5s để camera ổn định hẳn rồi mới bồi thêm lệnh apply nếu cần
-        setTimeout(async () => {
-            try {
-                await html5QrCode.applyVideoConstraints({
-                    focusMode: "continuous",
-                    advanced: [{ zoom: 4.0 }]
-                });
-            } catch (err) {
-                // Bỏ qua lỗi này ngầm để không làm phiền người dùng nếu thiết bị chặn
-                alert("Thiết bị không hỗ trợ ép xung/zoom nâng cao:" + err);
-            }
-        }, 1000);
+    ).catch((err) => {
+        alert("Không thể khởi động camera:", err);
     });
 });
 const inputChiThi = document.getElementById("barcodeChiThi");
