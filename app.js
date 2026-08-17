@@ -4,7 +4,7 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
-    alert("v.1.1");
+    alert("v.1.2");
     result.textContent = "";
     result.style.backgroundColor = "white";
 
@@ -180,7 +180,6 @@ function getPartcodeRevPartner(vendorCode) {
 
 function getPartcodeRevSunway(barcodeChiThi) {
     //Sunway: 302S260010 01 
-    //Advanex: 302RV25540 02/-/-/20250518/46020-20251229-101450/6000/1/002-002/-&10010921&1
     //Kdthk for KDTVN: 30C1445010 05/ADH-120AN AA/32/2535
     //VOLEX: 3019527401 03/03/0250000653
 
@@ -188,6 +187,15 @@ function getPartcodeRevSunway(barcodeChiThi) {
     alert(arrCasemark[0]);
     alert(arrCasemark[1].substring(0, 2));
     return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
+}
+function getPartcodeRevAdvanex(barcodeChiThi) {
+    //Advanex: 302RV25540/-/.../--01///
+
+    var arrCasemark = inputCaseMark.value.split("/");
+    var tmp = arrCasemark[7].split("--");
+    alert(arrCasemark[0]);
+    alert(tmp[1]);
+    return [arrCasemark[0], tmp[1]];
 }
 function getPartcodeRevSeiyo(barcodeChiThi) { //Seyo hp & seiyo VN: 302RV08021&&01&&2025-4259&&14&&129
     var arrCasemark = inputCaseMark.value.split("&&");
