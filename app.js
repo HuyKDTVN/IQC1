@@ -4,7 +4,7 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
-    alert("v.1.0");
+    alert("v.1.1");
     result.textContent = "";
     result.style.backgroundColor = "white";
 
@@ -124,6 +124,7 @@ function getPartcodeRevPartner(vendorCode) {
     var result = ["", ""];
     
     if (vendorCode == "250001348" || vendorCode == "250000051" || vendorCode == "500002006") { 
+        alert("chuan bi xu ly");
         result = getPartcodeRevSunway(vendorCode);
     }
     if (vendorCode == "250002768" || vendorCode == "250000069") {
