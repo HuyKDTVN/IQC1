@@ -4,7 +4,7 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
-
+    alert("v.1.0");
     result.textContent = "";
     result.style.backgroundColor = "white";
 
