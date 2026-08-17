@@ -212,7 +212,9 @@ function getPartcodeRevTaisei(barcodeChiThi) { //Taisei: *&302S046050-04&1500&TA
 function getPartcodeRevIritani(barcodeChiThi) { //Iritani: 302RV02070/V1/V016/260112/171/50/A/Rev-03/
     var arrCasemark = inputCaseMark.value.split("/");
 
-    var tmp = arrCasemark[7].split("REV-");
+    var tmp = arrCasemark[7].split("Rev-");
+    alert(arrCasemark[0]);
+    alert(tmp[1]);
     return [arrCasemark[0], tmp[1]];
 }
 function getPartcodeRevHudson(barcodeChiThi) { //Hudson: 30C0D1922002    12.00000            2601230003960123A0A
