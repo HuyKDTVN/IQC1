@@ -219,9 +219,9 @@ function getPartcodeRevIritani(barcodeChiThi) { //Iritani: 302RV02070/V1/V016/26
 }
 function getPartcodeRevHudson(barcodeChiThi) { //Hudson: 30C0D1922002    12.00000            2601230003960123A0A
     var casemark = inputCaseMark.value;
-    alert(casemark.substring(0, 9));
-    alert(casemark.substring(10, 11));
-    return [casemark.substring(0, 9), casemark.substring(10, 11)];
+    alert(casemark.substring(0, 10));
+    alert(casemark.substring(10, 12));
+    return [casemark.substring(0, 10), casemark.substring(10, 12)];
 }
 function getPartcodeRevGaoqi(barcodeChiThi) { //Gaoqi: 6K06370661\01\85\ZS20251024001
     var arrCasemark = inputCaseMark.value.split("\\");
