@@ -13,16 +13,25 @@ inputDS.addEventListener("click", () => {
     html5QrCode = new Html5Qrcode("reader");
 
     html5QrCode.start(
-        { facingMode: "environment" }, // camera sau
+        { 
+            facingMode: "environment",
+            // Đưa thẳng cấu hình nét vào đây để trình duyệt tự kích hoạt
+            focusMode: "continuous" 
+        }, 
         {
             fps: 20,
-            qrbox: 250
+            qrbox: 250,
+            videoConstraints: {
+                facingMode: "environment",
+                focusMode: "continuous", // Lấy nét liên tục (autofocus)
+                advanced: [{ zoom: 2.0 }] // Phóng to nhẹ 2x giúp bắt nét mã nhanh hơn
+            }
         },
         (decodedText) => {
             inputDS.value = decodedText;
             stopScanner();
             setTimeout(() => {
-                alert("v.1.7");
+                alert("v1.8");
                 inputChiThi.focus();
                 inputChiThi.click();
             }, 1000);
@@ -30,33 +39,19 @@ inputDS.addEventListener("click", () => {
         (errorMessage) => {
             // ignore scan errors
         }
-    ).then(async () => {
-        try {
-            // Lấy track video hiện tại để áp dụng các ràng buộc nâng cao
-            const videoTrack = html5QrCode.getRunningTrack();
-            
-            if (videoTrack) {
-                const capabilities = videoTrack.getCapabilities();
-                const constraints = { advanced: [] };
-
-                // 1. Kích hoạt lấy nét tự động (Autofocus) nếu thiết bị hỗ trợ
-                if (capabilities.focusMode && capabilities.focusMode.includes("continuous")) {
-                    constraints.advanced.push({ focusMode: "continuous" });
-                }
-
-                // 2. Tăng độ nét / chi tiết bằng cách thiết lập zoom (ví dụ: 2.0 hoặc 3.0 để dễ bắt nét mã nhỏ)
-                if (capabilities.zoom) {
-                    constraints.advanced.push({ zoom: 2.0 }); // Bạn có thể tăng lên 3.0 hoặc 4.0 tùy ý
-                }
-
-                // Áp dụng constraints nếu có cấu hình advanced
-                if (constraints.advanced.length > 0) {
-                    await videoTrack.applyConstraints(constraints);
-                }
+    ).then(() => {
+        // Đợi 0.5s để camera ổn định hẳn rồi mới bồi thêm lệnh apply nếu cần
+        setTimeout(async () => {
+            try {
+                await html5QrCode.applyVideoConstraints({
+                    focusMode: "continuous",
+                    advanced: [{ zoom: 2.0 }]
+                });
+            } catch (err) {
+                // Bỏ qua lỗi này ngầm để không làm phiền người dùng nếu thiết bị chặn
+                alert("Thiết bị không hỗ trợ ép xung/zoom nâng cao:" + err);
             }
-        } catch (err) {
-            alert("Không thể áp dụng cấu hình nét/zoom nâng cao:" + err);
-        }
+        }, 500);
     });
 });
 const inputChiThi = document.getElementById("barcodeChiThi");
