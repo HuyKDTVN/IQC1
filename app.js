@@ -4,98 +4,59 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
+    //alert("v.1.6");
     result.textContent = "";
     result.style.backgroundColor = "white";
+
     readerDiv.style.display = "block";
 
     html5QrCode = new Html5Qrcode("reader");
 
     html5QrCode.start(
-        { facingMode: { ideal: "environment" } },
+        { facingMode: "environment" }, // camera sau
         {
             fps: 20,
-            qrbox: 250,
-            // Ưu tiên độ phân giải cao
-            videoConstraints: {
-                facingMode: { ideal: "environment" },
-                width: { ideal: 3840 },
-                height: { ideal: 2160 }
-            }
+            qrbox: 250
         },
         (decodedText) => {
             inputDS.value = decodedText;
-
             stopScanner();
-
             setTimeout(() => {
-                alert("v1.6");
+                alert("v.1.7");
                 inputChiThi.focus();
                 inputChiThi.click();
             }, 1000);
         },
         (errorMessage) => {
-            // Bỏ qua lỗi scan
+            // ignore scan errors
         }
     ).then(async () => {
         try {
-            // Lấy MediaStream hiện tại
-            const videoElement = document.querySelector("#reader video");
-            const stream = videoElement?.srcObject;
-            const track = stream?.getVideoTracks()?.[0];
+            // Lấy track video hiện tại để áp dụng các ràng buộc nâng cao
+            const videoTrack = html5QrCode.getRunningTrack();
+            
+            if (videoTrack) {
+                const capabilities = videoTrack.getCapabilities();
+                const constraints = { advanced: [] };
 
-            if (!track) {
-                alert("Không tìm thấy camera track");
-                return;
-            }
+                // 1. Kích hoạt lấy nét tự động (Autofocus) nếu thiết bị hỗ trợ
+                if (capabilities.focusMode && capabilities.focusMode.includes("continuous")) {
+                    constraints.advanced.push({ focusMode: "continuous" });
+                }
 
-            const capabilities = track.getCapabilities();
-            const constraints = {};
+                // 2. Tăng độ nét / chi tiết bằng cách thiết lập zoom (ví dụ: 2.0 hoặc 3.0 để dễ bắt nét mã nhỏ)
+                if (capabilities.zoom) {
+                    constraints.advanced.push({ zoom: 2.0 }); // Bạn có thể tăng lên 3.0 hoặc 4.0 tùy ý
+                }
 
-            // =========================
-            // AUTOFOCUS
-            // =========================
-            if (capabilities.focusMode) {
-                if (capabilities.focusMode.includes("continuous")) {
-                    constraints.focusMode = "continuous";
-                } else if (capabilities.focusMode.includes("single-shot")) {
-                    constraints.focusMode = "single-shot";
+                // Áp dụng constraints nếu có cấu hình advanced
+                if (constraints.advanced.length > 0) {
+                    await videoTrack.applyConstraints(constraints);
                 }
             }
-
-            // =========================
-            // ĐỘ PHÂN GIẢI CAO NHẤT
-            // =========================
-            if (capabilities.width?.max) {
-                constraints.width = {
-                    exact: capabilities.width.max
-                };
-            }
-
-            if (capabilities.height?.max) {
-                constraints.height = {
-                    exact: capabilities.height.max
-                };
-            }
-
-            // =========================
-            // ZOOM CAO NHẤT
-            // =========================
-            if (capabilities.zoom?.max) {
-                // Không ép 4x nếu camera chỉ hỗ trợ thấp hơn
-                constraints.zoom = Math.min(4, capabilities.zoom.max);
-            }
-
-            alert("Camera capabilities:" + capabilities);
-            alert("Applying:" + constraints);
-
-            await track.applyConstraints(constraints);
-
         } catch (err) {
-            alert("Không thể thiết lập camera:" + err);
+            alert("Không thể áp dụng cấu hình nét/zoom nâng cao:" + err);
         }
-    })
-    .catch(err => {
-        alert("Không thể mở camera:" + err);
     });
 });
 const inputChiThi = document.getElementById("barcodeChiThi");
