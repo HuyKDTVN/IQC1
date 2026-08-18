@@ -4,7 +4,7 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
-    alert("v.2.0");
+    alert("v.1.1");
     result.textContent = "";
     result.style.backgroundColor = "white";
 
@@ -13,32 +13,35 @@ inputDS.addEventListener("click", () => {
     html5QrCode = new Html5Qrcode("reader");
 
     html5QrCode.start(
-        { facingMode: "environment" }, // Camera sau
+        { facingMode: "environment" }, // camera sau
         {
             fps: 20,
-            qrbox: 250,
-            // Yêu cầu camera chạy ở độ phân giải cao (HD) giúp hình ảnh cực kỳ sắc nét
-            videoConstraints: {
-                facingMode: "environment",
-                width: { ideal: 1280 },
-                height: { ideal: 720 }
-            }
+            qrbox: 250
         },
         (decodedText) => {
+            
             inputDS.value = decodedText;
             stopScanner();
             setTimeout(() => {
                 inputChiThi.focus();
                 inputChiThi.click();
             }, 1000);
+            
         },
         (errorMessage) => {
-            // Bỏ qua lỗi quét liên tục
+            // ignore scan errors
         }
-    ).catch((err) => {
-        alert("Không thể khởi động camera:", err);
+    ).then(async () => {
+        try {
+            await html5QrCode.applyVideoConstraints({
+                advanced: [{ zoom: 4.0 }]
+            });
+        } catch (err) {
+            alert("Thiết bị không hỗ trợ zoom 2x:", err);
+        }
     });
 });
+
 const inputChiThi = document.getElementById("barcodeChiThi");
 const readerDiv2 = document.getElementById("reader2");
 
@@ -120,6 +123,24 @@ btnScan.addEventListener("click", () => {
 function getPartcodeRevPartner(vendorCode) {
     var result = ["", ""];
     
+    if (vendorCode == "250000070") { 
+        result = getPartcodeRevSUMIDENSO(vendorCode);
+    }
+    if (vendorCode == "250004253") { 
+        result = getPartcodeRevSIAMKYOWA(vendorCode);
+    }
+    if (vendorCode == "250003003") { 
+        result = getPartcodeRevPROTERIAL(vendorCode);
+    }
+    if (vendorCode == "250004253") { 
+        result = getPartcodeRevSINFONIA(vendorCode);
+    }
+    if (vendorCode == "250000065") { 
+        result = getPartcodeRevNISSEI_TECH(vendorCode);
+    }
+    if (vendorCode == "250001913") { 
+        result = getPartcodeRevIPPO(vendorCode);
+    }
     if (vendorCode == "250001348") { 
         result = getPartcodeRevSunway(vendorCode);
     }
@@ -200,6 +221,8 @@ function getPartcodeRevSeiyo(barcodeChiThi) { //Seyo hp & seiyo VN: 302RV08021&&
 }
 function getPartcodeRevZhongzu(barcodeChiThi) { //Zhongzu: 302RV14050/ZhongYu/VietNam/20251203/6/192/Rev/02
     var arrCasemark = inputCaseMark.value.split("/");
+    alert(arrCasemark[0]);
+    alert(arrCasemark[7]);
     return [arrCasemark[0], arrCasemark[7]];
 }
 function getPartcodeRevBacviet(barcodeChiThi) { //Bac viet: 302RV04150/V1/260112/12/800/A/03/4
@@ -244,6 +267,8 @@ function getPartcodeRevSantomas(barcodeChiThi) { //Santomas: &/30C0D31220/V01/00
 function getPartcodeRevChiyoda(barcodeChiThi) { //Chiyoda : 30C0D14300,R01,7680,7680,KYO001,130557865800010,SOA0289555601,01
     var cm = inputCaseMark.value;
     var arrCasemark = cm.split(",R");
+    alert(arrCasemark[0]);
+    alert(arrCasemark[1].substring(0, 2));
     return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
 }
 
@@ -253,6 +278,54 @@ function getPartcodeRevKuroda(barcodeChiThi) { //Kuroda : 00001&3V2LV31230&20260
     var arrCasemark = cm.split("&");
     var tmp = arrCasemark[1].split("-");
     return [arrCasemark[0], tmp[1].substring(0, 2)];
+}
+function getPartcodeRevSUMIDENSO(barcodeChiThi) {//Mã//…/…//71//003/
+    var cm = inputCaseMark.value;
+    var arrCasemark = cm.split("//");
+    alert(arrCasemark[0]);
+    alert(arrCasemark[3].substring(1, 3));
+    return [arrCasemark[0], arrCasemark[3].substring(1, 3)];
+}
+function getPartcodeRevSIAMKYOWA(barcodeChiThi) {//…: mã … : rev \n
+    var cm = inputCaseMark.value;
+    var arrCasemark = cm.split("\n");
+    var arrPartCode = arrCasemark[0].split(": ");
+    var arrRev = arrCasemark[1].split(": ");
+    alert(arrPartCode[0]);
+    alert(arrRev[1]);
+    return [arrPartCode[0], arrRev[1]];
+}
+
+function getPartcodeRevPROTERIAL(barcodeChiThi) {//   54…@mã-rev@...
+    var cm = inputCaseMark.value;
+    var arrCasemark = cm.split("@");
+    var tmp = arrCasemark[1];
+    alert(tmp[0]);
+    alert(tmp[1]);
+    return [tmp[0], tmp[1];
+}
+function getPartcodeRevSINFONIA(barcodeChiThi) {//   Mã REV_…
+    var cm = inputCaseMark.value;
+    var arrCasemark = cm.split("_");
+    var tmp = arrCasemark[0];
+    alert(tmp[0]);
+    alert(tmp[1]);
+    return [tmp[0], tmp[1];
+}
+function getPartcodeRevIPPO(barcodeChiThi) {//   mã rev,…
+    var cm = inputCaseMark.value;
+    var arrCasemark = cm.split(",");
+    var tmp = arrCasemark[0];
+    alert(tmp[0]);
+    alert(tmp[1]);
+    return [tmp[0], tmp[1];
+}
+function getPartcodeRevNISSEI_TECH(barcodeChiThi) {//   Mã/…(REV o vi tri thu 7)002/
+    var cm = inputCaseMark.value;
+    var arrCasemark = cm.split("/");
+    alert(arrCasemark[0]);
+    alert(arrCasemark[7].substring(1, 3));
+    return [arrCasemark[0], arrCasemark[7].substring(1, 3)];
 }
 function getPartcodeRevHTMP(barcodeChiThi) { //HTMP: &/302YJ21150///201225/0002/0400//02/2/&;20251219000041085865;1;302YJ21150;;PCS;400.00;201225;;;;;KH0084;;238;TP-CANON-TV;1.00;;BGTD0026;BGKP0029;40;10;0;PCS;PCS
     var cm = inputCaseMark.value;
