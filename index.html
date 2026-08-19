@@ -71,7 +71,7 @@ to Casemark: e
 Math add analysic:
 "back_from_select_game_screen"
 "back_from_select_level_screen"
-"bo_do_cau_1"
+"bo_do_cau_1" (điều kiện: cong_kho, tru_de...)
 "bo_do_cau_2"
 "bo_do_cau_3"
 "bo_do_cau_4"
@@ -102,6 +102,62 @@ Math add analysic:
 
 
 Fitness analysic:
+Onboarding screen:
+Analytics.logEvent("onboarding_start", parameters: nil)
+Analytics.logEvent("onboarding_finish", parameters: nil)
+Analytics.logEvent("click_setup_muc_tieu", parameters: nil)
+Analytics.logEvent("chon_muc_tieu1", parameters: nil)
+Analytics.logEvent("chon_muc_tieu2", parameters: nil)
+Analytics.logEvent("chon_muc_tieu3", parameters: nil)
+Analytics.logEvent("chon_muc_tieu4", parameters: nil)
+Analytics.logEvent("chon_muc_tieu5", parameters: nil)
+
+Home screen:
+Analytics.logEvent("day1", parameters: nil)
+Analytics.logEvent("day2", parameters: nil)
+Analytics.logEvent("day3", parameters: nil)
+Analytics.logEvent("day4", parameters: nil)
+Analytics.logEvent("day5", parameters: nil)
+Analytics.logEvent("day6", parameters: nil)
+Analytics.logEvent("day7", parameters: nil)
+Analytics.logEvent("day14", parameters: nil)
+Analytics.logEvent("day28", parameters: nil)
+
+Analytics.logEvent("setting", parameters: nil)
+Analytics.logEvent("tap_tu_do", parameters: nil)
+Analytics.logEvent("tap_theo_muc_tieu", parameters: nil)
+Analytics.logEvent("tap_theo_thu_thach", parameters: [
+    "type": "1"
+])
+
+Analytics.logEvent("click_period_app", parameters: nil)
+Analytics.logEvent("update_bmi", parameters: nil)
+Analytics.logEvent("tap_bung", parameters: [
+    "time": "1"
+])
+
+bài tập yêu thích screen:
+Analytics.logEvent("tap_mong", parameters: [
+    "time": "1"
+])
+Analytics.logEvent("tap_chan", parameters: [
+    "time": "1"
+])
+Analytics.logEvent("tap_tay", parameters: [
+    "time": "1"
+])
+Analytics.logEvent("tap_toan_than", parameters: [
+    "time": "1"
+])
+
+Workout screen:
+Analytics.logEvent("bo_do", parameters: nil)
+Analytics.logEvent("finish", parameters: nil)
+
+Finish screen
+Analytics.logEvent("tap_from_finish_screen", parameters: nil)
+
+
 
 
 
