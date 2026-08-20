@@ -4,7 +4,7 @@ const readerDiv = document.getElementById("reader");
 let html5QrCode;
 
 inputDS.addEventListener("click", () => {
-    alert("v.1.1");
+    
     result.textContent = "";
     result.style.backgroundColor = "white";
 
@@ -302,7 +302,7 @@ function getPartcodeRevPROTERIAL(barcodeChiThi) {//   54…@mã-rev@...
     var tmp = arrCasemark[1];
     alert(tmp[0]);
     alert(tmp[1]);
-    return [tmp[0], tmp[1];
+    return [tmp[0], tmp[1]];
 }
 function getPartcodeRevSINFONIA(barcodeChiThi) {//   Mã REV_…
     var cm = inputCaseMark.value;
@@ -310,7 +310,7 @@ function getPartcodeRevSINFONIA(barcodeChiThi) {//   Mã REV_…
     var tmp = arrCasemark[0];
     alert(tmp[0]);
     alert(tmp[1]);
-    return [tmp[0], tmp[1];
+    return [tmp[0], tmp[1]];
 }
 function getPartcodeRevIPPO(barcodeChiThi) {//   mã rev,…
     var cm = inputCaseMark.value;
@@ -318,7 +318,7 @@ function getPartcodeRevIPPO(barcodeChiThi) {//   mã rev,…
     var tmp = arrCasemark[0];
     alert(tmp[0]);
     alert(tmp[1]);
-    return [tmp[0], tmp[1];
+    return [tmp[0], tmp[1]];
 }
 function getPartcodeRevNISSEI_TECH(barcodeChiThi) {//   Mã/…(REV o vi tri thu 7)002/
     var cm = inputCaseMark.value;
