@@ -209,11 +209,10 @@ function getPartcodeRevSunway(barcodeChiThi) {
     return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
 }
 function getPartcodeRevAdvanex(barcodeChiThi) {
-    //Advanex: 302RV25540/-/.../--01///
+    //Advanex: 302RV25540 02/-/.../--01///
 
-    var arrCasemark = inputCaseMark.value.split("/");
-    var tmp = arrCasemark[7].split("--");
-    return [arrCasemark[0], tmp[1]];
+    var arrCasemark = inputCaseMark.value.split(" ");
+    return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
 }
 function getPartcodeRevSeiyo(barcodeChiThi) { //Seyo hp & seiyo VN: 302RV08021&&01&&2025-4259&&14&&129
     var arrCasemark = inputCaseMark.value.split("&&");
