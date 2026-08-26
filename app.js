@@ -121,6 +121,7 @@ btnScan.addEventListener("click", () => {
     
 });
 function getPartcodeRevPartner(vendorCode) {
+    alert(250001478);
     var result = ["", ""];
     
     if (vendorCode == "250000070") { 
