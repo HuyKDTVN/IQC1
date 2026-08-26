@@ -153,8 +153,11 @@ function getPartcodeRevPartner(vendorCode) {
     if (vendorCode == "250001449") { 
         result = getPartcodeRevZhongzu(vendorCode);
     }
-    if (vendorCode == "250003738" || vendorCode == "250003248" || vendorCode == "250003138" || vendorCode == "250001478") { 
+    if (vendorCode == "250003738" || vendorCode == "250003248" || vendorCode == "250003138") { 
         result = getPartcodeRevVanlong(vendorCode);
+    }
+    if (vendorCode == "250001478") { 
+        result = getPartcodeRevKyowa(vendorCode);
     }
     if (vendorCode == "250000072") { 
         result = getPartcodeRevTaisei(vendorCode);
@@ -177,9 +180,9 @@ function getPartcodeRevPartner(vendorCode) {
     if (vendorCode == "250000054") { 
         result = getPartcodeRevChiyoda(vendorCode);
     }
-    if (vendorCode == "250000060") { 
-        result = getPartcodeRevKuroda(vendorCode);
-    }
+    // if (vendorCode == "250000060") { 
+    //     result = getPartcodeRevKuroda(vendorCode);
+    // }
     if (vendorCode == "250003288") { 
         result = getPartcodeRevHTMP(vendorCode);
     }
@@ -204,8 +207,8 @@ function getPartcodeRevSunway(barcodeChiThi) {
     //VOLEX: 3019527401 03/03/0250000653
 
     var arrCasemark = inputCaseMark.value.split(" ");
-    alert(arrCasemark[0]);
-    alert(arrCasemark[1].substring(0, 2));
+    // alert(arrCasemark[0]);
+    // alert(arrCasemark[1].substring(0, 2));
     return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
 }
 function getPartcodeRevAdvanex(barcodeChiThi) {
@@ -220,8 +223,7 @@ function getPartcodeRevSeiyo(barcodeChiThi) { //Seyo hp & seiyo VN: 302RV08021&&
 }
 function getPartcodeRevZhongzu(barcodeChiThi) { //Zhongzu: 302RV14050/ZhongYu/VietNam/20251203/6/192/Rev/02
     var arrCasemark = inputCaseMark.value.split("/");
-    alert(arrCasemark[0]);
-    alert(arrCasemark[7]);
+    
     return [arrCasemark[0], arrCasemark[7]];
 }
 function getPartcodeRevBacviet(barcodeChiThi) { //Bac viet: 302RV04150/V1/260112/12/800/A/03/4
@@ -234,6 +236,12 @@ function getPartcodeRevVanlong(barcodeChiThi) { //Vanlong: 302S004060-03_VL.IJ26
     var arrCasemark = inputCaseMark.value.split("-");
     
     return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
+}
+function getPartcodeRevKyowa(barcodeChiThi) { //Vanlong: ...;ma-rev...
+
+    var arrCasemark = inputCaseMark.value.split(";");
+    var tmp = arrCasemark[1];
+    return [tmp[0], tmp[1].substring(0, 2)];
 }
 function getPartcodeRevTaisei(barcodeChiThi) { //Taisei: *&302S046050-04&1500&TAISEI HANOI&-&1161&250609&302S046050-04&*
     barcodeChiThi = barcodeChiThi.replace("*&", "")
@@ -259,30 +267,30 @@ function getPartcodeRevSantomas(barcodeChiThi) { //Santomas: &/30C0D31220/V01/00
     cm = cm.replace("&/", "");
     cm = cm.replace("/V", "/");
     var arrCasemark = cm.split("/");
-    alert(arrCasemark[0]);
-    alert(arrCasemark[1]);
+    // alert(arrCasemark[0]);
+    // alert(arrCasemark[1]);
     return [arrCasemark[0], arrCasemark[1]];
 }
 function getPartcodeRevChiyoda(barcodeChiThi) { //Chiyoda : 30C0D14300,R01,7680,7680,KYO001,130557865800010,SOA0289555601,01
     var cm = inputCaseMark.value;
     var arrCasemark = cm.split(",R");
-    alert(arrCasemark[0]);
-    alert(arrCasemark[1].substring(0, 2));
+    // alert(arrCasemark[0]);
+    // alert(arrCasemark[1].substring(0, 2));
     return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
 }
 
 function getPartcodeRevKuroda(barcodeChiThi) { //Kuroda : 00001&3V2LV31230&20260128&050T-02&VK2&1,2,3,4,5,6,7,8&12000&012-0052-00&PIN DRIVE A (白)(3V2LV31230)&VA26010010940&201708003&012&202&1
     var cm = inputCaseMark.value;
-    cm = cm.replace("00001&", "");
+    
     var arrCasemark = cm.split("&");
-    var tmp = arrCasemark[1].split("-");
-    return [arrCasemark[0], tmp[1].substring(0, 2)];
+    var tmp = arrCasemark[2].split("-");
+    return [arrCasemark[1], tmp[1].substring(0, 2)];
 }
 function getPartcodeRevSUMIDENSO(barcodeChiThi) {//Mã//…/…//71//003/
     var cm = inputCaseMark.value;
     var arrCasemark = cm.split("//");
-    alert(arrCasemark[0]);
-    alert(arrCasemark[3].substring(1, 3));
+    // alert(arrCasemark[0]);
+    // alert(arrCasemark[3].substring(1, 3));
     return [arrCasemark[0], arrCasemark[3].substring(1, 3)];
 }
 function getPartcodeRevSIAMKYOWA(barcodeChiThi) {//…: mã … : rev \n
@@ -290,8 +298,8 @@ function getPartcodeRevSIAMKYOWA(barcodeChiThi) {//…: mã … : rev \n
     var arrCasemark = cm.split("\n");
     var arrPartCode = arrCasemark[0].split(": ");
     var arrRev = arrCasemark[1].split(": ");
-    alert(arrPartCode[0]);
-    alert(arrRev[1]);
+    // alert(arrPartCode[0]);
+    // alert(arrRev[1]);
     return [arrPartCode[0], arrRev[1]];
 }
 
@@ -307,23 +315,23 @@ function getPartcodeRevSINFONIA(barcodeChiThi) {//   Mã REV_…
     var cm = inputCaseMark.value;
     var arrCasemark = cm.split("_");
     var tmp = arrCasemark[0];
-    alert(tmp[0]);
-    alert(tmp[1]);
+    // alert(tmp[0]);
+    // alert(tmp[1]);
     return [tmp[0], tmp[1]];
 }
 function getPartcodeRevIPPO(barcodeChiThi) {//   mã rev,…
     var cm = inputCaseMark.value;
     var arrCasemark = cm.split(",");
     var tmp = arrCasemark[0];
-    alert(tmp[0]);
-    alert(tmp[1]);
+    // alert(tmp[0]);
+    // alert(tmp[1]);
     return [tmp[0], tmp[1]];
 }
 function getPartcodeRevNISSEI_TECH(barcodeChiThi) {//   Mã/…(REV o vi tri thu 7)002/
     var cm = inputCaseMark.value;
     var arrCasemark = cm.split("/");
-    alert(arrCasemark[0]);
-    alert(arrCasemark[7].substring(1, 3));
+    // alert(arrCasemark[0]);
+    // alert(arrCasemark[7].substring(1, 3));
     return [arrCasemark[0], arrCasemark[7].substring(1, 3)];
 }
 function getPartcodeRevHTMP(barcodeChiThi) { //HTMP: &/302YJ21150///201225/0002/0400//02/2/&;20251219000041085865;1;302YJ21150;;PCS;400.00;201225;;;;;KH0084;;238;TP-CANON-TV;1.00;;BGTD0026;BGKP0029;40;10;0;PCS;PCS
