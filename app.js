@@ -238,9 +238,12 @@ function getPartcodeRevVanlong(barcodeChiThi) { //Vanlong: 302S004060-03_VL.IJ26
     return [arrCasemark[0], arrCasemark[1].substring(0, 2)];
 }
 function getPartcodeRevKyowa(barcodeChiThi) { //Vanlong: ...;ma-rev...
+    alert(arrCasemark);
 
     var arrCasemark = inputCaseMark.value.split(";");
     var tmp = arrCasemark[1];
+    alert(tmp[0]);
+    alert(tmp[1].substring(0, 2));
     return [tmp[0], tmp[1].substring(0, 2)];
 }
 function getPartcodeRevTaisei(barcodeChiThi) { //Taisei: *&302S046050-04&1500&TAISEI HANOI&-&1161&250609&302S046050-04&*
