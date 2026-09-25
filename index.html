@@ -67,25 +67,29 @@ to Casemark: e
 </body>
 </html>
 <!--
-Fitness
-Home->select BT->prepare->w_o->finish
-PA1:
-Home, finish: hiển thị left-right thay vì trên dưới
-select BT: - hiển thị theo chiều rộng, 1 số hình ảnh to hơn
-prepare: hiển thị nội dung 1 bên, bên kia là guide
-Workout: Hiển thị doing, và guide - next ở bên phải
+Navigation Bar trước đây giao diện thường có thanh này và có màu khác biêt, thiết kế hiện đại giờ thì sao.tôi nói về swift và không phải swiftui, nên thiết kế lại thanh này thế nào và code sửa như thế nào
+cũ:
+navigationController?.navigationBar.barTintColor = .blue
+navigationController?.navigationBar.isTranslucent = false
 
-Learn chinese
-Home: hiển thị left-right thay vì trên dưới
-Select bài: hiển thị full màn hình nhiều cột thay vì 2 cột
-slect loại bài: hiển thị left-right thay vì trên dưới
-flashcard: hiển thị left (left chỉ có card)-right (các phần còn lại) thay vì trên dưới
-học TN: hiển thị left-right thay vì trên dưới
-học viết: hiển thị left-right thay vì trên dưới
-Finish: hiển thị left-right thay vì trên dưới
-từ khó: hiển thị thêm thông tin (full chiều rộng)
+Mới:
+let appearance = UINavigationBarAppearance()
+appearance.configureWithTransparentBackground()
 
-P
-Home, report: hiển thị left-right thay vì trên dưới
-Calendar, các screen khác: không thay đổi
+appearance.backgroundColor = .clear
+appearance.shadowColor = .clear
+
+navigationController?.navigationBar.standardAppearance = appearance
+navigationController?.navigationBar.scrollEdgeAppearance = appearance
+navigationController?.navigationBar.compactAppearance = appearance
+
+Mới với bg mờ: 
+let appearance = UINavigationBarAppearance()
+appearance.configureWithDefaultBackground()
+
+appearance.backgroundColor = UIColor.systemBackground.withAlphaComponent(0.8)
+appearance.shadowColor = .clear
+
+navigationController?.navigationBar.standardAppearance = appearance
+navigationController?.navigationBar.scrollEdgeAppearance = appearance
  -->
